@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  operation_type_id: 1
+  category_id: 1
+  living: false
+  price: 1.5
+  area: 1.5
+  all_price: 1.5
+  estate_type_id: 1
+  region_id: 1
+  city_id: 1
+  district_id: 1
+  street_id: 1
+  house: MyString
+  room_number: 1
+  floor: 1.5
+  state: false
+  image: MyString
+  layout: MyString
+  video: MyString
+  description: MyText
+
+two:
+  title: MyString
+  operation_type_id: 1
+  category_id: 1
+  living: false
+  price: 1.5
+  area: 1.5
+  all_price: 1.5
+  estate_type_id: 1
+  region_id: 1
+  city_id: 1
+  district_id: 1
+  street_id: 1
+  house: MyString
+  room_number: 1
+  floor: 1.5
+  state: false
+  image: MyString
+  layout: MyString
+  video: MyString
+  description: MyText

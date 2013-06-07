@@ -1,0 +1,61 @@
+<h1>Listing adverts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Operation type</th>
+    <th>Category</th>
+    <th>Living</th>
+    <th>Price</th>
+    <th>Area</th>
+    <th>All price</th>
+    <th>Estate type</th>
+    <th>Region</th>
+    <th>City</th>
+    <th>District</th>
+    <th>Street</th>
+    <th>House</th>
+    <th>Room number</th>
+    <th>Floor</th>
+    <th>State</th>
+    <th>Image</th>
+    <th>Layout</th>
+    <th>Video</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @adverts.each do |advert| %>
+  <tr>
+    <td><%= advert.title %></td>
+    <td><%= advert.operation_type_id %></td>
+    <td><%= advert.category_id %></td>
+    <td><%= advert.living %></td>
+    <td><%= advert.price %></td>
+    <td><%= advert.area %></td>
+    <td><%= advert.all_price %></td>
+    <td><%= advert.estate_type_id %></td>
+    <td><%= advert.region_id %></td>
+    <td><%= advert.city_id %></td>
+    <td><%= advert.district_id %></td>
+    <td><%= advert.street_id %></td>
+    <td><%= advert.house %></td>
+    <td><%= advert.room_number %></td>
+    <td><%= advert.floor %></td>
+    <td><%= advert.state %></td>
+    <td><%= advert.image %></td>
+    <td><%= advert.layout %></td>
+    <td><%= advert.video %></td>
+    <td><%= advert.description %></td>
+    <td><%= link_to 'Show', advert %></td>
+    <td><%= link_to 'Edit', edit_advert_path(advert) %></td>
+    <td><%= link_to 'Destroy', advert, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Advert', new_advert_path %>
