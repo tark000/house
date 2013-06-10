@@ -3,6 +3,7 @@
   .large-12.columns
 
   .content{"data-slug" => "panel1"}
+
   - @adverts.each do |advert|
     .row
       .large-12.columns
@@ -23,5 +24,6 @@
             = advert.id
             = advert.operation_type.title if advert.operation_type_id?
     .large-12.columns.title.line
-      %hr
+
   %div= link_to 'New Post', new_advert_path if current_user
+
