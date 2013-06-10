@@ -16,7 +16,7 @@
           .small-9.columns
             .large-12.columns
               = advert.updated_at.strftime("%y-%m-%d")
-              \/ #{link_to advert.category, adverts_path(:rend => advert.category)}
+              \/ #{link_to advert.category.title, adverts_path(:rend => advert.category)}
             .large-12.columns= truncate(advert.description, :length => 135)
             .large-12.columns
               = link_to 'Подробнее »', advert

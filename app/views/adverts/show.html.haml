@@ -13,33 +13,54 @@
       = link_to 'Описание', "#panel0"
     .content{"data-slug" => "panel0"}
       .row
-        .small-4.push-8.columns
-          .large-12.columns{:style => "margin-left:15px; padding: 0;"}
-            %p Контактная информация:
-            .row
-              adfgfdgsg
-        .small-8.pull-4.columns{:style => "border-right: solid 1px #f6f6f6;"}
+        .large-12.columns{:style => "border-right: solid 1px #f6f6f6;"}
           .large-12.columns{:style => "margin-bottom: 16px; "}
             %p Описание обьекта
             %p
               = @advert.street.title if @advert.street_id.present?
             .large-6.columns
+            %table{:style=>"width: 100%"}
+              %thead
+                %th{:style=>"width: 25%"}
+                %th{:style=>"width: 25%"}
+                %th{:style=>"width: 25%"}
+                %th{:style=>"width: 25%"}
               %tbody
                 %tr
-                  %td Content Goes Here
-                  %td This is longer content Donec id elit non mi porta gravida at eget metus.
-                  %td Content Goes Here
-                  %td Content Goes Here
+                  %td Цена
+                  %td
+                    = @advert.price.to_i
+                  %td Площадь
+                  %td
+                    = @advert.area.to_i
                 %tr
-                  %td Content Goes Here
-                  %td This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.
-                  %td Content Goes Here
-                  %td Content Goes Here
+                  %td Регион
+                  %td
+                    = @advert.region.title
+                  %td Город
+                  %td
+                    = @advert.city.title
                 %tr
-                  %td Content Goes Here
-                  %td This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.
-                  %td Content Goes Here
-                  %td Content Goes Here
+                  %td Район
+                  %td
+                    = @advert.district.title
+                  %td Улица
+                  %td
+                    = @advert.street.title
+                %tr
+                  %td Дом
+                  %td
+                    = @advert.house
+                  %td Этаж
+                  %td
+                    = @advert.floor.to_i
+                %tr
+                  %td Количество комнат
+                  %td
+                    = @advert.room_number
+                  %td Категория
+                  %td
+                    = @advert.category.title
 
           .large-12.columns{:style => "border-top: solid 1px #f6f6f6; padding-top: 15px;"}
             %p Дополнительная информация:
@@ -48,7 +69,7 @@
     %h5.title
       = link_to 'Фото', "#panel1"
     .content{"data-slug" => "panel1"}
-      %ul.clearing-thumbs.small-block-grid-2{"data-clearing" => ""}
+      %ul
         - @advert.advert_images.each  do |image|
           %li
             = link_to (image_tag image.image_url(:small)),image.image_url if image.image_url.present?
@@ -56,7 +77,7 @@
     %h5.title
       = link_to 'Планировка', "#panel2"
     .content{"data-slug" => "panel2"}
-      %ul.clearing-thumbs.small-block-grid-2{"data-clearing" => ""}
+      %ul
         - @advert.layouts.each do |image|
           %li
             = link_to (image_tag image.image_url(:small)),image.image_url
@@ -69,67 +90,7 @@
     %h5.title
       = link_to 'На карте', "#panel4"
     .content{"data-slug" => "panel4"}
-%p#notice= notice
-%p
-  %b Title:
-  = @advert.title
-%p
-  %b Operation type:
-  = @advert.operation_type_id
-%p
-  %b Category:
-  = @advert.category_id
-%p
-  %b Living:
-  = @advert.living
-%p
-  %b Price:
-  = @advert.price
-%p
-  %b Area:
-  = @advert.area
-%p
-  %b All price:
-  = @advert.all_price
-%p
-  %b Estate type:
-  = @advert.estate_type_id
-%p
-  %b Region:
-  = @advert.region_id
-%p
-  %b City:
-  = @advert.city_id
-%p
-  %b District:
-  = @advert.district_id
-%p
-  %b Street:
-  = @advert.street_id
-%p
-  %b House:
-  = @advert.house
-%p
-  %b Room number:
-  = @advert.room_number
-%p
-  %b Floor:
-  = @advert.floor
-%p
-  %b State:
-  = @advert.state
-%p
-  %b Image:
-  = image_tag @advert.image_url(:small), :class=>"th radius" if @advert.image?
-%p
-  %b Layout:
-  = image_tag @advert.image_url(:small), :class=>"th radius" if @advert.image?
-%p
-  %b Video:
-  = @advert.video
-%p
-  %b Description:
-  = @advert.description
+
 = link_to 'Edit', edit_advert_path(@advert)
 |
 \#{link_to 'Back', adverts_path}
