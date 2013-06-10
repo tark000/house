@@ -1,12 +1,10 @@
-.center
-  %span.prev
-    %a{:href => "#"} << Prev
-  %span.next{:style => "margin-left:20px"}
-    %a{:href => "#"} Next >>
-#cycle-1.cycle-slideshow{"data-cycle-fx" => "scrollHorz", "data-cycle-next" => ".next", "data-cycle-prev" => ".prev", "data-cycle-timeout" => "0"}
-  = image_tag @advert.image_url(:big) if @advert.image?
+%ul{"data-orbit" => ""}
+  %li
+    = image_tag @advert.image_url(:big) if @advert.image?
   - @advert.advert_images.each  do |image|
-    = image_tag image.image_url(:big)
+    %li
+      = image_tag image.image_url(:big)
+
 .section-container.tabs{"data-section" => "", :xmlns => "http://www.w3.org/1999/html"}
   %section.section
     %h5.title
