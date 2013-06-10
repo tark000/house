@@ -1,12 +1,5 @@
 = form_for(@advert) do |f|
-  - if @advert.errors.any?
-    #error_explanation
-      %h2
-        = pluralize(@advert.errors.count, "error")
-        prohibited this advert from being saved:
-      %ul
-        - @advert.errors.full_messages.each do |msg|
-          %li= msg
+
   .field
     = f.label :title
     %br/
@@ -75,10 +68,20 @@
     = f.label :image
     %br/
     = f.file_field :image
+
+
+  .field
+    - f.fields_for :advert_images do |builder|
+      = render 'advert_image_fields', f: builder
+    = link_to_add_fields "Add advert_image", f, :advert_images
   .field
     = f.label :layout
     %br/
     = f.file_field :layout
+  .field
+    - f.fields_for :layout do |builder|
+      = render 'layout_fields', f: builder
+    = link_to_add_fields "Add Layout", f, :layouts
   .field
     = f.label :video
     %br/
