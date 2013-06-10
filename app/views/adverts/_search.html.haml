@@ -15,12 +15,12 @@
         .small-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Тип сделки:
         .small-8.columns
-          = select_tag(:operation_type, options_for_select(operation), include_blank: true)
+          = select_tag(:operation_type, options_for_select(operation, :selected=>params[:operation_type].blank? ? "" :params[:operation_type]), include_blank: true)
       .row
         .small-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Категория:
         .small-8.columns
-          = select_tag(:category, options_for_select(category), include_blank: true)
+          = select_tag(:category, options_for_select(category, :selected=>params[:category].blank? ? "" :params[:category]), include_blank: true)
       .row
         .small-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Состояние:

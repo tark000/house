@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816485c9-603f-449b-88bf-fb15bc7c5ac4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
@@ -17,11 +15,12 @@
     <file path="/Dummy.txt" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370874440954" ignored="false" />
     <file path="/seeds.rb" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370864179024" ignored="false" />
     <file path="/advert.rb" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370871732865" ignored="false" />
-    <file path="/adverts_helper.rb" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370872531057" ignored="false" />
-    <file path="/_sidebar_adverts_count.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370874270153" ignored="false" />
+    <file path="/adverts_helper.rb" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370879063479" ignored="false" />
+    <file path="/_sidebar_adverts_count.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370879093042" ignored="false" />
     <file path="/_sidebar.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370874788673" ignored="false" />
     <file path="/_search_by_id.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370874958351" ignored="false" />
     <file path="/index.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370875518540" ignored="false" />
+    <file path="/_search.html.haml" changelist="816485c9-603f-449b-88bf-fb15bc7c5ac4" time="1370878778026" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sidebar_adverts_count.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_sidebar_adverts_count.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="20" column="27" selection-start="545" selection-end="545" vertical-scroll-proportion="0.55350554">
               <folding />
             </state>
           </provider>
@@ -80,25 +79,16 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="88" selection-start="1539" selection-end="1539" vertical-scroll-proportion="-6.75">
+            <state line="1" column="11" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_search_by_id.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.16605166">
+            <state line="33" column="12" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +97,7 @@
       <file leaf-file-name="_search.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="78" selection-end="83" vertical-scroll-proportion="-1.875">
+            <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -125,7 +115,7 @@
       <file leaf-file-name="adverts_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/adverts_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+            <state line="46" column="35" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,9 +139,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/adverts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/adverts.js.coffee" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
@@ -160,11 +148,13 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/models/advert.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+        <option value="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
       </list>
     </option>
   </component>
@@ -273,24 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -674,11 +646,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.31690142" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="124" column="27" selection-start="6612" selection-end="6612" vertical-scroll-proportion="0.6549296">
@@ -699,13 +666,6 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.16597511" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/adverts_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/operation_type.rb">
@@ -734,16 +694,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="6" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.16605166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.08302583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="12" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="88" selection-start="1539" selection-end="1539" vertical-scroll-proportion="-6.75">
+        <state line="1" column="11" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -755,23 +729,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/adverts_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="35" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="78" selection-end="83" vertical-scroll-proportion="-1.875">
+        <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.16605166">
+        <state line="20" column="27" selection-start="545" selection-end="545" vertical-scroll-proportion="0.55350554">
           <folding />
         </state>
       </provider>

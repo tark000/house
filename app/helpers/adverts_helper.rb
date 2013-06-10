@@ -38,4 +38,14 @@ module AdvertsHelper
     count
   end
 
+  def advert_for_houses_count
+    count = Advert.search_by_type(1).count()
+    count
+  end
+
+  def advert_for_lands_count
+    count = Advert.search_by_type(2).count()
+    count
+  end
+
 end
