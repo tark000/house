@@ -39,15 +39,15 @@
   .field
     = f.label :city_id
     %br/
-    = f.collection_select :city_id, City.order(:title), :id, :title, include_blank: true
+    = f.grouped_collection_select :city_id, Region.order(:title), :cities, :title, :id, :title, include_blank: true
   .field
     = f.label :district_id
     %br/
-    = f.collection_select :district_id, District.order(:title), :id, :title, include_blank: true
+    = f.grouped_collection_select :district_id, City.order(:title), :districts, :title, :id, :title, include_blank: true
   .field
     = f.label :street_id
     %br/
-    = f.collection_select :street_id, Street.order(:title), :id, :title, include_blank: true
+    = f.grouped_collection_select :street_id, City.order(:title), :streets, :title, :id, :title, include_blank: true
   .field
     = f.label :house
     %br/
