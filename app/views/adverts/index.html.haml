@@ -1,28 +1,27 @@
-.large-12.columns
-  = form_tag adverts_path, :method => 'get' do
-    .row
-      .small-2.large-4.columns Поиск недвижимости по ID:
-      .small-4.large-4.columns= text_field_tag :search, params[:search]
-      .small-6.large-4.columns= submit_tag "Search", :id => nil
+%row.large-12.columns
+
+  .large-12.columns
+
   .content{"data-slug" => "panel1"}
-    - @adverts.each do |advert|
-      .row
-        .large-12.columns
-          .large-12.columns.info_bloc
-            .small-3.columns= advert.price
-            .small-9.columns.title= link_to advert.title, advert
-          .small-3.columns
-            = image_tag advert.image_url(:small), :class=>"th radius" if advert.image?
-          .small-9.columns
-            .large-12.columns
-              = advert.updated_at.strftime("%y-%m-%d")
-              \/ #{link_to advert.category, adverts_path(:rend => advert.category)}
-            .large-12.columns= truncate(advert.description, :length => 135)
-            .large-12.columns
-              = link_to 'Подробнее »', advert
-              = link_to 'Изменить', edit_advert_path(advert) if current_user
-              = link_to 'Удалить', advert, method: :delete, data: { confirm: 'Are you sure?' } if current_user
-              = advert.id
-              = advert.operation_type.title if advert.operation_type_id?
-      .large-12.columns.title.line
-    %div= link_to 'New Post', new_advert_path if current_user
+  - @adverts.each do |advert|
+    .row
+      .large-12.columns
+        .large-12.columns.info_bloc
+          .small-3.columns= advert.price
+          .small-9.columns.title= link_to advert.title, advert
+        .small-3.columns
+          = image_tag advert.image_url(:small), :class=>"th radius" if advert.image?
+        .small-9.columns
+          .large-12.columns
+            = advert.updated_at.strftime("%y-%m-%d")
+            \/ #{link_to advert.category, adverts_path(:rend => advert.category)}
+          .large-12.columns= truncate(advert.description, :length => 135)
+          .large-12.columns
+            = link_to 'Подробнее »', advert
+            = link_to 'Изменить', edit_advert_path(advert) if current_user
+            = link_to 'Удалить', advert, method: :delete, data: { confirm: 'Are you sure?' } if current_user
+            = advert.id
+            = advert.operation_type.title if advert.operation_type_id?
+    .large-12.columns.title.line
+      %hr
+  %div= link_to 'New Post', new_advert_path if current_user
