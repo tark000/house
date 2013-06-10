@@ -30,4 +30,12 @@ module AdvertsHelper
     end
     return @c
   end
+
+  ############################3
+
+  def advert_for_flats_count
+    count = Advert.search_by_type(3).count()
+    count
+  end
+
 end
