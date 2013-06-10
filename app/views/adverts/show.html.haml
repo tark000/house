@@ -1,4 +1,12 @@
-= image_tag @advert.image_url(:big), :class=>"th radius" if @advert.image?
+.center
+  %span.prev
+    %a{:href => "#"} << Prev
+  %span.next{:style => "margin-left:20px"}
+    %a{:href => "#"} Next >>
+#cycle-1.cycle-slideshow{"data-cycle-fx" => "scrollHorz", "data-cycle-next" => ".next", "data-cycle-prev" => ".prev", "data-cycle-timeout" => "0"}
+  = image_tag @advert.image_url(:big) if @advert.image?
+  - @advert.advert_images.each  do |image|
+    = image_tag image.image_url(:big)
 .section-container.tabs{"data-section" => "", :xmlns => "http://www.w3.org/1999/html"}
   %section.section
     %h5.title
@@ -16,27 +24,23 @@
             %p
               = @advert.street.title if @advert.street_id.present?
             .large-6.columns
-              %p ID обьявления:
-              %p Количество комнат:
-              %p Вид комнат:
-              %p Цена за м.кв.:
-              %p Площадь м.кв.:
-              %p Тип дома:
-              %p Материал дома:
-              %p Этаж:
-              %p На текущую дату:
-            .large-6.columns
-              %p
-                = @advert.id
-              %p= @advert.room_number
-              %p N/A
-              %p
-                = @advert.all_price
-              %p= @advert.area
-              %p N/A
-              %p N/A
-              %p= @advert.floor
-              %p= @advert.state
+              %tbody
+                %tr
+                  %td Content Goes Here
+                  %td This is longer content Donec id elit non mi porta gravida at eget metus.
+                  %td Content Goes Here
+                  %td Content Goes Here
+                %tr
+                  %td Content Goes Here
+                  %td This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.
+                  %td Content Goes Here
+                  %td Content Goes Here
+                %tr
+                  %td Content Goes Here
+                  %td This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.
+                  %td Content Goes Here
+                  %td Content Goes Here
+
           .large-12.columns{:style => "border-top: solid 1px #f6f6f6; padding-top: 15px;"}
             %p Дополнительная информация:
             %p= @advert.description

@@ -18,3 +18,13 @@ $('form').on 'click', '.add_fields', (event) ->
 
 
 
+jQuery ->
+  cities = $('#advert_city_id').html
+  $('#advert_region_id').change ->
+    region = $('#advert_region_id :selected').text()
+    options = $(cities).filter("optgroup[label='#{region}']").html()
+    options = $(cities).filter("optgroup[label='#{region}']").html()
+    if options
+      $('#advert_city_id').html(options)
+    else
+      $('#advert_city_id').empty()
