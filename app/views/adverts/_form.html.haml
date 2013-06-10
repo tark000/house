@@ -1,0 +1,91 @@
+= form_for(@advert) do |f|
+  - if @advert.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@advert.errors.count, "error")
+        prohibited this advert from being saved:
+      %ul
+        - @advert.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :title
+    %br/
+    = f.text_field :title
+  .field
+    = f.label :operation_type_id
+    %br/
+    = f.collection_select :operation_type_id, OperationType.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :category_id
+    %br/
+    = f.collection_select :category_id, Category.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :living
+    %br/
+    = f.check_box :living
+  .field
+    = f.label :price
+    %br/
+    = f.text_field :price
+  .field
+    = f.label :area
+    %br/
+    = f.text_field :area
+  .field
+    = f.label :all_price
+    %br/
+    = f.text_field :all_price
+  .field
+    = f.label :estate_type_id
+    %br/
+    = f.collection_select :estate_type_id, EstateType.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :region_id
+    %br/
+    = f.collection_select :region_id, Region.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :city_id
+    %br/
+    = f.collection_select :city_id, City.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :district_id
+    %br/
+    = f.collection_select :district_id, District.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :street_id
+    %br/
+    = f.collection_select :street_id, Street.order(:title), :id, :title, include_blank: true
+  .field
+    = f.label :house
+    %br/
+    = f.text_field :house
+  .field
+    = f.label :room_number
+    %br/
+    = f.number_field :room_number
+  .field
+    = f.label :floor
+    %br/
+    = f.text_field :floor
+  .field
+    = f.label :state
+    %br/
+    = f.check_box :state
+  .field
+    = f.label :image
+    %br/
+    = f.file_field :image
+  .field
+    = f.label :layout
+    %br/
+    = f.file_field :layout
+  .field
+    = f.label :video
+    %br/
+    = f.text_field :video
+  .field
+    = f.label :description
+    %br/
+    = f.text_area :description
+  .actions
+    = f.submit
