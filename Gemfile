@@ -6,6 +6,10 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'devise'
+gem "rmagick"
+gem "carrierwave"
+gem "haml-rails"
 
 
 # Gems used only for assets and not required
@@ -18,6 +22,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'zurb-foundation', '~> 4.0.0'
 end
 
 gem 'jquery-rails'

@@ -1,3 +1,123 @@
+<%= image_tag @advert.image_url(:big), :class=>"th radius" if @advert.image? %>
+
+<div class="section-container tabs" data-section xmlns="http://www.w3.org/1999/html">
+
+  <section class="section">
+    <h5 class="title"> <%= link_to 'Описание', "#panel0" %></h5>
+    <div class="content" data-slug="panel0">
+      <div class="row">
+        <div class="small-4 push-8 columns" >
+          <div class="large-12 columns" style="margin-left:15px; padding: 0;">
+            <p>Контактная информация:</p>
+            <div class="row">
+            adfgfdgsg
+            </div>
+          </div>
+
+        </div>
+
+        <div class="small-8 pull-4 columns" style="border-right: solid 1px #f6f6f6;">
+          <div class="large-12 columns" style="margin-bottom: 16px; ">
+            <p>Описание обьекта</p>      <p><%= @advert.street.title if @advert.street_id.present? %> </p>
+            <div class="large-6 columns">
+              <p>ID обьявления:</p>
+
+              <p>Количество комнат:</p>
+              <p>Вид комнат:</p>
+              <p>Цена за м.кв.:</p>
+              <p>Площадь м.кв.:</p>
+              <p>Тип дома:</p>
+              <p>Материал дома:</p>
+              <p>Этаж:</p>
+
+              <p>На текущую дату:</p>
+            </div>
+            <div class="large-6 columns">
+              <p><%= @advert.id %> </p>
+
+              <p><%= @advert.room_number %></p>
+              <p>N/A</p>
+              <p><%= @advert.all_price%>
+              <p><%= @advert.area %></p>
+
+              <p>N/A</p>
+              <p>N/A</p>
+              <p><%= @advert.floor %></p>
+
+              <p><%= @advert.state %></p>
+            </div>
+
+
+          </div>
+
+
+          <div class="large-12 columns" style="border-top: solid 1px #f6f6f6; padding-top: 15px;">
+            <p>Дополнительная информация:</p>
+            <p><%= @advert.description %></p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <section class="section">
+    <h5 class="title"> <%= link_to 'Фото', "#panel1" %></h5>
+    <div class="content" data-slug="panel1" >
+
+
+      <ul class="clearing-thumbs small-block-grid-2" data-clearing>
+        <% @advert.advert_images.each  do |image| %>
+            <li><%=link_to (image_tag image.image_url(:small)),image.image_url if image.image_url.present? %>
+        <% end %>
+      </ul>
+
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h5 class="title"> <%= link_to 'Планировка', "#panel2" %></h5>
+    <div class="content" data-slug="panel2">
+      <ul class="clearing-thumbs small-block-grid-2" data-clearing>
+        <% @advert.layouts.each do |image|  %>
+            <li ><%=link_to (image_tag image.image_url(:small)),image.image_url%>
+        <% end %>
+      </ul>
+
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h5 class="title"> <%= link_to 'Видео', "#panel3" %></h5>
+    <div class="content" data-slug="panel3">
+
+      <%=raw @advert.video %>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <h5 class="title"> <%= link_to 'На карте', "#panel4" %></h5>
+    <div class="content" data-slug="panel4">
+
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+</div>
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -82,12 +202,13 @@
 
 <p>
   <b>Image:</b>
-  <%= @advert.image %>
+  <%= image_tag @advert.image_url(:small), :class=>"th radius" if @advert.image? %>
+
 </p>
 
 <p>
   <b>Layout:</b>
-  <%= @advert.layout %>
+  <%= image_tag @advert.image_url(:small), :class=>"th radius" if @advert.image? %>
 </p>
 
 <p>
