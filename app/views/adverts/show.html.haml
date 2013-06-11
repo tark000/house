@@ -1,93 +1,76 @@
-%ul{"data-orbit" => ""}
-  %li
+%div.row
+  %div.large-12.columns
     = image_tag @advert.image_url(:big) if @advert.image?
-  - @advert.advert_images.each  do |image|
-    %li
-      = image_tag image.image_url(:big)
+%div.row
+  %div.large-12.columns
+    %hr
+%div.row
+  %div.large-12.columns
+    %ul.large-block-grid-4.small-block-grid-2
+      %li
+        %img{:src => "http://placehold.it/190x130&text=foto1"}/
+      %li
+        %img{:src => "http://placehold.it/190x130&text=foto2"}/
+      %li
+        %img{:src => "http://placehold.it/190x130&text=foto3"}/
+      %li
+        %img{:src => "http://placehold.it/190x130&text=foto4"}/
 
-.section-container.tabs{"data-section" => "", :xmlns => "http://www.w3.org/1999/html"}
-  %section.section
-    %h5.title
-      = link_to 'Описание', "#panel0"
-    .content{"data-slug" => "panel0"}
-      .row
-        .large-12.columns{:style => "border-right: solid 1px #f6f6f6;"}
-          .large-12.columns{:style => "margin-bottom: 16px; "}
-            %p Описание обьекта
-            %p
-              = @advert.street.title if @advert.street_id.present?
-            .large-6.columns
-            %table{:style=>"width: 100%"}
-              %thead
-                %th{:style=>"width: 25%"}
-                %th{:style=>"width: 25%"}
-                %th{:style=>"width: 25%"}
-                %th{:style=>"width: 25%"}
-              %tbody
-                %tr
-                  %td Цена
-                  %td
-                    = @advert.price.to_i
-                  %td Площадь
-                  %td
-                    = @advert.area.to_i
-                %tr
-                  %td Регион
-                  %td
-                    = @advert.region.title
-                  %td Город
-                  %td
-                    = @advert.city.title
-                %tr
-                  %td Район
-                  %td
-                    = @advert.district.title
-                  %td Улица
-                  %td
-                    = @advert.street.title
-                %tr
-                  %td Дом
-                  %td
-                    = @advert.house
-                  %td Этаж
-                  %td
-                    = @advert.floor.to_i
-                %tr
-                  %td Количество комнат
-                  %td
-                    = @advert.room_number
-                  %td Категория
-                  %td
-                    = @advert.category.title
+  %div.small-block-grid-2.large-12.columns
+    .section-container.auto{"data-section" => ""}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel1"} Описание
+        .content{"data-section-content" => ""}
+          %ul.block-grid-2.small-block-grid-4
+            %li
+              Цена
+            %li
+              =@advert.price
+            %li
+              Категория
+            %li
+              = @advert.area.to_i
+            %li
+              Цена
+            %li
+              =@advert.price
+            %li
+              Категория
+            %li
+              = @advert.area.to_i
+            %li
+              Цена
+            %li
+              =@advert.price
+            %li
+              Категория
+            %li
+              = @advert.area.to_i
 
-          .large-12.columns{:style => "border-top: solid 1px #f6f6f6; padding-top: 15px;"}
-            %p Дополнительная информация:
-            %p= @advert.description
-  %section.section
-    %h5.title
-      = link_to 'Фото', "#panel1"
-    .content{"data-slug" => "panel1"}
-      %ul
-        - @advert.advert_images.each  do |image|
-          %li
-            = link_to (image_tag image.image_url(:small)),image.image_url if image.image_url.present?
-  %section.section
-    %h5.title
-      = link_to 'Планировка', "#panel2"
-    .content{"data-slug" => "panel2"}
-      %ul
-        - @advert.layouts.each do |image|
-          %li
-            = link_to (image_tag image.image_url(:small)),image.image_url
-  %section.section
-    %h5.title
-      = link_to 'Видео', "#panel3"
-    .content{"data-slug" => "panel3"}
-      = raw @advert.video
-  %section.section
-    %h5.title
-      = link_to 'На карте', "#panel4"
-    .content{"data-slug" => "panel4"}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel3"} Планировка
+        .content{"data-section-content" => ""}
+          %ul.large-block-grid-4.small-block-grid-2
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan1"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan2"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan3"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan4"}/
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel4"} Видео
+        .content{"data-section-content" => ""}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel5"} Карта
+        .content{"data-section-content" => ""}
+          %p Content of section 2.
+
 
 = link_to 'Edit', edit_advert_path(@advert)
 |
