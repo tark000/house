@@ -15,14 +15,21 @@
     = stylesheet_link_tag    "application"
     = javascript_include_tag "vendor/custom.modernizr"
     = csrf_meta_tags
-  %body
-    = render 'layouts/top_bar'
-    / Main Page Content and Sidebar
-    .row
-      .large-3.columns= render 'layouts/sidebar'
-      .large-7.columns
-        = yield
-      .large-2.columns ...
-    / End Main Content and Sidebar
-    = render 'layouts/footer'
+  %body#page.off-canvas.hide-extras
+    .container
+      = render 'layouts/top_bar'
+      / Main Page Content and Sidebar
+      %p.show-for-small
+        %a#sidebarButton.sidebar-button.button{:href => "#sidebar"} Search
+      .row
+        %section#sidebar{:role => "complementary"}
+          %nav#sideMenu{:role => "navigation"}
+            #sideMainNav.nav-bar
+              = render 'layouts/sidebar'
+        .large-3.columns.hide-for-small= render 'layouts/sidebar'
+        .large-7.columns
+          = yield
+        .large-2.columns ...
+      / End Main Content and Sidebar
+      = render 'layouts/footer'
     = javascript_include_tag "application"

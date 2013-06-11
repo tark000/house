@@ -1,10 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9b6699e-154d-4fec-92e7-29ba531b49d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss" />
+    <list default="true" id="a79d2bd8-1259-4bb3-a1ec-242d14dc838e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_normalize.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_settings.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/app.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/3fb7e70c7b00845b9730755bdfb131343bfbf49b/foundation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/a020181ecac10f8b20dd7fe058b05db23f181035/_variables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_alert-boxes.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_block-grid.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_breadcrumbs.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_button-groups.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_clearing.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_custom-forms.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown-buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_flex-video.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_forms.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_global.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_grid.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_inline-lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_joyride.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_keystrokes.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_labels.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_magellan.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_orbit.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pagination.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_panels.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pricing-tables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_progress-bars.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_reveal.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_section.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_side-nav.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_split-buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_sub-nav.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_switch.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_thumbs.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tooltips.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_top-bar.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_type.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_visibility.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/image/3/9670.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/image/3/big_9670.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/image/3/small_9670.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/layout/3/9666.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/layout/3/big_9666.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/advert/layout/3/small_9666.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_alert-boxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_block-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_clearing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_custom-forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_flex-video.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_inline-lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_joyride.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_keystrokes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_magellan.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_orbit.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pricing-tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_reveal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_section.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_side-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_split-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_sub-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_switch.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_thumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tooltips.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_top-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/components/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/offcanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/assets.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.alerts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.clearing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.forms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.interchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.joyride.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.magellan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.orbit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.reveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.section.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.tooltips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.topbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/custom.modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/zepto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_clearing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_custom-forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_flex-video.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_inline-lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_joyride.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_keystrokes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_magellan.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_orbit.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pricing-tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_reveal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_section.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_split-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_switch.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_thumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tooltips.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_top-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/normalize.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/1/big_jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/1/jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/1/small_jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/1/big_eten-canarias-1A014.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/1/eten-canarias-1A014.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/1/small_eten-canarias-1A014.pdf" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,71 +197,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="17" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="77" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+            <state line="32" column="36" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.58181816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="26" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1370879853000" expanded="true" signature="399:652" placeholder=".row" />
-                <marker date="1370879853000" expanded="true" signature="544:652" placeholder=".small-8.columns" />
-                <marker date="1370879853000" expanded="true" signature="571:652" placeholder="= select_tag(:operation_type, options_for_select(operation), include_blank: true)" />
-                <marker date="1370879853000" expanded="true" signature="732:977" placeholder=".row" />
-                <marker date="1370879853000" expanded="true" signature="876:977" placeholder=".small-8.columns" />
-                <marker date="1370879853000" expanded="true" signature="903:977" placeholder="= select_tag(:category, options_for_select(category), include_blank: true)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_uploader.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="9" column="76" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adverts.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_search_by_id.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,30 +262,22 @@
       </file>
     </leaf>
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="162" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="1431" />
+    <option name="y" value="24" />
+    <option name="width" value="1215" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,12 +305,95 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="house" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adverts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -161,7 +403,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -169,33 +410,32 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9b6699e-154d-4fec-92e7-29ba531b49d5" name="Default" comment="" />
-      <created>1370877962177</created>
-      <updated>1370877962177</updated>
+      <created>1370936277929</created>
+      <updated>1370936277929</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="162" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="1431" y="24" width="1215" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24860112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -251,128 +491,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="77" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1370879853000" expanded="true" signature="399:652" placeholder=".row" />
-            <marker date="1370879853000" expanded="true" signature="544:652" placeholder=".small-8.columns" />
-            <marker date="1370879853000" expanded="true" signature="571:652" placeholder="= select_tag(:operation_type, options_for_select(operation), include_blank: true)" />
-            <marker date="1370879853000" expanded="true" signature="732:977" placeholder=".row" />
-            <marker date="1370879853000" expanded="true" signature="876:977" placeholder=".small-8.columns" />
-            <marker date="1370879853000" expanded="true" signature="903:977" placeholder="= select_tag(:category, options_for_select(category), include_blank: true)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+        <state line="36" column="17" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="76" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="77" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1370879853000" expanded="true" signature="399:652" placeholder=".row" />
-            <marker date="1370879853000" expanded="true" signature="544:652" placeholder=".small-8.columns" />
-            <marker date="1370879853000" expanded="true" signature="571:652" placeholder="= select_tag(:operation_type, options_for_select(operation), include_blank: true)" />
-            <marker date="1370879853000" expanded="true" signature="732:977" placeholder=".row" />
-            <marker date="1370879853000" expanded="true" signature="876:977" placeholder=".small-8.columns" />
-            <marker date="1370879853000" expanded="true" signature="903:977" placeholder="= select_tag(:category, options_for_select(category), include_blank: true)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+        <state line="32" column="36" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.58181816">
           <folding />
         </state>
       </provider>
