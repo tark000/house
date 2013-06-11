@@ -5,25 +5,36 @@
   .content{"data-slug" => "panel1"}
 
   - @adverts.each do |advert|
+    .main_row.hide-for-small
+      %hgroup.small-6.columns
+        = image_tag advert.image_url(:small), :class=>"th radius" if advert.image?
+      %section.hide-for-small
+        %p
+          = truncate(advert.description, :length => 135)
+        %p
+          = link_to "подробнее", advert
+
+
+
+
+  - @adverts.each do |advert|
     .row
       .large-12.columns
-        .large-12.columns.info_bloc
-          .small-3.columns= advert.price
-          .small-9.columns.title= link_to advert.title, advert
-        .small-3.columns
+        .small-12.large-3.columns
           = image_tag advert.image_url(:small), :class=>"th radius" if advert.image?
-        .small-9.columns
-          .large-12.columns
-            = advert.updated_at.strftime("%y-%m-%d")
-            \/ #{link_to advert.category, adverts_path(:rend => advert.category)}
-          .large-12.columns= truncate(advert.description, :length => 135)
-          .large-12.columns
-            = link_to 'Подробнее »', advert
-            = link_to 'Изменить', edit_advert_path(advert) if current_user
-            = link_to 'Удалить', advert, method: :delete, data: { confirm: 'Are you sure?' } if current_user
-            = advert.id
-            = advert.operation_type.title if advert.operation_type_id?
-    .large-12.columns.title.line
+        .small-12.large-9.columns
+          = advert.updated_at.strftime("%y-%m-%d")
+          \/ #{link_to advert.category.title, adverts_path(:category => advert.category.id)}
+          .large-12.columns.hide-for-small
+            %p
+              = truncate(advert.description, :length => 135)
+          .large-12.columns.hide-for-small= link_to "подробнее", advert
+        .small-12.columns.hide-for-large.hide-for-medium
+          = truncate(advert.description, :length => 50)
+        .small-12.columns.hide-for-large.hide-for-medium= link_to "подробнее", advert
 
+
+
+    .large-12.columns.title.line
   %div= link_to 'New Post', new_advert_path if current_user
 

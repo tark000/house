@@ -1,65 +1,66 @@
-= form_tag adverts_path, :method => 'get' do
+= form_tag adverts_path,  :method => 'get' do
   %fieldset
     %legend Поиск
     .row
       .row
-        .small-6.columns
-          %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Тип недвижимость:
-        .small-6.columns
+        .large-4.columns
+          %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Тип:
+        .large-8.columns
           = radio_button_tag 'living', '1'
           жилая
           %br/
           = radio_button_tag 'living', '0'
           нежилая
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Тип сделки:
-        .small-8.columns
-          = select_tag(:operation_type, options_for_select(operation, :selected=>params[:operation_type].blank? ? "" :params[:operation_type]), include_blank: true)
+        .large-8.columns
+          = select_tag(:operation_type, options_for_select(operation,
+          :selected=>params[:operation_type].blank? ? "-- Select One --" :params[:operation_type]), {:include_blank => '-- Select One --'} )
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Категория:
-        .small-8.columns
+        .large-8.columns
           = select_tag(:category, options_for_select(category, :selected=>params[:category].blank? ? "" :params[:category]), include_blank: true)
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Свободно:
-        .small-8.columns
+        .large-8.columns
           = check_box_tag 'state'
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Стоимость:
-        .small-4.columns
+        .large-4.columns
           = text_field_tag :min_price, params[:min_price], :placeholder=>"min"
         .small-4.columns
           = text_field_tag :max_price, params[:max_price], :placeholder=>"max"
       .row
-        .small-4.columns
+        .large-4.columns
 
-        .small-8.columns
+        .large-8.columns
           = radio_button_tag 'gender', 'all', true
           за все
           %br/
           = radio_button_tag 'gender', 'm2'
           за м2
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Площадь:
-        .small-4.columns
+        .large-4.columns
           = text_field_tag :min_area, params[:min_area], :placeholder=>"min"
-        .small-4.columns
+        .large-4.columns
           = text_field_tag :max_area, params[:max_area], :placeholder=>"man"
 
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Регион:
-        .small-8.columns
+        .large-8.columns
           = select_tag(:region_id, options_for_select(region), include_blank: true)
       .row
-        .small-4.columns
+        .large-4.columns
           %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Город:
-        .small-8.columns
+        .large-8.columns
           = select_tag(:city_id, options_for_select(city), include_blank: true)
       .row
-        .small-8.columns
-          = submit_tag "Search", :id => nil
+        .large-centered.columns
+          = submit_tag "Search", :id => nil, :class=>"dorohouse_button"
