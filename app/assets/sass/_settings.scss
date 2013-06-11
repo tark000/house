@@ -6,9 +6,8 @@
 // for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
 //$base-font-size: 16px;
-
-// $base-line-height is 24px while $base-font-size is 16px
-$base-line-height: normal;
+//$base-line-height is 24px while $base-font-size is 16px
+$base-line-height: 1.6;
 
 // This is the default html and body font-size for the base em value.
 
@@ -24,14 +23,14 @@ $em-base: 16px !default;
 }
 
 // Change whether or not you include browser prefixes
-// $experimental: true;
+$experimental: true;
 
 // Various global styles
 
 $default-float: left;
 
 $body-bg: #fff;
-$body-font-color: #222;
+$body-font-color: #727272;
 $body-font-family: verdana,"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
@@ -175,7 +174,7 @@ $small-font-color: lighten($header-font-color, 30%);
 $paragraph-font-family: inherit;
 $paragraph-font-weight: normal;
 $paragraph-font-size: 1em;
-$paragraph-line-height: 1.6;
+$paragraph-line-height: emCalc(20px);
 $paragraph-margin-bottom: emCalc(20px);
 $paragraph-aside-font-size: emCalc(14px);
 $paragraph-aside-line-height: 1.35;

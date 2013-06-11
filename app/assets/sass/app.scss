@@ -9,6 +9,8 @@
 
 //$row-width: 98em;
 
+
+
 .dorohouse_button {
   $bg : #3FC01C;
   $radius: true;
@@ -27,10 +29,6 @@
 }
 
 
-
-
-
-
 @mixin my_panel {
   $panel-bg: darken(rgba(226, 204, 248, 0.6), 5%);
   @include panel($panel-bg);
@@ -43,6 +41,7 @@
 
   & > hgroup { @include grid-column(4); }
   & > section { @include grid-column(8); }
+
 }
 
 

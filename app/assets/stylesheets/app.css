@@ -431,7 +431,7 @@ body {
 /* line 247, ../sass/foundation/components/_global.scss */
 body {
   background: white;
-  color: #222222;
+  color: #727272;
   padding: 0;
   margin: 0;
   font-family: verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2024,7 +2024,7 @@ p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1em;
-  line-height: 1.6;
+  line-height: 1.25em;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility;
 }
@@ -2127,7 +2127,7 @@ ul,
 ol,
 dl {
   font-size: 1em;
-  line-height: 1.6;
+  line-height: 1.25em;
   margin-bottom: 1.25em;
   list-style-position: outside;
   font-family: inherit;
@@ -2193,7 +2193,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #727272;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -2230,7 +2230,7 @@ blockquote cite .dorohouse_a:visited {
 /* line 330, ../sass/foundation/components/_type.scss */
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.25em;
   color: #6f6f6f;
 }
 
@@ -6665,7 +6665,7 @@ a.th, .th.dorohouse_a {
   max-width: 800px;
 }
 
-/* line 12, ../sass/app.scss */
+/* line 14, ../sass/app.scss */
 .dorohouse_button {
   border-style: solid;
   border-width: 1px;
@@ -6725,12 +6725,12 @@ a.th, .th.dorohouse_a {
   color: white;
 }
 
-/* line 24, ../sass/app.scss */
+/* line 26, ../sass/app.scss */
 .dorohouse_a {
   color: #3FC01C;
 }
 
-/* line 40, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 .main_row {
   width: 100%;
   margin-left: auto;
@@ -6760,7 +6760,7 @@ a.th, .th.dorohouse_a {
   margin: 0;
   margin-left: -0.1875em;
 }
-/* line 44, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 .main_row > hgroup {
   position: relative;
   padding-left: 0.9375em;
@@ -6768,7 +6768,7 @@ a.th, .th.dorohouse_a {
   width: 33.33333%;
   float: left;
 }
-/* line 45, ../sass/app.scss */
+/* line 43, ../sass/app.scss */
 .main_row > section {
   position: relative;
   padding-left: 0.9375em;

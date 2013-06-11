@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/047cfe2804c7a5354d14300997ba2fd157b6590f/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/047cfe2804c7a5354d14300997ba2fd157b6590f/_variables.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" afterPath="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,10 +24,10 @@
     <file path="/application.rb" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370900440047" ignored="false" />
     <file path="/config.rb" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370900992329" ignored="false" />
     <file path="/application.scss" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370912350520" ignored="false" />
-    <file path="/app.scss" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370916600449" ignored="false" />
-    <file path="/_settings.scss" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370939662959" ignored="false" />
+    <file path="/app.scss" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370948210942" ignored="false" />
+    <file path="/_settings.scss" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370947213691" ignored="false" />
     <file path="/_search_by_id.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370906923461" ignored="false" />
-    <file path="/index.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370914146859" ignored="false" />
+    <file path="/index.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370948613755" ignored="false" />
     <file path="/show.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370915484679" ignored="false" />
     <file path="/_sidebar_adverts_count.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370916083625" ignored="false" />
     <file path="/_footer.html.haml" changelist="3c7cdb5f-f131-4bd3-9ae0-e245c368cb37" time="1370916360032" ignored="false" />
@@ -47,16 +53,16 @@
       <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.10619469">
+            <state line="43" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,16 +89,16 @@
       <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="10" selection-start="4970" selection-end="4976" vertical-scroll-proportion="0.0">
+            <state line="28" column="2" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="585" selection-end="585" vertical-scroll-proportion="-10.0">
+            <state line="14" column="39" selection-start="401" selection-end="401" vertical-scroll-proportion="0.38817006">
               <folding />
             </state>
           </provider>
@@ -101,7 +107,7 @@
       <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+            <state line="557" column="23" selection-start="14729" selection-end="14732" vertical-scroll-proportion="-14.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -152,13 +157,14 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
       </list>
     </option>
   </component>
@@ -311,6 +317,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,11 +736,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/offcanvas.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -729,20 +756,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/sass/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.949239">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="10" selection-start="4970" selection-end="4976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -775,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="585" selection-end="585" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.029880479">
@@ -789,16 +795,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="2" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+        <state line="557" column="23" selection-start="14729" selection-end="14732" vertical-scroll-proportion="-14.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.10619469">
+        <state line="43" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="401" selection-end="401" vertical-scroll-proportion="0.38817006">
           <folding />
         </state>
       </provider>
