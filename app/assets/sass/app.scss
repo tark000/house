@@ -22,16 +22,12 @@
 }
 
 .dorohouse_a {
-
   @extend a;
   color: #3FC01C;
-
 }
 
 
-a:hover, a:focus {
-  color: rgb(39, 149, 182);
-}
+
 
 
 
@@ -40,6 +36,7 @@ a:hover, a:focus {
   @include panel($panel-bg);
 
 }
+
 .main_row {
 
   @include grid-row;   @include fieldset;
