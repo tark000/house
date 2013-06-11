@@ -7,7 +7,7 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
-$row-width: 98em;
+//$row-width: 98em;
 
 .dorohouse_button {
   $bg : #3FC01C;
@@ -21,12 +21,19 @@ $row-width: 98em;
   @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
 }
 
+.dorohouse_a {
 
-.dorohouse_panel {
-  $padding: $panel-padding;
-  $bg: $secondary-color;
-  @include panel($bg, $padding);
+  @extend a;
+  color: #3FC01C;
+
 }
+
+
+a:hover, a:focus {
+  color: rgb(39, 149, 182);
+}
+
+
 
 @mixin my_panel {
   $panel-bg: darken(rgba(226, 204, 248, 0.6), 5%);
