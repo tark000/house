@@ -1,9 +1,10 @@
 class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
+  caches_page :show
   def index
     @adverts = Advert.search(params[:search]).order(:title)
-
+    expire_action :action => :index
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?
@@ -22,21 +23,27 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.regoin_search(params[:region_id]) if params[:region_id].present?
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @adverts }
-    end
+    @stats = Rails.cache.stats.first.last
+
+    #if stale?(:last_modified => @adverts.updated_at.utc, :etag => @adverts)
+      respond_to do |format|
+        format.html # index.html.erb
+        format.json { render json: @adverts }
+      end
+    #end
   end
 
   # GET /adverts/1
   # GET /adverts/1.json
   def show
     @advert = Advert.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @advert }
-    end
+    @stats = Rails.cache.stats.first.last
+    #if stale?(:last_modified => @adverts.updated_at.utc, :etag => @adverts)
+      respond_to do |format|
+        format.html # show.html.erb
+        format.json { render json: @advert }
+      end
+    #end
   end
 
   # GET /adverts/new
@@ -59,7 +66,7 @@ class AdvertsController < ApplicationController
   # POST /adverts.json
   def create
     @advert = Advert.new(params[:advert])
-
+    expire_action :action => :index
     respond_to do |format|
       if @advert.save
         format.html { redirect_to @advert, notice: 'Advert was successfully created.' }
@@ -75,7 +82,7 @@ class AdvertsController < ApplicationController
   # PUT /adverts/1.json
   def update
     @advert = Advert.find(params[:id])
-
+    expire_action :action => :index
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
         format.html { redirect_to @advert, notice: 'Advert was successfully updated.' }
@@ -92,7 +99,7 @@ class AdvertsController < ApplicationController
   def destroy
     @advert = Advert.find(params[:id])
     @advert.destroy
-
+    expire_action :action => :index
     respond_to do |format|
       format.html { redirect_to adverts_url }
       format.json { head :no_content }

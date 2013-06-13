@@ -23,7 +23,7 @@
           %a{:href => "#panel1"} Описание
         .content{"data-section-content" => ""}
 
-          %ul.large-block-grid-4.small-block-grid-2
+          %ul.small-block-grid-2.large-block-grid-4
             %li Цена
             %li
               = @advert.price.to_i
@@ -36,9 +36,12 @@
             %li Город
             %li
               = @advert.city.title
-            %li Район
-            %li
-              = @advert.district.title
+            -unless @advert.district.nil?
+              %li Район
+              %li
+                = @advert.district.title
+            end
+
             %li Улица
             %li
               = @advert.street.title
@@ -54,6 +57,8 @@
             %li Категория
             %li
               = @advert.category.title
+          %p
+            =@advert.description
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel3"} Планировка

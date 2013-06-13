@@ -35,6 +35,7 @@ group :test, :development do #в группу для разработки и т�
   gem 'pry'
 end
 
+gem 'dalli'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

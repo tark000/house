@@ -20,7 +20,7 @@
       = render 'layouts/top_bar'
       / Main Page Content and Sidebar
       %p.show-for-small
-        %a#sidebarButton.sidebar-button.button{:href => "#sidebar"} Search
+        %a#sidebarButton.sidebar-button.dorohouse_button{:href => "#sidebar"} Search
       .row
         %section#sidebar{:role => "complementary"}
           %nav#sideMenu{:role => "navigation"}
@@ -29,7 +29,7 @@
         .large-3.columns.hide-for-small= render 'layouts/sidebar'
         .large-7.columns
           = yield
-        .large-2.columns ...
+        .large-2.columns= render 'layouts/cache_stat'
       / End Main Content and Sidebar
       = render 'layouts/footer'
     = javascript_include_tag "application"
