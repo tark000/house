@@ -1,22 +1,13 @@
-%div.row
+%div.row(ng-controller="PhoneListCtrl" ng-init="init(#{@advert.id})" )
   %div.large-12.columns
-    = image_tag @advert.image_url(:big) if @advert.image?
-%div.row
-  %div.large-12.columns
-    %hr
-%div.row
-  %div.large-12.columns
-    %ul.large-block-grid-4.small-block-grid-2
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto1"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto2"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto3"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto4"}/
+    %p
+      %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
 
-  %div.small-block-grid-2.large-12.columns
+    %ul.large-block-grid-4.small-block-grid-2
+      %li(ng-repeat="image in images | filter:query" )
+        %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+
+  %div.large-12.columns
     .section-container.auto{"data-section" => ""}
       %section
         %p.title{"data-section-title" => ""}

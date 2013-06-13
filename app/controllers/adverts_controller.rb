@@ -1,6 +1,7 @@
 class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
+  respond_to :json, :html
   caches_page :show
   def index
     @adverts = Advert.search(params[:search]).order(:title)
@@ -8,7 +9,7 @@ class AdvertsController < ApplicationController
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?
-    #@adverts = @adverts.where(:living => params[:living])
+    @adverts = @adverts.where(:living => params[:living])  if params[:living].present?
     @adverts = @adverts.state_search(params[:state]) if params[:state].present?
     if params[:gender] == "all"
       @adverts = @adverts.all_min_price_search(params[:min_price]) if params[:min_price].present?
