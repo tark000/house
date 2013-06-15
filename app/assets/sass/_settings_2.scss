@@ -2,10 +2,26 @@
 // Foundation Variables
 //
 
+
+
+//http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+
+
+
+
+
+@function fontSize($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
-$base-font-size: 100% !default;
-//$base-font-size: 16px;
+//$base-font-size: font-size(5);
+$base-font-size: 16px;
 //$base-line-height is 24px while $base-font-size is 16px
 $base-line-height: 1.6;
 
@@ -88,18 +104,8 @@ $include-html-progress-classes: $include-html-classes;
 $include-html-magellan-classes: $include-html-classes;
 $include-html-tooltip-classes: $include-html-classes;
 
-// Media Queries
 
-$small-screen: 768px;
-$medium-screen: 1280px;
-$large-screen: 1440px;
 
-$screen: "only screen";
-$small: "only screen and (min-width: #{$small-screen})";
-$medium: "only screen and (min-width: #{$medium-screen})";
-$large: "only screen and (min-width: #{$large-screen})";
-$landscape: "only screen and (orientation: landscape)";
-$portrait: "only screen and (orientation: portrait)";
 
 //// Cursors
 

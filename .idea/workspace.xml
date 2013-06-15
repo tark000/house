@@ -2,63 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a1a95c-4e73-420d-9c71-d6cef14896f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/rabl_init.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/modules/truncate.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_normalize.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_settings.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/app.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/3fb7e70c7b00845b9730755bdfb131343bfbf49b/foundation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/a020181ecac10f8b20dd7fe058b05db23f181035/_variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_alert-boxes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_block-grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_breadcrumbs.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_button-groups.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_buttons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_clearing.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_custom-forms.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown-buttons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_flex-video.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_forms.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_inline-lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_joyride.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_keystrokes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_labels.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_magellan.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_orbit.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pagination.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_panels.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pricing-tables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_progress-bars.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_reveal.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_section.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_side-nav.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_split-buttons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_sub-nav.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_switch.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_thumbs.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tooltips.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_top-bar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_type.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_visibility.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/big_jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/small_jsxWg7ldqjE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/9670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/big_9670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/small_9670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_clearing.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_custom-forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown-buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_flex-video.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_inline-lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_joyride.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_keystrokes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_magellan.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_orbit.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pricing-tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_section.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_split-buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_switch.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_thumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tooltips.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_top-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/normalize.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/image.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings_2.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/foundation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/foundation.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/foundation.scss" afterPath="$PROJECT_DIR$/app/assets/sass/foundation.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371151578839" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371223651983" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_progress-bars.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_global.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_progress-bars.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pricing-tables.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_buttons.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_global.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
-    <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_panels.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_switch.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_block-grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
-    <file path="$PROJECT_DIR$/app/assets/sass/foundation/components/_visibility.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
-    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370987353719" ignored="false" />
-    <file path="/Gemfile" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371038233255" ignored="false" />
+    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371251557498" ignored="false" />
+    <file path="/Gemfile" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371237261419" ignored="false" />
     <file path="/development.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371114872978" ignored="false" />
-    <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371153609366" ignored="false" />
+    <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371236616160" ignored="false" />
     <file path="/application.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371136287437" ignored="false" />
     <file path="/_cache_stat.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371042958547" ignored="false" />
-    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371158609955" ignored="false" />
+    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371231025959" ignored="false" />
     <file path="/application.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371138935268" ignored="false" />
-    <file path="/image.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371159526792" ignored="false" />
+    <file path="/image.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371225665345" ignored="false" />
     <file path="/show.json.rabl" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371145016586" ignored="false" />
     <file path="/index.json.rabl" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371145118566" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371145292660" ignored="false" />
     <file path="/routes.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371154012943" ignored="false" />
     <file path="/advert_images_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371154515221" ignored="false" />
-    <file path="/image_uploader.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371160447311" ignored="false" />
+    <file path="/image_uploader.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371238576312" ignored="false" />
+    <file path="/controllers.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371242676945" ignored="false" />
+    <file path="/_settings.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371250220245" ignored="false" />
+    <file path="/app.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371252327616" ignored="false" />
+    <file path="/foundation.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371252660789" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,71 +170,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="618" selection-end="618" vertical-scroll-proportion="0.46421662">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_uploader.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="39" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="86" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.625">
+            <state line="30" column="18" selection-start="924" selection-end="924" vertical-scroll-proportion="-12.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/adverts_controller.rb">
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="45" column="18" selection-start="834" selection-end="834" vertical-scroll-proportion="1.1421319">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="185" selection-end="216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advert_images_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb">
+      <file leaf-file-name="_settings_2.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings_2.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advert.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
+      <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="2" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -150,8 +224,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advert_image.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
+      <file leaf-file-name="adverts.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -159,10 +233,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/image.js">
+      <file leaf-file-name="_type.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/components/_type.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+            <state line="242" column="35" selection-start="7517" selection-end="7537" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="62" selection-start="761" selection-end="761" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -186,22 +269,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/underscore-min.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-        <option value="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-        <option value="$PROJECT_DIR$/config/initializers/rabl_init.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/base_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/angular/modules/truncate.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/image.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/modules/truncate.js" />
+        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
+        <option value="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
+        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/sass/foundation.scss" />
+        <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       </list>
     </option>
   </component>
@@ -238,7 +321,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,6 +370,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -304,10 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +431,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -376,46 +476,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adverts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploaders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,23 +550,154 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.SASS/SCSS" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AngularRails" />
     <property name="dynamic.classpath" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/adverts" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app" />
+      <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/angular" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Rails.Development: house">
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -583,7 +774,114 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="house" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="house" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Production: house" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="house" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development: house" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="house" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: house" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: house" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -602,7 +900,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2781155" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2986322" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -681,112 +979,105 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+        <state line="14" column="12" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.json.rabl">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+        <state line="9" column="37" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.json.rabl">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/components/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3290203">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/rabl_init.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/components/_type.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="242" column="35" selection-start="7517" selection-end="7537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/base_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings_2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/adverts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="86" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.625">
+        <state line="30" column="18" selection-start="924" selection-end="924" vertical-scroll-proportion="-12.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/image.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="185" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="39" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="618" selection-end="618" vertical-scroll-proportion="0.46421662">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="55" selection-start="45" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="62" selection-start="761" selection-end="761" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="834" selection-end="834" vertical-scroll-proportion="1.1421319">
           <folding />
         </state>
       </provider>

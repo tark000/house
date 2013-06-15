@@ -24,9 +24,13 @@
             %li Регион
             %li
               = @advert.region.title
-            %li Город
-            %li
-              = @advert.city.title
+
+            -unless @advert.city.nil?
+              %li Город
+              %li
+                = @advert.city.title
+            end
+
             -unless @advert.district.nil?
               %li Район
               %li

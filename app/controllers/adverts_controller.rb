@@ -2,10 +2,11 @@ class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
   respond_to :json, :html
-  caches_page :show
+
   def index
+
     @adverts = Advert.search(params[:search]).order(:title)
-    expire_action :action => :index
+
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?
@@ -27,10 +28,14 @@ class AdvertsController < ApplicationController
     @stats = Rails.cache.stats.first.last
 
     #if stale?(:last_modified => @adverts.updated_at.utc, :etag => @adverts)
+    respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
+
+=begin
       respond_to do |format|
         format.html # index.html.erb
         format.json { render json: @adverts }
       end
+=end
     #end
   end
 

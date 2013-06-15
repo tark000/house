@@ -2,13 +2,91 @@
 @import "settings";
 
 // Comment out this import if you don't want to use normalize
-@import "normalize";
+//@import "normalize";
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+
+// my mixins
+$doc-font-size: 16;
+$doc-line-height: 24;
+@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
+  @if $IE9 == true{
+    .lt-ie9 & {
+      @content;
+    }
+    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
+      @content;
+    }
+  }
+
+  @else {
+    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
+      @content;
+    }
+  }
+}
+
+
+
+
+// Media Queries
+
+/*
+$small-screen: 768px;
+$medium-screen: 1280px;
+$large-screen: 1440px;
+*/
+
+$small-screen: emCalc(768px);
+$medium-screen: emCalc(1280px);
+$large-screen: emCalc(1440px);
+
+$small-screen: 770px;
+$medium-screen: 1280px;
+$large-screen: 1440px;
+
+
+$screen: "only screen";
+$small: "only screen and (min-width:"#{$small-screen}")";
+$medium: "only screen and (min-width:"#{$medium-screen}")";
+$large: "only screen and (min-width:"#{$large-screen}")";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+
+//$base-font-size: font-size(5);
 //$row-width: 98em;
 
+
+@media #{$small} {
+
+/*  body,html,p,table {
+    font-size:0.8em;
+    //font-size:font-size(5);
+  }*/
+}
+
+@media #{$medium} {
+  //$base-font-size: 100% !default;
+
+}
+
+/*
+.example {
+  @include mq(768, true) {
+    width: 100%;
+  }
+}
+*/
+
+
+.small-block {
+  @extend .hide-for-large;
+  @extend .hide-for-medium;
+  @extend .show-for-small;
+}
 
 
 .dorohouse_button {
