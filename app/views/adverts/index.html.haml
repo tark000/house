@@ -1,13 +1,15 @@
-%row.large-12.columns(ng-controller="SearchListCtrl" ng-init="init(#{@adverts.to_json})" )
+%row.large-12.columns(ng-controller="SearchListCtrl" ng-init="init(#{@adverts.to_json} )" )
   .row.hide-for-small
     %fieldset
       %legend
         Сортировка
       .large-1.columns
-        %a.small.tiny.button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
+
+        %a.small.tiny.sort_button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
       .large-1.columns
-        %a.small.tiny.button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
+        %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
       .large-10.columns.pagination-centered
+
         %ul.pagination
           %li.arrow.unavailable
             %a{:href => ""} «
@@ -32,6 +34,22 @@
     %fieldset
       %legend
         Сортировка
+      .small-12.columns
+
+        .dorohouse_switch.switch
+          %input#x{:checked => "", :name => "switch-x", :type => "radio"}/
+          %label(ng-click="predicate = 'price'; reverse=!reverse"){:for => "x", :onclick => "predicate = 'price'; reverse=!reverse"} Цена по возрастанию
+          %input#x1{:name => "switch-x", :type => "radio"}/
+          %label{:for => "x1", :onclick => ""} Цена по убыванию
+          %span
+      .small-12.columns
+
+        .dorohouse_switch
+          %input#x{:checked => "", :name => "switch-y", :type => "radio"}/
+          %label(ng-click="predicate = 'price'; reverse=!reverse"){:for => "y", :onclick => "predicate = 'price'; reverse=!reverse"} Площадь по возрастанию
+          %input#x1{:name => "switch-y", :type => "radio"}/
+          %label{:for => "y1", :onclick => ""} Площадь по убыванию
+          %span
       .small-6.columns
         %a.small.tiny.button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
       .small-6.columns
@@ -61,8 +79,8 @@
     %ul.large-block-grid-4
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
         %p
-          %img.th.radius(ng-src="{{advert.image.medium.url}}")
-
+          %a{href: '/adverts/{{advert.id}}'}
+            %img.th.radius(ng-src="{{advert.image.medium.url}}")
           %a{href: '/adverts/{{advert.id}}'}
             %table{:style=>"width: 100%"}
               %tbody
@@ -84,8 +102,7 @@
   .row.hide-for-medium.hide-for-large
     %ul.small-block-grid-2(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
       %li
-        %p
-          %img.th.radius(ng-src="{{advert.image.small.url}}")
+        %img.th.radius(ng-src="{{advert.image.small.url}}")
       %li
         %ul.vcard
           %li.fn Gaius Baltar

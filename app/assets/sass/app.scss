@@ -9,7 +9,8 @@
 
 
 // my mixins
-$doc-font-size: 16;
+//http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+$doc-font-size: 15;
 $doc-line-height: 24;
 @mixin mq($point, $IE9: false, $query1: min, $query2: width) {
   @if $IE9 == true{
@@ -122,7 +123,39 @@ $portrait: "only screen and (orientation: portrait)";
 
 }
 
+input{
+  //@extend input;
+  display: none;
+}
 
+.sort_button {
+  $padding: $button-tny;
+  $full-width: false;
+  $is-input: false;
+  $bg: #3FC01C;
+  $radius: false;
+  $disabled: false;
+  @include button-base;
+  @include button-size($padding, $full-width, $is-input);
+  //@include button-style($bg, $radius, $disabled);
+}
+
+
+.dorohouse_switch {
+  //$font-size: 0.6em;
+  //$switch-font-size-tny: 5px;
+  $transition-speed: $switch-paddle-transition-speed;
+  $transition-ease: $switch-paddle-transition-ease;
+  $height: $switch-height-med;
+  $font-size: 10px;
+  $line-height: 1.6em;
+  $paddle-bg: $switch-paddle-bg;
+  $positive-color: $switch-positive-color;
+  $negative-color: $switch-negative-color;
+  $radius: false;
+  $base-style: true;
+  @include switch($transition-speed, $transition-ease, $height, $font-size, $line-height, $paddle-bg, $positive-color, $negative-color, $radius, $base-style);
+}
 
 
 

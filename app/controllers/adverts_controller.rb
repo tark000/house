@@ -25,31 +25,16 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.regoin_search(params[:region_id]) if params[:region_id].present?
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
-    @stats = Rails.cache.stats.first.last
+    #@adverts = @adverts.page(params[:page]).per(10)
 
-    #if stale?(:last_modified => @adverts.updated_at.utc, :etag => @adverts)
     respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
 
-=begin
-      respond_to do |format|
-        format.html # index.html.erb
-        format.json { render json: @adverts }
-      end
-=end
-    #end
   end
 
-  # GET /adverts/1
-  # GET /adverts/1.json
   def show
     @advert = Advert.find(params[:id])
-    @stats = Rails.cache.stats.first.last
-    #if stale?(:last_modified => @adverts.updated_at.utc, :etag => @adverts)
-      respond_to do |format|
-        format.html # show.html.erb
-        format.json { render json: @advert }
-      end
-    #end
+
+    respond_with @advert
   end
 
   # GET /adverts/new
@@ -68,8 +53,6 @@ class AdvertsController < ApplicationController
     @advert = Advert.find(params[:id])
   end
 
-  # POST /adverts
-  # POST /adverts.json
   def create
     @advert = Advert.new(params[:advert])
     expire_action :action => :index

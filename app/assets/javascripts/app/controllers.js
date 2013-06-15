@@ -1,14 +1,10 @@
-function SearchListCtrl($scope, $http){
+function SearchListCtrl($scope){
     $scope.init = function(data){
         $scope.adverts = data;
         //alert($scope.adverts[1].id);
 
         //$scope.orderUpdate = '-updated_at';
-        $scope.predicate = 'updated_at';
-
-        $scope.getOperation = function (advert) {
-            $scope.opertion = "аренда";
-        };
+        $scope.predicate = 'price';
 
 
 
