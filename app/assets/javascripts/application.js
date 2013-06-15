@@ -13,6 +13,7 @@
 //= require angular
 //= require truncate
 //= require underscore-min
+//= require angular-google-maps
 //= require_tree ./app/
 //= require /app/controllers
 //= require jquery
