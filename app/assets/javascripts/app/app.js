@@ -1,1 +1,1 @@
-var myApp = angular.module('myApp', ['truncate']);
+var myApp = angular.module('myApp', ['truncate', 'google-maps']);

@@ -2,98 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a1a95c-4e73-420d-9c71-d6cef14896f0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_alert-boxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_block-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_button-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_clearing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_flex-video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_inline-lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_joyride.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_keystrokes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_magellan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_orbit.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pricing-tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_progress-bars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_side-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_split-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_sub-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_thumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tooltips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_top-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/adverts-f88be1c3149036a5abb835df1e484ab2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/adverts-f88be1c3149036a5abb835df1e484ab2.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app-bc4128767005b2cc069212e632981633.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app-bc4128767005b2cc069212e632981633.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app/app-6ad87a07698710a7dd0736653c756b8d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app/app-6ad87a07698710a7dd0736653c756b8d.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app/controllers-0f95d057b6319f79b96caa0ad9fd2f98.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app/controllers-0f95d057b6319f79b96caa0ad9fd2f98.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6506f404a397c194dfcf8788daa3ee0e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6506f404a397c194dfcf8788daa3ee0e.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/body-background-ecfaf81337a407ebf42ded6f3e2039d5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.cycle2-9e90ef9966a4a5592879222b0d9f6c38.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.cycle2-9e90ef9966a4a5592879222b0d9f6c38.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.offcanvas-383cb20e429fa600848c517d03f54dbe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.offcanvas-383cb20e429fa600848c517d03f54dbe.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-a3386665c05a2d82f711a4aaa72d247c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.alerts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.interchange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.section.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.tooltips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/custom.modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/zepto.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/modules/truncate.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/truncate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular-google-maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371223651983" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371281735236" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
@@ -136,7 +56,7 @@
     <file path="/_prev_page.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371262130516" ignored="false" />
     <file path="/_paginator.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371262394578" ignored="false" />
     <file path="/_first_page.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371265491842" ignored="false" />
-    <file path="/app.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371263703450" ignored="false" />
+    <file path="/app.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371283874717" ignored="false" />
     <file path="/_search.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371272048599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,15 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_last_page.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/kaminari/_last_page.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="350" selection-end="350" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,19 +86,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.25">
+            <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.13440861">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="angular-google-maps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular-google-maps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="548" column="5" selection-start="18470" selection-end="18470" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="1" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!block;n#SearchListCtrl#0" expanded="false" />
+                <element signature="n#!!block;n#PhoneListCtrl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="82" selection-start="1512" selection-end="1512" vertical-scroll-proportion="-21.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="4" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.88235295">
+            <state line="139" column="4" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,7 +146,7 @@
       <file leaf-file-name="_search.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="306" selection-end="306" vertical-scroll-proportion="-5.0">
+            <state line="8" column="42" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,7 +155,7 @@
       <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="17" selection-start="8629" selection-end="8631" vertical-scroll-proportion="39.515152">
+            <state line="321" column="17" selection-start="8629" selection-end="8631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,9 +165,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -240,22 +188,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/kaminari/_next_page.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.haml" />
         <option value="$PROJECT_DIR$/app/views/kaminari/_last_page.html.haml" />
         <option value="$PROJECT_DIR$/app/views/kaminari/_paginator.html.haml" />
         <option value="$PROJECT_DIR$/app/views/kaminari/_gap.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/pagination.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/pagination.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
         <option value="$PROJECT_DIR$/app/views/kaminari/_page.html.haml" />
         <option value="$PROJECT_DIR$/app/views/kaminari/_first_page.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
         <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular-google-maps.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -291,7 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -697,18 +644,19 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.SASS/SCSS" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.SASS/SCSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AngularRails" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -722,7 +670,7 @@
       <recent name="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/angular" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: house">
+  <component name="RunManager" selected="Rails.Production: house">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -975,7 +923,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2986322" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848025" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1052,83 +1000,43 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/kaminari/_prev_page.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="359" selection-end="359" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_last_page.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="350" selection-end="350" vertical-scroll-proportion="-5.0">
+        <state line="8" column="41" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_paginator.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="580" selection-end="580" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
+        <state line="15" column="19" selection-start="580" selection-end="580" vertical-scroll-proportion="-9.375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_next_page.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="351" selection-end="351" vertical-scroll-proportion="0.22140221">
-          <folding />
-        </state>
+        <state line="8" column="41" selection-start="351" selection-end="351" vertical-scroll-proportion="0.22140221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_first_page.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="351" selection-end="354" vertical-scroll-proportion="0.21164021">
-          <folding />
-        </state>
+        <state line="8" column="43" selection-start="351" selection-end="354" vertical-scroll-proportion="0.21164021" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_gap.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18518518">
-          <folding />
-        </state>
+        <state line="7" column="22" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18518518" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/kaminari/_page.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="347" selection-end="439" vertical-scroll-proportion="0.21164021">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="347" selection-end="439" vertical-scroll-proportion="0.21164021" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
@@ -1140,28 +1048,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="17" selection-start="8629" selection-end="8631" vertical-scroll-proportion="39.515152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.25">
+        <state line="321" column="17" selection-start="8629" selection-end="8631" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="306" selection-end="306" vertical-scroll-proportion="-5.0">
+        <state line="8" column="42" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="4" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.88235295">
+        <state line="139" column="4" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular-google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="548" column="5" selection-start="18470" selection-end="18470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="1" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!block;n#SearchListCtrl#0" expanded="false" />
+            <element signature="n#!!block;n#PhoneListCtrl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="82" selection-start="1512" selection-end="1512" vertical-scroll-proportion="-21.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.13440861">
           <folding />
         </state>
       </provider>
