@@ -1,0 +1,85 @@
+%div.row(ng-controller="AdvertDetailController")
+  %div.large-12.columns
+    %p
+      %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
+
+    %ul.large-block-grid-4.small-block-grid-2
+      %li(ng-repeat="image in images | filter:query" )
+        %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+
+  %div.large-12.columns
+    .section-container.auto{"data-section" => ""}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel1"} Описание
+        .content{"data-section-content" => ""}
+
+          %ul.small-block-grid-2.large-block-grid-4
+            %li Цена
+            %li
+              = @advert.price.to_i
+            %li Площадь
+            %li
+              = @advert.area.to_i
+            %li Регион
+            %li
+              = @advert.region.title
+
+            -unless @advert.city.nil?
+              %li Город
+              %li
+                = @advert.city.title
+            end
+
+            -unless @advert.district.nil?
+              %li Район
+              %li
+                = @advert.district.title
+            end
+
+            %li Улица
+            %li
+              = @advert.street.title
+            %li Дом
+            %li
+              =@advert.house
+            %li Этаж
+            %li
+              = @advert.floor.to_i
+            %li Количество комнат
+            %li
+              = @advert.room_number
+            %li Категория
+            %li
+              = @advert.category.title
+          %p
+            =@advert.description
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel3"} Планировка
+        .content{"data-section-content" => ""}
+          %ul.large-block-grid-4.small-block-grid-2
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan1"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan2"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan3"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan4"}/
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel4"} Видео
+        .content{"data-section-content" => ""}
+          video
+
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel5"} Карта
+        .content{"data-section-content" => ""}
+          %p Content of section 2.
+
+
+= link_to 'Edit', edit_advert_path(@advert)
+|
+\#{link_to 'Back', adverts_path}

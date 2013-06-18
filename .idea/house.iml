@@ -85,6 +85,7 @@
     <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.7, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="wkhtmltopdf-binary (v0.9.9.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zurb-foundation (v4.2.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

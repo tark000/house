@@ -26,7 +26,7 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
-    @adverts = @adverts.paginate(:page => params[:page], :per_page => 10)
+    @adverts = @adverts.paginate(:page => params[:page], :per_page => 2)
 
     respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
 
@@ -35,8 +35,13 @@ class AdvertsController < ApplicationController
   def show
     @advert = Advert.find(params[:id])
 
-    respond_with @advert
+    respond_to do |format|
+      format.html
+      format.json
+      format.pdf
+    end
   end
+
 
   # GET /adverts/new
   # GET /adverts/new.json

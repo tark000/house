@@ -12,7 +12,10 @@ gem 'carrierwave'
 gem "haml-rails"
 gem 'rabl'
 gem 'uuid'
-gem "pdfkit"
+
+gem 'pdfkit'
+gem 'wkhtmltopdf-binary'
+
 gem 'will_paginate'
 gem 'geocoder'
 

@@ -1,6 +1,0 @@
-@import url(offcanvas.css);
-@import url(app.css);
-/* line 4, ../../app/assets/stylesheets/application.scss */
-body {
-  background: url(body-background.png) repeat scroll 0% 0% transparent;
-}
