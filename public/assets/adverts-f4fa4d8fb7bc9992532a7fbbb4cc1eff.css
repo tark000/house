@@ -1,0 +1,100 @@
+/* line 3, ../../app/assets/stylesheets/adverts.css.scss */
+.info_bloc {
+  margin: 10px 0 0 0;
+}
+
+/* line 7, ../../app/assets/stylesheets/adverts.css.scss */
+.title {
+  color: #4bab1f;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+/* line 11, ../../app/assets/stylesheets/adverts.css.scss */
+.info_img {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 15, ../../app/assets/stylesheets/adverts.css.scss */
+.info_description {
+  float: right;
+  margin: 10px 10px 10px 0;
+  width: 70%;
+  font-family: arial, helvetica;
+  font-size: small;
+}
+
+/* line 19, ../../app/assets/stylesheets/adverts.css.scss */
+.info_link {
+  float: right;
+  margin-right: 276px;
+}
+
+/* line 23, ../../app/assets/stylesheets/adverts.css.scss */
+.paginate {
+  text-align: center;
+}
+
+/* line 27, ../../app/assets/stylesheets/adverts.css.scss */
+.line {
+  border-bottom: 1px solid #cccccc;
+  margin: 10px 10px 10px 10px;
+}
+
+/* line 31, ../../app/assets/stylesheets/adverts.css.scss */
+.current {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* line 49, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-widget {
+  border: 1px solid #007c6d;
+}
+
+/* line 54, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-menu {
+  display: block;
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 2px;
+}
+
+/* line 62, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-autocomplete {
+  cursor: default;
+  position: absolute;
+}
+
+/* line 68, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-menu .ui-menu-item a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+/* line 77, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-widget-content a {
+  color: #007c6d;
+}
+
+/* line 81, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* line 84, ../../app/assets/stylesheets/adverts.css.scss */
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+  background-position: -454px -679px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-bottom-color: #dfe3e2;
+  color: #6c6c6c;
+  text-decoration: none;
+}

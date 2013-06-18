@@ -90,3 +90,4 @@ function IndexController ($scope, $timeout, $log,$location, $http, Advert) {
 
 }
 
+;

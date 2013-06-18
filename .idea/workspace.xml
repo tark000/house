@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a1a95c-4e73-420d-9c71-d6cef14896f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_first_page.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_gap.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_page.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_paginator.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,13 +21,13 @@
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
-    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371515222834" ignored="false" />
+    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371521717625" ignored="false" />
     <file path="/Gemfile" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371514720881" ignored="false" />
     <file path="/development.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371114872978" ignored="false" />
     <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371514888246" ignored="false" />
     <file path="/application.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371490111629" ignored="false" />
     <file path="/_cache_stat.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371042958547" ignored="false" />
-    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371231025959" ignored="false" />
+    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371521969037" ignored="false" />
     <file path="/application.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371138935268" ignored="false" />
     <file path="/image.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371225665345" ignored="false" />
     <file path="/show.json.rabl" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371513277732" ignored="false" />
@@ -73,7 +50,7 @@
     <file path="/_prev_page.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371262130516" ignored="false" />
     <file path="/_paginator.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371262394578" ignored="false" />
     <file path="/_first_page.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371265491842" ignored="false" />
-    <file path="/app.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371514179593" ignored="false" />
+    <file path="/app.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371519957544" ignored="false" />
     <file path="/_search.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371272048599" ignored="false" />
     <file path="/tasks-controller.js.coffee" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371480346225" ignored="false" />
     <file path="/index.html.erb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371511543514" ignored="false" />
@@ -100,16 +77,16 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.5">
+            <state line="55" column="237" selection-start="2178" selection-end="2178" vertical-scroll-proportion="-18.791666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adverts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="72" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.60504204">
+            <state line="28" column="72" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,16 +95,16 @@
       <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="-4.375">
+            <state line="74" column="0" selection-start="2249" selection-end="2249" vertical-scroll-proportion="-15.666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="8" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
+            <state line="86" column="24" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.8067227">
               <folding />
             </state>
           </provider>
@@ -198,11 +175,11 @@
         <option value="$PROJECT_DIR$/app/views/adverts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
       </list>
     </option>
   </component>
@@ -884,20 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
@@ -905,16 +868,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.5">
+        <state line="28" column="72" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="72" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.60504204">
+        <state line="55" column="237" selection-start="2178" selection-end="2178" vertical-scroll-proportion="-18.791666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2249" selection-end="2249" vertical-scroll-proportion="-15.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="24" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.8067227">
           <folding />
         </state>
       </provider>
