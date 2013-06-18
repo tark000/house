@@ -6386,11 +6386,10 @@ $large-screen: 1440px;
   float: left;
 }
 
-/* line 126, ../sass/app.scss */
-input {
+/*input{
+  //@extend input;
   display: none;
-}
-
+}*/
 /* line 131, ../sass/app.scss */
 .sort_button {
   border-style: solid;

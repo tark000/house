@@ -10,15 +10,14 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require angular
-//= require truncate
-//= require underscore-min
-//= require_tree ./app/
-//= require /app/controllers
 //= require jquery
 //= require jquery_ujs
+//= require angular
+//= require angular/angular-google-maps
+//= require adverts
+//= require ./app/app
 //= require foundation
-//= require_tree .
+
 
 
 $(document).foundation();

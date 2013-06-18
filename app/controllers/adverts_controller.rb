@@ -26,6 +26,7 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
+    @adverts = @adverts.paginate(:page => params[:page], :per_page => 10)
 
     respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
 

@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="geocoder (v1.1.8, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml-rails (v0.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -49,7 +50,6 @@
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.14.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.6.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="meta_request (v0.2.6, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -84,6 +84,7 @@
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.7, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zurb-foundation (v4.2.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

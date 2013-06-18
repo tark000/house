@@ -13,7 +13,8 @@ gem "haml-rails"
 gem 'rabl'
 gem 'uuid'
 gem "pdfkit"
-gem "kaminari"
+gem 'will_paginate'
+gem 'geocoder'
 
 # Gems used only for assets and not required
 # in production environments by default.
