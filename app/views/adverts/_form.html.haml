@@ -31,13 +31,11 @@
     %br/
     = f.collection_select :estate_type_id, EstateType.order(:title), :id, :title, include_blank: true
   .field
-    = f.label :region_id
-    %br/
-    = f.collection_select :region_id, Region.order(:title), :id, :title, include_blank: true
+
   .field
     = f.label :city_id
     %br/
-    = f.grouped_collection_select :city_id, Region.order(:title), :cities, :title, :id, :title, include_blank: true
+    = f.collection_select :city_id, City.order(:title), :id, :title,  include_blank: true
   .field
     = f.label :district_id
     %br/

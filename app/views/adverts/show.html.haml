@@ -1,11 +1,12 @@
-%div.row(ng-controller="AdvertDetailController")
-  %div.large-12.columns
-    %p
-      %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
-
-    %ul.large-block-grid-4.small-block-grid-2
-      %li(ng-repeat="image in images | filter:query" )
-        %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+.row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
+  .large-12.columns
+    %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
+    .row
+      .large-12.columns
+        %ul.large-block-grid-12.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
+                                                  curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
+          %li.listitem(ng-repeat="image in advert.images | filter:query" )
+            %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
 
   %div.large-12.columns
     .section-container.auto{"data-section" => ""}
@@ -21,9 +22,12 @@
             %li Площадь
             %li
               = @advert.area.to_i
-            %li Регион
-            %li
-              = @advert.region.title
+
+            -unless @advert.region.nil?
+              %li Регион
+              %li
+                = @advert.region.title
+            end
 
             -unless @advert.city.nil?
               %li Город
@@ -78,6 +82,11 @@
           %a{:href => "#panel5"} Карта
         .content{"data-section-content" => ""}
           %p Content of section 2.
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel6"} Написать владельцу
+        .content{"data-section-content" => ""}
+          = render 'contact_us/form'
 
 
 = link_to 'Edit', edit_advert_path(@advert)

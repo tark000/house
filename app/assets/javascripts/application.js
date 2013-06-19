@@ -14,9 +14,15 @@
 //= require jquery_ujs
 //= require angular
 //= require angular/angular-google-maps
+//= require angular/angular-mobile
+//= require angular/scrollable
 //= require adverts
 //= require ./app/app
+//= require jquery.cycle2
+//= require jquery.offcanvas
 //= require foundation
+//= require_self
+
 
 
 

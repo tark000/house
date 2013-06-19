@@ -13,8 +13,11 @@ gem "haml-rails"
 gem 'rabl'
 gem 'uuid'
 
-gem 'pdfkit'
-gem 'wkhtmltopdf-binary'
+#gem 'wicked_pdf', :git => 'git://github.com/zurb/wicked_pdf.git'
+#gem 'pdfkit'
+#gem 'wkhtmltopdf-binary'
+gem 'prawn'
+gem 'pdf-reader'
 
 gem 'will_paginate'
 gem 'geocoder'

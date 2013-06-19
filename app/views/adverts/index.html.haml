@@ -1,47 +1,35 @@
-.large-12.columns(ng-controller="IndexController")
-  .section-container.auto{"data-section" => ""}
-    %section
-      %p.title{"data-section-title" => ""}
-        %a{:href => "#panel1"}= @category.present? ?  @category.title : "Показать списоком"
-      .content{"data-section-content" => ""}
-        .large-11.columns
-          %fieldset
-            %legend
-              %small Сортировка
-            .large-2.columns
-              %a.small.tiny.sort_button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
-            .large-2.columns
-              %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
-            .large-7.columns.pagination-centered
+%body(ng-controller="IndexController")
+.row
+  .large-12.columns
+    %fieldset
+      %legend
+        %small Сортировка
+      .large-2.columns
+        %a.small.tiny.sort_button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
+      .large-2.columns
+        %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
+      .large-8.columns.pagination-centered
 
-            = will_paginate @adverts, :class =>'digg_pagination'
-        %ul.large-block-grid-4
-          %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
-            %p
-              %a{href: '/adverts/{{advert.id}}'}
-                %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
-              %table{:style=>"width: 100%"}
-                %tbody
-                  %tr
-                    %td
-                      {{advert.operation_type.title}}:
-                    %td
-                      {{advert.category.title}}
-                  %tr
-                    %td
-                      Цена:
-                    %td
-                      {{advert.price | currency}}
-                  %tr
-                    %td
-                      Площадь:
-                    %td
-                      {{advert.area}}
-
-
-    %section
-      %p.title{"data-section-title" => ""}
-        %a{:href => "#panel2"} Показать на карте
-      .content{"data-section-content" => ""}
-        .google-map{:center => "position.coords", :draggable => "true", :events => "eventsProperty", :fit => "false", :markers => "markersProperty", :options => "{\"streetViewControl\": true, \"mapTypeControl\":true, \"zoomControl\":true}", :style => "height: 400px; width: 100%", :zoom => "zoomProperty"}
-
+      = will_paginate @adverts, :class =>'digg_pagination'
+%ul.large-block-grid-4
+  %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+    %p
+      %a{href: '/adverts/{{advert.id}}'}
+        %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+      %table{:style=>"width: 100%"}
+        %tbody
+          %tr
+            %td
+              {{advert.operation_type.title}}:
+            %td
+              {{advert.category.title}}
+          %tr
+            %td
+              Цена:
+            %td
+              {{advert.price | currency}}
+          %tr
+            %td
+              Площадь:
+            %td
+              {{advert.area}}

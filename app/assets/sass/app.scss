@@ -10,6 +10,8 @@
 
 // my mixins
 //http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+
+
 $doc-font-size: 15;
 $doc-line-height: 24;
 @mixin mq($point, $IE9: false, $query1: min, $query2: width) {
@@ -29,7 +31,15 @@ $doc-line-height: 24;
   }
 }
 
+#mycontainer {
+/*  $per-row: false;
+  $spacing: $block-grid-default-spacing;
+  $base-style: true;
+  @include block-grid($per-row, $spacing, $base-style);*/
+  //height: emCalc(100px);
+  //width:100%;
 
+}
 
 
 // Media Queries
@@ -39,17 +49,20 @@ $small-screen: 768px;
 $medium-screen: 1280px;
 $large-screen: 1440px;
 */
-
+//$smallest-screen: emCalc(360px);
 $small-screen: emCalc(768px);
 $medium-screen: emCalc(1280px);
 $large-screen: emCalc(1440px);
 
-$small-screen: 770px;
+/*
+$small-screen: 768px;
 $medium-screen: 1280px;
 $large-screen: 1440px;
+*/
 
 
 $screen: "only screen";
+//$smallest: "only screen and (min-width:"#{$smallest-screen}")";
 $small: "only screen and (min-width:"#{$small-screen}")";
 $medium: "only screen and (min-width:"#{$medium-screen}")";
 $large: "only screen and (min-width:"#{$large-screen}")";
@@ -63,16 +76,21 @@ $portrait: "only screen and (orientation: portrait)";
 
 @media #{$small} {
 
-/*  body,html,p,table {
-    font-size:0.8em;
+  body, p,table {
+    font-size:0.85em;
     //font-size:font-size(5);
-  }*/
+  }
 }
 
 @media #{$medium} {
-  //$base-font-size: 100% !default;
 
+  body, p,table {
+    font-size:1em;
+    //font-size:font-size(5);
+  }
 }
+
+
 
 /*
 .example {
@@ -85,10 +103,13 @@ $portrait: "only screen and (orientation: portrait)";
 
 .small-block {
   @extend .hide-for-large;
-  @extend .hide-for-medium;
-  @extend .show-for-small;
+
 }
 
+.large-block {
+
+  @extend .hide-for-small;
+}
 
 .dorohouse_button {
   $bg : #3FC01C;
@@ -108,20 +129,7 @@ $portrait: "only screen and (orientation: portrait)";
 }
 
 
-@mixin my_panel {
-  $panel-bg: darken(rgba(226, 204, 248, 0.6), 5%);
-  @include panel($panel-bg);
 
-}
-
-.main_row {
-
-  @include grid-row;   @include fieldset;
-
-  & > hgroup { @include grid-column(4); }
-  & > section { @include grid-column(8); }
-
-}
 
 /*input{
   //@extend input;
@@ -141,21 +149,6 @@ $portrait: "only screen and (orientation: portrait)";
 }
 
 
-.dorohouse_switch {
-  //$font-size: 0.6em;
-  //$switch-font-size-tny: 5px;
-  $transition-speed: $switch-paddle-transition-speed;
-  $transition-ease: $switch-paddle-transition-ease;
-  $height: $switch-height-med;
-  $font-size: 10px;
-  $line-height: 1.6em;
-  $paddle-bg: $switch-paddle-bg;
-  $positive-color: $switch-positive-color;
-  $negative-color: $switch-negative-color;
-  $radius: false;
-  $base-style: true;
-  @include switch($transition-speed, $transition-ease, $height, $font-size, $line-height, $paddle-bg, $positive-color, $negative-color, $radius, $base-style);
-}
 
 
 

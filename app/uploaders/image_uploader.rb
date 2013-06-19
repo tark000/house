@@ -34,7 +34,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   version :big do
-    process :resize_to_fill => [800,600]
+    process :resize_to_fill => [1280,720]
     process :convert => 'png'
     process :watermark
   end

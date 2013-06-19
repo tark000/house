@@ -15,6 +15,8 @@ House::Application.routes.draw do
 
   resources :adverts
 
+  get "contact_us/new"
+  post "contact_us/send_email", :as => "send_email"
 
 
 end

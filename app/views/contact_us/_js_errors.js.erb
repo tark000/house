@@ -1,0 +1,4 @@
+<% target.errors.full_messages.each do |error| %>
+
+$('.error').append('<p><%= escape_javascript( error ) %></p>');
+<% end %>
