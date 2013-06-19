@@ -2,55 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a1a95c-4e73-420d-9c71-d6cef14896f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact_us/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact_us/_js_errors.js.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pdfs/advert_pdf.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/angular-carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/contact_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/contact_us_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact_us/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact_us/new.js.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/prawn.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/scrollable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact_us/send_email.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adverts/pdf/header.pdf.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/adverts/show.pdf.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/pdfkit.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/2/big_jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/2/jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/2/small_jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/3/9666.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/3/big_9666.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/layout/3/small_9666.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371605962927" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371617587170" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
@@ -69,7 +25,7 @@
     <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371599548307" ignored="false" />
     <file path="/application.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371588209568" ignored="false" />
     <file path="/_cache_stat.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371042958547" ignored="false" />
-    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371617127641" ignored="false" />
+    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371617615480" ignored="false" />
     <file path="/application.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371612878787" ignored="false" />
     <file path="/image.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371225665345" ignored="false" />
     <file path="/show.json.rabl" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371579311664" ignored="false" />
@@ -171,7 +127,7 @@
       <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="244" selection-end="749" vertical-scroll-proportion="0.24193548">
+            <state line="10" column="0" selection-start="257" selection-end="768" vertical-scroll-proportion="0.26881722">
               <folding />
             </state>
           </provider>
@@ -199,9 +155,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="219" column="52" selection-start="11694" selection-end="11694" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -293,8 +247,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -667,18 +619,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AngularRails" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -965,7 +919,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31990883" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32522798" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1046,9 +1000,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/send_email.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="55" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contact_us_controller.rb">
@@ -1060,30 +1012,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="28" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/_js_errors.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/new.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js">
@@ -1110,9 +1054,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="219" column="52" selection-start="11694" selection-end="11694" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +1095,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="244" selection-end="749" vertical-scroll-proportion="0.24193548">
+        <state line="10" column="0" selection-start="257" selection-end="768" vertical-scroll-proportion="0.26881722">
           <folding />
         </state>
       </provider>
