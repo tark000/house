@@ -1,71 +1,59 @@
-%div.row
+%div.row(ng-controller="AdvertDetailController")
   %div.large-12.columns
-    = image_tag @advert.image_url(:big) if @advert.image?
-%div.row
-  %div.large-12.columns
-    %hr
-%div.row
-  %div.large-12.columns
-    %ul.large-block-grid-4.small-block-grid-2
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto1"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto2"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto3"}/
-      %li
-        %img{:src => "http://placehold.it/190x130&text=foto4"}/
+    %p
+      %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
 
-  %div.small-block-grid-2.large-12.columns
+    %ul.large-block-grid-4.small-block-grid-2
+      %li(ng-repeat="image in images | filter:query" )
+        %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+
+  %div.large-12.columns
     .section-container.auto{"data-section" => ""}
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel1"} Описание
         .content{"data-section-content" => ""}
-          %table{:style=>"width: 100%"}
-            %thead
-              %th{:style=>"width: 25%"}
-              %th{:style=>"width: 25%"}
-              %th{:style=>"width: 25%"}
-              %th{:style=>"width: 25%"}
-            %tbody
-              %tr
-                %td Цена
-                %td
-                  = @advert.price.to_i
-                %td Площадь
-                %td
-                  = @advert.area.to_i
-              %tr
-                %td Регион
-                %td
-                  = @advert.region.title
-                %td Город
-                %td
-                  = @advert.city.title
-              %tr
-                %td Район
-                %td
-                  -unless @advert.district.blank?
-                    = @advert.district.title
-                %td Улица
-                %td
-                  = @advert.street.title
-              %tr
-                %td Дом
-                %td
-                  = @advert.house
-                %td Этаж
-                %td
-                  = @advert.floor.to_i
-              %tr
-                %td Количество комнат
-                %td
-                  = @advert.room_number
-                %td Категория
-                %td
-                  = @advert.category.title
 
+          %ul.small-block-grid-2.large-block-grid-4
+            %li Цена
+            %li
+              = @advert.price.to_i
+            %li Площадь
+            %li
+              = @advert.area.to_i
+            %li Регион
+            %li
+              = @advert.region.title
+
+            -unless @advert.city.nil?
+              %li Город
+              %li
+                = @advert.city.title
+            end
+
+            -unless @advert.district.nil?
+              %li Район
+              %li
+                = @advert.district.title
+            end
+
+            %li Улица
+            %li
+              = @advert.street.title
+            %li Дом
+            %li
+              =@advert.house
+            %li Этаж
+            %li
+              = @advert.floor.to_i
+            %li Количество комнат
+            %li
+              = @advert.room_number
+            %li Категория
+            %li
+              = @advert.category.title
+          %p
+            =@advert.description
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel3"} Планировка

@@ -8,9 +8,13 @@ gem 'rails', '3.2.13'
 gem 'mysql2'
 gem 'devise'
 gem "rmagick"
-gem "carrierwave"
+gem 'carrierwave'
 gem "haml-rails"
-
+gem 'rabl'
+gem 'uuid'
+gem "pdfkit"
+gem 'will_paginate'
+gem 'geocoder'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,6 +39,7 @@ group :test, :development do #в группу для разработки и т�
   gem 'pry'
 end
 
+gem 'dalli'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

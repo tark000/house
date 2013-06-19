@@ -21,46 +21,59 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
 
-
-
-
   version :small do
-    process :resize_to_limit => [140, 110]
+    process :resize_to_fill => [190, 130]
+    process :convert => 'png'
+    process :watermark
+  end
+
+  version :medium do
+    process :resize_to_fill => [250, 170]
+    process :convert => 'png'
+    process :watermark
   end
 
   version :big do
-    process :resize_to_limit => [740,1000]
+    process :resize_to_fill => [800,600]
+    process :convert => 'png'
+    process :watermark
   end
-  # Provide a default URL as a default if there hasn't been a file uploaded:
-  # def default_url
-  #   # For Rails 3.1+ asset pipeline compatibility:
-  #   # asset_path("fallback/" + [version_name, "default.png"].compact.join('_'))
-  #
-  #   "/images/fallback/" + [version_name, "default.png"].compact.join('_')
-  # end
 
-  # Process files as they are uploaded:
-  # process :scale => [200, 300]
-  #
-  # def scale(width, height)
-  #   # do something
-  # end
 
-  # Create different versions of your uploaded files:
-  # version :thumb do
-  #   process :scale => [50, 50]
-  # end
+  def filename
+    if original_filename
+      if model && model.read_attribute(mounted_as).present?
+        model.read_attribute(mounted_as)
+      else
+        @name ||= "#{mounted_as}-#{uuid}.#{file.extension}"
+      end
+    end
+  end
 
-  # Add a white list of extensions which are allowed to be uploaded.
-  # For images you might use something like this:
-  # def extension_white_list
-  #   %w(jpg jpeg gif png)
-  # end
+  def uuid
+    UUID.state_file = false
+    uuid = UUID.new
+    uuid.generate
 
-  # Override the filename of the uploaded files:
-  # Avoid using model.id or version_name here, see uploader/store.rb for details.
-  # def filename
-  #   "something.jpg" if original_filename
-  # end
+  end
+
+  def watermark
+    manipulate! do |img|
+      #image = Magick::Image.read(img)
+      #logo = Magick::Image.read("#{Rails.root}/app/assets/images/watermark.png").first
+      mark = Magick::Image.new(img.columns, img.rows)
+      gc = Magick::Draw.new
+      gc.gravity = Magick::CenterGravity
+      gc.pointsize = 32
+      gc.font_family = "Helvetica"
+      gc.font_weight = Magick::BoldWeight
+      gc.stroke = 'none'
+      gc.annotate(mark, 0, 0, 0, 0, "Dorohouse")
+
+      mark = mark.shade(true, 310, 30)
+
+      img = img.composite(mark, Magick::CenterGravity, Magick::HardLightCompositeOp)
+    end
+  end
 
 end

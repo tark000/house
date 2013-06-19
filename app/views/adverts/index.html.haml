@@ -1,26 +1,103 @@
-%row.large-12.columns
+%row.large-12.columns(ng-controller="IndexController")
+  .row.hide-for-small
+    %fieldset
+      %legend
+        Сортировка
+      .large-1.columns
 
-  .large-12.columns
+        %a.small.tiny.sort_button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
+      .large-1.columns
+        %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
+      .large-10.columns.pagination-centered
 
-  .content{"data-slug" => "panel1"}
-
-  - @adverts.each do |advert|
-    .row
-      .large-12.columns
-        .small-12.large-3.columns
-          = image_tag advert.image_url(:small), :class=>"th radius" if advert.image?
-        .small-12.large-9.columns
-          = advert.updated_at.strftime("%y-%m-%d")
-          \/ #{link_to advert.category.title, adverts_path(:category => advert.category.id)}
-          .large-12.columns.hide-for-small
-            = truncate(advert.description, :length => 135)
-          .large-12.columns.hide-for-small= link_to "подробнее", advert
-        .small-12.columns.hide-for-large.hide-for-medium
-          = truncate(advert.description, :length => 50)
-        .small-12.columns.hide-for-large.hide-for-medium= link_to "подробнее", advert
+        = will_paginate @adverts, :class =>'digg_pagination'
 
 
+  .row.small-block
+    %fieldset
+      %legend
+        Сортировка
+      .small-12.columns
 
-    .large-12.columns.title.line
-  %div= link_to 'New Post', new_advert_path if current_user
+        .dorohouse_switch.switch
+          %input#x{:checked => "", :name => "switch-x", :type => "radio"}/
+          %label(ng-click="predicate = 'price'; reverse=!reverse"){:for => "x", :onclick => "predicate = 'price'; reverse=!reverse"} Цена по возрастанию
+          %input#x1{:name => "switch-x", :type => "radio"}/
+          %label{:for => "x1", :onclick => ""} Цена по убыванию
+          %span
+      .small-12.columns
+
+        .dorohouse_switch
+          %input#x{:checked => "", :name => "switch-y", :type => "radio"}/
+          %label(ng-click="predicate = 'price'; reverse=!reverse"){:for => "y", :onclick => "predicate = 'price'; reverse=!reverse"} Площадь по возрастанию
+          %input#x1{:name => "switch-y", :type => "radio"}/
+          %label{:for => "y1", :onclick => ""} Площадь по убыванию
+          %span
+      .small-6.columns
+        %a.small.tiny.button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
+      .small-6.columns
+        %a.small.tiny.button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
+      .small-12.columns
+        %ul.pagination
+          %li.arrow.unavailable
+            %a{:href => ""} «
+          %li.current
+            %a{:href => ""} 1
+          %li
+            %a{:href => ""} 2
+          %li.unavailable
+            %a{:href => ""} …
+          %li
+            %a{:href => ""} 12
+          %li
+            %a{:href => ""} 13
+          %li.arrow
+            %a{:href => ""} »
+
+  .row
+    .large-12.columns
+      %h5.subheader
+        =  @category.title if @category.present?
+  .row.hide-for-small
+    %ul.large-block-grid-4
+      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+        %p
+          %a{href: '/adverts/{{advert.id}}'}
+            %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+          %a{href: '/adverts/{{advert.id}}'}
+            %table{:style=>"width: 100%"}
+              %tbody
+                %tr
+                  %td
+                    {{advert.operation_type.title}}:
+                  %td
+                    {{advert.category.title}}
+                %tr
+                  %td
+                    Цена:
+                  %td
+                    {{advert.price | currency}}
+                %tr
+                  %td
+                    Площадь:
+                  %td
+                    {{advert.area}}
+
+
+  .row.hide-for-medium.hide-for-large
+    %ul.small-block-grid-2(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+      %li
+        %img.th.radius(ng-src="{{advert.image.small.url}}")
+      %li
+        %ul.vcard
+          %li.fn Gaius Baltar
+          %li.street-address 123 Colonial Ave.
+          %li.locality Caprica City
+          %li
+            %span.state> Caprica
+            ,
+            %span.zip 12345
+          %li.email
+            %a{:href => "#"} g.baltar@cmail.com
+
 

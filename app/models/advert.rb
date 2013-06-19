@@ -1,7 +1,18 @@
 class Advert < ActiveRecord::Base
   attr_accessible :all_price, :area, :category_id, :city_id, :description, :district_id, :estate_type_id, :floor,
                   :house, :image, :layout, :living, :operation_type_id, :price, :region_id, :room_number, :state,
-                  :street_id, :title, :video, :remote_image_url, :remote_layout_url, :advert_images_attributes, :layouts_attributes
+                  :street_id, :title, :video, :remote_image_url, :remote_layout_url, :advert_images_attributes,
+                  :layouts_attributes, :address, :latitude, :longitude
+  attr_accessor   :address
+
+  geocoded_by :address
+  after_validation :geocode
+
+  def address
+    [self.house, self.street, self.city, "UA"].compact.join(', ')
+  end
+
+
   mount_uploader :image, ImageUploader
   mount_uploader :layout, ImageUploader
 
@@ -34,5 +45,9 @@ class Advert < ActiveRecord::Base
   scope :city_search, lambda{|b| where(:city_id => b)}
 
   scope :search_by_type,lambda{|b| where(:category_id => b)}
+
+  def self.all_cached
+    Rails.cache.fetch('Contact.all') { all }
+  end
 
 end

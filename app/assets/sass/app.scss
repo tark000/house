@@ -2,12 +2,93 @@
 @import "settings";
 
 // Comment out this import if you don't want to use normalize
-@import "normalize";
+//@import "normalize";
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+
+// my mixins
+//http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+$doc-font-size: 15;
+$doc-line-height: 24;
+@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
+  @if $IE9 == true{
+    .lt-ie9 & {
+      @content;
+    }
+    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
+      @content;
+    }
+  }
+
+  @else {
+    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
+      @content;
+    }
+  }
+}
+
+
+
+
+// Media Queries
+
+/*
+$small-screen: 768px;
+$medium-screen: 1280px;
+$large-screen: 1440px;
+*/
+
+$small-screen: emCalc(768px);
+$medium-screen: emCalc(1280px);
+$large-screen: emCalc(1440px);
+
+$small-screen: 770px;
+$medium-screen: 1280px;
+$large-screen: 1440px;
+
+
+$screen: "only screen";
+$small: "only screen and (min-width:"#{$small-screen}")";
+$medium: "only screen and (min-width:"#{$medium-screen}")";
+$large: "only screen and (min-width:"#{$large-screen}")";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+
+//$base-font-size: font-size(5);
 //$row-width: 98em;
+
+
+@media #{$small} {
+
+/*  body,html,p,table {
+    font-size:0.8em;
+    //font-size:font-size(5);
+  }*/
+}
+
+@media #{$medium} {
+  //$base-font-size: 100% !default;
+
+}
+
+/*
+.example {
+  @include mq(768, true) {
+    width: 100%;
+  }
+}
+*/
+
+
+.small-block {
+  @extend .hide-for-large;
+  @extend .hide-for-medium;
+  @extend .show-for-small;
+}
+
 
 .dorohouse_button {
   $bg : #3FC01C;
@@ -22,17 +103,9 @@
 }
 
 .dorohouse_a {
-
   @extend a;
   color: #3FC01C;
-
 }
-
-
-a:hover, a:focus {
-  color: rgb(39, 149, 182);
-}
-
 
 
 @mixin my_panel {
@@ -40,12 +113,49 @@ a:hover, a:focus {
   @include panel($panel-bg);
 
 }
+
 .main_row {
 
   @include grid-row;   @include fieldset;
 
   & > hgroup { @include grid-column(4); }
   & > section { @include grid-column(8); }
+
 }
+
+/*input{
+  //@extend input;
+  display: none;
+}*/
+
+.sort_button {
+  $padding: $button-tny;
+  $full-width: false;
+  $is-input: false;
+  $bg: #3FC01C;
+  $radius: false;
+  $disabled: false;
+  @include button-base;
+  @include button-size($padding, $full-width, $is-input);
+  //@include button-style($bg, $radius, $disabled);
+}
+
+
+.dorohouse_switch {
+  //$font-size: 0.6em;
+  //$switch-font-size-tny: 5px;
+  $transition-speed: $switch-paddle-transition-speed;
+  $transition-ease: $switch-paddle-transition-ease;
+  $height: $switch-height-med;
+  $font-size: 10px;
+  $line-height: 1.6em;
+  $paddle-bg: $switch-paddle-bg;
+  $positive-color: $switch-positive-color;
+  $negative-color: $switch-negative-color;
+  $radius: false;
+  $base-style: true;
+  @include switch($transition-speed, $transition-ease, $height, $font-size, $line-height, $paddle-bg, $positive-color, $negative-color, $radius, $base-style);
+}
+
 
 

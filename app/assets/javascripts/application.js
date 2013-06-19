@@ -12,7 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require angular
+//= require angular/angular-google-maps
+//= require adverts
+//= require ./app/app
 //= require foundation
-//= require_tree .
+
+
 
 $(document).foundation();

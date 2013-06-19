@@ -3,6 +3,6 @@
     Поиск недвижимости по ID
   = form_tag adverts_path, :method => 'get' do
     .row
-      .small-4.large-7.columns= text_field_tag :search, params[:search], :placeholder => "Поиск по ID"
-      .small-4.large-5.columns= submit_tag "Search", :id=> nil, :class=>"dorohouse_button small button"
+      .small-12.large-7.columns= text_field_tag :search, params[:search], :placeholder => "Поиск по ID"
+      .small-12.large-5.columns= submit_tag "Search", :id=> nil, :class=>"dorohouse_button small button"
 

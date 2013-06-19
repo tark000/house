@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectResources">
     <default-html-doctype>$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/html5.rnc</default-html-doctype>
   </component>
@@ -22,5 +23,8 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="rbenv: 1.9.3-p392-railsexpress" project-jdk-type="RUBY_SDK" />
+>>>>>>> 506cb424e39bf37d6f323f9546c951fbeb9c106f
 </project>
 
