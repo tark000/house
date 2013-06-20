@@ -11,25 +11,51 @@
       .large-8.columns.pagination-centered
 
       = will_paginate @adverts, :class =>'digg_pagination'
-%ul.large-block-grid-4
-  %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
-    %p
-      %a{href: '/adverts/{{advert.id}}'}
-        %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
-      %table{:style=>"width: 100%"}
-        %tbody
-          %tr
-            %td
-              {{advert.operation_type.title}}:
-            %td
-              {{advert.category.title}}
-          %tr
-            %td
-              Цена:
-            %td
-              {{advert.price | currency}}
-          %tr
-            %td
-              Площадь:
-            %td
-              {{advert.area}}
+  .large-12.columns.hide-for-medium
+    %ul.large-block-grid-4
+      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+        %p
+          %a{href: '/adverts/{{advert.id}}'}
+            %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+          %table{:style=>"width: 100%"}
+            %tbody
+              %tr
+                %td
+                  {{advert.operation_type.title}}:
+                %td
+                  {{advert.category.title}}
+              %tr
+                %td
+                  Цена:
+                %td
+                  {{advert.price | currency}}
+              %tr
+                %td
+                  Площадь:
+                %td
+                  {{advert.area}}
+
+  .large-12.columns.hide-for-large
+    %ul.large-block-grid-3
+      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+        %p
+          %a{href: '/adverts/{{advert.id}}'}
+            %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+          %table{:style=>"width: 100%"}
+            %tbody
+              %tr
+                %td
+                  {{advert.operation_type.title}}:
+                %td
+                  {{advert.category.title}}
+              %tr
+                %td
+                  Цена:
+                %td
+                  {{advert.price | currency}}
+              %tr
+                %td
+                  Площадь:
+                %td
+                  {{advert.area}}
+

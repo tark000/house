@@ -4,7 +4,7 @@
     .row
       .large-12.columns
         %p
-          %ul.large-block-grid-12.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
+          %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
             %li.listitem(ng-repeat="image in advert.images | filter:query" )
               %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
@@ -34,13 +34,13 @@
               %li Город
               %li
                 = @advert.city.title
-            end
+
 
             -unless @advert.district.nil?
               %li Район
               %li
                 = @advert.district.title
-            end
+
 
             %li Улица
             %li

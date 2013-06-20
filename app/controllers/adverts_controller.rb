@@ -2,7 +2,7 @@ class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
   respond_to :json, :html
-  require 'prawn'
+  #require 'prawn'
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
@@ -26,7 +26,7 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
-    @adverts = @adverts.paginate(:page => params[:page], :per_page => 4)
+    @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
 
     respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
 
@@ -40,21 +40,19 @@ class AdvertsController < ApplicationController
     respond_to do |format|
       format.html
       format.json
-      format.pdf do
-        pdf = AdvertPdf.new(@advert, view_context)
-        send_data pdf.render, filename:
-            "#{@advert.title}.pdf",
-                  type: "application/pdf"
-      end
+
+      format.pdf  {
+        html = render_to_string(:layout => "show_pdf.html.haml" , :action => "show_pdf.html.haml", :formats => [:html], :handler => [:haml])
+        kit = PDFKit.new(html)
+        kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.cssy"
+        send_data(kit.to_pdf, :filename => "#{clean_string(@event.title)}", :type => 'application/pdf')
+        return # to avoid double render call
+      }
+
 
     end
   end
 
-  def generate_pdf(topic)
-    Prawn::Document.new do
-      font "#{Rails.root}/app/assets/fonts/verdana.ttf"
-    end.render
-  end
 
 
   # GET /adverts/new

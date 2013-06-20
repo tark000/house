@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a1a95c-4e73-420d-9c71-d6cef14896f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_sidebar_medium.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/pdfkit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/prawn.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact_us/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/contact_us/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371617587170" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371714227718" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759690" ignored="false" />
@@ -19,13 +44,13 @@
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1370955759691" ignored="false" />
-    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371585866047" ignored="false" />
-    <file path="/Gemfile" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371572526959" ignored="false" />
+    <file path="/index.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371729991489" ignored="false" />
+    <file path="/Gemfile" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371721841239" ignored="false" />
     <file path="/development.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371114872978" ignored="false" />
-    <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371599548307" ignored="false" />
-    <file path="/application.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371588209568" ignored="false" />
+    <file path="/adverts_controller.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371727734896" ignored="false" />
+    <file path="/application.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371732019102" ignored="false" />
     <file path="/_cache_stat.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371042958547" ignored="false" />
-    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371617615480" ignored="false" />
+    <file path="/show.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371748063596" ignored="false" />
     <file path="/application.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371612878787" ignored="false" />
     <file path="/image.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371225665345" ignored="false" />
     <file path="/show.json.rabl" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371579311664" ignored="false" />
@@ -35,7 +60,7 @@
     <file path="/image_uploader.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371238576312" ignored="false" />
     <file path="/controllers.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371263897856" ignored="false" />
     <file path="/_settings.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371250220245" ignored="false" />
-    <file path="/app.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371616807484" ignored="false" />
+    <file path="/app.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371748643049" ignored="false" />
     <file path="/foundation.scss" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371252660789" ignored="false" />
     <file path="/production.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371258553565" ignored="false" />
     <file path="$PROJECT_DIR$/public/assets/application.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371258608512" ignored="false" />
@@ -49,7 +74,7 @@
     <file path="/_paginator.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371262394578" ignored="false" />
     <file path="/_first_page.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371265491842" ignored="false" />
     <file path="/app.js" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371608436395" ignored="false" />
-    <file path="/_search.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371588799037" ignored="false" />
+    <file path="/_search.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371747733749" ignored="false" />
     <file path="/tasks-controller.js.coffee" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371480346225" ignored="false" />
     <file path="/index.html.erb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371511543514" ignored="false" />
     <file path="/advert.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371485465873" ignored="false" />
@@ -59,7 +84,7 @@
     <file path="/application.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371573361988" ignored="false" />
     <file path="/show.pdf.prawn" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371573612911" ignored="false" />
     <file path="/advert_pdf.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371575632318" ignored="false" />
-    <file path="/_form.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371581076666" ignored="false" />
+    <file path="/_form.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371745712486" ignored="false" />
     <file path="/a.dummy" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371587441770" ignored="false" />
     <file path="/_sidebar.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371588502955" ignored="false" />
     <file path="/contact_us.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371596411656" ignored="false" />
@@ -69,6 +94,12 @@
     <file path="/new.html.erb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371599253743" ignored="false" />
     <file path="/_new.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371600491773" ignored="false" />
     <file path="/new.js.erb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371603411148" ignored="false" />
+    <file path="/pdfkit.rb" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371724993195" ignored="false" />
+    <file path="/show_pdf.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371727100671" ignored="false" />
+    <file path="/show_pdf.pdf.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371728396363" ignored="false" />
+    <file path="/_search_by_id.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371746861779" ignored="false" />
+    <file path="/_sidebar_medium.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371732320881" ignored="false" />
+    <file path="/_search_medium.html.haml" changelist="e4a1a95c-4e73-420d-9c71-d6cef14896f0" time="1371746300501" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,91 +119,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-carousel.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/angular-carousel.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="2" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="4" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+            <state line="57" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.2777778">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="26" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-23.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sidebar.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="36" selection-end="108" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="178" column="31" selection-start="4990" selection-end="4990" vertical-scroll-proportion="-2.7419355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="257" selection-end="768" vertical-scroll-proportion="0.26881722">
+            <state line="42" column="13" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrollable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/scrollable.js">
+      <file leaf-file-name="_search.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="622" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="54" column="77" selection-start="1965" selection-end="1965" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-mobile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js">
+      <file leaf-file-name="_search_medium.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="470" column="0" selection-start="20620" selection-end="20620" vertical-scroll-proportion="0.0">
+            <state line="68" column="0" selection-start="161" selection-end="2378" vertical-scroll-proportion="-42.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-carousel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact_us/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="52" selection-start="11694" selection-end="11694" vertical-scroll-proportion="0.0">
+            <state line="14" column="85" selection-start="513" selection-end="513" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+            <state line="30" column="16" selection-start="1261" selection-end="1262" vertical-scroll-proportion="-14.041667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+      <file leaf-file-name="_search_by_id.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="4" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0">
+            <state line="7" column="23" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -196,22 +227,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/contact_us/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/contact_us/send_email.js" />
-        <option value="$PROJECT_DIR$/app/controllers/contact_us_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/contact_us/js_errors.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/contact_us/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/contact_us/_js_errors.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/contact_us/new.js.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/angular-carousel.css" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/scrollable.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/views/adverts/show_pdf.html.haml" />
+        <option value="$PROJECT_DIR$/config/initializers/pdfkit.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_sidebar_medium.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
+        <option value="$PROJECT_DIR$/app/views/contact_us/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -275,73 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,6 +321,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,6 +361,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,24 +441,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,8 +592,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -628,7 +601,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AngularRails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Payments/payments" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -637,6 +610,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/adverts" />
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/fonts" />
@@ -919,7 +893,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32522798" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.337386" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -998,104 +972,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/send_email.js">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/show_pdf.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contact_us_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/initializers/pdfkit.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
+        <state line="5" column="3" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/_form.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" />
+        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/_js_errors.js.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/new.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="470" column="0" selection-start="20620" selection-end="20620" vertical-scroll-proportion="0.0">
+        <state line="10" column="63" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0">
+        <state line="47" column="73" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/angular-carousel.css">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+        <state line="38" column="26" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-23.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="52" selection-start="11694" selection-end="11694" vertical-scroll-proportion="0.0">
+        <state line="30" column="16" selection-start="1261" selection-end="1262" vertical-scroll-proportion="-14.041667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+        <state line="178" column="31" selection-start="4990" selection-end="4990" vertical-scroll-proportion="-2.7419355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/contact_us/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+        <state line="14" column="85" selection-start="513" selection-end="513" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/scrollable.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_sidebar_medium.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="622" selection-end="658" vertical-scroll-proportion="0.0">
+        <state line="2" column="40" selection-start="105" selection-end="105" vertical-scroll-proportion="0.054844607">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_sidebar.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="36" selection-end="108" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+        <state line="68" column="0" selection-start="161" selection-end="2378" vertical-scroll-proportion="-42.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="77" selection-start="1965" selection-end="1965" vertical-scroll-proportion="-16.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="257" selection-end="768" vertical-scroll-proportion="0.26881722">
+        <state line="42" column="13" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.2777778">
           <folding />
         </state>
       </provider>
