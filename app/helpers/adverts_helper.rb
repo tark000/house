@@ -1,7 +1,7 @@
 module AdvertsHelper
   def category
     @c=[]
-    Category.order(:title).each do |c|
+    Category.order(:name).each do |c|
       @c << [c.title, c.id]
     end
     return @c
@@ -9,7 +9,7 @@ module AdvertsHelper
 
   def operation
     @o=[]
-    OperationType.order(:title).each do |o|
+    OperationType.order(:name).each do |o|
       @o << [o.title, o.id]
     end
     return @o
@@ -17,7 +17,7 @@ module AdvertsHelper
 
   def region
     @r=[]
-    Region.order(:title).each do |r|
+    Region.order(:name).each do |r|
       @r << [r.title, r.id]
     end
     return @r
@@ -25,7 +25,7 @@ module AdvertsHelper
 
   def city
     @c=[]
-    City.order(:title).each do |c|
+    City.order(:name).each do |c|
       @c << [c.title, c.id]
     end
     return @c

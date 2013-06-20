@@ -2,198 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408b9f13-fb87-4818-9de8-8ca767bf5a81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings_2.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/body-background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/_cache.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_cache_stat.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/rabl_init.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-debug.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular-ui-states.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-ui-states.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/truncate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/underscore-min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_normalize.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/_settings.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/1aa62c5fbf218bfb82b57aeb6f43a356d4970323/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/3fb7e70c7b00845b9730755bdfb131343bfbf49b/foundation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/a020181ecac10f8b20dd7fe058b05db23f181035/_variables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_alert-boxes.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_block-grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_breadcrumbs.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_button-groups.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_clearing.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_custom-forms.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown-buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_dropdown.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_flex-video.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_forms.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_global.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_inline-lists.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_joyride.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_keystrokes.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_labels.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_magellan.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_orbit.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pagination.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_panels.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_pricing-tables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_progress-bars.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_reveal.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_section.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_side-nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_split-buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_sub-nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_switch.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_thumbs.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_tooltips.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_top-bar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_type.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.sass-cache/fe8536dae7266698d5fb4d81caf5bf619d13bfb5/_visibility.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_alert-boxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_block-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_button-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_clearing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_flex-video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_inline-lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_joyride.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_keystrokes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_magellan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_orbit.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_pricing-tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_progress-bars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_side-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_split-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_sub-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_thumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_tooltips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_top-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/sass/foundation/components/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/big_jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/2/small_jsxWg7ldqjE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/9670.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/big_9670.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert/image/3/small_9670.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.alerts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.interchange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.section.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.tooltips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/foundation/foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/custom.modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/javascripts/vendor/zepto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_block-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_button-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_clearing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_flex-video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_inline-lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_joyride.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_keystrokes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_magellan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_orbit.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_pricing-tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_progress-bars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_side-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_split-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_sub-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_thumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_tooltips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_top-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/components/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/normalize.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/foundation/_variables.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings_2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/_settings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/foundation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/foundation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/adverts.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/category.rb" afterPath="$PROJECT_DIR$/app/models/category.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/city.rb" afterPath="$PROJECT_DIR$/app/models/city.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/district.rb" afterPath="$PROJECT_DIR$/app/models/district.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/operation_type.rb" afterPath="$PROJECT_DIR$/app/models/operation_type.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/region.rb" afterPath="$PROJECT_DIR$/app/models/region.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,56 +37,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="advert.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="3" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.90387857">
-              <folding>
-                <marker date="1371571466000" expanded="true" signature="1103:1154" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1189:1220" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1195:1231" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1264:1306" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1326:1350" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1408:1440" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1528:1556" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1659:1686" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1779:1807" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1837:1863" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="1953:1983" placeholder="{ ... }" />
-                <marker date="1371571466000" expanded="true" signature="2023:2030" placeholder="{ ... }" />
-              </folding>
+            <state line="11" column="58" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_form.html.haml">
+      <file leaf-file-name="advert_image.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="21" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1371569955000" expanded="true" signature="148:250" placeholder="= f.collection_select :operation_type_id, OperationType.order(:name), :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="254:392" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="301:392" placeholder="= f.collection_select :category_id, Category.order(:name), :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="396:569" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="407:432" placeholder="= f.label :living_type_id" />
-                <marker date="1371569955000" expanded="true" signature="473:569" placeholder="= f.collection_select :living_type_id, LivingType.order(:name), :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="503:519" placeholder="= f.label :price" />
-                <marker date="1371569955000" expanded="true" signature="538:559" placeholder="= f.text_field :price" />
-                <marker date="1371569955000" expanded="true" signature="567:582" placeholder="= f.label :area" />
-                <marker date="1371569955000" expanded="true" signature="601:621" placeholder="= f.text_field :area" />
-                <marker date="1371569955000" expanded="true" signature="629:705" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="640:661" placeholder="= f.label :commission" />
-                <marker date="1371569955000" expanded="true" signature="679:705" placeholder="= f.text_field :commission" />
-                <marker date="1371569955000" expanded="true" signature="779:915" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="824:915" placeholder="= #f.collection_select :region_id, Region.order(:title), :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="915:1041" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="958:1041" placeholder="= f.collection_select :city_id, City.order(:name), :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="1072:1234" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="1119:1234" placeholder="= f.grouped_collection_select :district_id, City.order(:name), :districts, :title, :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="1238:1394" placeholder=".field" />
-                <marker date="1371569955000" expanded="true" signature="1283:1394" placeholder="= f.grouped_collection_select :street_id, City.order(:name), :streets, :title, :id, :title, include_blank: true" />
-                <marker date="1371569955000" expanded="true" signature="1439:1468" placeholder="= f.number_field :room_number" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/layout.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operation_type.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/operation_type.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -269,7 +76,7 @@
       <file leaf-file-name="adverts_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/adverts_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="27" column="20" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,36 +85,43 @@
       <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="28" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1371571466000" expanded="true" signature="1507:1532" placeholder="{ ... }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="city.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/city.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="33" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="53" column="7" selection-start="1922" selection-end="1956" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="36" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+            <state line="62" column="50" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="street.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/street.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.44894367">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advert.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-6.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -326,22 +140,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
-        <option value="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/models/house_type.rb" />
+        <option value="$PROJECT_DIR$/app/models/metro_station.rb" />
+        <option value="$PROJECT_DIR$/app/models/preporty_location.rb" />
         <option value="$PROJECT_DIR$/app/models/operation_type.rb" />
-        <option value="$PROJECT_DIR$/app/models/city.rb" />
-        <option value="$PROJECT_DIR$/app/models/category.rb" />
-        <option value="$PROJECT_DIR$/app/models/district.rb" />
-        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20130618120247_create_living_tipes.rb" />
-        <option value="$PROJECT_DIR$/app/models/living_tipe.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130618125301_add_commission_to_advert.rb" />
+        <option value="$PROJECT_DIR$/app/models/purpouse_land.rb" />
+        <option value="$PROJECT_DIR$/app/models/region.rb" />
+        <option value="$PROJECT_DIR$/app/models/rooms_type.rb" />
+        <option value="$PROJECT_DIR$/app/models/separate_entrence.rb" />
+        <option value="$PROJECT_DIR$/app/models/state_repair.rb" />
         <option value="$PROJECT_DIR$/app/models/street.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/trassa_diraction.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/advert.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/monkey_patch_abstract_mysql_adapter.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -377,7 +191,11 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,8 +204,119 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,7 +355,7 @@
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -465,6 +394,34 @@
       <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_STAGE" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -481,6 +438,30 @@
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="RubyRemoteDebugConfigurationType" factoryName="Ruby remote debug">
@@ -568,7 +549,7 @@
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="house" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -592,7 +573,7 @@
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="house" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -648,13 +629,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22382094" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2286171" sideWeight="0.7577143" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -664,7 +645,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24228571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -723,223 +704,115 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/city.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/region.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="33" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="2" column="31" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/rooms_type.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+        <state line="2" column="31" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://RailsDependency/#house">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>#house</OriginalElement>
-          <nodes>
-            <node x="2.809426609760635" y="528.1966589928558">User</node>
-            <node x="739.0" y="187.43538602941175">Street</node>
-            <node x="739.0" y="18.435386029411745">Category</node>
-            <node x="1337.0" y="151.37656249999998">Layout</node>
-            <node x="0.0" y="54.4942095588235">Region</node>
-            <node x="739.0" y="351.4353860294117">EstateType</node>
-            <node x="1337.0" y="33.37656249999998">AdvertImage</node>
-            <node x="495.0" y="364.9353860294117">District</node>
-            <node x="739.0" y="93.43538602941175">OperationType</node>
-            <node x="244.0" y="146.8912683823529">City</node>
-            <node x="983.0" y="12.876562499999977">Advert</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="City" target="District">
-              <point x="85.5" y="41.0" />
-              <point x="-82.0" y="-0.0" />
-            </edge>
-            <edge source="Street" target="Advert">
-              <point x="82.0" y="-0.0" />
-              <point x="-137.0" y="34.0" />
-            </edge>
-            <edge source="District" target="Street">
-              <point x="82.0" y="-25.0" />
-              <point x="-82.0" y="31.0" />
-            </edge>
-            <edge source="City" target="Advert">
-              <point x="85.5" y="-41.0" />
-              <point x="495.0" y="82.93538602941175" />
-              <point x="903.0" y="82.93538602941175" />
-              <point x="-137.0" y="-34.0" />
-            </edge>
-            <edge source="EstateType" target="Advert">
-              <point x="82.0" y="-0.0" />
-              <point x="-137.0" y="68.0" />
-            </edge>
-            <edge source="Advert" target="Layout">
-              <point x="137.0" y="59.5" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="Region" target="City">
-              <point x="82.0" y="25.25" />
-              <point x="-85.5" y="-0.0" />
-            </edge>
-            <edge source="Region" target="Advert">
-              <point x="82.0" y="-25.25" />
-              <point x="244.0" y="7.935386029411745" />
-              <point x="903.0" y="7.935386029411745" />
-              <point x="-137.0" y="-102.0" />
-            </edge>
-            <edge source="Category" target="Advert">
-              <point x="82.0" y="-0.0" />
-              <point x="-137.0" y="-68.0" />
-            </edge>
-            <edge source="City" target="Street">
-              <point x="85.5" y="-0.0" />
-              <point x="495.0" y="218.43538602941175" />
-              <point x="-82.0" y="-31.0" />
-            </edge>
-            <edge source="District" target="Advert">
-              <point x="82.0" y="25.0" />
-              <point x="903.0" y="439.9353860294117" />
-              <point x="-137.0" y="102.0" />
-            </edge>
-            <edge source="OperationType" target="Advert">
-              <point x="82.0" y="-0.0" />
-              <point x="-137.0" y="-0.0" />
-            </edge>
-            <edge source="Advert" target="AdvertImage">
-              <point x="137.0" y="-59.5" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7118890356671069" x="327.0" y="97.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Migration fields</Category>
-            <Category>Association fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
+    <entry file="file://$PROJECT_DIR$/app/models/separate_entrence.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/state_repair.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/district.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="235" selection-end="253" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/operation_type.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="465" selection-end="465" vertical-scroll-proportion="-11.25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/city.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="33" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="2" column="31" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/street.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="2" column="31" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trassa_diraction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/layout.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/operation_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-6.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/adverts_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+        <state line="27" column="20" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="28" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1371571466000" expanded="true" signature="1507:1532" placeholder="{ ... }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="21" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1371569955000" expanded="true" signature="148:250" placeholder="= f.collection_select :operation_type_id, OperationType.order(:name), :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="254:392" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="301:392" placeholder="= f.collection_select :category_id, Category.order(:name), :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="396:569" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="407:432" placeholder="= f.label :living_type_id" />
-            <marker date="1371569955000" expanded="true" signature="473:569" placeholder="= f.collection_select :living_type_id, LivingType.order(:name), :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="503:519" placeholder="= f.label :price" />
-            <marker date="1371569955000" expanded="true" signature="538:559" placeholder="= f.text_field :price" />
-            <marker date="1371569955000" expanded="true" signature="567:582" placeholder="= f.label :area" />
-            <marker date="1371569955000" expanded="true" signature="601:621" placeholder="= f.text_field :area" />
-            <marker date="1371569955000" expanded="true" signature="629:705" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="640:661" placeholder="= f.label :commission" />
-            <marker date="1371569955000" expanded="true" signature="679:705" placeholder="= f.text_field :commission" />
-            <marker date="1371569955000" expanded="true" signature="779:915" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="824:915" placeholder="= #f.collection_select :region_id, Region.order(:title), :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="915:1041" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="958:1041" placeholder="= f.collection_select :city_id, City.order(:name), :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="1072:1234" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="1119:1234" placeholder="= f.grouped_collection_select :district_id, City.order(:name), :districts, :title, :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="1238:1394" placeholder=".field" />
-            <marker date="1371569955000" expanded="true" signature="1283:1394" placeholder="= f.grouped_collection_select :street_id, City.order(:name), :streets, :title, :id, :title, include_blank: true" />
-            <marker date="1371569955000" expanded="true" signature="1439:1468" placeholder="= f.number_field :room_number" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+        <state line="53" column="7" selection-start="1922" selection-end="1956" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="62" column="50" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="3" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.90387857">
-          <folding>
-            <marker date="1371571466000" expanded="true" signature="1103:1154" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1189:1220" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1195:1231" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1264:1306" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1326:1350" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1408:1440" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1528:1556" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1659:1686" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1779:1807" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1837:1863" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="1953:1983" placeholder="{ ... }" />
-            <marker date="1371571466000" expanded="true" signature="2023:2030" placeholder="{ ... }" />
-          </folding>
+        <state line="17" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.44894367">
+          <folding />
         </state>
       </provider>
     </entry>

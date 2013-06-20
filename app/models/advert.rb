@@ -1,8 +1,18 @@
 class Advert < ActiveRecord::Base
-  attr_accessible :all_price, :area, :category_id, :city_id, :description, :district_id, :estate_type_id, :floor,
-                  :house, :image, :layout, :living, :operation_type_id, :price, :region_id, :room_number, :state,
-                  :street_id, :title, :video, :remote_image_url, :remote_layout_url, :advert_images_attributes,
-                  :layouts_attributes, :address, :latitude, :longitude
+  alias_attribute :title, :name
+
+  attr_accessible :category_id, :city_id, :district_id, :street_id, :housw, :house_material_id, :house_type_id, :rooms,
+                  :rooms_type_id, :floor, :floors, :trassa_diraction_id, :purpouse_land_id, :landsize, :title, :description,
+                  :area, :life_area, :kitchen, :home_deadline, :free_from, :floor_type_id, :wc_count, :state_repair_id,
+                  :cell_height, :distance, :hotadv, :created, :modified, :price, :all_price, :user_cost, :all_user_cost,
+                  :currency_user_id, :publication_date, :viewcount, :metro_station_id, :door_id, :accommodation_term_id,
+                  :fund_type_id, :preporty_location_id, :business_center_class_id, :separate_entrence_id, :cabinetcount,
+                  :bussines_period_id, :layout, :image, :contact_id, :user_id, :slug, :torg, :free_to, :operation_type_id,
+                  :commissionvalue, :flat_type_id, :video, :admin, :ragion_id, :mapaddress, :youtube
+
+
+
+
   attr_accessor   :address
 
   geocoded_by :address
@@ -28,6 +38,23 @@ class Advert < ActiveRecord::Base
   belongs_to :city
   belongs_to :district
   belongs_to :street
+  belongs_to :accommodation_terms
+  belongs_to :business_center_classes
+  belongs_to :currency_users
+  belongs_to :doors
+  belongs_to :flat_types
+  belongs_to :floor_types
+  belongs_to :fund_types
+  belongs_to :house_materials
+  belongs_to :house_types
+  belongs_to :metro_stations
+  belongs_to :preporty_locations
+  belongs_to :purpouse_lands
+  belongs_to :rooms_types
+  belongs_to :separate_entrences
+  belongs_to :state_repairs
+  belongs_to :trassa_diractions
+
 
   scope :search, lambda{ |b = nil| where('id = ?', "#{b}") if b.present? }
 

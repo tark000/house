@@ -1,5 +1,6 @@
 class City < ActiveRecord::Base
-  attr_accessible :region_id, :title
+  attr_accessible :region_id, :name
+  alias_attribute :title, :name
   has_many :adverts
   has_many :streets
   has_many :districts
