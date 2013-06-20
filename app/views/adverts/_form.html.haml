@@ -1,92 +1,270 @@
 = form_for(@advert) do |f|
 
-  .field
-    = f.label :title
-    %br/
-    = f.text_field :title
-  .field
-    = f.label :operation_type_id
-    %br/
-    = f.collection_select :operation_type_id, OperationType.order(:title), :id, :title, include_blank: true
-  .field
-    = f.label :category_id
-    %br/
-    = f.collection_select :category_id, Category.order(:title), :id, :title, include_blank: true
-  .field
-    = f.label :living
-    %br/
-    = f.check_box :living
-  .field
-    = f.label :price
-    %br/
-    = f.text_field :price
-  .field
-    = f.label :area
-    %br/
-    = f.text_field :area
-    %br/
-    = f.text_field :all_price
-  .field
-    = f.label :estate_type_id
-    %br/
-    = f.collection_select :estate_type_id, EstateType.order(:title), :id, :title, include_blank: true
-  .field
-    = f.label :region_id
-    %br/
-    = f.collection_select :region_id, Region.order(:title), :id, :title, include_blank: true
-  .field
-    = f.label :city_id
-    %br/
-    = f.grouped_collection_select :city_id, Region.order(:title), :cities, :title, :id, :title, include_blank: true
-  .field
-    = f.label :district_id
-    %br/
-    = f.grouped_collection_select :district_id, City.order(:title), :districts, :title, :id, :title, include_blank: true
-  .field
-    = f.label :street_id
-    %br/
-    = f.grouped_collection_select :street_id, City.order(:title), :streets, :title, :id, :title, include_blank: true
-  .field
-    = f.label :house
-    %br/
-    = f.text_field :house
-  .field
-    = f.label :room_number
-    %br/
-    = f.number_field :room_number
-  .field
-    = f.label :floor
-    %br/
-    = f.text_field :floor
-  .field
-    = f.label :state
-    %br/
-    = f.check_box :state
-  .field
-    = f.label :image
-    %br/
-    = f.file_field :image
+  .row
+    .large-12.columns
+      Основная информация:
+      .line
+      .field
+        = f.label "Админское обьявление"
+        = f.check_box 'admin'
+      .large-6.columns
+        .large-6.columns
+          .field
+            = f.label "Тип недвижимости: *"
+        .large-6.columns
+          = f.collection_select :category_id, Category.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Тип операции: *"
+        .large-6.columns
+          = f.collection_select :operation_type_id, OperationType.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Область: *"
+        .large-6.columns
+          = f.collection_select :region_id, Region.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Город: *"
+        .large-6.columns
+          = f.collection_select :city_id, City.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Район:"
+        .large-6.columns
+          = f.grouped_collection_select :district_id, City.order(:name), :districts, :title, :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Улица: *"
+        .large-6.columns
+          = f.grouped_collection_select :street_id, City.order(:name), :streets, :title, :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Номер дома:"
+        .large-6.columns
+          = f.text_field :house
+        .large-6.columns
+          .field
+            = f.label "Фонд:"
+        .large-6.columns
+          = f.collection_select :fund_type_id, FundType.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Расположение обьекта:"
+        .large-6.columns
+          = f.collection_select :preporty_location_id, PreportyLocation.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Метро:"
+        .large-6.columns
+          = f.collection_select :metro_station_id, MetroStation.order(:name), :id, :title, include_blank: true
+
+      .large-6.columns
+        .large-6.columns
+          .field
+            = f.label "Контактное лицо: *"
+        .large-6.columns
+          = f.text_field :title
+
+        .large-6.columns
+          .field
+            = f.label "Телефон 1: *"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "Телефон 2:"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "E-mail: *"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "Skype:"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "Логотип компании:"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "Действую как: *"
+        .large-6.columns
+          = f.text_field :title
+        .large-6.columns
+          .field
+            = f.label "Комиссия: *"
+        .large-6.columns
+          = f.text_field :title
+
+    .large-12.columns
+      Характеристика обьекта::
+      .line
+      .field
+      .large-6.columns
+        .large-6.columns
+          .field
+            = f.label "Тип здания:"
+        .large-6.columns
+          = f.collection_select :house_type_id, HouseType.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Класс Бизнес Центра:"
+        .large-6.columns
+          = f.collection_select :business_center_class_id, BusinessCenterClass.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Отдельный вход:"
+        .large-6.columns
+          = f.collection_select :separate_entrence_id, SeparateEntrence.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Тип квартиры:"
+        .large-6.columns
+          = f.collection_select :flat_type_id, FlatType.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Срок сдачи дома"
+        .large-6.columns
+          = date_select f, :publication_date
+        .large-6.columns
+          .field
+            = f.label "Свободно с:"
+        .large-6.columns
+          = date_select f, :free_from
+        .large-6.columns
+          .field
+            = f.label "Свободно по:"
+        .large-6.columns
+          = date_select f, :free_to
+        .large-6.columns
+          .field
+            = f.label "Количество комнат:"
+        .large-6.columns
+          = f.text_field :rooms
+        .large-12.columns
+          .large-6.columns
+            = radio_button_tag 'rooms_type_id', '1'
+            смежные
+            %br/
+            = radio_button_tag 'rooms_type_id', '0'
+            раздельные
+        .large-12.columns
+          .large-4.columns
+            .field
+              = f.label "Планировка:"
+          .large-8.columns
+            = f.file_field :layout
+            .field
+              - f.fields_for :layout do |builder|
+                = render 'layout_fields', f: builder
+              = link_to_add_fields "Add Layout", f, :layouts
+
+        .large-6.columns
+          .field
+            = f.label "Этаж \ этажность: *"
+        .large-3.columns
+          = f.text_field :floor
+        .large-3.columns
+          = f.text_field :floors
+        .large-6.columns
+          .field
+            = f.label "Материалы стен:"
+        .large-6.columns
+          = f.collection_select :house_material_id, HouseMaterial.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Входные двери:"
+        .large-6.columns
+          = f.collection_select :door_id, Door.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Полы комнат:"
+        .large-6.columns
+          = f.collection_select :floor_type_id, FloorType.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Санузел (кол-во):"
+        .large-6.columns
+          = f.text_field :wc_count
+        .large-6.columns
+          .field
+            = f.label "Площадь общая м2: *"
+        .large-6.columns
+          = f.text_field :area
 
 
-  .field
-    - f.fields_for :advert_images do |builder|
-      = render 'advert_image_fields', f: builder
-    = link_to_add_fields "Add advert_image", f, :advert_images
-  .field
-    = f.label :layout
-    %br/
-    = f.file_field :layout
-  .field
-    - f.fields_for :layout do |builder|
-      = render 'layout_fields', f: builder
-    = link_to_add_fields "Add Layout", f, :layouts
-  .field
-    = f.label :video
-    %br/
-    = f.text_field :video
-  .field
-    = f.label :description
-    %br/
-    = f.text_area :description
-  .actions
-    = f.submit
+
+
+
+
+      .large-6.columns
+        .large-6.columns
+          .field
+            = f.label "Площадь жилая (м2):"
+        .large-6.columns
+          = f.text_field :life_area
+
+        .large-6.columns
+          .field
+            = f.label "Площадь кухни (м2):"
+        .large-6.columns
+          = f.text_field :kitchen
+        .large-6.columns
+          .field
+            = f.label "Состояние ремонта:"
+        .large-6.columns
+          = f.collection_select :state_repair_id, StateRepair.order(:name), :id, :title, include_blank: true
+        .large-6.columns
+          .field
+            = f.label "Высота потолков (м):"
+        .large-6.columns
+          = f.text_field :ceill_height
+        .large-6.columns
+          .field
+            = f.label "Земельный участок(сот):"
+        .large-6.columns
+          = f.text_field :landsize
+        .large-6.columns
+          .field
+            = f.label "Удаленность от Киева"
+        .large-6.columns
+          = f.text_field :distance
+        .large-6.columns
+          .field
+            = f.label "Дополнительная информация"
+        .large-12.columns
+          = f.text_area :description
+
+    .large-12.columns
+      .large-6.columns
+        Фотографии обьекта:
+        .line
+        .field
+          = f.label "Фото (основное): *"
+          %br/
+          = f.file_field :image
+
+
+        .field
+          - f.fields_for :advert_images do |builder|
+            = render 'advert_image_fields', f: builder
+          = link_to_add_fields "Добавить фотографию", f, :advert_images
+      .large-6.columns
+        Видео:
+        .line
+        .field
+          = f.label "Видею"
+          %br/
+          = f.text_field :video
+        .field
+          - f.fields_for :movie do |builder|
+            = render 'movie_fields', f: builder
+          = link_to_add_fields "Добавить видео", f, :movies
+    .actions
+      = f.submit

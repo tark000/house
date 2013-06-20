@@ -157,5 +157,9 @@ $portrait: "only screen and (orientation: portrait)";
   @include switch($transition-speed, $transition-ease, $height, $font-size, $line-height, $paddle-bg, $positive-color, $negative-color, $radius, $base-style);
 }
 
+.line {
+  border-bottom: 1px solid #cccccc; margin: 10px 0 10px 0;
+}
+
 
 

@@ -57,6 +57,11 @@ class AdvertsController < ApplicationController
   def create
     @advert = Advert.new(params[:advert])
     expire_action :action => :index
+    @advert.contact_id = 1
+    @advert.created = Time.now
+    @advert.modified = Time.now
+    @advert.publication_date = Time.now
+    @advert.user_id = current_user
     respond_to do |format|
       if @advert.save
         format.html { redirect_to @advert, notice: 'Advert was successfully created.' }

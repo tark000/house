@@ -1,17 +1,16 @@
 class Advert < ActiveRecord::Base
-  alias_attribute :title, :name
 
-  attr_accessible :category_id, :city_id, :district_id, :street_id, :housw, :house_material_id, :house_type_id, :rooms,
-                  :rooms_type_id, :floor, :floors, :trassa_diraction_id, :purpouse_land_id, :landsize, :title, :description,
-                  :area, :life_area, :kitchen, :home_deadline, :free_from, :floor_type_id, :wc_count, :state_repair_id,
-                  :cell_height, :distance, :hotadv, :created, :modified, :price, :all_price, :user_cost, :all_user_cost,
-                  :currency_user_id, :publication_date, :viewcount, :metro_station_id, :door_id, :accommodation_term_id,
-                  :fund_type_id, :preporty_location_id, :business_center_class_id, :separate_entrence_id, :cabinetcount,
-                  :bussines_period_id, :layout, :image, :contact_id, :user_id, :slug, :torg, :free_to, :operation_type_id,
-                  :commissionvalue, :flat_type_id, :video, :admin, :ragion_id, :mapaddress, :youtube
-
-
-
+  attr_accessible :id, :category_id, :city_id, :district_id, :street_id, :house, :house_material_id,
+                  :house_type_id, :rooms, :rooms_type_id, :floor, :floors, :trassa_diraction_id,
+                  :purpouse_land_id, :landsize, :title, :description, :area, :life_area, :kitchen,
+                  :home_deadline, :free_from, :floor_type_id, :wc_count, :state_repair_id, :ceill_height,
+                  :distance, :hotadv, :created, :modified, :price, :all_price, :usercost, :usercostforall,
+                  :currency_user_id, :publication_date, :viewcount, :metro_station_id, :door_id,
+                  :accommodation_term_id, :fund_type_id, :preporty_location_id, :business_center_class_id,
+                  :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image, :contact_id,
+                  :user_id, :slug, :torg, :free_to, :operation_type_id, :commission, :flat_type_id, :video,
+                  :admin, :region_id, :mapaddress, :youtube, :remote_image_url, :remote_layout_url,
+                  :advert_images_attributes, :layouts_attributes, :movies_attributes
 
   attr_accessor   :address
 
@@ -31,6 +30,10 @@ class Advert < ActiveRecord::Base
 
   has_many :layouts, :dependent => :destroy
   accepts_nested_attributes_for :layouts, allow_destroy: true
+
+  has_many :movies, :dependent => :destroy
+  accepts_nested_attributes_for :movies, allow_destroy: true
+
   belongs_to :operation_type
   belongs_to :category
   belongs_to :estate_type
@@ -76,5 +79,7 @@ class Advert < ActiveRecord::Base
   def self.all_cached
     Rails.cache.fetch('Contact.all') { all }
   end
+
+
 
 end
