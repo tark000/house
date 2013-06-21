@@ -2,7 +2,7 @@ class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
   respond_to :json, :html
-
+  require 'prawn'
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
@@ -26,7 +26,7 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
-    @adverts = @adverts.paginate(:page => params[:page], :per_page => 10)
+    @adverts = @adverts.paginate(:page => params[:page], :per_page => 4)
 
     respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
 
@@ -35,8 +35,27 @@ class AdvertsController < ApplicationController
   def show
     @advert = Advert.find(params[:id])
 
-    respond_with @advert
+    @contact_form = ContactForm.new
+
+    respond_to do |format|
+      format.html
+      format.json
+      format.pdf do
+        pdf = AdvertPdf.new(@advert, view_context)
+        send_data pdf.render, filename:
+            "#{@advert.title}.pdf",
+                  type: "application/pdf"
+      end
+
+    end
   end
+
+  def generate_pdf(topic)
+    Prawn::Document.new do
+      font "#{Rails.root}/app/assets/fonts/verdana.ttf"
+    end.render
+  end
+
 
   # GET /adverts/new
   # GET /adverts/new.json
@@ -44,7 +63,7 @@ class AdvertsController < ApplicationController
     @advert = Advert.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html # _form.html.haml
       format.json { render json: @advert }
     end
   end

@@ -1,10 +1,12 @@
 House::Application.routes.draw do
 
+=begin
   namespace :api do
     resources :adverts do
       resources :advert_images
     end
   end
+=end
 
   devise_for :users
 
@@ -13,6 +15,8 @@ House::Application.routes.draw do
 
   resources :adverts
 
+  get "contact_us/new"
+  post "contact_us/send_email", :as => "send_email"
 
 
 end

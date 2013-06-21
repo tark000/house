@@ -1,7 +1,26 @@
 @import "offcanvas.css";
 @import "app.css";
+@import "angular-carousel.css";
 
 body {
   background: url(body-background.png) repeat scroll 0% 0% transparent;
 }
+/*#mycontainer {
+  width: 100%;
+  height: 10rem;
+  display: block;
+}*/
 
+/*.scroller{
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:0rem;
+}*/
+
+.listitem {
+
+  display:inline-block;
+
+
+}

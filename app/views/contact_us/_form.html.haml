@@ -1,0 +1,15 @@
+.row
+  .large-6.columns
+    .row
+      =form_for @contact_form, :class=>'custom', :remote => true,:url => send_email_path do |f|
+        .large-12
+          .error
+
+        .large-6.columns
+          =f.text_field :name, :placeholder => 'Имя'
+        .large-6.columns
+          =f.text_field :email, :placeholder => 'Имя'
+        .large-12.columns
+          =f.text_area :body, :placeholder => 'Текст'
+        .large-12.columns
+          = submit_tag "Отправить", :id => nil, :class=>"dorohouse_button"

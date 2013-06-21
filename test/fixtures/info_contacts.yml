@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fio: MyString
+  tel: MyString
+  tel2: MyString
+  email: MyString
+  skype: MyString
+  logocompany: MyString
+  account_type_id: 1
+  commission_id: 1
+  comissionvalue: 1.5
+
+two:
+  fio: MyString
+  tel: MyString
+  tel2: MyString
+  email: MyString
+  skype: MyString
+  logocompany: MyString
+  account_type_id: 1
+  commission_id: 1
+  comissionvalue: 1.5

@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp', ["google-maps"]).
+var myApp = angular.module('myApp', ["google-maps",'angular-momentum-scroll']).
 factory('Advert', function($http) {
     return{
         getAdverts : function($url) {
@@ -19,23 +19,11 @@ function AdvertDetailController($scope,$location,$http, Advert ){
         $scope.advert=data;
         $scope.currentImage = $scope.advert.image;
 
-        $http.get('/api/adverts/' + $scope.advert.id + '/advert_images.json').success(function(data) {
-
-            $scope.images = data;
-
-        });
-
-        function handleImagesLoaded(data, status) {
-            $scope.images = data;
-            $scope.currentImage = _.first($scope.images);
-            //$scope.imageCategories = _.uniq(_.pluck($scope.images, 'category'));
-        }
-
-        $scope.fetch = function () {
-            $http.get($scope.url).success($scope.handleImagesLoaded);
-        }
+        //for angular-carousel
+        //scope.carouselBufferSize = $scope.advert.images.length;
 
         $scope.setCurrentImage = function (image) {
+            //alert(JSON.stringify(image));
             $scope.currentImage = image;
         };
 
@@ -48,6 +36,7 @@ function AdvertDetailController($scope,$location,$http, Advert ){
 function IndexController ($scope, $timeout, $log,$location, $http, Advert) {
 
     $scope.adverts = [];
+    google.maps.visualRefresh = true;
 
     $scope.markersProperty = [];
     Advert.getAdverts($location.url()).success(function(data){

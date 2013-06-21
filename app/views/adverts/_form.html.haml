@@ -1,5 +1,4 @@
 = form_for(@advert) do |f|
-
   .row
     .large-12.columns
       Основная информация:
@@ -58,14 +57,12 @@
             = f.label "Метро:"
         .large-6.columns
           = f.collection_select :metro_station_id, MetroStation.order(:name), :id, :title, include_blank: true
-
       .large-6.columns
         .large-6.columns
           .field
             = f.label "Контактное лицо: *"
         .large-6.columns
           = f.text_field :title
-
         .large-6.columns
           .field
             = f.label "Телефон 1: *"
@@ -252,9 +249,11 @@
 
 
         .field
-          - f.fields_for :advert_images do |builder|
+          - f.fields_for :advert_image do |builder|
             = render 'advert_image_fields', f: builder
           = link_to_add_fields "Добавить фотографию", f, :advert_images
+
+
       .large-6.columns
         Видео:
         .line

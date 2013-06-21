@@ -1,0 +1,3 @@
+<% if @contact_form.errors.any? %>
+<%= render :partial=>'js_errors', :locals=> { :target=> @contact_form } %>
+<% end %>
