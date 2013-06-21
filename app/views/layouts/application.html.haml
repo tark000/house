@@ -28,8 +28,8 @@
           %nav#sideMenu{:role => "navigation"}
             #sideMainNav.nav-bar
               = render 'layouts/sidebar'
-        .large-3.columns.hide-for-small= render 'layouts/sidebar'
-
+        .large-3.columns.hide-for-small.hide-for-medium= render 'layouts/sidebar'
+        .large-3.columns.show-for-medium= render 'layouts/sidebar_medium'
         .large-9.columns
           = yield
       / End Main Content and Sidebar

@@ -12,25 +12,6 @@
 //http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
 
 
-$doc-font-size: 15;
-$doc-line-height: 24;
-@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
-  @if $IE9 == true{
-    .lt-ie9 & {
-      @content;
-    }
-    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
-      @content;
-    }
-  }
-
-  @else {
-    @media screen and (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
-      @content;
-    }
-  }
-}
-
 #mycontainer {
 /*  $per-row: false;
   $spacing: $block-grid-default-spacing;
@@ -42,13 +23,48 @@ $doc-line-height: 24;
 }
 
 
-// Media Queries
+@media print {
+  body { background-color: #585858; }
+  #container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
 
-/*
-$small-screen: 768px;
-$medium-screen: 1280px;
-$large-screen: 1440px;
-*/
+  #line_items {
+    page-break-before: always;
+  }
+
+
+}
+
+html,
+body { font-size: $base-font-size; }
+
+/* Default body styles */
+body {
+  background: $body-bg;
+  color: $body-font-color;
+  padding: 0;
+  margin: 0;
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-style: $body-font-style;
+  line-height: 1;
+  position: relative;
+  cursor: $cursor-default-value;
+}
+
+
+
+ul.small-block-grid, ul.large-block-grid-4 li {
+  border-bottom: 1px ;
+  border-color: #888888;
+  border-bottom-style: dotted;
+}
+
+
 //$smallest-screen: emCalc(360px);
 $small-screen: emCalc(768px);
 $medium-screen: emCalc(1280px);
@@ -70,27 +86,47 @@ $landscape: "only screen and (orientation: landscape)";
 $portrait: "only screen and (orientation: portrait)";
 
 
-//$base-font-size: font-size(5);
-//$row-width: 98em;
 
-
-@media #{$small} {
-
-  body, p,table {
+/*
+@media only screen
+and (min-device-width : 360px){
+  body, p,table,ul,ol,dl,label {
     font-size:0.85em;
-    //font-size:font-size(5);
   }
 }
-
-@media #{$medium} {
-
-  body, p,table {
-    font-size:1em;
-    //font-size:font-size(5);
+//iPhone 5 in portrait & landscape
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  body, p,table,ul,ol,dl,label {
+    font-size:0.85em;
   }
+
+}
+
+//iPhone 5 in landscape
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  body, p,table,ul,ol,dl,label {
+    font-size:0.85em;
+  }
+
+
 }
 
 
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  body, p,table,ul,li,label {
+    font-size:0.96em;
+    //font-size:font-size(5);
+  }
+
+}
+*/
 
 /*
 .example {
@@ -103,6 +139,7 @@ $portrait: "only screen and (orientation: portrait)";
 
 .small-block {
   @extend .hide-for-large;
+  //@extend .hide-for-medium;
 
 }
 

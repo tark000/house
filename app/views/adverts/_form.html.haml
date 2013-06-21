@@ -245,6 +245,7 @@
         .field
           = f.label "Фото (основное): *"
           %br/
+          = image_tag(@advert.image_url) if @advert.image?
           = f.file_field :image
 
 

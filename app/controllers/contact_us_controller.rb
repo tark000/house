@@ -11,7 +11,7 @@ class ContactUsController < ApplicationController
 
     respond_to do |format|
       if @contact_form.valid?
-      #Notifications.contacts_us(@contact_form).deliver
+      NotificationsMailer.new_message(@contact_form).deliver
         format.js { render :layout => false }
       else
         format.js {render 'new'}

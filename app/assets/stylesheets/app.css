@@ -1131,7 +1131,7 @@ th.hide-for-touch {
   [class*="block-grid-"] {
     display: block;
     padding: 0;
-    margin: 0 -0.625em;
+    margin: 0 -0.3125em;
     *zoom: 1;
   }
   /* line 121, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_global.scss */
@@ -1148,13 +1148,13 @@ th.hide-for-touch {
     display: inline;
     height: auto;
     float: left;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
 
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-1 > li {
     width: 100%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-1 > li:nth-of-type(n) {
@@ -1168,7 +1168,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li {
     width: 50%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li:nth-of-type(n) {
@@ -1182,7 +1182,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-3 > li {
     width: 33.33333%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-3 > li:nth-of-type(n) {
@@ -1196,7 +1196,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li {
     width: 25%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li:nth-of-type(n) {
@@ -1210,7 +1210,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-5 > li {
     width: 20%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-5 > li:nth-of-type(n) {
@@ -1224,7 +1224,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li {
     width: 16.66667%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li:nth-of-type(n) {
@@ -1238,7 +1238,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-7 > li {
     width: 14.28571%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-7 > li:nth-of-type(n) {
@@ -1252,7 +1252,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li {
     width: 12.5%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li:nth-of-type(n) {
@@ -1266,7 +1266,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-9 > li {
     width: 11.11111%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-9 > li:nth-of-type(n) {
@@ -1280,7 +1280,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li {
     width: 10%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li:nth-of-type(n) {
@@ -1294,7 +1294,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-11 > li {
     width: 9.09091%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-11 > li:nth-of-type(n) {
@@ -1308,7 +1308,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li {
     width: 8.33333%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li:nth-of-type(n) {
@@ -1385,7 +1385,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li:nth-of-type(n) {
@@ -1399,7 +1399,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li {
     width: 50%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li:nth-of-type(n) {
@@ -1413,7 +1413,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-3 > li {
     width: 33.33333%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-3 > li:nth-of-type(n) {
@@ -1427,7 +1427,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li {
     width: 25%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li:nth-of-type(n) {
@@ -1441,7 +1441,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-5 > li {
     width: 20%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-5 > li:nth-of-type(n) {
@@ -1455,7 +1455,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li {
     width: 16.66667%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li:nth-of-type(n) {
@@ -1469,7 +1469,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-7 > li {
     width: 14.28571%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-7 > li:nth-of-type(n) {
@@ -1483,7 +1483,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li {
     width: 12.5%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li:nth-of-type(n) {
@@ -1497,7 +1497,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-9 > li {
     width: 11.11111%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-9 > li:nth-of-type(n) {
@@ -1511,7 +1511,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li {
     width: 10%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li:nth-of-type(n) {
@@ -1525,7 +1525,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-11 > li {
     width: 9.09091%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-11 > li:nth-of-type(n) {
@@ -1539,7 +1539,7 @@ th.hide-for-touch {
   /* line 36, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li {
     width: 8.33333%;
-    padding: 0 0.625em 1.25em;
+    padding: 0 0.3125em 0.625em;
   }
   /* line 40, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li:nth-of-type(n) {
@@ -1552,7 +1552,7 @@ th.hide-for-touch {
 }
 /* line 110, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875em;
+  font-size: 1.09375em;
   line-height: 1.6;
 }
 
@@ -1612,7 +1612,7 @@ a img, .dorohouse_a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 0.875em;
   line-height: 1.25em;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility;
@@ -1715,7 +1715,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1em;
+  font-size: 0.875em;
   line-height: 1.25em;
   margin-bottom: 1.25em;
   list-style-position: outside;
@@ -2250,18 +2250,18 @@ button.large, .button.large {
 /* Standard Forms */
 /* line 258, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 form {
-  margin: 0 0 1em;
+  margin: 0 0 0.75em;
 }
 
 /* Using forms within rows, we need to set some defaults */
 /* line 67, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 form .row .row {
-  margin: 0 -0.5em;
+  margin: 0 -0.375em;
 }
 /* line 70, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 form .row .row .column,
 form .row .row .columns {
-  padding: 0 0.5em;
+  padding: 0 0.375em;
 }
 /* line 73, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 form .row .row.collapse {
@@ -2277,13 +2277,13 @@ form .row input.column,
 form .row input.columns,
 form .row textarea.column,
 form .row textarea.columns {
-  padding-left: 0.5em;
+  padding-left: 0.375em;
 }
 
 /* Label Styles */
 /* line 264, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 label {
-  font-size: 0.875em;
+  font-size: 0.8125em;
   color: #4d4d4d;
   cursor: pointer;
   display: block;
@@ -2297,8 +2297,8 @@ label.right {
 }
 /* line 266, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 label.inline {
-  margin: 0 0 1em 0;
-  padding: 0.625em 0;
+  margin: 0 0 0.75em 0;
+  padding: 0.5em 0;
 }
 
 /* Attach elements to the beginning or end of an input */
@@ -2315,9 +2315,9 @@ label.inline {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
-  font-size: 0.875em;
-  height: 2.3125em;
-  line-height: 2.3125em;
+  font-size: 0.8125em;
+  height: 1.875em;
+  line-height: 1.875em;
 }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
@@ -2489,10 +2489,10 @@ textarea {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 0.875em;
-  margin: 0 0 1em 0;
-  padding: 0.5em;
-  height: 2.3125em;
+  font-size: 0.8125em;
+  margin: 0 0 0.75em 0;
+  padding: 0.375em;
+  height: 1.9375em;
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2564,7 +2564,7 @@ input[type="file"],
 input[type="checkbox"],
 input[type="radio"],
 select {
-  margin: 0 0 1em 0;
+  margin: 0 0 0.75em 0;
 }
 
 /* Normalize file input width */
@@ -2577,14 +2577,14 @@ input[type="file"] {
 /* line 345, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 fieldset {
   border: solid 1px #dddddd;
-  padding: 1.25em;
-  margin: 1.125em 0;
+  padding: 0.625em;
+  margin: 0.625em 0;
 }
 /* line 215, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_forms.scss */
 fieldset legend {
   font-weight: bold;
   background: white;
-  padding: 0 0.1875em;
+  padding: 0 0.0625em;
   margin: 0;
   margin-left: -0.1875em;
 }
@@ -2618,8 +2618,8 @@ label.error {
 small.error {
   display: block;
   padding: 0.375em 0.25em;
-  margin-top: -1.3125em;
-  margin-bottom: 1em;
+  margin-top: -1.0625em;
+  margin-bottom: 0.75em;
   font-size: 0.75em;
   font-weight: bold;
   background: #c60f13;
@@ -2636,8 +2636,8 @@ form.custom .hidden-field {
 /* line 73, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
 form.custom .custom {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   position: relative;
   vertical-align: middle;
   border: solid 1px #cccccc;
@@ -2653,13 +2653,13 @@ form.custom .custom.checkbox {
 form.custom .custom.radio {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
-  padding: 3px;
+  padding: 2px;
 }
 /* line 91, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
 form.custom .custom.checkbox:before {
   content: "";
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 /* line 100, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
@@ -2694,7 +2694,7 @@ form.custom .custom.dropdown {
   display: block;
   position: relative;
   top: 0;
-  height: 2.3125em;
+  height: 1.9375em;
   margin-bottom: 1.25em;
   margin-top: 0px;
   padding: 0px;
@@ -2705,7 +2705,7 @@ form.custom .custom.dropdown {
   -webkit-box-shadow: none;
   background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 100%);
   box-shadow: none;
-  font-size: 0.875em;
+  font-size: 0.625em;
   vertical-align: top;
 }
 /* line 147, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
@@ -2717,20 +2717,20 @@ form.custom .custom.dropdown ul {
 form.custom .custom.dropdown .current {
   cursor: default;
   white-space: nowrap;
-  line-height: 2.25em;
+  line-height: 1.875em;
   color: rgba(0, 0, 0, 0.75);
   text-decoration: none;
   overflow: hidden;
   display: block;
-  margin-left: 0.5em;
-  margin-right: 2.3125em;
+  margin-left: 0.375em;
+  margin-right: 1.9375em;
 }
 /* line 164, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
 form.custom .custom.dropdown .selector {
   cursor: default;
   position: absolute;
-  width: 2.5em;
-  height: 2.3125em;
+  width: 1.875em;
+  height: 1.9375em;
   display: block;
   right: 0;
   top: 0;
@@ -2747,7 +2747,7 @@ form.custom .custom.dropdown .selector:after {
   border-color: #aaaaaa transparent transparent transparent;
   border-top-style: solid;
   position: absolute;
-  left: 0.9375em;
+  left: 0.625em;
   top: 50%;
   margin-top: -3px;
 }
@@ -2827,7 +2827,7 @@ form.custom .custom.dropdown ul {
   display: none;
   margin: 0;
   left: -1px;
-  top: auto;
+  top: none;
   -webkit-box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
   margin: 0;
@@ -2839,7 +2839,7 @@ form.custom .custom.dropdown ul {
 /* line 232, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_custom-forms.scss */
 form.custom .custom.dropdown ul li {
   color: #555555;
-  font-size: 0.875em;
+  font-size: 0.625em;
   cursor: default;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -3281,7 +3281,7 @@ form.custom .custom.disabled {
   padding: 0.9375em;
   display: inline-block;
   color: #333333;
-  font-size: 0.875em;
+  font-size: 0.75em;
   white-space: nowrap;
 }
 /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3351,7 +3351,7 @@ form.custom .custom.disabled {
   padding: 0.9375em;
   display: inline-block;
   color: #333333;
-  font-size: 0.875em;
+  font-size: 0.75em;
   white-space: nowrap;
 }
 /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3447,7 +3447,7 @@ form.custom .custom.disabled {
     padding: 0.9375em;
     display: inline-block;
     color: #333333;
-    font-size: 0.875em;
+    font-size: 0.75em;
     white-space: nowrap;
   }
   /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3552,7 +3552,7 @@ form.custom .custom.disabled {
     padding: 0.9375em;
     display: inline-block;
     color: #333333;
-    font-size: 0.875em;
+    font-size: 0.75em;
     white-space: nowrap;
   }
   /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3603,7 +3603,7 @@ form.custom .custom.disabled {
   .section-container.vertical-tabs .section > .title {
     position: absolute;
     border-top: solid 1px #cccccc;
-    width: 12.5em;
+    width: 9.375em;
   }
   /* line 181, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
   .section-container.vertical-tabs section:first-child .title,
@@ -3615,7 +3615,7 @@ form.custom .custom.disabled {
   .section-container.vertical-tabs .section .content {
     display: block;
     position: relative;
-    left: 12.5em;
+    left: 9.375em;
     border-left: solid 1px #cccccc;
     z-index: 10;
   }
@@ -3623,7 +3623,7 @@ form.custom .custom.disabled {
   .section-container.vertical-tabs section.active > .title,
   .section-container.vertical-tabs .section.active > .title {
     background-color: #d5d5d5;
-    width: 12.5625em;
+    width: 9.4375em;
     border-right: solid 0 transparent;
     z-index: 11;
   }
@@ -3654,7 +3654,7 @@ form.custom .custom.disabled {
     padding: 0.9375em;
     display: inline-block;
     color: #333333;
-    font-size: 0.875em;
+    font-size: 0.75em;
     white-space: nowrap;
   }
   /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3743,7 +3743,7 @@ form.custom .custom.disabled {
     padding: 0.9375em;
     display: inline-block;
     color: #333333;
-    font-size: 0.875em;
+    font-size: 0.75em;
     white-space: nowrap;
   }
   /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -3831,7 +3831,7 @@ form.custom .custom.disabled {
   padding: 0.9375em;
   display: inline-block;
   color: #333333;
-  font-size: 0.875em;
+  font-size: 0.75em;
   white-space: nowrap;
 }
 /* line 99, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_section.scss */
@@ -5987,7 +5987,7 @@ table thead tr td,
 table tfoot tr th,
 table tfoot tr td {
   padding: 0.5em 0.625em 0.625em;
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #222222;
   text-align: left;
 }
@@ -5995,8 +5995,8 @@ table tfoot tr td {
 table tr th,
 table tr td {
   padding: 0.5625em 0.625em;
-  font-size: 0.875em;
-  color: #222222;
+  font-size: 0.75em;
+  color: #5f5f5f;
 }
 /* line 67, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
@@ -6017,7 +6017,7 @@ table tfoot tr td {
 .th {
   line-height: 0;
   display: inline-block;
-  border: solid 4px white;
+  border: solid 5px white;
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 200ms ease-out;
@@ -6205,7 +6205,7 @@ a.th, .th.dorohouse_a {
 }
 /* line 139, ../../../../../../../.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_dropdown.scss */
 .f-dropdown li {
-  font-size: 0.875em;
+  font-size: 0.75em;
   cursor: pointer;
   line-height: 1.125em;
   margin: 0;
@@ -6261,12 +6261,59 @@ a.th, .th.dorohouse_a {
   max-width: 800px;
 }
 
-/* line 34, ../sass/app.scss */
+/* line 15, ../sass/app.scss */
 #mycontainer {
   /*  $per-row: false;
     $spacing: $block-grid-default-spacing;
     $base-style: true;
     @include block-grid($per-row, $spacing, $base-style);*/
+}
+
+@media print {
+  /* line 27, ../sass/app.scss */
+  body {
+    background-color: #585858;
+  }
+
+  /* line 28, ../sass/app.scss */
+  #container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  /* line 35, ../sass/app.scss */
+  #line_items {
+    page-break-before: always;
+  }
+}
+/* line 43, ../sass/app.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* Default body styles */
+/* line 46, ../sass/app.scss */
+body {
+  background: white;
+  color: #727272;
+  padding: 0;
+  margin: 0;
+  font-family: verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 61, ../sass/app.scss */
+ul.small-block-grid, ul.large-block-grid-4 li {
+  border-bottom: 1px;
+  border-color: #888888;
+  border-bottom-style: dotted;
 }
 
 /*
@@ -6275,30 +6322,13 @@ $medium-screen: 1280px;
 $large-screen: 1440px;
 */
 /*
-$small-screen: 768px;
-$medium-screen: 1280px;
-$large-screen: 1440px;
-*/
-@media only screen and (min-width: 48em) {
-  /* line 79, ../sass/app.scss */
-  body, p, table {
-    font-size: 0.85em;
-  }
-}
-@media only screen and (min-width: 80em) {
-  /* line 87, ../sass/app.scss */
-  body, p, table {
-    font-size: 1em;
-  }
-}
-/*
 .example {
   @include mq(768, true) {
     width: 100%;
   }
 }
 */
-/* line 114, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 .dorohouse_button {
   border-style: solid;
   border-width: 1px;
@@ -6358,7 +6388,7 @@ $large-screen: 1440px;
   color: white;
 }
 
-/* line 126, ../sass/app.scss */
+/* line 163, ../sass/app.scss */
 .dorohouse_a {
   color: #3FC01C;
 }
@@ -6367,7 +6397,7 @@ $large-screen: 1440px;
   //@extend input;
   display: none;
 }*/
-/* line 139, ../sass/app.scss */
+/* line 176, ../sass/app.scss */
 .sort_button {
   border-style: solid;
   border-width: 1px;

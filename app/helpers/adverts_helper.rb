@@ -34,17 +34,17 @@ module AdvertsHelper
   ############################3
 
   def advert_for_flats_count
-    count = Advert.search_by_type(3).count()
-    count
-  end
-
-  def advert_for_houses_count
     count = Advert.search_by_type(1).count()
     count
   end
 
-  def advert_for_lands_count
-    count = Advert.search_by_type(2).count()
+  def advert_for_houses_count
+    count = Advert.search_by_type(23).count()
+    count
+  end
+
+  def advert_for_ofice_count
+    count = Advert.search_by_type(3).count()
     count
   end
 

@@ -24,3 +24,21 @@ body {
 
 
 }
+
+@media print {
+  body { background-color: #585858; }
+  #container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  #line_items {
+    page-break-before: always;
+  }
+
+  #pdf_link {
+    display: none;
+  }
+}
