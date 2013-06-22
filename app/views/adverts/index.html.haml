@@ -14,47 +14,45 @@
   .large-12.columns.hide-for-medium
     %ul.large-block-grid-4
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
-        %p
-          %a{href: '/adverts/{{advert.id}}'}
-            %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
-          %table{:style=>"width: 100%"}
-            %tbody
-              %tr
-                %td
-                  {{advert.operation_type.name}}:
-                %td
-                  {{advert.category.name}}
-              %tr
-                %td
-                  Цена:
-                %td
-                  {{advert.price | currency}}
-              %tr
-                %td
-                  Площадь:
-                %td
-                  {{advert.area}}
+        %a{href: '/adverts/{{advert.id}}'}
+          %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+        %table{:style=>"width: 100%;margin-top:5px;"}
+          %tbody
+            %tr
+              %td
+                {{advert.operation_type.name}}:
+              %td
+                {{advert.category.name}}
+            %tr
+              %td
+                Цена:
+              %td
+                {{advert.all_price | currency: ""}} грн.
+            %tr
+              %td
+                Площадь:
+              %td
+                {{advert.area}}
 
-  .large-12.columns.hide-for-large
+  .large-12.columns.hide-for-large.hide-for-xlarge
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
-        %p
-          %a{href: '/adverts/{{advert.id}}'}
-            %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
-          %table{:style=>"width: 100%"}
-            %tbody
-              %tr
-                %td
-                  {{advert.operation_type.name}}:
-                %td
-                  {{advert.category.name}}
-              %tr
-                %td
-                  Цена:
-                %td
-                  {{advert.price | currency}}
-              %tr
-                %td
-                  Площадь:
-                %td
-                  {{advert.area}}
+        %a{href: '/adverts/{{advert.id}}'}
+          %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+        %table{:style=>"width: 100%"}
+          %tbody
+            %tr
+              %td
+                {{advert.operation_type.name}}:
+              %td
+                {{advert.category.name}}
+            %tr
+              %td
+                Цена:
+              %td
+                {{advert.all_price | currency: ""}} грн.
+            %tr
+              %td
+                Площадь:
+              %td
+                {{advert.area}}

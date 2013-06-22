@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require angular
 //= require angular/angular-google-maps
-//= require angular/angular-mobile
+//= require angular/ng-responsive-images
 //= require angular/scrollable
 //= require adverts
 //= require ./app/app

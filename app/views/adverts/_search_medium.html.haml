@@ -10,10 +10,12 @@
             %label Тип:
           .large-12.columns
             = radio_button_tag 'living', '1'
-            жилая
+            %small
+              жилая
           .large-12.columns
             = radio_button_tag 'living', '0'
-            нежилая
+            %small
+              нежилая
           .large-12.columns
             %br
         .row
@@ -44,10 +46,12 @@
         .row
           .large-6.columns
             = radio_button_tag 'gender', 'all', true
-            за все
+            %small
+              за все
           .large-6.columns
             = radio_button_tag 'gender', 'm2'
-            за м2
+            %small
+              за м2
           .large-12.columns
             %br
         .row

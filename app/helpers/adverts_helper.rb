@@ -44,7 +44,7 @@ module AdvertsHelper
   end
 
   def advert_for_ofice_count
-    count = Advert.search_by_type(3).count()
+    count = Advert.search_by_type(24).count()
     count
   end
 

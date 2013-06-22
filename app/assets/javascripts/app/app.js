@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp', ["google-maps",'angular-momentum-scroll']).
+var myApp = angular.module('myApp', ["google-maps",'angular-momentum-scroll','ngResponsiveImages']).
 factory('Advert', function($http) {
     return{
         getAdverts : function($url) {

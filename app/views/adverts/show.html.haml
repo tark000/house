@@ -18,10 +18,10 @@
 
           %ul.small-block-grid-2.large-block-grid-4
 
-            -unless @advert.price.nil?
+            -unless @advert.all_price.nil?
               %li Цена
               %li
-                = @advert.price.to_i
+                = @advert.all_price.to_i
             -unless @advert.area.nil?
               %li Площадь
               %li
