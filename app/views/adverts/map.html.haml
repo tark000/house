@@ -1,0 +1,9 @@
+%body(ng-controller="MapController")
+  .row
+    .large-12.columns
+
+      %div.google-map{:center => "center", :draggable => "true",
+      :events => "eventsProperty", :fit => "true",
+
+       "mark-click" => "false",
+      :markers => "markers", :style => "height: 600px; width: 100%", :zoom => "zoom"}

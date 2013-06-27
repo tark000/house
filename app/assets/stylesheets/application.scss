@@ -21,24 +21,19 @@ body {
 .listitem {
 
   display:inline-block;
-
-
 }
 
-@media print {
-  body { background-color: #585858; }
-  #container {
-    width: auto;
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+.angular-google-map {
+  display: block;
+}
 
-  #line_items {
-    page-break-before: always;
-  }
+.angular-google-map img {
+  max-width: inherit !important;
+}
 
-  #pdf_link {
-    display: none;
-  }
+#mycontainer {
+
+ // height: 600px;
+ // width:100%;
+
 }

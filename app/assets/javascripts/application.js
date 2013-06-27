@@ -12,12 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular
+//= require adv
+//= require angular/angular.min
 //= require angular/angular-google-maps
-//= require angular/ng-responsive-images
+//= require angular/angular-resource.min
 //= require angular/scrollable
-//= require adverts
-//= require ./app/app
+//= require ./app/main.js
+//= require ./app/services.js
+//= require ./app/controllers.js
 //= require jquery.cycle2
 //= require jquery.offcanvas
 //= require foundation

@@ -91,7 +91,13 @@
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel5"} Карта
         .content{"data-section-content" => ""}
-          %p Content of section 2.
+          %p
+            .google-map{:center => "center", :draggable => "true",
+                :events => "eventsProperty", :fit => "fit",
+                :windows =>"infowindows",
+
+                :latitude => "clickedLatitudeProperty", :longitude => "clickedLongitudeProperty", "mark-click" => "true",
+                :markers => "markers", :style => "height: 300px; width: 100%", :zoom => "zoom"}
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel6"} Написать владельцу

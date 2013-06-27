@@ -1,27 +1,149 @@
+/*
 
-var myApp = angular.module('myApp', ["google-maps",'angular-momentum-scroll','ngResponsiveImages']).
-factory('Advert', function($http) {
-    return{
-        getAdverts : function($url) {
-            return $http({
-                url: $url,
-                method: 'GET'
-            })
-        }
+
+var myApp = angular.module('myApp', ["google-maps",'angular-momentum-scroll']);
+
+
+myApp.config(function ($locationProvider) {
+    $locationProvider.html5Mode(false).hashPrefix('!');
+    //$locationProvider.html5Mode(true);
+});
+
+
+myApp.run(function ($rootScope, $location) {
+    //$rootScope.show = 'false';
+    $location.path("usage");
+    $rootScope.center = {
+        latitude: 50.4501,
+        longitude: 30.5234
+    };
+
+    $rootScope.fit = true;
+    $rootScope.zoom = 10;
+    $rootScope.markers = [];
+    //$rootScope.windows = [];
+    google.maps.visualRefresh = true;
+
+});
+
+*/
+/*angular.module('myApp').factory('advertService', ['$http', function($http) {
+    return new advertService($http);
+}]);*//*
+
+
+angular.module('myApp').service('advertService', function () {
+    return function($http){
+        $http.get($url).success(function(response) {
+            $scope.adverts = response;
+
+        });
+
     }
 });
 
-function AdvertDetailController($scope,$location,$http, Advert ){
+angular.module('myApp').factory('advertModel', function (advertService) {
+    return new advertModel(advertService);
+});
+
+*/
+/*
+
+angular.module('myApp').factory('advertModel', ['advertService', function(advertService) {
+    return new advertModel(advertService);
+}]);
+*//*
+
+
+
+angular.module('myApp').controller('MapController', function($scope, advertModel){
+
+
+      $scope.adverts = advertModel($location.absUrl());
+
+
+    */
+/*$scope.init = function(){
+        return function($http){
+            $http.get($location.absUrl()).success(function(response) {
+                $scope.adverts = response;
+
+            });
+        }
+
+    }
+*//*
+
+
+     alert($scope.adverts.length);
+
+
+    */
+/*$scope.init = function(){
+
+        alert("aaa");
+            var $i =0;
+            alert($scope.adverts.length);
+            angular.forEach($adverts, function(key, value){
+
+                alert($scope.adverts.length);
+                alert(key.latitude);
+                if(key.latitude){
+                    var $html = "<div><ul><li>q<img src='"+key.image.image.medium.url+"'></li></ul></div>";
+
+                    $scope.markers.push({
+                        latitude: key.latitude,
+                        longitude: key.longitude,
+                        //icon: 'house.png',
+                        infoWindow: $html
+
+
+                    });
+                    $i = $i+1;
+                }
+
+            })
+
+
+
+
+
+
+
+    }
+
+*//*
+
+
+
+
+})
+
+angular.module('myApp').controller('AdvertDetailController', function($scope,$location,$http){
+
     $scope.advert = "";
     $scope.currentImage = {};
-    Advert.getAdverts($location.url()).success(function(data){
+    $scope.markers = [];
+    $scope.zoom = 12;
+    $scope.fit = true;
+    $scope.refresh = true;
 
-        $scope.advert=data;
+    $http.get($location.absUrl()).success(function(response) {
+        $scope.advert = response;
+
+        $scope.center = {
+            latitude:  $scope.advert.latitude,
+            longitude: $scope.advert.longitude
+        };
+
+
+        $scope.markers.push({
+            latitude: $scope.advert.latitude,
+            longitude: $scope.advert.longitude
+
+        });
+
         $scope.currentImage = $scope.advert.image;
-
-        //for angular-carousel
-        //scope.carouselBufferSize = $scope.advert.images.length;
-
         $scope.setCurrentImage = function (image) {
             //alert(JSON.stringify(image));
             $scope.currentImage = image;
@@ -29,52 +151,86 @@ function AdvertDetailController($scope,$location,$http, Advert ){
 
         $scope.fetch();
 
-    })
-
-}
-
-function IndexController ($scope, $timeout, $log,$location, $http, Advert) {
-
-    $scope.adverts = [];
-    google.maps.visualRefresh = true;
-
-    $scope.markersProperty = [];
-    Advert.getAdverts($location.url()).success(function(data){
-       $scope.adverts=data;
 
 
-        angular.forEach($scope.adverts, function(key, value){
-           $scope.markersProperty.push({
-               latitude: parseFloat(key.latitude),
-               longitude: parseFloat(key.longitude)
 
-           });
+    });
 
-       })
+})
+
+angular.module('myApp').controller('IndexController', function($scope,$location, $http){
+
+    $http.get($location.absUrl()).success(function(response) {
+        $scope.adverts = response;
+    });
+
+})
+
+*/
+/*
+
+function IndexController ($scope, $timeout, $log,$location, $http) {
+
+    //$scope.markers = [];
+    //google.maps.visualRefresh = true;
 
 
-        $scope.position = {
-            coords: {
-                latitude: $scope.adverts.slice(-1)[0].latitude,
-                longitude: $scope.adverts.slice(-1)[0].longitude
-            }
+
+    $http.get($location.absUrl()).success(function(response) {
+        $scope.adverts = response;
+    });
+
+
+
+
+    $scope.$watch("show", function (newValue, oldValue) {
+
+        if(newValue === true){
+
+            //$scope.refresh();
+           google.maps.Refresh = true;
+
+            //$rootScope.zoom = 10;
+
+           // alert($scope.adverts.length);
+            var $i =0;
+            angular.forEach($scope.adverts, function(key, value){
+
+                if(key.latitude){
+                    var $html = "<div><ul><li>q<img src='"+key.image.image.medium.url+"'></li></ul></div>";
+
+                    $scope.markers.push({
+                        latitude: key.latitude,
+                        longitude: key.longitude,
+                        //icon: 'house.png',
+                        infoWindow: $html
+
+
+                    });
+                    $i = $i+1;
+                }
+
+            });
+            //alert("count="+$i);
+
         }
 
 
     });
-    angular.extend($scope, {
 
-        //default center
-        position: {
-            coords: {
-                latitude: 50.4501, //$scope.adverts.slice(-1)[0].latitude,
-                longitude: 30.5234 //$scope.adverts.slice(-1)[0].longitude
-            }
-        },
+    $scope.eventsProperty = {
 
-        zoomProperty: 12
 
-    });
+
+        click: function (mapModel, eventName, originalEventArgs) {
+            // 'this' is the directive's scope
+            $log.log("user defined event on map directive with scope", this);
+            $log.log("user defined event: " + eventName, mapModel, originalEventArgs);
+        }
+    }
+
 
 }
+
+*//*
 

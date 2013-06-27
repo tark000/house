@@ -10,7 +10,7 @@ class Advert < ActiveRecord::Base
                   :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image, :contact_id,
                   :user_id, :slug, :torg, :free_to, :operation_type_id, :commission, :flat_type_id, :video,
                   :admin, :region_id, :mapaddress, :youtube, :remote_image_url, :remote_layout_url,
-                  :advert_images_attributes, :layouts_attributes, :movies_attributes
+                  :advert_images_attributes, :layouts_attributes, :movies_attributes, :address, :longitude, :latitude
 
   attr_accessor   :address
 
@@ -18,7 +18,11 @@ class Advert < ActiveRecord::Base
   after_validation :geocode
 
   def address
-    [self.house, self.street, self.city, "UA"].compact.join(', ')
+    if self.street.present? & self.city.present?
+      [self.house, self.street.name, self.city.name, "UA"].compact.join(', ')
+    else
+      puts self.id
+    end
   end
 
 

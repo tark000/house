@@ -1,4 +1,4 @@
-%body(ng-controller="IndexController")
+%body(ng-controller="IndexController" ng-cloak)
 .row
   .large-12.columns
     %fieldset
@@ -9,50 +9,42 @@
       .large-2.columns
         %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
       .large-8.columns.pagination-centered
+      = will_paginate @adverts
+      .large-12.columns
 
-      = will_paginate @adverts, :class =>'digg_pagination'
-  .large-12.columns.hide-for-medium
-    %ul.large-block-grid-4
-      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
+
+  .large-12.columns
+    %ul.large-block-grid-3
+      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" ng-cloak )
         %a{href: '/adverts/{{advert.id}}'}
-          %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
+          %span(ng-bind="advert.id")
         %table{:style=>"width: 100%;margin-top:5px;"}
           %tbody
             %tr
               %td
-                {{advert.operation_type.name}}:
+                %span(ng-bind="advert.operation" )
+                \ :
               %td
-                {{advert.category.name}}
+                %span(ng-bind="advert.category" )
             %tr
               %td
                 Цена:
               %td
-                {{advert.all_price | currency: ""}} грн.
+                %span(ng-bind="advert.price"  )
             %tr
               %td
                 Площадь:
               %td
-                {{advert.area}}
+                %span(ng-bind="advert.area" )
+                m2
+            %tr
+              %td
+                latitude:
+              %td
+                %span(ng-bind="advert.latitude" )
+            %tr
+              %td
+                longitude:
+              %td
+                %span(ng-bind="advert.longitude" )
 
-  .large-12.columns.hide-for-large.hide-for-xlarge
-    %ul.large-block-grid-3
-      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
-        %a{href: '/adverts/{{advert.id}}'}
-          %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
-        %table{:style=>"width: 100%"}
-          %tbody
-            %tr
-              %td
-                {{advert.operation_type.name}}:
-              %td
-                {{advert.category.name}}
-            %tr
-              %td
-                Цена:
-              %td
-                {{advert.all_price | currency: ""}} грн.
-            %tr
-              %td
-                Площадь:
-              %td
-                {{advert.area}}

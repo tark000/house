@@ -26,10 +26,13 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
-    @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
+    if params[:map]
+      render :template => 'adverts/map'
+    else
+      @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
 
-    respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
-
+      respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
+    end
   end
 
   def show
@@ -42,10 +45,10 @@ class AdvertsController < ApplicationController
       format.json
 
       format.pdf  {
-        html = render_to_string(:layout => "show_pdf.html.haml" , :action => "show_pdf.html.haml", :formats => [:html], :handler => [:haml])
+        html = render_to_string(:layout => "show_pdf.html.pdf.haml" , :action => "show_pdf.html.pdf.haml", :formats => [:html], :handler => [:haml])
         kit = PDFKit.new(html)
-        kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.cssy"
-        send_data(kit.to_pdf, :filename => "#{clean_string(@event.title)}", :type => 'application/pdf')
+        kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.css"
+        send_data(kit.to_pdf, :filename => "#{clean_string(@event.title)}")
         return # to avoid double render call
       }
 
