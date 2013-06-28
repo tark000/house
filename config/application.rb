@@ -63,7 +63,7 @@ module House
 
     #config.autoload_paths << "#{Rails.root}/app/reports"
 
-    require 'pdfkit'
-    config.middleware.use PDFKit::Middleware, :print_media_type => true
+    #require 'pdfkit'
+    #config.middleware.use PDFKit::Middleware, :print_media_type => true
   end
 end

@@ -2,7 +2,7 @@ class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
   respond_to :json, :html
-  #require 'prawn'
+  require 'prawn'
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
@@ -36,18 +36,21 @@ class AdvertsController < ApplicationController
     @advert = Advert.find(params[:id])
 
     @contact_form = ContactForm.new
+    if params[:url].present?
+      @url = params[:url]
+    else
+      @url = ""
+    end
 
+    @map = static_map_for
     respond_to do |format|
       format.html
       format.json
 
-      format.pdf  {
-        html = render_to_string(:layout => "show_pdf.html.haml" , :action => "show_pdf.html.haml", :formats => [:html], :handler => [:haml])
-        kit = PDFKit.new(html)
-        kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.cssy"
-        send_data(kit.to_pdf, :filename => "#{clean_string(@event.title)}", :type => 'application/pdf')
-        return # to avoid double render call
-      }
+      format.pdf do
+        pdf = AdvertPdf.new(@advert, view_context, @url, @map)
+        send_data pdf.render, :filename => "x.pdf", :type => "application/pdf", :disposition => "inline"
+      end
 
 
     end
@@ -117,4 +120,20 @@ class AdvertsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def static_map_for
+    params = {
+        :center => [50.4501, 50.4501].join(","),
+        :zoom => 10,
+        :size => "300x300",
+        :markers => [50.4501, 50.4501].join(","),
+        :sensor => false
+    }
+
+    query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
+    return "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+
+
+  end
+
 end

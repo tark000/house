@@ -1,3 +1,4 @@
+require "babosa"
 class Advert < ActiveRecord::Base
 
   attr_accessible :id, :category_id, :city_id, :district_id, :street_id, :house, :house_material_id,
@@ -11,6 +12,15 @@ class Advert < ActiveRecord::Base
                   :user_id, :slug, :torg, :free_to, :operation_type_id, :commission, :flat_type_id, :video,
                   :admin, :region_id, :mapaddress, :youtube, :remote_image_url, :remote_layout_url,
                   :advert_images_attributes, :layouts_attributes, :movies_attributes
+
+ extend FriendlyId
+
+ friendly_id :title, use: :slugged
+
+ def normalize_friendly_id(input)
+   input.to_s.to_slug.normalize(transliterations: :russian).to_s
+ end
+
 
   attr_accessor   :address
 

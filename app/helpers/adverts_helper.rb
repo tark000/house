@@ -48,4 +48,17 @@ module AdvertsHelper
     count
   end
 
+  def static_map_for
+    params = {
+        :center => [50.4501, 50.4501].join(","),
+        :zoom => 10,
+        :size => "300x300",
+        :markers => [50.4501, 50.4501].join(","),
+        :sensor => false
+    }
+
+    query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
+    image_tag "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+  end
+
 end

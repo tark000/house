@@ -1,6 +1,6 @@
 .row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
   .large-12.columns
-    %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
+    %img.th.radius(ng-src="http://79.135.193.57:3000{{currentImage.image.big.url}}" )
     .row
       .large-12.columns
         %p
@@ -98,7 +98,9 @@
         .content{"data-section-content" => ""}
           = render 'contact_us/form'
 
-
+  %p#pdf_link= link_to "Download Invoice (PDF)", advert_path(@advert, :format => "pdf", :method => 'post', :url => "#{request.protocol}#{request.host_with_port}#{request.fullpath}")
 = link_to 'Edit', edit_advert_path(@advert)
 |
 \#{link_to 'Back', adverts_path}
+
+

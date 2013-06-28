@@ -15,5 +15,18 @@ $('form').on 'click', '.add_fields', (event) ->
   $(this).before($(this).data('fields').replace(regexp, time))
   event.preventDefault()
 
+jQuery ->
+  $('#advert_publication_date').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
 
+jQuery ->
+  $('#advert_free_from').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
+
+jQuery ->
+  $('#advert_free_to').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
 

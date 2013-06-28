@@ -15,7 +15,7 @@
     %ul.large-block-grid-4
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" )
         %p
-          %a{href: '/adverts/{{advert.id}}'}
+          %a{href: '/adverts/{{advert.slug}}'}
             %img.th.radius(ng-src="{{advert.image.image.medium.url}}")
           %table{:style=>"width: 100%"}
             %tbody
