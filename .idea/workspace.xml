@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="408b9f13-fb87-4818-9de8-8ca767bf5a81" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/pdfkit.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/busines_period.rb" afterPath="$PROJECT_DIR$/app/models/bussines_period.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/adverts.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/adverts.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pdfs/advert_pdf.rb" afterPath="$PROJECT_DIR$/app/pdfs/advert_pdf.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_advert_image_fields.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_advert_image_fields.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-    </list>
+    <list default="true" id="408b9f13-fb87-4818-9de8-8ca767bf5a81" name="Default" comment="" />
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
