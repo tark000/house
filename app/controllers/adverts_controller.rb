@@ -42,7 +42,7 @@ class AdvertsController < ApplicationController
       @url = ""
     end
 
-    @map = static_map_for
+    @map = static_map
     respond_to do |format|
       format.html
       format.json
@@ -82,6 +82,7 @@ class AdvertsController < ApplicationController
     @advert.modified = Time.now
     @advert.publication_date = Time.now
     @advert.user_id = current_user
+    map_download(@advert)
     respond_to do |format|
       if @advert.save
         format.html { redirect_to @advert, notice: 'Advert was successfully created.' }
@@ -97,6 +98,7 @@ class AdvertsController < ApplicationController
   # PUT /adverts/1.json
   def update
     @advert = Advert.find(params[:id])
+    map_download(@advert)
     expire_action :action => :index
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
@@ -121,19 +123,27 @@ class AdvertsController < ApplicationController
     end
   end
 
-  def static_map_for
+  def map_download(advert)
+    require 'open-uri'
+    @path = 'public/uploads/advert/image/' + advert.id.to_s + '/map.png'
+    open(@path, 'wb') do |file|
+      file << open(static_map).read
+    end
+  end
+
+  def static_map
     params = {
-        :center => [50.4501, 50.4501].join(","),
+        :center => [-50.4501, 50.4501].join(","),
         :zoom => 10,
         :size => "300x300",
-        :markers => [50.4501, 50.4501].join(","),
+        :markers => [-50.4501, 50.4501].join(","),
         :sensor => false
     }
 
     query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
-    return "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
-
-
+    @c = "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+    return @c
   end
+
 
 end

@@ -34,6 +34,7 @@ class Advert < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader
   mount_uploader :layout, ImageUploader
+  mount_uploader :mapaddress, ImageUploader
 
   has_many :advert_images, :dependent => :destroy
   accepts_nested_attributes_for :advert_images, allow_destroy: true

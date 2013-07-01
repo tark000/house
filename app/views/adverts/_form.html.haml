@@ -315,5 +315,14 @@
             = f.label "Срок размещения: *"
         .large-6.columns
           = f.collection_select :bussines_period_id, BussinesPeriod.order(:name), :id, :name
+    .large-12.columns
+      .field
+        = f.label "Map: *"
+        %br/
+        .large-7.columns
+          = f.text_field :mapaddress
+        .large-5.columns.link_add
+          = image_tag(@advert.mapaddress_url(:small)) if @advert.mapaddress?
+
     .actions
       = f.submit
