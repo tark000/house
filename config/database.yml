@@ -10,7 +10,7 @@ development:
   database: test_house
   pool: 5
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -23,7 +23,7 @@ test:
   database: test_house
   pool: 5
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -34,5 +34,5 @@ production:
   pool: 5
   host: localhost
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock

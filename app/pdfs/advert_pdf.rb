@@ -18,7 +18,7 @@ class AdvertPdf <  Prawn::Document
     move_down 15
     table([ ["Цена", advert.price, "Площадь", advert.area],
             ["Регион", advert.region.title, "Город", advert.city.title],
-            ["Район", advert.district.title, "Улица", advert.street.title],
+           ["Район", advert.district.title, "Улица", advert.street.title  ]  ,
             ["Дом", advert.house, "Этаж", advert.floor],
             ["Количество комнат", advert.rooms, "Категория", advert.category.title] ], :row_colors => ["F0F0F0", "FFFFCC"])
     move_down 15
