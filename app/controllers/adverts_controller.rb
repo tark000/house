@@ -60,7 +60,7 @@ class AdvertsController < ApplicationController
 
       render :template => 'adverts/map'
     else
-      #@adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
+      @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
 
       #@adverts = marker(@adverts)
 
