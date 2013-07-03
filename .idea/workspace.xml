@@ -2,141 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21aea5d-d373-4156-aced-b381c1e5cf43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1e50edb3f12373b0ee870c88e1193b3161bc08a7/app.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/map.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pdf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/map.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/pdf.html.pdf.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130621205329_add_index_to.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130625105526_add_coords_to_adverts.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc~506cb424e39bf37d6f323f9546c951fbeb9c106f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc~HEAD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc~HEAD_0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8630913ee5045335b07b15ed2528b906bec419b9/_variables.scssc~ea4b1997c820f41dd8e84f234403fab7c50cd350" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/_normalize.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/_settings.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/87589592295265931b1fa7875b6e4b4292c6a9cf/foundation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings_2.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/foundation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_alert-boxes.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_block-grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_breadcrumbs.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_button-groups.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_clearing.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_custom-forms.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_dropdown-buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_dropdown.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_flex-video.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_forms.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_global.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_inline-lists.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_joyride.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_keystrokes.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_labels.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_magellan.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_orbit.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_pagination.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_panels.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_pricing-tables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_progress-bars.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_reveal.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_section.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_side-nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_split-buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_sub-nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_switch.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_tables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_thumbs.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_tooltips.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_top-bar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_type.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f0825c7b6184f6489cf8fd248222d478d6322595/_visibility.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert_image/image/1/________________2013-04-22_12_08_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert_image/image/1/big_________________2013-04-22_12_08_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/advert_image/image/1/small_________________2013-04-22_12_08_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular-ui-states.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/truncate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/underscore-min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/ace989f44e5702bba51ebad8b1eb34a9bf439424/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1e50edb3f12373b0ee870c88e1193b3161bc08a7/_settings.scssc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/adverts.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/adv.js.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/adverts/show_pdf.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.html.pdf.haml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_alert-boxes.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_alert-boxes.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_block-grid.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_block-grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_breadcrumbs.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_breadcrumbs.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_button-groups.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_button-groups.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_clearing.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_clearing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_custom-forms.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_custom-forms.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_dropdown-buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_dropdown-buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_dropdown.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_dropdown.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_flex-video.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_flex-video.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_forms.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_forms.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_global.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_global.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_grid.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_inline-lists.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_inline-lists.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_joyride.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_joyride.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_keystrokes.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_keystrokes.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_labels.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_labels.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_magellan.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_magellan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_orbit.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_orbit.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_pagination.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_pagination.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_panels.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_panels.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_pricing-tables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_pricing-tables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_progress-bars.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_progress-bars.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_reveal.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_reveal.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_section.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_section.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_side-nav.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_side-nav.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_split-buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_split-buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_sub-nav.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_sub-nav.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_switch.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_switch.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_tables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_tables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_thumbs.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_thumbs.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_tooltips.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_tooltips.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_top-bar.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_top-bar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_type.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_type.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_visibility.scssc" afterPath="$PROJECT_DIR$/.sass-cache/03eb4fb14f68d5d83e1a9a15bbd27c00ca8b1244/_visibility.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4bd03fb934ccc48a962ae0ecf395414ef618a731/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4bd03fb934ccc48a962ae0ecf395414ef618a731/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/estate_type.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/_settings.scss" afterPath="$PROJECT_DIR$/app/assets/sass/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/adverts_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pdfs/advert_pdf.rb" afterPath="$PROJECT_DIR$/app/pdfs/advert_pdf.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_sidebar_adverts_count.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,10 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="21" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="0" column="36" selection-start="21" selection-end="36" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="60" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="22" selection-start="1268" selection-end="1269" vertical-scroll-proportion="0.0">
+            <state line="30" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5193929">
               <folding />
             </state>
           </provider>
@@ -229,24 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search_by_id.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="57" selection-start="101" selection-end="104" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_search_medium.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="56" selection-start="56" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -272,6 +142,9 @@
         <option value="$PROJECT_DIR$/app/views/adverts/_search_by_id.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
         <option value="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -417,6 +290,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -480,6 +367,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,13 +621,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27258193" sideWeight="0.968" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27258193" sideWeight="0.968" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -791,16 +696,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.48387095" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="588" selection-end="593" vertical-scroll-proportion="-10.16129" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="117" selection-start="1190" selection-end="1198" vertical-scroll-proportion="0.0" />
@@ -851,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="22" selection-start="1268" selection-end="1269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="39" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
@@ -891,6 +779,27 @@
     <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="36" selection-start="21" selection-end="36" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5193929">
           <folding />
         </state>
       </provider>
