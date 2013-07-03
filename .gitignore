@@ -13,7 +13,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-/.idea/*
+/app/.idea/*
 /config/database.yml
 /public/uploads
-/.idea
+/app/.idea
+/.sass-cache
