@@ -1,9 +1,9 @@
 %body(ng-controller="MapController")
   .row
     .large-12.columns
-
       %div.google-map{:center => "center", :draggable => "true",
-      :events => "eventsProperty", :fit => "true",
+      :events => "events",:zoom => "zoom"}
+        %marker(ng-repeat="m in markers" coords="m" icon="m.icon" click="m.set()" )
+          %window(show="m.templatedInfoWindow.show" click="m.set()" coords="m.templatedInfoWindow.coords" templateUrl="m.templatedInfoWindow.templateUrl" templateParameter="m.templatedInfoWindow.templateParameter")
 
-       "mark-click" => "false",
-      :markers => "markers", :style => "height: 600px; width: 100%", :zoom => "zoom"}
+

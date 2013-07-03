@@ -27,7 +27,10 @@ body {
 .angular-google-map {
   display: block;
 }
-
+.angular-google-map-container {
+  width: 100%;
+  height: 600px;
+}
 .angular-google-map img {
   max-width: inherit !important;
 }

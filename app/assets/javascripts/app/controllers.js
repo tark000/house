@@ -1,24 +1,26 @@
 
-angular.module('realty').controller('IndexController', function($rootScope,$scope,Advert, $location){
+angular.module('realty').controller('IndexController', function($scope,Advert, $location){
 
     var advert = new Advert();
 
-    Advert.get($location.url()).success(function(data){
-        $scope.adverts = data;
-    });
 
+    var houses;
+    houses= Advert.get($location.url());
 
-
+    $scope.adverts = houses.success(function(data){ $scope.adverts = data;});
 });
 
 
-angular.module('realty').controller('MapController', function($rootScope,$scope,Advert,$location){
+angular.module('realty').controller('MapInfoController', function($scope){
+
+    $scope.templateValue = 'hello from the template itself';
+})
+
+angular.module('realty').controller('MapController', function($scope,Advert,$location,$timeout, $log){
     google.maps.visualRefresh = true;
 
     var advert = new Advert();
     $scope.markers = Advert.getMarkers($location.absUrl());
-    //alert($scope.markers);
-
 
     $scope.center ={
         latitude: 50.4501,
@@ -29,14 +31,26 @@ angular.module('realty').controller('MapController', function($rootScope,$scope,
 
 
 
-
-
 });
 
 
+angular.module('realty').controller('AdvertDetailController', function($scope,Advert,$location){
+
+    var advert = new Advert();
 
 
+    Advert.get($location.url()).success(function(data){
+        $scope.advert = data;
 
-angular.module('realty').controller('AdvertDetailController', function($scope,Adverts){
+
+        $scope.currentImage = $scope.advert.image;
+
+
+        $scope.setCurrentImage = function (image) {
+            $scope.currentImage = image;
+        };
+        $scope.fetch();
+
+    });
 
 });
