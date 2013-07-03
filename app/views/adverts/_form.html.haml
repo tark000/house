@@ -3,9 +3,25 @@
     .large-12.columns
       Основная информация:
       .line
-      .field
-        = f.label "Админское обьявление"
-        = f.check_box 'admin'
+      .large-12.columns
+        .large-3.columns
+          .field
+            = f.label "Жилая:"
+        .large-3.columns
+          = f.check_box :living
+        .large-3.columns
+        .large-3.columns
+      .large-12.columns
+        .large-3.columns
+          .field
+            = f.label "Админское обьявление:"
+        .large-3.columns
+          = f.check_box :admin
+        .large-3.columns
+          .field
+            = f.label "Название: *"
+        .large-3.columns
+          = f.text_field :title
       .large-6.columns
         .large-6.columns
           .field
@@ -62,42 +78,42 @@
           .field
             = f.label "Контактное лицо: *"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Телефон 1: *"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Телефон 2:"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "E-mail: *"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Skype:"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Логотип компании:"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Действую как: *"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
         .large-6.columns
           .field
             = f.label "Комиссия: *"
         .large-6.columns
-          = f.text_field :title
+          =# f.text_field :title
 
     .large-12.columns
       Характеристика обьекта::
@@ -128,17 +144,17 @@
           .field
             = f.label "Срок сдачи дома"
         .large-6.columns
-          = date_select f, :publication_date
+          = f.text_field :publication_date
         .large-6.columns
           .field
             = f.label "Свободно с:"
         .large-6.columns
-          = date_select f, :free_from
+          = f.text_field :free_from
         .large-6.columns
           .field
             = f.label "Свободно по:"
         .large-6.columns
-          = date_select f, :free_to
+          = f.text_field :free_to
         .large-6.columns
           .field
             = f.label "Количество комнат:"
@@ -152,16 +168,26 @@
             = radio_button_tag 'rooms_type_id', '0'
             раздельные
         .large-12.columns
-          .large-4.columns
-            .field
-              = f.label "Планировка:"
-          .large-8.columns
-            = f.file_field :layout
-            .field
-              - f.fields_for :layout do |builder|
-                = render 'layout_fields', f: builder
-              = link_to_add_fields "Add Layout", f, :layouts
 
+        .field
+          = f.label "Планировка:"
+          .large-12.columns
+            .large-7.columns
+              = f.file_field :layout
+            .large-5.columns.link_add
+              = image_tag(@advert.layout_url(:small)) if @advert.layout?
+
+        .field
+          - i = 0
+          = f.fields_for :layouts do |builder|
+            .large-12.columns
+              .large-7.columns
+                = render 'layout_fields', f: builder
+              .large-5.columns.link_add
+                = image_tag(@advert.layouts[0].image_url(:small)) if @advert.layouts[i].present?
+                - i = i + 1
+            .large-12.columns.link_add
+              = link_to_add_fields "Add Layout", f, :layouts
         .large-6.columns
           .field
             = f.label "Этаж \ этажность: *"
@@ -194,10 +220,6 @@
             = f.label "Площадь общая м2: *"
         .large-6.columns
           = f.text_field :area
-
-
-
-
 
 
       .large-6.columns
@@ -236,35 +258,79 @@
           .field
             = f.label "Дополнительная информация"
         .large-12.columns
-          = f.text_area :description
+          = f.text_area :description, :style => "height: 13em;;"
 
     .large-12.columns
       .large-6.columns
         Фотографии обьекта:
         .line
-        .field
-          = f.label "Фото (основное): *"
-          %br/
-          = image_tag(@advert.image_url) if @advert.image?
-          = f.file_field :image
+        .large-12.columns
+          .field
+            = f.label "Фото (основное): *"
+            %br/
+            .large-7.columns
+              = f.file_field :image
+            .large-5.columns.link_add
+              = image_tag(@advert.image_url(:small)) if @advert.image?
 
-
-        .field
-          - f.fields_for :advert_image do |builder|
-            = render 'advert_image_fields', f: builder
-          = link_to_add_fields "Добавить фотографию", f, :advert_images
-
+          .field
+            - i=0
+            = f.fields_for :advert_images do |builder|
+              .large-12.columns
+                .large-7.columns
+                  = render 'advert_image_fields', f: builder
+                .large-5.columns.link_add
+                  = image_tag(@advert.advert_images[i].image_url(:small)) if @advert.advert_images[i].present?
+                  - i = i + 1
+          .large-12.columns.link_add
+            = link_to_add_fields "Добавить фотографию", f, :advert_images
 
       .large-6.columns
         Видео:
         .line
         .field
-          = f.label "Видею"
+          = f.label "Видео"
           %br/
           = f.text_field :video
         .field
-          - f.fields_for :movie do |builder|
+          = f.fields_for :movies do |builder|
             = render 'movie_fields', f: builder
+        .large-12.columns.link_add
           = link_to_add_fields "Добавить видео", f, :movies
+    .large-12.columns
+      .line
+      .large-8.columns
+        .large-2.columns
+          .field
+            = f.label "Цена: *"
+        .large-3.columns
+          = f.text_field :usercostforall
+          = f.text_field :usercost
+        .large-4.columns
+          = f.collection_select :currency_user_id, CurrencyUser.order(:name), :id, :title
+          .large-12.columns
+            = radio_button_tag 'cost', '0', true
+            за обьект
+            %br/
+            = radio_button_tag 'cost', '1'
+            за м<sup>2</sup>
+        .large-3.columns
+    .large-12.columns
+      .large-6.columns
+        .large-6.columns
+
+          .field
+            = f.label "Срок размещения: *"
+        .large-6.columns
+          = f.collection_select :bussines_period_id, BussinesPeriod.order(:name), :id, :name
+    .large-12.columns
+      .field
+        = f.label "Map: *"
+        %br/
+        .large-7.columns
+          = f.text_field :mapaddress
+        .large-5.columns.link_add
+          = image_tag(@advert.mapaddress_url(:small)) if @advert.mapaddress?
+
     .actions
       = f.submit

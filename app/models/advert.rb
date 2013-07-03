@@ -1,3 +1,4 @@
+require "babosa"
 class Advert < ActiveRecord::Base
 
   attr_accessible :id, :category_id, :city_id, :district_id, :street_id, :house, :house_material_id,
@@ -10,7 +11,16 @@ class Advert < ActiveRecord::Base
                   :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image, :contact_id,
                   :user_id, :slug, :torg, :free_to, :operation_type_id, :commission, :flat_type_id, :video,
                   :admin, :region_id, :mapaddress, :youtube, :remote_image_url, :remote_layout_url,
-                  :advert_images_attributes, :layouts_attributes, :movies_attributes, :address, :longitude, :latitude
+                  :advert_images_attributes, :layouts_attributes, :movies_attributes, :address, :longitude, :latitude, :living
+
+ extend FriendlyId
+
+ friendly_id :title, use: :slugged
+
+ def normalize_friendly_id(input)
+   input.to_s.to_slug.normalize(transliterations: :russian).to_s
+ end
+
 
   attr_accessor   :address
 
@@ -28,6 +38,7 @@ class Advert < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader
   mount_uploader :layout, ImageUploader
+  mount_uploader :mapaddress, ImageUploader
 
   has_many :advert_images, :dependent => :destroy
   accepts_nested_attributes_for :advert_images, allow_destroy: true

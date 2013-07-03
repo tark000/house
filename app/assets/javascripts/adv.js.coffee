@@ -14,6 +14,13 @@ $('form').on 'click', '.add_fields', (event) ->
   regexp = new RegExp($(this).data('id'), 'g')
   $(this).before($(this).data('fields').replace(regexp, time))
   event.preventDefault()
-
-
+  $('#advert_publication_date').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
+  $('#advert_free_from').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
+  $('#advert_free_to').datepicker
+    dateFormat: 'yy-mm-dd'
+    changeYear: true
 

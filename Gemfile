@@ -12,19 +12,23 @@ gem 'carrierwave'
 gem "haml-rails"
 gem 'rabl'
 gem 'uuid'
+gem 'friendly_id'
+gem "babosa"
+gem 'russian', '~> 0.6.0'
 
 #gem 'wicked_pdf', :git => 'git://github.com/zurb/wicked_pdf.git'
 #gem 'pdfkit'
 #gem 'wkhtmltopdf-binary'
 
-gem "pdfkit"
-#gem 'prawn'
+
+gem 'prawn'
 #gem 'pdf-reader'
+#gem 'Ascii85'
 
 gem 'will_paginate'
 gem 'geocoder'
 
-
+gem 'seed_dump'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -37,6 +41,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'compass'
   gem 'zurb-foundation'
+  gem 'jquery-ui-rails'
 end
 
 gem 'jquery-rails'

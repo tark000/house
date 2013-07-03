@@ -24,6 +24,9 @@ class AdvertsController < ApplicationController
   end
 
 
+
+  #require 'prawn'
+
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
@@ -69,18 +72,22 @@ class AdvertsController < ApplicationController
     @advert = Advert.find(params[:id])
 
     @contact_form = ContactForm.new
+    if params[:url].present?
+      @url = params[:url]
+    else
+      @url = ""
+    end
 
+    @map = static_map
     respond_to do |format|
       format.html
       format.json
 
-      format.pdf  {
-        html = render_to_string(:layout => "show_pdf.html.pdf.haml" , :action => "show_pdf.html.pdf.haml", :formats => [:html], :handler => [:haml])
-        kit = PDFKit.new(html)
-        kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.css"
-        send_data(kit.to_pdf, :filename => "#{clean_string(@event.title)}")
-        return # to avoid double render call
-      }
+      format.pdf do
+        pdf = AdvertPdf.new(@advert, view_context, @url, @map)
+        send_data pdf.render, :filename => @advert.slug + ".pdf", :type => "application/pdf", :disposition => "inline"
+      end
+
 
 
     end
@@ -112,6 +119,7 @@ class AdvertsController < ApplicationController
     @advert.modified = Time.now
     @advert.publication_date = Time.now
     @advert.user_id = current_user
+    map_download(@advert)
     respond_to do |format|
       if @advert.save
         format.html { redirect_to @advert, notice: 'Advert was successfully created.' }
@@ -127,6 +135,7 @@ class AdvertsController < ApplicationController
   # PUT /adverts/1.json
   def update
     @advert = Advert.find(params[:id])
+    map_download(@advert)
     expire_action :action => :index
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
@@ -150,4 +159,28 @@ class AdvertsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def map_download(advert)
+    require 'open-uri'
+    @path = 'public/uploads/advert/image/' + advert.id.to_s + '/map.png'
+    open(@path, 'wb') do |file|
+      file << open(static_map).read
+    end
+  end
+
+  def static_map
+    params = {
+        :center => [-50.4501, 50.4501].join(","),
+        :zoom => 10,
+        :size => "300x300",
+        :markers => [-50.4501, 50.4501].join(","),
+        :sensor => false
+    }
+
+    query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
+    @c = "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+    return @c
+  end
+
+
 end

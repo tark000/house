@@ -1,14 +1,16 @@
+= @advert.mapaddress
 .row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
   .large-12.columns
 
     %img.th.radius(ng-src="{{currentImage}}" )
+
     .row
       .large-12.columns
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
             %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
-              {{image}}
+
               %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
 
   %div.large-12.columns
@@ -101,7 +103,9 @@
         .content{"data-section-content" => ""}
           = render 'contact_us/form'
 
-
+  %p#pdf_link= link_to "Download Invoice (PDF)", advert_path(@advert, :format => "pdf", :method => 'post', :url => "#{request.protocol}#{request.host_with_port}#{request.fullpath}")
 = link_to 'Edit', edit_advert_path(@advert)
 |
 \#{link_to 'Back', adverts_path}
+
+

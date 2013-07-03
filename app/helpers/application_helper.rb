@@ -7,4 +7,8 @@ module ApplicationHelper
     end
     link_to(name, '#', class: "add_fields", data: {id: id, fields: fields.gsub("\n", "")})
   end
+
+  def asset_url asset
+    "#{request.protocol}#{request.host_with_port}#{asset_path(asset)}"
+  end
 end

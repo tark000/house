@@ -23,21 +23,6 @@
 }
 
 
-@media print {
-  body { background-color: #585858; }
-  #container {
-    width: auto;
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-
-  #line_items {
-    page-break-before: always;
-  }
-
-
-}
 
 html,
 body { font-size: $base-font-size; }
@@ -189,6 +174,38 @@ and (orientation : landscape) {
 
 .line {
   border-bottom: 1px solid #cccccc; margin: 10px 0 10px 0;
+}
+
+.link_add{
+  padding: 20px;
+}
+.pdf_show {
+  display: none;
+}
+
+@media print {
+
+
+
+  #container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  #line_items {
+    page-break-before: always;
+  }
+
+  .main_show {
+    display: none;
+  }
+  .pdf_show {
+    display: block;
+  }
+
+
 }
 
 
