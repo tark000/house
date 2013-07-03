@@ -53,14 +53,12 @@
     <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.6.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="meta_request (v0.2.6, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.7, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pdfkit (v0.5.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry (v0.9.12.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rabl (v0.8.5, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -74,7 +72,6 @@
     <orderEntry type="library" scope="PROVIDED" name="rmagick (v2.13.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="slop (v3.4.5, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="systemu (v2.5.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />

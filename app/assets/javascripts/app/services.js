@@ -1,4 +1,11 @@
 angular.module('advert.services', ['ngResource']);
+angular.module('map', ["google-maps"]);
+
+angular.module('advert.services').config
+
+function floatEqual (f1, f2) {
+    return (Math.abs(f1 - f2) < 0.00000001);
+}
 
 angular.module('advert.services').factory('Advert', function($http){
 
@@ -7,29 +14,74 @@ angular.module('advert.services').factory('Advert', function($http){
     }
 
     var markers = [];
+    var adverts = [];
 
     Advert.get = function(url) {
+        //alert(url);
         return $http.get(url).success(function(response) {
-            return new Advert(response.data);
+
+            adverts = response;
+            return   adverts;
+
+        });
+
+    };
+
+    Advert.getOne = function(url) {
+        return $http.get(url).success(function(response) {
+            adverts = response;
+            return   adverts;
         });
     };
+
+
 
     Advert.getMarkers = function(url){
 
         $http.get(url).success(function(response) {
             $adverts = response;
+
             angular.forEach($adverts, function(key, value){
                 if(key.latitude){
-                    var $html = "<div><ul><li>q<img src='"+key.image+"'></li></ul></div>";
+
+                   $message = '';
+                    var contentString = '<div id="content">'+
+
+                        '</div>';
+                    $message += "id="+key.id+" ,";
+                    //alert("push");
                     markers.push({
                         latitude: key.latitude,
                         longitude: key.longitude,
-                        //icon: 'house.png',
-                        infoWindow: $html
-                    });
+                        click:true,
+
+                        infoWindow: {
+                            coords: {
+                                latitude: 30,
+                                    longitude: -89
+                            },
+                        show: false
+                        },
+                        templatedInfoWindow: {
+                            coords: {
+                                latitude: key.latitude,
+                                longitude: key.longitude
+                            },
+                            show: true,
+                            templateUrl: 'templates/info.html',
+                            templateParameter: {
+                                message: 'passed in from the opener',
+                                id: key.id,
+                                img:key.image
+                            },
+                            click: false
+                        }
+
+                        });
+
                 }
             });
-            //return markers;
+
         })
         return markers;
     }
@@ -39,4 +91,3 @@ angular.module('advert.services').factory('Advert', function($http){
 })
 
 
-angular.module('map', ["google-maps"]);

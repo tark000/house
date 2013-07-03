@@ -1,12 +1,14 @@
 .row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
   .large-12.columns
-    %img.th.radius(ng-src="{{currentImage.image.big.url}}" )
+
+    %img.th.radius(ng-src="{{currentImage}}" )
     .row
       .large-12.columns
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
-            %li.listitem(ng-repeat="image in advert.images | filter:query" )
+            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
+              {{image}}
               %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
 
   %div.large-12.columns
@@ -92,12 +94,7 @@
           %a{:href => "#panel5"} Карта
         .content{"data-section-content" => ""}
           %p
-            .google-map{:center => "center", :draggable => "true",
-                :events => "eventsProperty", :fit => "fit",
-                :windows =>"infowindows",
 
-                :latitude => "clickedLatitudeProperty", :longitude => "clickedLongitudeProperty", "mark-click" => "true",
-                :markers => "markers", :style => "height: 300px; width: 100%", :zoom => "zoom"}
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel6"} Написать владельцу

@@ -2,62 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408b9f13-fb87-4818-9de8-8ca767bf5a81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/map.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/map.json.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pdf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/pdf.html.pdf.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular-ui-states.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/ng-responsive-images.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/truncate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/underscore-min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/adverts.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/adv.js.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/adverts/show_pdf.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.html.pdf.haml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/adverts/index_1.json.rabl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/info.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="$PROJECT_DIR$/.idea/house.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/map.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/map.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/map.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/map.json.rabl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/rabl_init.rb" afterPath="$PROJECT_DIR$/config/initializers/rabl_init.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show_pdf.pdf.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372333578560" ignored="false" />
+    <file path="/Dummy.txt" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372850743853" ignored="false" />
     <file path="$PROJECT_DIR$/../../house/app/views/adverts/index.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371842055986" ignored="false" />
-    <file path="/index.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372275021022" ignored="false" />
+    <file path="/index.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372805865855" ignored="false" />
     <file path="$PROJECT_DIR$/../../house/app/uploaders/image_uploader.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371842707714" ignored="false" />
     <file path="/image_uploader.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371842467706" ignored="false" />
     <file path="/20130621205329_add_index_to.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371848161569" ignored="false" />
-    <file path="/show.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371854083028" ignored="false" />
-    <file path="/show.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372177689569" ignored="false" />
+    <file path="/show.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372816720583" ignored="false" />
+    <file path="/show.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372816817775" ignored="false" />
     <file path="/_settings.scss" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371858539060" ignored="false" />
     <file path="/_search_medium.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1371859142720" ignored="false" />
     <file path="/app.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372256307813" ignored="false" />
     <file path="/routes.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372152777964" ignored="false" />
-    <file path="/advert.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372158029437" ignored="false" />
-    <file path="/adverts_controller.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372251423331" ignored="false" />
+    <file path="/advert.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372440438888" ignored="false" />
+    <file path="/adverts_controller.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372692397976" ignored="false" />
     <file path="/application.scss" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372174658785" ignored="false" />
     <file path="/_search.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372195000036" ignored="false" />
-    <file path="/map.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372338218611" ignored="false" />
+    <file path="/map.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372724945016" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ksymax/ksymax/config/database.yml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372199855162" ignored="false" />
     <file path="/database.yml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372199855162" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ksymax/ksymax/Gemfile" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372200165669" ignored="false" />
@@ -86,12 +69,16 @@
     <file path="$PROJECT_DIR$/../../Ksymax/ksymax/log/sunspot-solr-development.log" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372216410593" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ksymax/ksymax/app/views/users/_my_products.html.erb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372216293106" ignored="false" />
     <file path="/_my_products.html.erb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372216291981" ignored="false" />
-    <file path="/map.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372253027069" ignored="false" />
-    <file path="/index.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372280300392" ignored="false" />
-    <file path="/services.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372337143844" ignored="false" />
+    <file path="/map.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372448531810" ignored="false" />
+    <file path="/index.json.rabl" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372691551032" ignored="false" />
+    <file path="/services.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372806123400" ignored="false" />
     <file path="/advert.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372268719485" ignored="false" />
-    <file path="/controllers.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372336767422" ignored="false" />
+    <file path="/controllers.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372813595463" ignored="false" />
     <file path="/application.html.haml" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372259631276" ignored="false" />
+    <file path="/Gemfile" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372449754394" ignored="false" />
+    <file path="/rabl_rails.rb" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372449962669" ignored="false" />
+    <file path="/angular-google-maps.js" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372726703939" ignored="false" />
+    <file path="/info.html" changelist="408b9f13-fb87-4818-9de8-8ca767bf5a81" time="1372726970779" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,48 +98,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="31" selection-start="528" selection-end="574" vertical-scroll-proportion="0.60504204">
+            <state line="47" column="16" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+      <file leaf-file-name="index.json.rabl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/index.json.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="108" selection-start="1923" selection-end="2010" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="2" column="90" selection-start="43" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-google-maps.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="484" column="38" selection-start="15979" selection-end="15987" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/main.js">
+      <file leaf-file-name="show.json.rabl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/show.json.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advert_image.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="60" selection-start="745" selection-end="745" vertical-scroll-proportion="0.02688172">
               <folding />
             </state>
           </provider>
@@ -161,25 +155,7 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="68" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/map.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="213" selection-end="213" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="54" selection-start="764" selection-end="814" vertical-scroll-proportion="0.0">
+            <state line="30" column="28" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-resource.min.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.js" />
         <option value="$PROJECT_DIR$/app/views/adverts/index.json.rabl" />
-        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/directive.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/directives.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/advert.js" />
+        <option value="$PROJECT_DIR$/app/views/adverts/map.json.rabl" />
+        <option value="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/directives/map.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/directives/marker.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/directives/window.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.min.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/main.js" />
+        <option value="$PROJECT_DIR$/app/views/adverts/map.html.haml" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js" />
+        <option value="$PROJECT_DIR$/public/templates/info.html" />
+        <option value="$PROJECT_DIR$/app/views/adverts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/services.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-        <option value="$PROJECT_DIR$/app/views/adverts/map.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/adverts/show.json.rabl" />
+        <option value="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
       </list>
     </option>
   </component>
@@ -254,7 +230,6 @@
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope">
         <subPane subId="Default" />
         <subPane subId="Problems" />
@@ -263,6 +238,7 @@
         <subPane subId="Changed Files" />
         <subPane subId="All" />
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,33 +281,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,19 +299,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,11 +411,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,54 +430,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,8 +466,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/javascripts/app" />
       <recent name="$PROJECT_DIR$/app/views/adverts" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app" />
       <recent name="$PROJECT_DIR$/app/mailers" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/views/notifications_mailer" />
@@ -898,13 +806,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26378897" sideWeight="0.06521739" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30167174" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" x="548" y="102" width="336" height="644" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34726444" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" x="548" y="102" width="336" height="644" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26378897" sideWeight="0.10559006" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -982,110 +890,98 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/map.json.rabl">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index_1.json.rabl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.json.rabl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="87" selection-start="172" selection-end="172" vertical-scroll-proportion="-1.25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/adv.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="38" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="45" selection-start="44" selection-end="65" vertical-scroll-proportion="0.026269702" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="0" selection-end="490072" vertical-scroll-proportion="0.25773194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="764" selection-end="814" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="49" selection-start="0" selection-end="490072" vertical-scroll-proportion="0.12886597" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="48" selection-start="17945" selection-end="17945" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="1" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/map.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="213" selection-end="213" vertical-scroll-proportion="-4.375">
+        <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.08064516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="83" selection-start="236" selection-end="236" vertical-scroll-proportion="0.10507881" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="75" selection-start="308" selection-end="308" vertical-scroll-proportion="0.025773196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="108" selection-start="1923" selection-end="2010" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="52" selection-start="2331" selection-end="2467" vertical-scroll-proportion="2.0588236">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="52" selection-start="2346" selection-end="2467" vertical-scroll-proportion="0.77956986">
+        <state line="15" column="13" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="68" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/angular/angular-google-maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="484" column="38" selection-start="15979" selection-end="15987" vertical-scroll-proportion="0.0">
+        <state line="30" column="28" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="528" selection-end="574" vertical-scroll-proportion="0.60504204">
+        <state line="47" column="16" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.json.rabl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="90" selection-start="43" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/advert_image.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.json.rabl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="745" selection-end="745" vertical-scroll-proportion="0.02688172">
           <folding />
         </state>
       </provider>
