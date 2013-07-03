@@ -17,7 +17,7 @@
   .large-12.columns
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" ng-cloak )
-        %a{href: '/adverts/{{advert.id}}'}
+        %a{href: '/adverts/{{advert.slug}}'}
           %span(ng-bind="advert.id")
         %table{:style=>"width: 100%;margin-top:5px;"}
           %tbody

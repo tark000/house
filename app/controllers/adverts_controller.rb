@@ -2,7 +2,6 @@ class AdvertsController < ApplicationController
   # GET /adverts
   # GET /adverts.json
   respond_to :json, :html
-  require 'prawn'
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
