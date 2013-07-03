@@ -116,7 +116,6 @@ class AdvertsController < ApplicationController
     @advert = Advert.new(params[:advert])
     expire_action :action => :index
     @advert.contact_id = 1
-    @advert.publication_date = Time.now
     @advert.user_id = current_user
     #map_download(@advert)
     respond_to do |format|
