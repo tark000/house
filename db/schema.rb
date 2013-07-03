@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130625105526) do
+ActiveRecord::Schema.define(:version => 0) do
 
   create_table "accommodation_terms", :force => true do |t|
     t.string  "name", :limit => 128
@@ -311,17 +311,6 @@ ActiveRecord::Schema.define(:version => 20130625105526) do
   add_index "advert_photoadvert", ["advert_id"], :name => "advert_photoadvert_dbc21818"
   add_index "advert_photoadvert", ["photo_id"], :name => "advert_photoadvert_7c6c8bb1"
 
-  create_table "advert_realtype2", :force => true do |t|
-    t.string "name"
-  end
-
-  create_table "advert_street", :force => true do |t|
-    t.string  "name"
-    t.integer "cityid_id", :null => false
-  end
-
-  add_index "advert_street", ["cityid_id"], :name => "advert_street_a3ca7998"
-
   create_table "advert_tags", :force => true do |t|
     t.text    "word",   :limit => 2147483647, :null => false
     t.integer "weight",                       :null => false
@@ -398,8 +387,9 @@ ActiveRecord::Schema.define(:version => 20130625105526) do
     t.integer  "region_id"
     t.text     "mapaddress",               :limit => 2147483647
     t.text     "youtube",                  :limit => 2147483647
-    t.float    "latitude"
-    t.float    "longitude"
+    t.boolean  "living"
+    t.decimal  "longitude",                                      :precision => 20, :scale => 2
+    t.decimal  "latitude",                                       :precision => 20, :scale => 2
   end
 
   add_index "adverts", ["accommodation_term_id"], :name => "advert_advert_fb43b1b"
@@ -492,13 +482,6 @@ ActiveRecord::Schema.define(:version => 20130625105526) do
   add_index "auth_user_user_permissions", ["permission_id"], :name => "auth_user_user_permissions_1e014c8f"
   add_index "auth_user_user_permissions", ["user_id", "permission_id"], :name => "user_id", :unique => true
   add_index "auth_user_user_permissions", ["user_id"], :name => "auth_user_user_permissions_fbfc09f1"
-
-  create_table "busines_periods", :force => true do |t|
-    t.string   "name"
-    t.string   "period"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "business_center_classes", :force => true do |t|
     t.string "name", :limit => 128
@@ -740,12 +723,6 @@ ActiveRecord::Schema.define(:version => 20130625105526) do
   add_index "easy_thumbnails_thumbnail", ["source_id"], :name => "easy_thumbnails_thumbnail_89f89e85"
   add_index "easy_thumbnails_thumbnail", ["storage_hash", "name", "source_id"], :name => "storage_hash", :unique => true
   add_index "easy_thumbnails_thumbnail", ["storage_hash"], :name => "easy_thumbnails_thumbnail_3a997c55"
-
-  create_table "estate_types", :force => true do |t|
-    t.string   "title"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "feedback_feedback", :force => true do |t|
     t.integer  "site_id",                       :null => false
