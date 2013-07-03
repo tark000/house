@@ -9,10 +9,10 @@
             %label.right.inline Тип:
           .large-2.columns
           .large-8.columns
-            = radio_button_tag 'living', 'true'
+            = radio_button_tag 'living', '1'
             жилая
             %br/
-            = radio_button_tag 'living', 'false'
+            = radio_button_tag 'living', '0'
             нежилая
         .row
           .large-4.columns
@@ -65,5 +65,11 @@
           .large-8.columns
             = select_tag(:city_id, options_for_select(city), include_blank: true)
         .row
+          .large-4.columns
+            %label Карта:
+          .large-8.columns
+            = check_box_tag 'map',:class=>"input_1"
+        .row
+
           .large-centered.columns
             = submit_tag "Искать", :id => nil, :class=>"dorohouse_button tiny button"

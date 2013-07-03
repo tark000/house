@@ -26,10 +26,13 @@ class AdvertsController < ApplicationController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.page(params[:page]).per(10)
-    @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
+    if params[:map]
+      render :template => 'adverts/map'
+    else
+      @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
 
-    respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
-
+      respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
+    end
   end
 
   def show
@@ -49,8 +52,9 @@ class AdvertsController < ApplicationController
 
       format.pdf do
         pdf = AdvertPdf.new(@advert, view_context, @url, @map)
-        send_data pdf.render, :filename => "x.pdf", :type => "application/pdf", :disposition => "inline"
+        send_data pdf.render, :filename => @advert.slug + ".pdf", :type => "application/pdf", :disposition => "inline"
       end
+
 
 
     end

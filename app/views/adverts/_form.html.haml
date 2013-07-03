@@ -6,9 +6,17 @@
       .large-12.columns
         .large-3.columns
           .field
-            = f.label "Админское обьявление"
+            = f.label "Жилая:"
         .large-3.columns
-          = f.check_box 'admin'
+          = f.check_box :living
+        .large-3.columns
+        .large-3.columns
+      .large-12.columns
+        .large-3.columns
+          .field
+            = f.label "Админское обьявление:"
+        .large-3.columns
+          = f.check_box :admin
         .large-3.columns
           .field
             = f.label "Название: *"

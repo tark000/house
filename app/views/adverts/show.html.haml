@@ -19,10 +19,10 @@
 
           %ul.small-block-grid-2.large-block-grid-4
 
-            -unless @advert.price.nil?
+            -unless @advert.all_price.nil?
               %li Цена
               %li
-                = @advert.price.to_i
+                = @advert.all_price.to_i
             -unless @advert.area.nil?
               %li Площадь
               %li
@@ -92,7 +92,13 @@
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel5"} Карта
         .content{"data-section-content" => ""}
-          %p Content of section 2.
+          %p
+            .google-map{:center => "center", :draggable => "true",
+                :events => "eventsProperty", :fit => "fit",
+                :windows =>"infowindows",
+
+                :latitude => "clickedLatitudeProperty", :longitude => "clickedLongitudeProperty", "mark-click" => "true",
+                :markers => "markers", :style => "height: 300px; width: 100%", :zoom => "zoom"}
       %section
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel6"} Написать владельцу

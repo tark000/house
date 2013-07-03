@@ -117,8 +117,8 @@ $portrait: "only screen and (orientation: portrait)";
 // Grid Variables
 //
 
-//$row-width: emCalc(1000px);
-$row-width : 100%;
+$row-width: emCalc(1200px);
+//$row-width : 100%;
 $column-gutter: emCalc(30px);
 $total-columns: 12;
 
@@ -1158,6 +1158,7 @@ $table-line-height: emCalc(18px);
 
 $table-display: table-cell;
 $table-margin-bottom: emCalc(20px);
+$table-margin: emCalc(20px);
 
 //
 // Image Thumbnail Variables
@@ -1166,14 +1167,14 @@ $table-margin-bottom: emCalc(20px);
 // Border styles
 
 // $thumb-border-style: solid;
- $thumb-border-width: 5px;
+ $thumb-border-width: 3px;
 // $thumb-border-color: #fff;
 // $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
 // $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5);
 
 // Radius and transition speed for thumbs
 
-// $thumb-radius: $global-radius;
+$thumb-radius: $global-radius;
 // $thumb-transition-speed: 200ms;
 
 //

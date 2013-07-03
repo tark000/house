@@ -188,7 +188,7 @@
 126 silly gunzTarPerm extractEntry templates/common/view.html
 127 silly gunzTarPerm extractEntry templates/javascript/app.js
 128 silly gunzTarPerm extractEntry templates/javascript/controller.js
-129 silly gunzTarPerm extractEntry templates/javascript/directive.js
+129 silly gunzTarPerm extractEntry templates/javascript/directives.js
 130 silly gunzTarPerm extractEntry templates/javascript/filter.js
 131 silly gunzTarPerm extractEntry templates/javascript/service/constant.js
 132 silly gunzTarPerm extractEntry templates/javascript/service/factory.js
@@ -196,12 +196,12 @@
 134 silly gunzTarPerm extractEntry templates/javascript/service/service.js
 135 silly gunzTarPerm extractEntry templates/javascript/service/value.js
 136 silly gunzTarPerm extractEntry templates/javascript/spec/controller.js
-137 silly gunzTarPerm extractEntry templates/javascript/spec/directive.js
+137 silly gunzTarPerm extractEntry templates/javascript/spec/directives.js
 138 silly gunzTarPerm extractEntry templates/javascript/spec/filter.js
 139 silly gunzTarPerm extractEntry templates/javascript/spec/service.js
 140 silly gunzTarPerm extractEntry templates/javascript-min/app.js
 141 silly gunzTarPerm extractEntry templates/javascript-min/controller.js
-142 silly gunzTarPerm extractEntry templates/javascript-min/directive.js
+142 silly gunzTarPerm extractEntry templates/javascript-min/directives.js
 143 silly gunzTarPerm extractEntry templates/javascript-min/filter.js
 144 silly gunzTarPerm extractEntry templates/javascript-min/service/constant.js
 145 silly gunzTarPerm extractEntry templates/javascript-min/service/factory.js
@@ -209,7 +209,7 @@
 147 silly gunzTarPerm extractEntry templates/javascript-min/service/service.js
 148 silly gunzTarPerm extractEntry templates/javascript-min/service/value.js
 149 silly gunzTarPerm extractEntry templates/javascript-min/spec/controller.js
-150 silly gunzTarPerm extractEntry templates/javascript-min/spec/directive.js
+150 silly gunzTarPerm extractEntry templates/javascript-min/spec/directives.js
 151 silly gunzTarPerm extractEntry templates/javascript-min/spec/filter.js
 152 silly gunzTarPerm extractEntry templates/javascript-min/spec/service.js
 153 silly gunzTarPerm extractEntry test/test-appname-substitution.js
@@ -389,7 +389,7 @@
 245 silly gunzTarPerm extractEntry test/wiring.js
 246 silly gunzTarPerm extractEntry test/generators.js
 247 silly gunzTarPerm extractEntry test/mocha.opts
-248 silly gunzTarPerm extractEntry test/generators/test-angular.js
+248 silly gunzTarPerm extractEntry test/generators/test-angular.min.js
 249 silly gunzTarPerm extractEntry test/generators/test-backbone.js
 250 silly gunzTarPerm extractEntry test/generators/test-bbb.js
 251 silly gunzTarPerm extractEntry test/generators/test-ember-starter.js

@@ -61,9 +61,9 @@ module House
     #config.assets.precompile += %w( vendor/*.js jquery.js excanvas.min.js )
     config.assets.precompile << /(^[^_\/]|\/[^_])[^\/]*$/
 
-    #config.autoload_paths << "#{Rails.root}/app/reports"
-
     #require 'pdfkit'
     #config.middleware.use PDFKit::Middleware, :print_media_type => true
+
+    config.autoload_paths << "#{Rails.root}/app/reports"
   end
 end
