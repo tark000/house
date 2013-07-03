@@ -5,10 +5,10 @@ class Advert < ActiveRecord::Base
                   :house_type_id, :rooms, :rooms_type_id, :floor, :floors, :trassa_diraction_id,
                   :purpouse_land_id, :landsize, :title, :description, :area, :life_area, :kitchen,
                   :home_deadline, :free_from, :floor_type_id, :wc_count, :state_repair_id, :ceill_height,
-                  :distance, :hotadv, :created, :modified, :price, :all_price, :usercost, :usercostforall,
+                  :distance, :hotadv, :modified, :price, :all_price, :usercost, :usercostforall,
                   :currency_user_id, :publication_date, :viewcount, :metro_station_id, :door_id,
-                  :accommodation_term_id, :fund_type_id, :preporty_location_id, :business_center_class_id,
-                  :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image, :contact_id,
+                  :accommodation_term_id,  :preporty_location_id, :business_center_class_id,
+                  :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image,
                   :user_id, :slug, :torg, :free_to, :operation_type_id, :commission, :flat_type_id, :video,
                   :admin, :region_id, :mapaddress, :youtube, :remote_image_url, :remote_layout_url,
                   :advert_images_attributes, :layouts_attributes, :movies_attributes, :address, :longitude, :latitude, :living
@@ -51,7 +51,6 @@ class Advert < ActiveRecord::Base
 
   belongs_to :operation_type
   belongs_to :category
-  belongs_to :estate_type
   belongs_to :region
   belongs_to :city
   belongs_to :district
@@ -62,7 +61,7 @@ class Advert < ActiveRecord::Base
   belongs_to :doors
   belongs_to :flat_types
   belongs_to :floor_types
-  belongs_to :fund_types
+
   belongs_to :house_materials
   belongs_to :house_types
   belongs_to :metro_stations

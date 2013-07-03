@@ -60,11 +60,6 @@
           = f.text_field :house
         .large-6.columns
           .field
-            = f.label "Фонд:"
-        .large-6.columns
-          = f.collection_select :fund_type_id, FundType.order(:name), :id, :title, include_blank: true
-        .large-6.columns
-          .field
             = f.label "Расположение обьекта:"
         .large-6.columns
           = f.collection_select :preporty_location_id, PreportyLocation.order(:name), :id, :title, include_blank: true

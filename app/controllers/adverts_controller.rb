@@ -27,6 +27,7 @@ class AdvertsController < ApplicationController
 
   #require 'prawn'
 
+
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
@@ -115,11 +116,10 @@ class AdvertsController < ApplicationController
     @advert = Advert.new(params[:advert])
     expire_action :action => :index
     @advert.contact_id = 1
-    @advert.created = Time.now
     @advert.modified = Time.now
     @advert.publication_date = Time.now
     @advert.user_id = current_user
-    map_download(@advert)
+    #map_download(@advert)
     respond_to do |format|
       if @advert.save
         format.html { redirect_to @advert, notice: 'Advert was successfully created.' }
@@ -135,7 +135,8 @@ class AdvertsController < ApplicationController
   # PUT /adverts/1.json
   def update
     @advert = Advert.find(params[:id])
-    map_download(@advert)
+    #map_download(@advert)
+    @advert.modified = Time.now
     expire_action :action => :index
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
