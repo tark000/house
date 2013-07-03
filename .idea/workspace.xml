@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21aea5d-d373-4156-aced-b381c1e5cf43" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Нет" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/раздельные" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/риелтер" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/с комисии" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,28 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adverts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="26" selection-start="3072" selection-end="3072" vertical-scroll-proportion="-8.612904">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="advert_images_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/advert_images_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.json.rabl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/adverts/index.json.rabl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="88" column="17" selection-start="2534" selection-end="2538" vertical-scroll-proportion="1.1381074">
               <folding />
             </state>
           </provider>
@@ -57,7 +35,7 @@
       <file leaf-file-name="advert.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="577" selection-end="577" vertical-scroll-proportion="-3.8387096">
+            <state line="15" column="39" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-7.225806">
               <folding />
             </state>
           </provider>
@@ -66,16 +44,34 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+            <state line="23" column="1658" selection-start="2184" selection-end="2184" vertical-scroll-proportion="-8.387096">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="249" selection-end="255" vertical-scroll-proportion="0.21201414">
+            <state line="36" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130625105526_add_coords_to_adverts.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130625105526_add_coords_to_adverts.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130619133331_create_house_types.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130619133331_create_house_types.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,6 +196,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,7 +468,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2360515" sideWeight="0.968" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.272103" sideWeight="0.968" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -509,34 +537,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="978" selection-end="983" vertical-scroll-proportion="-4.2909093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/adverts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="663" selection-end="663" vertical-scroll-proportion="-11.875">
-          <folding>
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder=".row" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder=".large-12.columns" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%fieldset" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="= will_paginate @adverts" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="= @adverts.size" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder=".large-12.columns" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%ul.large-block-grid-3" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%li(ng-repeat=&quot;advert in adverts | orderBy:predicate:reverse&quot; ng-cloak )" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%table{:style=&gt;&quot;width: 100%;margin-top:5px;&quot;}" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%tbody" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%tr" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%td" />
-            <marker date="1372859575000" expanded="true" signature="-1:-1" placeholder="%span(ng-bind=&quot;advert.longitude&quot; )" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="45" selection-start="851" selection-end="852" vertical-scroll-proportion="-3.8888888">
@@ -609,30 +609,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130625105526_add_coords_to_adverts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130619133331_create_house_types.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="26" selection-start="3072" selection-end="3072" vertical-scroll-proportion="-8.612904">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1658" selection-start="2184" selection-end="2184" vertical-scroll-proportion="-8.387096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="577" selection-end="577" vertical-scroll-proportion="-3.8387096">
+        <state line="15" column="39" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-7.225806">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="249" selection-end="255" vertical-scroll-proportion="0.21201414">
+        <state line="36" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/adverts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="17" selection-start="2534" selection-end="2538" vertical-scroll-proportion="1.1381074">
           <folding />
         </state>
       </provider>
