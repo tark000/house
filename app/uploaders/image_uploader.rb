@@ -27,19 +27,19 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   version :small do
     process :resize_to_fill => [190, 130]
-    process :convert => 'png'
+    process :convert => 'jpg'
     process :watermark
   end
 
   version :medium do
     process :resize_to_fill => [250, 170]
-    process :convert => 'png'
+    process :convert => 'jpg'
     process :watermark
   end
 
   version :big do
     process :resize_to_fill => [1280,720]
-    process :convert => 'png'
+    process :convert => 'jpg'
     process :watermark
   end
 
