@@ -24,16 +24,9 @@ class AdvertsController < ApplicationController
   end
 
 
-
-  #require 'prawn'
-
-
   def index
 
     @adverts = Advert.search(params[:search]).order(:title)
-
-
-
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?
@@ -57,47 +50,26 @@ class AdvertsController < ApplicationController
     if params[:map]
 
       @adverts = marker(@adverts)
-
-
       render :template => 'adverts/map'
     else
       @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
-
-      #@adverts = marker(@adverts)
-
       respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
     end
   end
 
+
   def show
     @advert = Advert.find(params[:id])
-
     @contact_form = ContactForm.new
+
     if params[:url].present?
       @url = params[:url]
     else
       @url = ""
     end
-
-    @map = static_map
-    respond_to do |format|
-      format.html
-      format.json
-
-      format.pdf do
-        pdf = AdvertPdf.new(@advert, view_context, @url, @map)
-        send_data pdf.render, :filename => @advert.slug + ".pdf", :type => "application/pdf", :disposition => "inline"
-      end
-
-
-
-    end
   end
 
 
-
-  # GET /adverts/new
-  # GET /adverts/new.json
   def new
     @advert = Advert.new
 
@@ -146,8 +118,7 @@ class AdvertsController < ApplicationController
     end
   end
 
-  # DELETE /adverts/1
-  # DELETE /adverts/1.json
+
   def destroy
     @advert = Advert.find(params[:id])
     @advert.destroy
@@ -158,6 +129,7 @@ class AdvertsController < ApplicationController
     end
   end
 
+=begin
   def map_download(advert)
     require 'open-uri'
     @path = 'public/uploads/advert/image/' + advert.id.to_s + '/map.png'
@@ -174,11 +146,11 @@ class AdvertsController < ApplicationController
         :markers => [-50.4501, 50.4501].join(","),
         :sensor => false
     }
-
     query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
     @c = "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
     return @c
   end
+=end
 
 
 end

@@ -1,7 +1,7 @@
 angular.module('advert.services', ['ngResource']);
 angular.module('map', ["google-maps"]);
 
-angular.module('advert.services').config
+//angular.module('advert.services').config
 
 function floatEqual (f1, f2) {
     return (Math.abs(f1 - f2) < 0.00000001);
@@ -17,24 +17,11 @@ angular.module('advert.services').factory('Advert', function($http){
     var adverts = [];
 
     Advert.get = function(url) {
-        //alert(url);
-        return $http.get(url).success(function(response) {
-
-            adverts = response;
-            return   adverts;
-
-        });
-
-    };
-
-    Advert.getOne = function(url) {
         return $http.get(url).success(function(response) {
             adverts = response;
             return   adverts;
         });
     };
-
-
 
     Advert.getMarkers = function(url){
 

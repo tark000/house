@@ -2,9 +2,8 @@
 angular.module('realty').controller('IndexController', function($scope,Advert, $location){
 
     var advert = new Advert();
-
-
     var houses;
+
     houses= Advert.get($location.url());
 
     $scope.adverts = houses.success(function(data){ $scope.adverts = data;});
@@ -29,15 +28,12 @@ angular.module('realty').controller('MapController', function($scope,Advert,$loc
 
     $scope.zoom = 10;
 
-
-
 });
 
 
 angular.module('realty').controller('AdvertDetailController', function($scope,Advert,$location){
 
     var advert = new Advert();
-
 
     Advert.get($location.url()).success(function(data){
         $scope.advert = data;

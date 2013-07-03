@@ -45,7 +45,7 @@ class CreateAdverts < ActiveRecord::Migration
       t.integer :business_center_class_id
       t.integer :separate_entrence_id
       t.string :cabinetcount
-      t.integer :bussines_period_id
+      t.integer :busines_period_id
       t.integer :user_id
       t.string :slug
       t.boolean :torg
@@ -53,6 +53,10 @@ class CreateAdverts < ActiveRecord::Migration
       t.string :free_to
       t.float :commission
       t.integer :flat_type_id
+      t.boolean :admin
+      t.integer :region_id
+      t.string  :mapaddress
+      t.string  :youtube
 
 
 
