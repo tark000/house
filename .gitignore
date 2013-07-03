@@ -16,6 +16,6 @@
 /app/.idea/*
 /config/database.yml
 /public/uploads
-/app/.idea
+/.idea
 /.sass-cache
 
