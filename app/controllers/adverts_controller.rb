@@ -116,7 +116,6 @@ class AdvertsController < ApplicationController
     @advert = Advert.new(params[:advert])
     expire_action :action => :index
     @advert.contact_id = 1
-    @advert.modified = Time.now
     @advert.publication_date = Time.now
     @advert.user_id = current_user
     #map_download(@advert)
@@ -136,7 +135,6 @@ class AdvertsController < ApplicationController
   def update
     @advert = Advert.find(params[:id])
     #map_download(@advert)
-    @advert.modified = Time.now
     expire_action :action => :index
     respond_to do |format|
       if @advert.update_attributes(params[:advert])

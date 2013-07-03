@@ -5,7 +5,7 @@ class Advert < ActiveRecord::Base
                   :house_type_id, :rooms, :rooms_type_id, :floor, :floors, :trassa_diraction_id,
                   :purpouse_land_id, :landsize, :title, :description, :area, :life_area, :kitchen,
                   :home_deadline, :free_from, :floor_type_id, :wc_count, :state_repair_id, :ceill_height,
-                  :distance, :hotadv, :modified, :price, :all_price, :usercost, :usercostforall,
+                  :distance, :hotadv, :price, :all_price, :usercost, :usercostforall,
                   :currency_user_id, :publication_date, :viewcount, :metro_station_id, :door_id,
                   :accommodation_term_id,  :preporty_location_id, :business_center_class_id,
                   :separate_entrence_id, :cabinetcount, :bussines_period_id, :layout, :image,
