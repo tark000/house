@@ -1,13 +1,47 @@
 
-angular.module('realty').controller('IndexController', function($scope,Advert, $location){
+angular.module('realty').controller('ApplicationController', function($scope){});
 
-    var advert = new Advert();
-    var houses;
+angular.module('realty').controller('IndexController', function($scope,$http, $location, $state, $stateParams, Task){
 
-    houses= Advert.get($location.url());
 
-    $scope.adverts = houses.success(function(data){ $scope.adverts = data;});
+    $scope.adverts = {};
+    $scope.advert = {};
+
+    //var params  = $location.search().toQueryParams();
+
+    //alert(JSON.stringify($stateParams));
+
+    if ($state.current.name === 'adverts') {
+        Task.query({operation_type:$stateParams.operation_type}, $location.search(), function(response) {
+            return $scope.adverts = response;
+        }, function(response) {});
+    }
+
+    //alert(params);
+
+    $scope.currentPage = 0;
+    $scope.pageSize = 10;
+
+    /*$scope.search ={
+      living:''
+    }*/
+
+    //$scope.living
+
+
+
+
+    $scope.submit = function(){
+        alert(angular.toJson($scope.myform));
+    }
+
+
+
+
 });
+
+
+
 
 
 angular.module('realty').controller('MapInfoController', function($scope){

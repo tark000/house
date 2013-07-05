@@ -3,7 +3,7 @@
   %legend
     %small Поиск по ID
   = form_tag adverts_path, :class=>'custom', :method => 'get' do
-    .row
+    .row.collapse
       .small-12.large-5.columns= text_field_tag :search, params[:search], :placeholder => "ID"
-      .small-12.large-7.columns= submit_tag "Искать", :id=> nil, :class=>"dorohouse_button tiny small button"
+      .small-12.large-7.columns= submit_tag "Искать", :id=> nil, :class=>"button prefix"
 

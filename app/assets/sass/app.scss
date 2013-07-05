@@ -134,16 +134,31 @@ and (orientation : landscape) {
 }
 
 .dorohouse_button {
-  $bg : #3FC01C;
-  $radius: true;
-  $padding: $button-med;
+
+  $bg : #44951e;
+  $radius: false;
+  $padding: $button-sml;
   $full-width: false;
   $disabled: false;
   $is-input: false;
-  @include button;
-  //@include button-size($padding, $full-width, $is-input);
-  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
+  @include button-base;
+  @include button-size($padding, $full-width, $is-input);
+  @include button-style($bg, $radius, $disabled);;
 }
+
+.tny_dorohouse_button {
+
+  $bg : #44951e;
+  $radius: false;
+  $padding: $button-tny;
+  $full-width: false;
+  $disabled: false;
+  $is-input: false;
+  @include button-base;
+  @include button-size($padding, $full-width, $is-input);
+  @include button-style($bg, $radius, $disabled);;
+}
+
 
 .dorohouse_a {
   @extend a;

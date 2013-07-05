@@ -63,6 +63,7 @@
     <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.6.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="meta_request (v0.2.7, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.7, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -74,6 +75,7 @@
     <orderEntry type="library" scope="PROVIDED" name="pdf-reader (v1.3.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prawn (v0.12.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.9.12.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rabl (v0.8.6, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -92,6 +94,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="seed_dump (v0.5.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slop (v3.4.5, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="systemu (v2.5.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -99,6 +102,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.14, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ttfunk (v1.0.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v1.2.0, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicorn (v4.6.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />

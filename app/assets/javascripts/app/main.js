@@ -1,1 +1,1 @@
-angular.module('realty',['advert.services','map']);
+angular.module('realty',['advert.services','map','ui.compat']);

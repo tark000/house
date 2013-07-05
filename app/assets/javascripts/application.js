@@ -16,10 +16,14 @@
 //= require angular/angular.min
 //= require angular/angular-google-maps
 //= require angular/angular-resource.min
+//= require angular/angular-ui-router.min
 //= require angular/scrollable
-//= require ./app/main.js
-//= require ./app/services.js
-//= require ./app/controllers.js
+//= require ./app/main
+//= require ./app/config
+//= require ./app/services
+//= require ./app/controllers
+//= require ./app/filters
+//= require ./app/directive
 //= require jquery.cycle2
 //= require jquery.offcanvas
 //= require foundation
@@ -29,3 +33,4 @@
 
 
 $(document).foundation();
+

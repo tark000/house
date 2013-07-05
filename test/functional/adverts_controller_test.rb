@@ -5,8 +5,8 @@ class AdvertsControllerTest < ActionController::TestCase
     @advert = adverts(:one)
   end
 
-  test "should get index" do
-    get :index
+  test "should get index2" do
+    get :index2
     assert_response :success
     assert_not_nil assigns(:adverts)
   end
