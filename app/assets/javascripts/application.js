@@ -13,9 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require adv
-//= require angular/angular.min
+//= require angular/angular-1-1-4
 //= require angular/angular-google-maps
-//= require angular/angular-resource.min
+//= require angular/angular-resource-1-1-4.js
 //= require angular/angular-ui-router.min
 //= require angular/scrollable
 //= require ./app/main
@@ -23,7 +23,6 @@
 //= require ./app/services
 //= require ./app/controllers
 //= require ./app/filters
-//= require ./app/directive
 //= require jquery.cycle2
 //= require jquery.offcanvas
 //= require foundation

@@ -3,6 +3,10 @@ angular.module('realty').config(function($locationProvider) {
 
 });
 
+angular.module('realty').config(function($httpProvider) {
+    $httpProvider.defaults.headers.common["X-Requested-With"] = 'XMLHttpRequest';
+});
+
 
 angular.module('realty').config(function($stateProvider, $urlRouterProvider){
     //$urlRouterProvider.otherwise("/");
@@ -18,10 +22,22 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 }
             }
         }).
+        state("index", {
+            parent: "default",
+            url: "/",
+            views: {
+                "index": {
+                    controller: "IndexController",
+                    templateUrl: "/assets/adverts/index.html.haml"
+
+                }
+
+            }
+        }).
 
         state("adverts", {
             parent: "default",
-            url: "/adverts?living&operation_type&category",
+            url: "/adverts?operation_type",
             views: {
                 "index": {
                     controller: "IndexController",

@@ -9,18 +9,20 @@
             %label.right.inline Тип:
           .large-2.columns
           .large-8.columns
-            = radio_button_tag 'living', '1', :"ng-model'=>'myForm.living'"
+            %input(type="radio" ng-model="living" value="1" ng-change="living=1" )
             жилая
-            {{search.living}}
+            {{living}}
             %br/
-            = radio_button_tag 'living', '0', :"ng-model'=>'myForm.living'"
+            %input(type="radio" ng-model="living" value="0" ng-change="living=0")
             нежилая
         .row
           .large-4.columns
             %label{:for => "operation_type"} Операция:
           .large-8.columns
-            = select_tag(:operation_type, options_for_select(operation,
-            :selected=>params[:operation_type].blank? ? "-- Select One --" :params[:operation_type]), {:include_blank => '-- Select One --'} )
+            {{operation_type}}
+            %select(ng-model='operation_type' ng-options='c.name for c in operation_type')
+
+
         .row
           .large-4.columns
             %label{:for => "category"} Категория:

@@ -17,6 +17,7 @@
 
 
   .large-12.columns
+    living={{searchForm}}
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" ng-cloak )
         %a{href: '/adverts/{{advert.slug}}'}

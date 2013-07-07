@@ -6,6 +6,11 @@ angular.module('realty').controller('IndexController', function($scope,$http, $l
 
     $scope.adverts = {};
     $scope.advert = {};
+    /*$scope.filters = [
+        {name: 'living',  value: 1},
+        {name: 'name', selected: false},
+        {name: 'type', selected: false}
+    ];*/
 
     //var params  = $location.search().toQueryParams();
 
@@ -22,17 +27,49 @@ angular.module('realty').controller('IndexController', function($scope,$http, $l
     $scope.currentPage = 0;
     $scope.pageSize = 10;
 
-    /*$scope.search ={
-      living:''
-    }*/
+    $scope.operation_type =[{
+        name:"test", value:1
+    }]
 
-    //$scope.living
+   //$scope.searhForm ;
+
+    /*$scope.$watch(function (scope) {
+        alert(JSON.stringify($location));
+        return $location.url();
+    }, function (newValue) {
+        console.log("Location changed: " + newValue);
+        $scope.location = newValue;
+    });*/
 
 
+    $scope.$watch('operation_type.value', function(oldValue, newValue){
 
+        if (!angular.equals(oldValue, newValue)){
+            console.log("operaton_type changed: " + newValue);
+            console.log("Location changed: " + $location.url());
+            console.log("Location changed: " + JSON.stringify($location.search()));
+            $url = $location.url();
+            //$location.path($url+"?operation_type=1") ;
+        }
+
+
+    })
+
+
+    /*$scope.$watchCollection('myForm.length', function(newValues, oldValues) {
+
+        alert(myForm.length);
+
+        $scope.dataCount = myForm.length;
+    });*/
+
+
+    $scope.$on('myForm', function(event, mass){
+        console.log(mass);
+    })
 
     $scope.submit = function(){
-        alert(angular.toJson($scope.myform));
+        //alert(angular.toJson($scope.myform));
     }
 
 

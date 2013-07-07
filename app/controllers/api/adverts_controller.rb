@@ -21,6 +21,7 @@ class Api::AdvertsController < Api::BaseController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     respond_to do |format|
+      format.js
       format.json {
         render('home/_index.json.rabl', :object => @adverts)
       }
