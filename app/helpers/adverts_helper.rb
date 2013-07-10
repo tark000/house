@@ -32,19 +32,43 @@ module AdvertsHelper
   end
 
   ############################3
+  def advert_for_hotel_count
+    count = Advert.search_by_type(7).count()
+    count
+  end
 
-  def advert_for_flats_count
-    count = Advert.search_by_type(1).count()
+  def advert_for_living_count
+    count = Advert.search_by_type(5).count()
     count
   end
 
   def advert_for_houses_count
-    count = Advert.search_by_type(23).count()
+    count = Advert.search_by_type(6).count()
     count
   end
 
-  def advert_for_ofice_count
-    count = Advert.search_by_type(24).count()
+  def advert_for_office_count
+    count = Advert.search_by_type(1).count()
+    count
+  end
+
+  def advert_for_not_living_count
+    count = Advert.search_by_type(2).count()
+    count
+  end
+
+  def advert_for_market_count
+    count = Advert.search_by_type(3).count()
+    count
+  end
+
+  def advert_for_storage_count
+    count = Advert.search_by_type(4).count()
+    count
+  end
+
+  def advert_for_builds_count
+    count = Advert.search_by_type(8).count()
     count
   end
 
@@ -59,6 +83,15 @@ module AdvertsHelper
 
     query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
     image_tag "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+  end
+
+  def store_latest_pages_visited
+    return unless request.get?
+    return if request.xhr?
+
+    session[:latest_pages_visited] ||= []
+    session[:latest_pages_visited] << request.path_parameters
+    session[:latest_pages_visited].delete_at 0 if session[:latest_pages_visited].size == 6
   end
 
 end

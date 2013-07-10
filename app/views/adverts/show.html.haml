@@ -1,4 +1,3 @@
-= @advert.mapaddress
 .row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
   .large-12.columns
     %img.th.radius(ng-src="{{currentImage}}" )
@@ -17,56 +16,56 @@
         %p.title{"data-section-title" => ""}
           %a{:href => "#panel1"} Описание
         .content{"data-section-content" => ""}
+          .row
+            .large-12.columns.show_info
+              %ul.small-block-grid-2.large-block-grid-4
+                -unless @advert.all_price.nil?
+                  %li Цена
+                  %li
+                    = @advert.all_price.to_i
+                -unless @advert.area.nil?
+                  %li Площадь
+                  %li
+                    = @advert.area.to_i
 
-          %ul.small-block-grid-2.large-block-grid-4
-
-            -unless @advert.all_price.nil?
-              %li Цена
-              %li
-                = @advert.all_price.to_i
-            -unless @advert.area.nil?
-              %li Площадь
-              %li
-                = @advert.area.to_i
-
-            -unless @advert.region.nil?
-              %li Регион
-              %li
-                = @advert.region.title
-
-
-            -unless @advert.city.nil?
-              %li Город
-              %li
-                = @advert.city.title
+                -unless @advert.region.nil?
+                  %li Регион
+                  %li
+                    = @advert.region.title
 
 
-            -unless @advert.district.nil?
-              %li Район
-              %li
-                = @advert.district.title
+                -unless @advert.city.nil?
+                  %li Город
+                  %li
+                    = @advert.city.title
 
 
-            -unless @advert.street.nil?
-              %li Улица
-              %li
-                = @advert.street.title
-            -unless @advert.house.nil?
-              %li Дом
-              %li
-                =@advert.house
-            -unless @advert.floor.nil?
-              %li Этаж
-              %li
-                = @advert.floor.to_i
-            -unless @advert.rooms.nil?
-              %li Количество комнат
-              %li
-                = @advert.rooms
-            -unless @advert.district.nil?
-              %li Категория
-              %li
-                = @advert.category.title
+                -unless @advert.district.nil?
+                  %li Район
+                  %li
+                    = @advert.district.title
+
+
+                -unless @advert.street.nil?
+                  %li Улица
+                  %li
+                    = @advert.street.title
+                -unless @advert.house.nil?
+                  %li Дом
+                  %li
+                    =@advert.house
+                -unless @advert.floor.nil?
+                  %li Этаж
+                  %li
+                    = @advert.floor.to_i
+                -unless @advert.rooms.nil?
+                  %li Количество комнат
+                  %li
+                    = @advert.rooms
+                -unless @advert.district.nil?
+                  %li Категория
+                  %li
+                    = @advert.category.title
           -unless @advert.description.nil?
             %p
               =@advert.description

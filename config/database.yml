@@ -5,7 +5,7 @@ development:
   database: test_house
   pool: 50
   username: root
-  password: wasq12
+  password: "123"
   socket: /var/run/mysqld/mysqld.sock
 
 test:
@@ -15,7 +15,7 @@ test:
   database: test_house
   pool: 5
   username: root
-  password: wasq12
+  password: "123"
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -26,5 +26,5 @@ production:
   pool: 5
   host: localhost
   username: root
-  password: wasq12
+  password: "123"
   socket: /var/run/mysqld/mysqld.sock

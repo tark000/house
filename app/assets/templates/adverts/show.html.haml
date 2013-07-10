@@ -1,8 +1,81 @@
-%p
-  {{advert}}
-%ul
-  %li
-    {{advert.id}}
-  %li
-    {{advert.title}}
+.row(ng-controller="AdvertDetailController" ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
+  .large-12.columns
+    %img.th.radius(ng-src="{{advert.image}}" )
+    .row
+      .large-12.columns
+        %p
+          %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
+                                                    curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
+            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
+
+              %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+  %div.large-12.columns
+    .section-container.auto{"data-section" => ""}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel1"} Описание
+        .content{"data-section-content" => ""}
+          .row
+            .large-12.columns.show_info
+              %ul.small-block-grid-2.large-block-grid-4
+                %li Цена
+                %li
+                  {{advert.all_price}}
+                %li Площадь
+                %li
+                  {{advert.area}}
+                %li Регион
+                %li
+                  {{advert.region}}
+                %li Город
+                %li
+                  {{advert.city}}
+                %li Район
+                %li
+                  {{advert.district}}
+                %li Улица
+                %li
+                  {{advert.street}}
+                %li Дом
+                %li
+                  {{advert.house}}
+                %li Этаж
+                %li
+                  {{advert.floor}}
+                %li Количество комнат
+                %li
+                  {{advert.rooms}}
+                %li Категория
+                %li
+                  {{advert.category}}
+          %p
+            {{advert.description}}
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel3"} Планировка
+        .content{"data-section-content" => ""}
+          %ul.large-block-grid-4.small-block-grid-2
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan1"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan2"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan3"}/
+            %li
+              %img{:src => "http://placehold.it/190x130&text=plan4"}/
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel4"} Видео
+        .content{"data-section-content" => ""}
+          video
+
+      %section
+        %p.title{"data-section-title" => ""}
+          %a{:href => "#panel5"} Карта
+        .content{"data-section-content" => ""}
+          %p
+
+
+%a{href: '/adverts/{{advert.id}}/edit'}
+  Edit
 

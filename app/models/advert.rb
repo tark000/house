@@ -103,7 +103,7 @@ class Advert < ActiveRecord::Base
     open(@path, 'wb') do |file|
       file << open(static_map).read
     end
-    self.map = map
+    self.mapaddress = map
     self.save
   end
 

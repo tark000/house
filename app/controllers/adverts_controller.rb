@@ -26,7 +26,7 @@ class AdvertsController < ApplicationController
 
   def index
 
-    @adverts = Advert.search(params[:search]).order(:title)
+    @adverts = Advert.search(params[:search])
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?
@@ -68,6 +68,16 @@ class AdvertsController < ApplicationController
       @url = params[:url]
     else
       @url = ""
+    end
+
+    respond_to do |format|
+      format.html
+      format.json
+
+      format.pdf do
+        pdf = AdvertPdf.new(@advert, view_context, @url, @map)
+        send_data pdf.render, :filename => @advert.slug + ".pdf", :type => "application/pdf", :disposition => "inline"
+      end
     end
   end
 

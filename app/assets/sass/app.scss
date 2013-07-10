@@ -47,6 +47,7 @@ ul.small-block-grid, ul.large-block-grid-4 li {
   border-bottom: 1px ;
   border-color: #888888;
   border-bottom-style: dotted;
+  padding-top: 10px;
 }
 
 
@@ -185,8 +186,6 @@ and (orientation : landscape) {
   //@include button-style($bg, $radius, $disabled);
 }
 
-
-
 .line {
   border-bottom: 1px solid #cccccc; margin: 10px 0 10px 0;
 }
@@ -199,9 +198,6 @@ and (orientation : landscape) {
 }
 
 @media print {
-
-
-
   #container {
     width: auto;
     margin: 0;
@@ -219,9 +215,14 @@ and (orientation : landscape) {
   .pdf_show {
     display: block;
   }
+}
 
+.each_advert {
+  background: #f9f9f9;
 
 }
+
+
 
 
 

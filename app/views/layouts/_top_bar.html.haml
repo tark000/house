@@ -1,4 +1,10 @@
 %nav#top_bar.breadcrumbs{:style => "margin-bottom: 20px;"}
   = link_to 'Недвижимость', adverts_path
+
   - if user_signed_in?
     = link_to('new', new_user_advert_path(current_user))
+
+  %a.back_link{:href => "javascript:history.back()", :title => ""}
+    %span назад
+  = Time.now.strftime("%y.%m.%d %H:%M ")
+
