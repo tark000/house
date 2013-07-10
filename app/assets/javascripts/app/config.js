@@ -38,11 +38,30 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
 
         state("adverts", {
             parent: "default",
-            url: "/adverts?utf8&living&operation_type&category&state&min_price&max_price&gender&min_area&max_area&region_id&city_id&page&pageSize",
+            url: "/adverts?utf8&living&operation_type&category&state&min_price&max_price&maps&gender&min_area&max_area&region_id&city_id&page&pageSize",
             views: {
                 "index": {
                     controller: "IndexController",
                     templateUrl: "/assets/adverts/index.html.haml"
+                }
+            }/*,
+            onEnter: function($stateParams,$state){
+
+                if(angular.equals($stateParams.maps,'1')){
+                    alert("maps");
+                    $state.transitionTo('maps');
+                }
+
+
+            }*/
+        }).
+        state("maps", {
+            parent: "default",
+            url: "/adverts?utf8&living&operation_type&category&state&min_price&max_price&maps&gender&min_area&max_area&region_id&city_id&page&pageSize",
+            views: {
+                "maps": {
+                    controller: "MapController",
+                    templateUrl: "/assets/adverts/map.html.haml"
 
                 }
 

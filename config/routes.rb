@@ -8,6 +8,10 @@ House::Application.routes.draw do
 
   devise_for :users
 
+  resources :users do
+    resources :adverts
+  end
+
   root :to => 'home#index'
   match '/' => 'home#index'
   match '/adverts' => 'home#index'

@@ -6,6 +6,10 @@ module CustomHamlEngine
         include Rails.application.routes.mounted_helpers
         include AdvertsHelper
         include ActionView::Helpers
+        include ApplicationHelper
+        #include Devise::Controllers::Helpers
+        #include Devise::Controllers::Helpers.define_helpers(User)
+        #helper_method :current_user
       end
 
       super
