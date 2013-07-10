@@ -52,7 +52,9 @@ class AdvertsController < ApplicationController
       @adverts = marker(@adverts)
       render :template => 'adverts/map'
     else
-      @adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
+      #@adverts = @adverts.paginate(:page => params[:page], :per_page => 20)
+      @adverts
+
       respond_with @adverts, @category = Category.find(params[:category])  if params[:category].present?
     end
   end
@@ -96,7 +98,7 @@ class AdvertsController < ApplicationController
 
   def create
     @advert = Advert.new(params[:advert])
-    expire_action :action => :index
+    expire_action :action => :index2
     @advert.contact_id = 1
     @advert.user_id = current_user
     #map_download(@advert)
@@ -116,7 +118,7 @@ class AdvertsController < ApplicationController
   def update
     @advert = Advert.find(params[:id])
     #map_download(@advert)
-    expire_action :action => :index
+    expire_action :action => :index2
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
         format.html { redirect_to @advert, notice: 'Advert was successfully updated.' }
@@ -132,7 +134,7 @@ class AdvertsController < ApplicationController
   def destroy
     @advert = Advert.find(params[:id])
     @advert.destroy
-    expire_action :action => :index
+    expire_action :action => :index2
     respond_to do |format|
       format.html { redirect_to adverts_url }
       format.json { head :no_content }

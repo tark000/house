@@ -685,7 +685,7 @@
         }
 
         // if autoHeight is a number then we don't need to recalculate the sentinel
-        // index on resize
+        // index2 on resize
         if ( t !== 'number' ) {
             // bind unique resize handler per slideshow (so it can be 'off-ed' in onDestroy)
             opts._autoHeightOnResize = function () {
@@ -722,7 +722,7 @@
             else
                 sentinelIndex = autoHeight;
 
-            // only recreate sentinel if index is different
+            // only recreate sentinel if index2 is different
             if ( sentinelIndex == opts._sentinelIndex )
                 return;
 
@@ -750,7 +750,7 @@
     function calcSentinelIndex( e, opts ) {
         var index = 0, max = -1;
 
-        // calculate tallest slide index
+        // calculate tallest slide index2
         opts.slides.each(function(i) {
             var h = $(this).height();
             if ( h > max ) {
@@ -931,7 +931,7 @@
                 return;
             var num = parseInt( index, 10 );
             if (isNaN(num) || num < 0 || num >= opts.slides.length) {
-                opts.API.log('goto: invalid slide index: ' + num);
+                opts.API.log('goto: invalid slide index2: ' + num);
                 return;
             }
             if (num == opts.currSlide) {
@@ -941,7 +941,7 @@
             opts.nextSlide = num;
             clearTimeout(opts.timeoutId);
             opts.timeoutId = 0;
-            opts.API.log('goto: ', num, ' (zero-index)');
+            opts.API.log('goto: ', num, ' (zero-index2)');
             fwd = opts.currSlide < opts.nextSlide;
             opts.API.prepareTx( true, fwd );
         },
@@ -1097,7 +1097,7 @@
                 var count = 0;
                 var slide = $(this);
                 var images = slide.is('img') ? slide : slide.find('img');
-                slide.data('index', i);
+                slide.data('index2', i);
                 // allow some images to be marked as unimportant (and filter out images w/o src value)
                 images = images.filter(':not(.cycle-loader-ignore)').filter(':not([src=""])');
                 if ( ! images.length ) {
@@ -1159,7 +1159,7 @@
             }
 
             function sorter(a, b) {
-                return a.data('index') - b.data('index');
+                return a.data('index2') - b.data('index2');
             }
         }
     });

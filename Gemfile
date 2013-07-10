@@ -31,6 +31,8 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
+  gem 'therubyrhino',  :platform => :jruby
+
 
   gem 'uglifier', '>= 1.0.3'
   gem 'compass'
@@ -39,12 +41,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'turbolinks'
 group :test, :development do #в группу для разработки и тестирования
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-  #gem 'pry'
+  gem 'pry'
 end
 
 gem 'dalli'

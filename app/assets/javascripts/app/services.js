@@ -78,3 +78,13 @@ angular.module('advert.services').factory('Advert', function($http){
 })
 
 
+angular.module('advert.services').factory("Task", function($resource) {
+    return $resource("/api/adverts/:id", {
+        id: "@id"
+    }, {
+        update: {
+            method: "PUT"
+        }
+    });
+
+});

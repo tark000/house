@@ -1,24 +1,24 @@
 House::Application.routes.draw do
 
-=begin
+
+
   namespace :api do
-    resources :adverts do
-      resources :advert_images
-    end
+    resources :adverts
   end
-=end
 
   devise_for :users
 
-  root :to => 'adverts#index'
+  root :to => 'home#index'
+  match '/' => 'home#index'
+  match '/adverts' => 'home#index'
+  match '/adverts/*page' => 'home#index'
 
-
-  resources :adverts
+  #resources :adverts
 
   get "contact_us/new"
   post "contact_us/send_email", :as => "send_email"
 
-  match "/usage" , :to=>"adverts#index"
+  #match "/search" , :to=>"api/adverts#index"
 
 
 end
