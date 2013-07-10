@@ -1,83 +1,67 @@
 
-angular.module('realty').controller('ApplicationController', function($scope){});
-
-angular.module('realty').controller('IndexController', function($scope,$http, $location, $state, $stateParams, Task){
-
-
-    $scope.adverts = {};
-    $scope.advert = {};
-    /*$scope.filters = [
-        {name: 'living',  value: 1},
-        {name: 'name', selected: false},
-        {name: 'type', selected: false}
-    ];*/
-
-    //var params  = $location.search().toQueryParams();
-
-    //alert(JSON.stringify($stateParams));
-
-    if ($state.current.name === 'adverts') {
-        Task.query({operation_type:$stateParams.operation_type}, $location.search(), function(response) {
-            return $scope.adverts = response;
-        }, function(response) {});
-    }
-
-    //alert(params);
-
-    $scope.currentPage = 0;
-    $scope.pageSize = 10;
-
-    $scope.operation_type =[{
-        name:"test", value:1
-    }]
-
-   //$scope.searhForm ;
-
-    /*$scope.$watch(function (scope) {
-        alert(JSON.stringify($location));
-        return $location.url();
-    }, function (newValue) {
-        console.log("Location changed: " + newValue);
-        $scope.location = newValue;
-    });*/
-
-
-    $scope.$watch('operation_type.value', function(oldValue, newValue){
-
-        if (!angular.equals(oldValue, newValue)){
-            console.log("operaton_type changed: " + newValue);
-            console.log("Location changed: " + $location.url());
-            console.log("Location changed: " + JSON.stringify($location.search()));
-            $url = $location.url();
-            //$location.path($url+"?operation_type=1") ;
-        }
-
-
-    })
-
-
-    /*$scope.$watchCollection('myForm.length', function(newValues, oldValues) {
-
-        alert(myForm.length);
-
-        $scope.dataCount = myForm.length;
-    });*/
-
-
-    $scope.$on('myForm', function(event, mass){
-        console.log(mass);
-    })
-
-    $scope.submit = function(){
-        //alert(angular.toJson($scope.myform));
-    }
-
-
+angular.module('realty').controller('ApplicationController', function($scope,$rootScope){
 
 
 });
 
+angular.module('realty').controller('IndexController', function($scope, $http, $location, $state, $stateParams, Task){
 
+
+    $scope.adverts = {};
+    $scope.advert = {};
+
+    $scope.$on('$locationChangeStart', function(event, newUrl) {
+        alert('new url=='+newUrl);
+    });
+
+    //$scope.pageSize = 10;
+
+   /* if(angular.equals($stateParams.page, null)){
+        $scope.currentPage = 0;
+        $stateParams.page = 0;
+    }else{
+        $scope.currentPage = $stateParams.page ;
+    }*/
+
+
+
+    //alert('$stateParams.page=='+$stateParams.page+ "$stateParams.pageSize==" +$stateParams.pageSize);
+
+    //alert($stateParams.page * $stateParams.pageSize);
+
+   /* if(angular.equals($stateParams.page * $stateParams.pageSize, NaN) || angular.equals($stateParams.page * $stateParams.pageSize, 0)){
+        $stateParams.from = 0;
+        $scope.currentPage = 0;
+        $stateParams.pageSize = 10;
+        $stateParams.page = 0;
+    }else{
+        $stateParams.from = $stateParams.page * $stateParams.pageSize;
+        $scope.page = $stateParams.page;
+    }
+*/
+
+
+
+
+
+    if ($state.current.name === 'adverts' || $state.current.name === 'index' ) {
+        console.log("page size=="+$stateParams.pageSize);
+        Task.query(
+            {
+            'operation_type':$stateParams.operation_type,
+            'category':$stateParams.category,
+            'min_price':$stateParams.min_price,
+            'max_price':$stateParams.max_price,
+            'gender':$stateParams.gender
+            //'page':$stateParams.page,
+            //'pageSize':$stateParams.pageSize,
+            //'from':$stateParams.from
+            }, function(response) {
+            return $scope.adverts = response;
+        }, function(response) {});
+    }
+
+});
 
 
 
@@ -102,22 +86,18 @@ angular.module('realty').controller('MapController', function($scope,Advert,$loc
 });
 
 
-angular.module('realty').controller('AdvertDetailController', function($scope,Advert,$location){
+angular.module('realty').controller('AdvertDetailController', function($scope, $location,  $state, $stateParams, Task){
 
-    var advert = new Advert();
+   $scope.advert = {};
 
-    Advert.get($location.url()).success(function(data){
-        $scope.advert = data;
+    if ($state.current.name === 'show') {
+        Task.get({
+            id: $stateParams['id']
+        }, function(response) {
+            return $scope.advert = response;
+        }, function(response) {});
+    }
 
-
-        $scope.currentImage = $scope.advert.image;
-
-
-        $scope.setCurrentImage = function (image) {
-            $scope.currentImage = image;
-        };
-        $scope.fetch();
-
-    });
+    $scope.currentImage = $scope.advert.image;
 
 });

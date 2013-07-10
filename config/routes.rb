@@ -18,7 +18,7 @@ House::Application.routes.draw do
   get "contact_us/new"
   post "contact_us/send_email", :as => "send_email"
 
-  match "/usage" , :to=>"adverts#index"
+  #match "/search" , :to=>"api/adverts#index"
 
 
 end

@@ -7,19 +7,20 @@
         %a.small.tiny.sort_button(ng-click="predicate = 'price'; reverse=!reverse"){href: ""} Цена
       .large-2.columns
         %a.small.tiny.sort_button(ng-click="predicate = 'area'; reverse=!reverse"){href: ""} Площадь
-      .large-8.columns.pagination-centered
+      .large-2.columns
+        %select(ng-model="pageSize" ng-change="change()" ng-options="c for c in [10,20,30,40,50]")
 
-      %a.button(ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1" ng-href="?page={{currentPage}}" )
+      %a.button(ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1" ng-href="&page={{currentPage}}" )
         Previous
-      %button(ng-disabled="currentPage >= data.length/pageSize - 1" ng-click="currentPage=currentPage+1" ng-href="?page={{currentPage}}")
+      %button(ng-disabled="currentPage >= data.length/pageSize - 1" ng-click="currentPage=currentPage+1" ng-href="&page={{currentPage}}")
         Next
 
 
 
+
   .large-12.columns
-    living={{searchForm}}
     %ul.large-block-grid-3
-      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" ng-cloak )
+      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse " ng-cloak )
         %a{href: '/adverts/{{advert.slug}}'}
           %span(ng-bind="advert.id")
         %table{:style=>"width: 100%;margin-top:5px;"}

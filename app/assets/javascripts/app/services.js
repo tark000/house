@@ -86,4 +86,5 @@ angular.module('advert.services').factory("Task", function($resource) {
             method: "PUT"
         }
     });
+
 });

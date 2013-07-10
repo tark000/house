@@ -30,6 +30,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                     controller: "IndexController",
                     templateUrl: "/assets/adverts/index.html.haml"
 
+
                 }
 
             }
@@ -37,11 +38,23 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
 
         state("adverts", {
             parent: "default",
-            url: "/adverts?operation_type",
+            url: "/adverts?utf8&living&operation_type&category&state&min_price&max_price&gender&min_area&max_area&region_id&city_id&page&pageSize",
             views: {
                 "index": {
                     controller: "IndexController",
                     templateUrl: "/assets/adverts/index.html.haml"
+
+                }
+
+            }
+        }).
+        state("show", {
+            parent: "default",
+            url: "/adverts/:id",
+            views: {
+                "index": {
+                    controller: "AdvertDetailController",
+                    templateUrl: "/assets/adverts/show.html.haml"
 
                 }
 
