@@ -30,10 +30,12 @@ class Advert < ActiveRecord::Base
   def address
     if self.street.present? & self.city.present?
       [self.house, self.street.name, self.city.name, "UA"].compact.join(', ')
+      map_download
     else
       puts self.id
     end
   end
+
 
 
   mount_uploader :image, ImageUploader
@@ -94,6 +96,39 @@ class Advert < ActiveRecord::Base
     Rails.cache.fetch('Contact.all') { all }
   end
 
+  def map_download
+    require 'open-uri'
+    map = "#{uuid}.png"
+    @path = "#{store_dir}/#{map}"
+    open(@path, 'wb') do |file|
+      file << open(static_map).read
+    end
+    self.mapaddress = map
+    self.save
+  end
 
+  def uuid
+    UUID.state_file = false
+    uuid = UUID.new
+    uuid.generate
+
+  end
+
+  def static_map
+    params = {
+        :center => [self.latitude, self.longitude].join(","),
+        :zoom => 12,
+        :size => "300x300",
+        :markers => [self.latitude, self.longitude].join(","),
+        :sensor => false
+    }
+    query_string =  params.map{|k,v| "#{k}=#{v}"}.join("&")
+    @c = "http://maps.googleapis.com/maps/api/staticmap?#{query_string}"
+    @c
+  end
+
+  def store_dir
+    "uploads/#{self.class.to_s.underscore}/map/#{self.id}"
+  end
 
 end

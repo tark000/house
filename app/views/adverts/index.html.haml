@@ -19,34 +19,27 @@
   .large-12.columns
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse" ng-cloak )
-        %a{href: '/adverts/{{advert.slug}}'}
-          %span(ng-bind="advert.id")
-        %table{:style=>"width: 100%;margin-top:5px;"}
-          %tbody
-            %tr
-              %td
-                %span(ng-bind="advert.operation" )
-                \ :
-              %td
-                %span(ng-bind="advert.category" )
-            %tr
-              %td
-                Цена:
-              %td
-                %span(ng-bind="advert.price"  )
-            %tr
-              %td
-                Площадь:
-              %td
-                %span(ng-bind="advert.area" )
-                m2
-            %tr
-              %td
-                latitude:
-              %td
-                %span(ng-bind="advert.latitude" )
-            %tr
-              %td
-                longitude:
-              %td
-                %span(ng-bind="advert.longitude" )
+        .large-12.columns
+          %table{:style=>"width: 100%;margin-top:5px; margin-bottom:0px; border: 1px solid black;"}
+            %tbody
+              %tr
+                %td
+                  %a{href: '/adverts?utf8=✓&operation_type={{advert.operation_type_id}}'}
+                    %img{:height => "32", :src => "/assets/prodaga.jpg", :width => "32"}
+                %td
+                  %a{href: '/adverts?utf8=✓&operation_type=&category={{advert.category_id}}'}
+                    %span(ng-bind="advert.category" )
+
+              %tr
+                %td
+                  Цена:
+                %td
+                  %span(ng-bind="advert.price"  )
+              %tr
+                %td
+                  Площадь:
+                %td
+                  %span(ng-bind="advert.area" )
+                  m2
+          %a{href: '/adverts/{{advert.slug}}'}
+            %img.th(ng-src="{{advert.image}}" ){:style=>"margin-bottom:0px; border: 1px solid black;"}

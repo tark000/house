@@ -137,11 +137,6 @@
           = f.collection_select :flat_type_id, FlatType.order(:name), :id, :title, include_blank: true
         .large-6.columns
           .field
-            = f.label "Срок сдачи дома"
-        .large-6.columns
-          = f.text_field :publication_date
-        .large-6.columns
-          .field
             = f.label "Свободно с:"
         .large-6.columns
           = f.text_field :free_from
