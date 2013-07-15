@@ -9,7 +9,10 @@ angular.module('realty').config(function($httpProvider) {
 
 
 angular.module('realty').config(function($stateProvider, $urlRouterProvider){
-    //$urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise("/");
+    //console.log("$stateProvider==", $stateProvider);
+    console.log("routeprovider==", $urlRouterProvider);
+    console.log("state==", $stateProvider);
     $stateProvider
         .state('default', {
             abstract: true, // root route
@@ -22,9 +25,9 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 }
             }
         }).
-        state("index", {
+        /*state("index", {
             parent: "default",
-            url: "/",
+            url: "^/",
             views: {
                 "index": {
                     controller: "IndexController",
@@ -34,7 +37,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 }
 
             }
-        }).
+        }).*/
 
         state("adverts", {
             parent: "default",
@@ -68,15 +71,18 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             }
         }).
         state("show", {
+
             parent: "default",
             url: "/adverts/:id",
             views: {
-                "index": {
+                "show": {
                     controller: "AdvertDetailController",
                     templateUrl: "/assets/adverts/show.html.haml"
 
                 }
 
             }
+
+
         })
 });

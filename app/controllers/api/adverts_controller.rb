@@ -42,10 +42,10 @@ class Api::AdvertsController < Api::BaseController
     @adverts = @adverts.city_search(params[:city_id]) if params[:city_id].present?
 
     #@adverts = @adverts.limit(params[:pageSize]).offset(params[:from])
+    #binding.pry
     @adverts = @adverts.limit(15)
-    @query = request.query_string
-
-
+    #@query = request.query_string
+    @query = params[:search].present? ? params[:search].to_query : ""
 
     respond_to do |format|
       format.js{

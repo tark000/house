@@ -99,6 +99,10 @@ angular.module('realty').controller('MapController', function($scope, $http, $lo
 
 angular.module('realty').controller('AdvertDetailController', function($scope, $location,  $state, $stateParams, Task){
 
+    $scope.$on('$viewContentLoaded', function(event) {
+        alert('new url AtDetail=='+event);
+    });
+
    $scope.advert = {};
 
     if ($state.current.name === 'show') {

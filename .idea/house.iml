@@ -16,8 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-<<<<<<< HEAD
-=======
     <orderEntry type="library" scope="PROVIDED" name="Ascii85 (v1.0.2, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.2.13, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.2.13, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
@@ -112,7 +110,6 @@
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.4, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zurb-foundation (v4.2.3, rbenv: 1.9.3-p392-railsexpress) [gem]" level="application" />
->>>>>>> b02d9f0a434cd1746c4d6f22d6d8a3826187d8d4
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

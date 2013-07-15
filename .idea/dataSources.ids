@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails house: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="bc1bc558-21f7-403c-b657-2e2846cf71b7">
+  <data-source source="LOCAL" name="Rails house: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="18ea59e0-bc3f-4b7f-b13b-a79a690c85d7">
     <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
     <jdbc-url>jdbc:mysql://127.0.0.1/test_house</jdbc-url>
     <user-name>root</user-name>

@@ -1,8 +1,5 @@
-var href = "/adverts?"+"<%= raw @query %>"+"&page=0&pageSize=10";
-
-window.location.replace(href);
-//window.location.search = href;
-//window.history.pushState(null, "", href);
-//window.location.href(href);
-//alert(JSON.stringify(window.location));
+var href = "/adverts?" +"<%=raw @query %>";
 console.log(href);
+window.location.replace(href);
+//history.pushState(null, "", href);
+//console.log(href);
