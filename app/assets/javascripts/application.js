@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.ui.all
 //= require adv
 //= require angular/angular-1-1-4
 //= require angular/angular-google-maps
@@ -26,7 +25,6 @@
 //= require ./app/filters
 //= require jquery.cycle2
 //= require jquery.offcanvas
-//= require script.js
 //= require foundation
 //= require_self
 

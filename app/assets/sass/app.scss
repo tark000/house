@@ -236,12 +236,24 @@ and (orientation : landscape) {
   width:100%;
 }
 
-#tabs {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+.index_table {
+  font-size: 18px;
+  width: 100%;
+  border: 0;
+  margin: 0;
 }
+
+.index_img {width: 100%;
+  border: solid 0.5px #dddddd;
+}
+
+.index_block {
+border: solid 1px #dddddd;
+  background: #ffffff;
+  padding: 0px;
+  margin: 10px 0;
+}
+
 
 
 

@@ -9,11 +9,11 @@
           .large-12.small-12.columns
             %label Тип:
           .large-12.columns
-            = radio_button_tag 'living', '1'
+            = radio_button_tag "search[living]", '1'
             %small
               жилая
           .large-12.columns
-            = radio_button_tag 'living', '0'
+            = radio_button_tag "search[living]", '0'
             %small
               нежилая
           .large-12.columns
@@ -22,34 +22,34 @@
           .large-12.columns
             %label{:for => "operation_type"} Операция:
           .large-12.columns
-            = select_tag(:operation_type, options_for_select(operation,
+            = select_tag("search[operation_type]", options_for_select(operation,
             :selected=>params[:operation_type].blank? ? "-- Select One --" :params[:operation_type]), {:include_blank => '-- Select One --'} )
         .row
           .large-12.columns
             %label{:for => "category"} Категория:
           .large-12.columns
-            = select_tag(:category, options_for_select(category, :selected=>params[:category].blank? ? "" :params[:category]), include_blank: true)
+            = select_tag("search[category]", options_for_select(category, :selected=>params[:category].blank? ? "" :params[:category]), include_blank: true)
         .row
           .large-6.columns
             %label Свободно:
           .large-6.columns
-            = check_box_tag 'state',:class=>"input_1"
+            = check_box_tag "search[state]",:class=>"input_1"
           .large-12.columns
             %br
         .row
           .large-12.columns
             %label Стоимость:
           .large-6.columns
-            = text_field_tag :min_price, params[:min_price], :placeholder=>"min"
+            = text_field_tag "search[min_price]", params[:min_price], :placeholder=>"min"
           .small-6.columns
-            = text_field_tag :max_price, params[:max_price], :placeholder=>"max"
+            = text_field_tag "search[max_price]", params[:max_price], :placeholder=>"max"
         .row
           .large-6.columns
-            = radio_button_tag 'gender', 'all', true
+            = radio_button_tag "search[gender]", 'all', true
             %small
               за все
           .large-6.columns
-            = radio_button_tag 'gender', 'm2'
+            = radio_button_tag "search[gender]", 'm2'
             %small
               за м2
           .large-12.columns
@@ -58,20 +58,20 @@
           .large-12.columns
             %label Площадь:
           .large-6.columns
-            = text_field_tag :min_area, params[:min_area], :placeholder=>"min"
+            = text_field_tag "search[min_area]", params[:min_area], :placeholder=>"min"
           .large-6.columns
-            = text_field_tag :max_area, params[:max_area], :placeholder=>"max"
+            = text_field_tag "search[max_area]", params[:max_area], :placeholder=>"max"
 
         .row
           .large-12.columns
             %label Город:
           .large-12.columns
-            = select_tag(:city_id, options_for_select(city), include_blank: true)
+            = select_tag("search[city_id]", options_for_select(city), include_blank: true)
         .row
           .large-4.columns
             %label Карта:
           .large-8.columns
-            = check_box_tag 'map',:class=>"input_1"
+            = check_box_tag "search[map]",:class=>"input_1"
         .row
           .large-centered.columns
             = submit_tag "Search", :id => nil, :class=>"dorohouse_button tiny small button"
