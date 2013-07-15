@@ -37,7 +37,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'compass'
   gem 'zurb-foundation'
-  gem 'jquery-ui-rails'
+  gem 'jquery-ui-sass-rails'
 end
 
 gem 'jquery-rails'

@@ -222,7 +222,26 @@ and (orientation : landscape) {
 
 }
 
+#wrapper div {
+  display:none;
+}
+#wrapper a.active {
+  color: black;
+  cursor: default;
+  font-weight: bold;
+  text-decoration: none;
+}
+#wrapper div.active {
+  display:block;
+  width:100%;
+}
 
+#tabs {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
 
 
 

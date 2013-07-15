@@ -1,3 +1,4 @@
+
 .row
   .large-12.columns
     %fieldset
@@ -21,35 +22,40 @@
   .large-12.columns
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse " ng-cloak )
-        %a{href: '/adverts/{{advert.slug}}'}
-          %span(ng-bind="advert.id")
-        %table{:style=>"width: 100%;margin-top:5px;"}
-          %tbody
-            %tr
-              %td
-                %span(ng-bind="advert.operation" )
-                \ :
-              %td
-                %span(ng-bind="advert.category" )
-            %tr
-              %td
-                Цена:
-              %td
-                %span(ng-bind="advert.price"  )
-            %tr
-              %td
-                Площадь:
-              %td
-                %span(ng-bind="advert.area" )
-                m2
-            %tr
-              %td
-                latitude:
-              %td
-                %span(ng-bind="advert.latitude" )
-            %tr
-              %td
-                longitude:
-              %td
-                %span(ng-bind="advert.longitude" )
+        %div{:style => "border: solid 1px #dddddd; background: #ffffff; padding: 5px;"}
+          %table{:style=>"width: 100%; border: 0;"}
+            %tbody
+              %tr
+                %td{:style=>"width: 70%; height: 42px;"}
+                  %a{href: '/adverts/{{advert.slug}}'}
+                    %span(ng-bind="advert.title")
+                %td
+                  %a{href: '/adverts?utf8=%E2%9C%93&operation_type=&category={{advert.operation_type_id}}'}
+                    %img{:height => "32", :src => "/assets/prodaga.jpg", :width => "32"}
+
+
+              %tr
+                %td
+                  %a{href: '/adverts?utf8=%E2%9C%93&operation_type={{advert.category_id}}'}
+                    %span(ng-bind="advert.category" )
+                %td
+                  %a{href: '/adverts/{{advert.slug}}'}
+                    id:
+                    %span(ng-bind="advert.id")
+              %tr
+                %td
+                  Цена:
+                %td
+                  %span(ng-bind="advert.price"  )
+              %tr
+                %td
+                  Площадь:
+                %td
+                  %span(ng-bind="advert.area" )
+                  м
+                  %sup
+                    2
+
+          %a{href: '/adverts/{{advert.slug}}'}
+            %img.th.radius(ng-src="{{advert.image}}" ){:style=>"width: 100%;"}
 
