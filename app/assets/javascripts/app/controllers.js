@@ -8,17 +8,18 @@ angular.module('realty').controller('IndexController', function($scope, $http, $
 
 
     $scope.adverts = {};
-    $scope.advert = {};
+    //$scope.advert = {};
 
-    alert("current state="+$state.current.name);
+    //alert("current state="+$state.current.name);
 
     if(angular.equals($stateParams.maps,'1')){
-        alert("maps");
+        //alert("maps");
         $state.transitionTo('maps');
+        $state.preventDefault();
     }
 
     $scope.$on('$locationChangeStart', function(event, newUrl) {
-        alert('new url=='+newUrl);
+        //alert('new url=='+newUrl);
     });
 
 
