@@ -1,5 +1,5 @@
 angular.module('realty').config(function($locationProvider) {
-   return $locationProvider.html5Mode(true);
+    return $locationProvider.html5Mode(true);
 
 });
 
@@ -26,18 +26,18 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             }
         }).
         /*state("index", {
-            parent: "default",
-            url: "^/",
-            views: {
-                "index": {
-                    controller: "IndexController",
-                    templateUrl: "/assets/adverts/index.html.haml"
+         parent: "default",
+         url: "^/",
+         views: {
+         "index": {
+         controller: "IndexController",
+         templateUrl: "/assets/adverts/index.html.haml"
 
 
-                }
+         }
 
-            }
-        }).*/
+         }
+         }).*/
 
         state("adverts", {
             parent: "default",
@@ -48,15 +48,15 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                     templateUrl: "/assets/adverts/index.html.haml"
                 }
             }/*,
-            onEnter: function($stateParams,$state){
+             onEnter: function($stateParams,$state){
 
-                if(angular.equals($stateParams.maps,'1')){
-                    alert("maps");
-                    $state.transitionTo('maps');
-                }
+             if(angular.equals($stateParams.maps,'1')){
+             alert("maps");
+             $state.transitionTo('maps');
+             }
 
 
-            }*/
+             }*/
         }).
         state("maps", {
             parent: "default",
