@@ -2,19 +2,1156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03817e17-d141-4dc4-94f1-db221e376399" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/001fd470-c6c2-0130-07b9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0027f550-c6c3-0130-29b1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/00612db0-c6c2-0130-6473-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0079c7c0-c6c4-0130-f76f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/00a419a0-c6c2-0130-ecb7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/00e7a690-c6c2-0130-15b8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/00e9d190-c6c3-0130-d3c0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/00f50260-c6c2-0130-14c8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0122b3e0-c6c4-0130-97e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/017b4190-c6c2-0130-6d9a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/01ad2fc0-c6c3-0130-2e30-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/01b4bc60-c6c2-0130-1477-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/01c0af50-c6c4-0130-69dc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0208f970-c6c2-0130-5de7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/02429460-c6c2-0130-32fb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/025433b0-c6c4-0130-d042-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0271f8a0-c6c3-0130-9f24-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/02900000-c6c2-0130-528f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0292fa80-c6c2-0130-0c89-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/02f36eb0-c6c4-0130-da36-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/031b3040-c6c2-0130-7bdc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/031ecab0-c6c2-0130-efb3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/033911b0-c6c3-0130-12cb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/03932260-c6c4-0130-1853-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/03a75070-c6c2-0130-eb64-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/03aada70-c6c2-0130-cb3f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/04012bb0-c6c3-0130-2eff-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/042a0290-c6c4-0130-22ce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0431e090-c6c2-0130-55f9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/046e0560-c6c2-0130-3a0b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/04c0bbe0-c6c2-0130-46fb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/04ca27c0-c6c3-0130-6e32-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/04cfc8c0-c6c4-0130-b1a2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/04fcb1b0-c6c2-0130-d52b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0550ab30-c6c2-0130-0f3f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0572e290-c6c4-0130-18ac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/058b5d80-c6c3-0130-909d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/05969e20-c6c2-0130-c9ca-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/05dedcf0-c6c2-0130-6bdf-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0616f280-c6c4-0130-84d6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0625cf50-c6c2-0130-68e6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/065914e0-c6c3-0130-98e6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0670c5d0-c6c2-0130-3e28-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/06b884d0-c6c2-0130-0e5b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/06bce5c0-c6c4-0130-12e2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0703d500-c6c2-0130-c68d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/07256510-c6c3-0130-acff-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/074e80a0-c6c2-0130-00cc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/075ca110-c6c4-0130-6742-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/079c2220-c6c2-0130-e60e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/07e7c310-c6c2-0130-e678-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/07f3e9f0-c6c3-0130-9a52-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/080a80f0-c6c4-0130-a676-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/083f6660-c6c2-0130-aa0f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/08805110-c6c2-0130-5875-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/08bb7990-c6c4-0130-83cb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/08c48d50-c6c3-0130-feee-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/08e02560-c6c2-0130-6fc3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0920bce0-c6c2-0130-3e3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/09694390-c6c4-0130-39fc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/09768ee0-c6c2-0130-a536-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/097b6200-c6c2-0130-b301-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/09960c00-c6c3-0130-b79e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0a128b00-c6c2-0130-2c0e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0a15c9c0-c6c4-0130-2366-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0a176810-c6c2-0130-2929-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0a699cd0-c6c3-0130-c145-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0aaf26a0-c6c2-0130-539f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0ab44250-c6c2-0130-8672-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0abd0120-c6c4-0130-3498-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0b3ec430-c6c3-0130-e545-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0b4d4600-c6c2-0130-8ad4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0b6216c0-c6c2-0130-eae1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0b680e30-c6c4-0130-2509-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0bf4f5d0-c6c2-0130-b5ea-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0c05f3d0-c6c2-0130-523e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0c153a90-c6c3-0130-fc3c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0c155d70-c6c4-0130-59c7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0cb08f80-c6c2-0130-f5e6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0cb655b0-c6c4-0130-f772-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0cb655d0-c6c2-0130-0919-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0cece1b0-c6c3-0130-fc8b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0d5b1e70-c6c2-0130-c124-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0d618560-c6c2-0130-58ab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0d65ef70-c6c4-0130-960f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0dc5b310-c6c3-0130-b299-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0e06ca80-c6c2-0130-03aa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0e0d0d10-c6c2-0130-cda5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0e17a280-c6c4-0130-0611-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0ea0dc60-c6c3-0130-196d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0eadfc70-c6c2-0130-f00b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0ec9ac10-c6c4-0130-6541-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0efdcfa0-c6c2-0130-3c8d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0f54ee70-c6c2-0130-f6d6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0f7ce880-c6c3-0130-149a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0f80d220-c6c4-0130-25ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/0fa65fb0-c6c2-0130-4f22-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1009f680-c6c2-0130-08d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1038ea10-c6c4-0130-8622-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/10523590-c6c2-0130-6c1b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/105ac0f0-c6c3-0130-a647-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/10b93e20-c6c2-0130-6e8b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/10e8e6d0-c6c4-0130-5cf8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1101bfd0-c6c2-0130-57f5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/11394440-c6c3-0130-978a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1169c000-c6c2-0130-321f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/11a34440-c6c4-0130-5c53-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/11b1bd50-c6c2-0130-8fd7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1215fe20-c6c2-0130-1af6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1219f820-c6c3-0130-db59-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/121cc190-c6c2-0130-5cc6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/126148c0-c6c4-0130-123c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/12d30180-c6c2-0130-c75b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/12dab220-c6c2-0130-a991-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/12f272f0-c6c3-0130-d27b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/131e5890-c6c4-0130-aa06-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/13998450-c6c2-0130-6c47-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/13d692a0-c6c3-0130-6970-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/13d91890-c6c4-0130-f190-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/13e434f0-c6c2-0130-f5bd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/144f66f0-c6c2-0130-3f9b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1456af80-c6c2-0130-0004-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/148bb640-c6c4-0130-9673-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/14bd51f0-c6c3-0130-8f75-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/15049d30-c6c2-0130-bb62-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/151a6e50-c6c2-0130-0fee-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1543a5d0-c6c4-0130-8cc3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/15a3c0c0-c6c3-0130-2deb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/15c81d10-c6c2-0130-78c3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/15d09ef0-c6c2-0130-1307-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/15fe9b40-c6c4-0130-2036-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/168730a0-c6c2-0130-04d5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/168cb6e0-c6c3-0130-607e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/16b39bc0-c6c4-0130-65d5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/16d3b7e0-c6c2-0130-b496-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/17401450-c6c2-0130-0f41-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/177935a0-c6c4-0130-7656-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1779efa0-c6c3-0130-3c75-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/17973320-c6c2-0130-d40d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/17ed9090-c6c2-0130-99b1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/18371da0-c6c4-0130-bd08-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1865b9a0-c6c3-0130-c666-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/18a35850-c6c2-0130-5a67-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/18b68ce0-c6c2-0130-593b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/18ede8a0-c6c4-0130-004f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/19539650-c6c3-0130-e888-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/195a9bc0-c6c2-0130-789a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/19cf7070-c6c4-0130-265b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/19daadd0-c6c2-0130-e455-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1a33e020-c6c2-0130-42f0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1a41cf10-c6c3-0130-2147-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1a660ba0-c6c2-0130-8139-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1a8f17b0-c6c4-0130-3b31-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1ab59a10-c6c2-0130-9891-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1b335390-c6c3-0130-a35e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1b387b00-c6c2-0130-b2a2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1b45f6a0-c6c4-0130-4f4b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1b9307f0-c6c2-0130-5b40-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1beeba30-c6c2-0130-c9b9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1c0758d0-c6c4-0130-0e93-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1c2555e0-c6c3-0130-956e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1cbdc340-c6c2-0130-077b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1cc7eb30-c6c2-0130-89c5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1cc98e80-c6c4-0130-66c2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1d191e50-c6c3-0130-7aee-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1d850940-c6c2-0130-e3ce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1d861120-c6c4-0130-2c13-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1d8ecc70-c6c2-0130-418c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1e0ecde0-c6c3-0130-35ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1e4bf1b0-c6c4-0130-f4d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1e5ac9a0-c6c2-0130-b9b7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1e64eef0-c6c2-0130-d57a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1f05b5b0-c6c3-0130-4e5e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1f1135b0-c6c4-0130-4918-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1f244ca0-c6c2-0130-ffbe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1f38a4d0-c6c2-0130-6512-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1fd16400-c6c4-0130-801e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1ffa8d70-c6c2-0130-c633-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/1ffeda40-c6c3-0130-08b3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2004e100-c6c2-0130-28c2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/209b35d0-c6c4-0130-2a58-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/20c85000-c6c2-0130-3ed2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/20d30f80-c6c2-0130-63a2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/20f99a70-c6c3-0130-0e19-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2163b8e0-c6c4-0130-8bc3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2196fca0-c6c2-0130-c58b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/21abd0d0-c6c2-0130-20d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/21f5b180-c6c3-0130-4775-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/22227de0-c6c4-0130-1cce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/22721f60-c6c2-0130-a88f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/22c94d30-c6c2-0130-c93a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/22f36a20-c6c3-0130-c8ac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/22f649a0-c6c4-0130-fac9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/235c7f00-c6c2-0130-a974-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/23bdc9a0-c6c2-0130-68b9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/23c60930-c6c4-0130-3ae9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/23f217b0-c6c3-0130-2cac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/243f2c00-c6c2-0130-2a84-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/244acf10-c6c2-0130-6556-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/248a9aa0-c6c4-0130-9f78-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/24bdc7d0-c6c2-0130-249c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/24ca7990-c6c2-0130-0c0f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/24f3c650-c6c3-0130-1e49-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/254b4270-c6c2-0130-fbd9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/255784b0-c6c2-0130-6a0a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/255928f0-c6c4-0130-e935-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/25f693a0-c6c3-0130-d80c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/26272de0-c6c2-0130-b062-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/26297750-c6c4-0130-784c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/268c0f60-c6c2-0130-e03f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/26fa12d0-c6c3-0130-eb4e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/26fe4920-c6c4-0130-0d92-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/271509a0-c6c2-0130-ebd8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2771fe30-c6c2-0130-01d5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/27c3c2e0-c6c4-0130-0ade-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/27ef7580-c6c2-0130-03a0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/27fe9670-c6c3-0130-f291-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/28951f60-c6c4-0130-925d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/28cc00f0-c6c2-0130-af6b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/28d99550-c6c2-0130-3d80-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/29057e80-c6c3-0130-1524-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2965dc60-c6c4-0130-6b9e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/29cd46b0-c6c2-0130-5d6f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/29e647f0-c6c2-0130-567b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2a0dd800-c6c3-0130-198e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2a2f35d0-c6c4-0130-7d54-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2abdc1b0-c6c2-0130-3f74-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2acba350-c6c2-0130-d6d9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2b04b2f0-c6c4-0130-6c75-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2b187c30-c6c3-0130-9517-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2ba55540-c6c2-0130-9a3c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2bb2e540-c6c2-0130-cf19-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2bde1510-c6c4-0130-52d7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2c248430-c6c3-0130-c98c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2c9965b0-c6c2-0130-b70d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2ca7ae00-c6c2-0130-e4e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2caa4a60-c6c4-0130-e100-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2d25f770-c6c2-0130-31f4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2d326240-c6c3-0130-2c2f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2d3442f0-c6c2-0130-4484-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2d85a830-c6c4-0130-11b5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2e140520-c6c2-0130-3d44-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2e228920-c6c2-0130-7560-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2e41cfe0-c6c3-0130-c6be-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2e5fc4f0-c6c4-0130-ad9e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2f14b3c0-c6c2-0130-e420-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2f246050-c6c2-0130-b17f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2f3cc870-c6c4-0130-3220-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/2f52f6b0-c6c3-0130-4402-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3005ff80-c6c2-0130-9e7a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/30140b60-c6c4-0130-7016-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/30159db0-c6c2-0130-8647-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/307762e0-c6c3-0130-3b66-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/30f76110-c6c4-0130-3380-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/30f97800-c6c2-0130-ed86-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/311362b0-c6c2-0130-1710-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/318bf6e0-c6c3-0130-e1f7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/31da1bb0-c6c4-0130-f91a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/31fa0b40-c6c2-0130-90ef-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/32096fd0-c6c2-0130-c258-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/32adf7f0-c6c3-0130-992c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/32b54400-c6c4-0130-48da-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/32f2b500-c6c2-0130-5a17-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3360dc40-c6c2-0130-4a7a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/339db220-c6c4-0130-0139-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/33c50340-c6c3-0130-7f59-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/33e6a920-c6c2-0130-e0b3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/344b1ed0-c6c2-0130-2b08-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/347e7830-c6c4-0130-5d64-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/34dd78e0-c6c3-0130-6fae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/34ef04f0-c6c2-0130-3c8d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/35543220-c6c4-0130-70ca-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/355e0ea0-c6c2-0130-83dd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/35f61d20-c6c2-0130-8baa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/35f87a50-c6c3-0130-c6d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3637c280-c6c4-0130-9385-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/365d6670-c6c2-0130-9f24-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/370bd880-c6c2-0130-b18e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3716d160-c6c3-0130-6687-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/378006d0-c6c2-0130-0acc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3819b060-c6c2-0130-f11b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/38364660-c6c3-0130-ab17-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/38814b70-c6c2-0130-15a4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/391cbc90-c6c2-0130-f31b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3956a6a0-c6c3-0130-4c0b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/398f8120-c6c2-0130-bc96-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3a2c4850-c6c2-0130-45e9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3a3f0280-c6c2-0130-c6bd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3a7d2d70-c6c3-0130-1380-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3acb9a30-c6c2-0130-8044-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3b3687a0-c6c2-0130-1252-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3ba14700-c6c3-0130-3b01-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3bd50e20-c6c2-0130-38e6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3c4b4fb0-c6c2-0130-6d69-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3cc76b50-c6c3-0130-9d37-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3cef4560-c6c2-0130-3ec2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3d0385b0-c6c2-0130-aca8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3def25a0-c6c3-0130-4163-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3e00be10-c6c2-0130-f925-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3e1df3a0-c6c2-0130-4db3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3f188b80-c6c3-0130-d266-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3f1c3c20-c6c2-0130-5e65-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/3f304a70-c6c2-0130-487e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/40393f30-c6c2-0130-45f8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/40440d80-c6c3-0130-2355-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/405afeb0-c6c2-0130-8a5e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/40e52bc0-c6c2-0130-9661-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4171e9e0-c6c3-0130-81e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/41753ef0-c6c2-0130-50a2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/42775a00-c6c2-0130-3b17-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4296c2c0-c6c2-0130-ed76-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/42a1ac30-c6c3-0130-191b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/439ce830-c6c2-0130-b7e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/43daf420-c6c3-0130-329f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/440d58a0-c6c2-0130-bdd7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/44b75420-c6c2-0130-2ccb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/450dbbb0-c6c3-0130-9ef1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4535dc40-c6c2-0130-114d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/45f6e450-c6c2-0130-9a94-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4641c010-c6c3-0130-e2f4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/467312e0-c6c2-0130-d1d4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4722eaa0-c6c2-0130-f819-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/47779e60-c6c3-0130-4b0c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/47978e20-c6c2-0130-06c5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4849fc50-c6c2-0130-6323-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/48afdb60-c6c3-0130-947e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/48e3b590-c6c2-0130-3612-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/49996fa0-c6c2-0130-9336-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/49ea1c50-c6c3-0130-c46e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4a104af0-c6c2-0130-7c48-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4ac297f0-c6c2-0130-1b13-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4b263550-c6c3-0130-667a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4b42d330-c6c2-0130-9d9e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4c1251b0-c6c2-0130-bbda-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4c2b54b0-c6c2-0130-3cc3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4c65c1f0-c6c3-0130-e355-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4cc4f180-c6c2-0130-f02b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4d93c2b0-c6c2-0130-c587-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4da4d520-c6c3-0130-c85f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4dadb390-c6c2-0130-5c95-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4e4a5990-c6c2-0130-9264-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4ee4c7c0-c6c2-0130-adf6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4ee6d650-c6c3-0130-08fc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/4ffda800-c6c2-0130-dce3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/50214970-c6c2-0130-d0bf-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5030e2f0-c6c3-0130-c4b4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5129c050-c6c2-0130-f72a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/514481a0-c6c2-0130-2598-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/51865e80-c6c3-0130-19fc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/51e20ce0-c6c2-0130-8da5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/52820720-c6c2-0130-a848-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/52d28b80-c6c3-0130-c2e1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/532032e0-c6c2-0130-203c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/53d98b70-c6c2-0130-25c3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/53f4db90-c6c2-0130-958c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/54301610-c6c3-0130-5b22-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/55268430-c6c2-0130-e51a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5580f6c0-c6c3-0130-01d2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/55a3d4a0-c6c2-0130-8a5c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/56808120-c6c2-0130-d056-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/569bc210-c6c2-0130-e578-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/56dae950-c6c3-0130-a8a7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/57d2a5d0-c6c2-0130-d1ad-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/57ee4420-c6c2-0130-7c85-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/58434000-c6c3-0130-0eab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/591a52e0-c6c2-0130-4f74-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/594243e0-c6c2-0130-1777-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/599bebe0-c6c3-0130-49d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5a6e34b0-c6c2-0130-004d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5a96b040-c6c2-0130-e560-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5af7be50-c6c3-0130-cf8d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5bc79750-c6c2-0130-d017-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5c4dd920-c6c3-0130-dc48-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5c523120-c6c2-0130-d4d7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5d23cac0-c6c2-0130-b261-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5dafc0b0-c6c2-0130-af79-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5db085b0-c6c3-0130-1f0c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5e84aab0-c6c2-0130-cb6c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5f0c04c0-c6c3-0130-2f71-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5f114d40-c6c2-0130-4b6f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/5fe41050-c6c2-0130-b3e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/60022460-c6c2-0130-cf56-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6064b320-c6c3-0130-ea08-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6146c2c0-c6c2-0130-5292-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6164d8e0-c6c2-0130-8199-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/61c17920-c6c3-0130-d2c2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/621e4c00-c6c2-0130-58c6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/62cdf800-c6c2-0130-be9b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6324be50-c6c3-0130-6f6f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6415a730-c6c2-0130-c83c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/643508c0-c6c2-0130-5091-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/64969380-c6c3-0130-4adb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/656d4570-c6c2-0130-f287-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/65f8ac30-c6c2-0130-fe04-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/65f98100-c6c3-0130-2d5c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/66dcb6f0-c6c2-0130-3299-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/66fce460-c6c2-0130-2863-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/675d7470-c6c3-0130-cf03-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/683df5a0-c6c2-0130-2b24-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/686a7140-c6c2-0130-876b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/68c26150-c6c3-0130-c2aa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/691fd230-c6c2-0130-e629-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/69caa380-c6c2-0130-e2be-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6a294860-c6c3-0130-1bfc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6a80b000-c6c2-0130-0594-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6b3c3450-c6c2-0130-f5ca-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6b9dade0-c6c3-0130-aeb1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6c98de40-c6c2-0130-6f1f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6cbbabd0-c6c2-0130-d821-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6d08e320-c6c3-0130-f66e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6d79eae0-c6c2-0130-daea-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6d9eb1d0-c6c2-0130-0cf7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6e7767a0-c6c3-0130-7777-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6efdad40-c6c2-0130-3cdb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6f20d1b0-c6c2-0130-acdd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6fe80b90-c6c2-0130-2bff-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/6feebaa0-c6c3-0130-81a8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/70acdf60-c6c2-0130-cc77-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/716a9bc0-c6c3-0130-4322-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/71811f70-c6c2-0130-8df9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/72417bc0-c6c2-0130-7106-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/72f4eb00-c6c3-0130-23d9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/739c0470-c6c2-0130-dc0f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/73c00320-c6c2-0130-4892-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/74728630-c6c3-0130-30ec-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/749616a0-c6c2-0130-ff05-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/74bacb00-c6c2-0130-6e9b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/75eb4e00-c6c3-0130-0f4c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/76150200-c6c2-0130-1d07-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/76499960-c6c2-0130-652f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/77104740-c6c2-0130-38e4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7766d460-c6c3-0130-62cd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/77d204d0-c6c2-0130-3553-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/78965520-c6c2-0130-1d18-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/78e3c950-c6c3-0130-3c12-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/79368d30-c6c2-0130-da6c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7a2faee0-c6c2-0130-3796-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7a5652e0-c6c2-0130-6e21-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7a6e1bc0-c6c3-0130-5f1b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7bde7db0-c6c2-0130-aedd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7beeac10-c6c3-0130-2b0a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7c0daa50-c6c2-0130-ccec-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7d757080-c6c3-0130-92aa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7d817cb0-c6c2-0130-901d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7dab15d0-c6c2-0130-82fa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7efd87c0-c6c3-0130-3154-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7f261180-c6c2-0130-cee9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/7fc8d0f0-c6c2-0130-bb64-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/808444c0-c6c3-0130-19d6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/809d5ba0-c6c2-0130-caba-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/816b2a50-c6c2-0130-451d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/821c0ed0-c6c3-0130-156a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8271ae20-c6c2-0130-631f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/830ad020-c6c2-0130-aabb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/83b52a00-c6c3-0130-ce05-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/84116a60-c6c2-0130-f75e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/843a99e0-c6c2-0130-cb16-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/85415ec0-c6c3-0130-27ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/858e96b0-c6c2-0130-57cd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/85b83b30-c6c2-0130-bed3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/86d03460-c6c3-0130-9b88-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/87377f00-c6c2-0130-4e67-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/87656410-c6c2-0130-cffc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/883c24a0-c6c2-0130-bd6a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/886c3fe0-c6c3-0130-037c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/89399030-c6c2-0130-7d99-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/89e11ec0-c6c2-0130-0aa7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8a022a30-c6c3-0130-e226-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8aec4660-c6c2-0130-d086-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8b25ac80-c6c2-0130-b820-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8b9bee00-c6c3-0130-8c2d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8c9cee40-c6c2-0130-4267-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8cd52bb0-c6c2-0130-93f3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8d3273e0-c6c3-0130-af3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8e586c70-c6c2-0130-1e44-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8e915b00-c6c2-0130-183e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/8ed95440-c6c3-0130-0fd2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9014dc20-c6c2-0130-6295-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/904ee1e0-c6c2-0130-e85d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9078df30-c6c3-0130-a229-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/913023c0-c6c2-0130-6c31-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/920925f0-c6c2-0130-9601-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/921c0da0-c6c3-0130-bfb7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/92e377d0-c6c2-0130-ec3d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/93be6250-c6c2-0130-080a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/93c3e0d0-c6c3-0130-2a1b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/94994940-c6c2-0130-b813-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/95745370-c6c2-0130-c3f8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/957cb600-c6c3-0130-ae8c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/96528840-c6c2-0130-c7d2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/972524c0-c6c3-0130-c932-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9730d2f0-c6c2-0130-a345-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/98b204d0-c6c2-0130-43dc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/98cf7510-c6c3-0130-749e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/98ecd5e0-c6c2-0130-7316-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/99cd5fb0-c6c2-0130-28c6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9a766cb0-c6c3-0130-48ab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9aae9280-c6c2-0130-7b86-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9c2b8590-c6c3-0130-a9bb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9c3b4f40-c6c2-0130-ea77-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9c6b47d0-c6c2-0130-1ee4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9de7c580-c6c3-0130-9d00-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9e058270-c6c2-0130-aa92-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9e364240-c6c2-0130-84a6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/9fd125e0-c6c2-0130-1736-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a01ee5f0-c6c3-0130-f9f1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a07824d0-c6c2-0130-cae8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a1a01ba0-c6c2-0130-1e62-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a249cc20-c6c2-0130-f0cc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a3732960-c6c2-0130-bd21-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a41db390-c6c2-0130-210c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a49578a0-c6c2-0130-e652-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a54a0280-c6c2-0130-0d47-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a66cfab0-c6c2-0130-aaca-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a6a09110-c6c2-0130-776d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a8484010-c6c2-0130-53ac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/a87c1820-c6c2-0130-8c99-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/aa25d460-c6c2-0130-aab7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/aa5a1a00-c6c2-0130-f6b0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ab4e6c40-c6c2-0130-7e34-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ab8e7c20-c6c2-0130-deec-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ad09ddb0-c6c2-0130-c20f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/adbac630-c6c2-0130-bb43-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/aef30b80-c6c2-0130-0649-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/af296bf0-c6c2-0130-5109-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b0de4410-c6c2-0130-b641-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b114a950-c6c2-0130-65fd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b2cc54c0-c6c2-0130-9eeb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b2e76ba0-c6c3-0130-8acb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b309be80-c6c3-0130-34f6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b32301f0-c6c3-0130-8099-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b342a260-c6c3-0130-810d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b35c9a40-c6c3-0130-99b8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b376d2b0-c6c3-0130-1230-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b37eb290-c6c2-0130-0b45-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b399da80-c6c3-0130-74f8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b3b470a0-c6c3-0130-d164-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b3ce5320-c6c3-0130-6bbe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b3e90100-c6c3-0130-198d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4035a70-c6c3-0130-8d6a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b41dd880-c6c3-0130-f388-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b43c3350-c6c3-0130-4314-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4562740-c6c3-0130-ad18-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b46fe2f0-c6c3-0130-9061-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b48addc0-c6c3-0130-5000-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4a595d0-c6c3-0130-ab70-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4bc00c0-c6c2-0130-ba2c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4bfa8c0-c6c3-0130-95d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4de6ac0-c6c3-0130-f057-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4f38400-c6c2-0130-2b9b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b4f8c3c0-c6c3-0130-a719-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b51ceab0-c6c3-0130-9060-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b5373070-c6c3-0130-8628-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b5511f50-c6c3-0130-f485-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b56f2130-c6c3-0130-dfb4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b58a57d0-c6c3-0130-7b05-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b5b3afa0-c6c3-0130-1f80-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b5ced530-c6c3-0130-0903-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b5ea8af0-c6c3-0130-00ac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b60564e0-c6c3-0130-313d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b61f5170-c6c3-0130-935b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b64670d0-c6c3-0130-e8e9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b66249a0-c6c3-0130-19fb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b689d7b0-c6c3-0130-0c6d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6a7bb30-c6c3-0130-1110-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6b02500-c6c2-0130-1b03-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6c4ddd0-c6c3-0130-b5fd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6dfc250-c6c3-0130-7a6c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6e808d0-c6c2-0130-9fa4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b6fd5070-c6c3-0130-0cb8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b71dcbe0-c6c3-0130-7d93-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b73bc930-c6c3-0130-ebee-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b763d7d0-c6c3-0130-5227-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b780e870-c6c3-0130-e364-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b7a58cd0-c6c3-0130-63cd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b7c15de0-c6c3-0130-b17c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b7dcc200-c6c3-0130-dd39-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b7faf380-c6c3-0130-cf8e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b8187b70-c6c3-0130-048e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b83660a0-c6c3-0130-41ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b853e210-c6c3-0130-d418-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b87c4110-c6c3-0130-1910-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b899f280-c6c3-0130-ec99-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b8a64880-c6c2-0130-f0c9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b8b40880-c6c3-0130-3351-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b8d09030-c6c3-0130-bc4f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b8ec3380-c6c3-0130-e757-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b910ca20-c6c3-0130-2e21-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b930eba0-c6c3-0130-66cd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b957a2f0-c6c3-0130-d954-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b95b8bb0-c6c2-0130-f780-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b973a8f0-c6c3-0130-fcf4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b98f73f0-c6c3-0130-aa1d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b9ae4550-c6c3-0130-04d6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b9cb7980-c6c3-0130-239f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/b9ebaed0-c6c3-0130-7fa1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ba0acf50-c6c3-0130-83ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ba336fc0-c6c3-0130-0e89-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ba5449f0-c6c3-0130-68e0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ba7e9320-c6c3-0130-b496-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ba9e2cf0-c6c3-0130-7b63-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/baa0b8e0-c6c2-0130-88ff-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bac7f8d0-c6c3-0130-4663-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bae8a610-c6c3-0130-d97a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb0249f0-c6c3-0130-bac4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb1d9760-c6c3-0130-fd8c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb392210-c6c3-0130-e24b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb53fc60-c6c3-0130-22eb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb575680-c6c2-0130-0c26-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb6fbd40-c6c3-0130-1f31-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bb948a60-c6c3-0130-fccc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bbbb6510-c6c3-0130-59c5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bbd85650-c6c3-0130-7a9a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bbffdfd0-c6c3-0130-7409-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc1ea2a0-c6c3-0130-d1d6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc3d6260-c6c3-0130-8ddc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc54ca10-c6c1-0130-0a44-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc5b5930-c6c3-0130-35b0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc7aa990-c6c3-0130-c8ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bc9d2cd0-c6c2-0130-bf83-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bca50c60-c6c3-0130-93d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bcc56990-c6c3-0130-cd56-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bcd7c740-c6c2-0130-b7c2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bce62150-c6c3-0130-fb4e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bd05ba10-c6c3-0130-27b1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bd282be0-c6c3-0130-0596-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bd54e3a0-c6c3-0130-be66-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bd785b90-c6c3-0130-0710-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bd9b53d0-c6c3-0130-9fe9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bdbb1000-c6c3-0130-0294-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bddf67b0-c6c3-0130-c6da-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/be0e9560-c6c3-0130-df33-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/be339040-c6c3-0130-1134-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/be62b250-c6c3-0130-afde-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/be899d90-c6c3-0130-bb10-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/be92fcc0-c6c2-0130-28fa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bebda8b0-c6c3-0130-3374-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bee5cfc0-c6c3-0130-5e91-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bf1b5300-c6c3-0130-6db8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bf44ba90-c6c3-0130-007b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bf56cbe0-c6c2-0130-6d71-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bf6ef890-c6c3-0130-6256-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bf92c6c0-c6c3-0130-11a3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bfbe5b50-c6c3-0130-7c55-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bfe248c0-c6c3-0130-146b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/bffc35f0-c6c3-0130-2197-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0167f60-c6c3-0130-f523-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c03bcfc0-c6c3-0130-d1b1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0571eb0-c6c3-0130-217a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0727d20-c6c3-0130-041e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c09579e0-c6c2-0130-3964-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0980ed0-c6c3-0130-5ace-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0b4de10-c6c3-0130-b231-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0d10c90-c6c3-0130-319a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0dbe330-c6c2-0130-c5b7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c0f7fbf0-c6c3-0130-00fa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c115ed00-c6c3-0130-fdce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c13305e0-c6c3-0130-d667-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c15ace90-c6c3-0130-2563-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c178f980-c6c3-0130-29be-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c1968860-c6c3-0130-dfb0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c1c04640-c6c3-0130-95c5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c1dfc240-c6c3-0130-e0be-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c20919d0-c6c3-0130-c91c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2293030-c6c3-0130-6e30-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2492530-c6c3-0130-71fb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2741010-c6c3-0130-a19e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2954db0-c6c3-0130-2d88-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c29bf190-c6c2-0130-3dfe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2b6f330-c6c3-0130-cb5c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2e25f00-c6c3-0130-2a5f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c2e2a870-c6c2-0130-0556-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c3041c00-c6c3-0130-d63a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c3272870-c6c3-0130-cf7d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c354d6c0-c6c3-0130-51a5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c37871a0-c6c3-0130-500d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c3a6e4a0-c6c3-0130-1a7a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c3cb9650-c6c3-0130-aab9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c3f06ed0-c6c3-0130-87df-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c41f2230-c6c3-0130-2ccd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c44518a0-c6c3-0130-0483-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c4758a50-c6c3-0130-4ed7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c49ca220-c6c3-0130-d419-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c4a68a30-c6c2-0130-4a1b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c4c37e10-c6c3-0130-2e8e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c4ee1630-c6c2-0130-73fe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c4f5c1d0-c6c3-0130-1bd5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c51e11a0-c6c3-0130-87b7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c5467e20-c6c3-0130-0165-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c57910c0-c6c3-0130-d94e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c5a15e30-c6c3-0130-b8fc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c5d4e0a0-c6c3-0130-d515-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c5ff3a00-c6c3-0130-7ee1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c629cf80-c6c3-0130-b6ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c65e0520-c6c3-0130-ad93-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c6896660-c6c3-0130-e7d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c6b4dbd0-c6c2-0130-7a7d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c6c03540-c6c3-0130-ee26-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c6ebfb10-c6c3-0130-3714-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c6ff00c0-c6c2-0130-2d6a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c717e460-c6c3-0130-01ab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c74eaf10-c6c3-0130-19e5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c77c19f0-c6c3-0130-e10e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c7b34b20-c6c3-0130-3bc3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c7e19510-c6c3-0130-8506-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c80ff5c0-c6c3-0130-62c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c8490fb0-c6c3-0130-f27c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c878b4e0-c6c3-0130-9154-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c8b1c070-c6c3-0130-11a9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c8db15c0-c6c2-0130-f63a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c8e304c0-c6c3-0130-5c65-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c91e00e0-c6c3-0130-0328-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c9252540-c6c2-0130-2f94-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c94f86c0-c6c3-0130-1efa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c9814b40-c6c3-0130-8e94-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c9bdfec0-c6c3-0130-87c9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/c9f184e0-c6c3-0130-ab46-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ca316120-c6c3-0130-2563-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ca677950-c6c3-0130-87f7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/caa66cf0-c6c3-0130-f2b2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cab47a90-c6c2-0130-7b3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/caf03ab0-c6c3-0130-aae9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cafebc00-c6c2-0130-880e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cb24b950-c6c3-0130-45c1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cb6da790-c6c3-0130-a999-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cba3f330-c6c3-0130-1a77-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cbe5fa10-c6c3-0130-1780-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cc1d7fa0-c6c3-0130-b8f7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cc5fe8b0-c6c3-0130-f44e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cc992e60-c6c3-0130-08b8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cccee0e0-c6c2-0130-eb1c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ccd26600-c6c3-0130-1a06-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cd167620-c6c3-0130-5328-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cd181950-c6c2-0130-38c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cd509a40-c6c3-0130-70d9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cd956df0-c6c3-0130-5738-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cdd11f40-c6c3-0130-3e1f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ce18a280-c6c3-0130-4767-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ce56a260-c6c3-0130-5802-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ce929e70-c6c1-0130-60e0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ce9db250-c6c3-0130-f59e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ceade820-c6c1-0130-2291-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cec8d710-c6c1-0130-29f1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cedb2a10-c6c3-0130-04c7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cee58350-c6c1-0130-c91d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ceeafb60-c6c2-0130-e557-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf052410-c6c1-0130-3706-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf1a3eb0-c6c3-0130-4017-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf218410-c6c1-0130-9cc6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf35a410-c6c2-0130-51f0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf3e7630-c6c1-0130-ac71-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf5f02e0-c6c1-0130-c26b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf635280-c6c3-0130-58c2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf79ea20-c6c1-0130-ba8d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cf94e680-c6c1-0130-8894-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cfb2b2f0-c6c1-0130-515f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cfb2ded0-c6c3-0130-06ad-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cfce7af0-c6c1-0130-99e4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cfea9e20-c6c1-0130-eb3c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/cffd1cf0-c6c3-0130-4b12-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0058ef0-c6c1-0130-a36c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0223e00-c6c1-0130-927d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d03d10f0-c6c1-0130-a4e7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d03d4500-c6c3-0130-8c06-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0603ec0-c6c1-0130-07d4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d07eafd0-c6c1-0130-c29f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d08a8910-c6c3-0130-7d70-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d099b7d0-c6c1-0130-6ffa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0b64370-c6c1-0130-2a4c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0ce8920-c6c3-0130-abb7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0da4c80-c6c1-0130-3947-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d0f7e0c0-c6c1-0130-f144-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d108ead0-c6c2-0130-fdfd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d11452c0-c6c1-0130-1cb9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d11b71c0-c6c3-0130-e77a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d13967e0-c6c1-0130-e3d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1545630-c6c2-0130-187b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d155daf0-c6c1-0130-2d8b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d15e05a0-c6c3-0130-894f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d17d40f0-c6c1-0130-dfda-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1a50530-c6c1-0130-2ead-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1ac1960-c6c3-0130-8b0e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1c32280-c6c1-0130-02f0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1efe280-c6c3-0130-a9b5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d1f85aa0-c6c1-0130-951e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2163fb0-c6c1-0130-aa6a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d23b12e0-c6c1-0130-13f1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d23dff00-c6c3-0130-3767-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d25b3040-c6c1-0130-efd7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2602ad0-c6c2-0130-5fdd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2831ad0-c6c3-0130-9fc1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d28366b0-c6c1-0130-0ac3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2a8e630-c6c1-0130-e673-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2c8cc80-c6c3-0130-7b1d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2ccc130-c6c1-0130-35c3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d2ec0550-c6c1-0130-aefb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d30dafe0-c6c1-0130-b1b6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3193190-c6c3-0130-7e88-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d33816f0-c6c1-0130-0469-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d35d0a00-c6c1-0130-b159-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3617910-c6c3-0130-1046-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d389d020-c6c1-0130-89ac-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3aa1530-c6c1-0130-7d80-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3af0220-c6c2-0130-f948-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3b3c970-c6c3-0130-308a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3cb0f20-c6c1-0130-9921-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3ea5360-c6c1-0130-27d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d3fb7aa0-c6c3-0130-86a0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d413eaa0-c6c1-0130-964d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d43894f0-c6c1-0130-fc5d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d44f5170-c6c3-0130-790a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d45c6720-c6c1-0130-5dbe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d47b9a10-c6c2-0130-cc1c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d48d5470-c6c1-0130-9009-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d4987580-c6c3-0130-8596-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d4badff0-c6c1-0130-e09f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d4ecc7d0-c6c3-0130-45d8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d4eed210-c6c1-0130-c005-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d536e0b0-c6c3-0130-4f52-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d55d83e0-c6c1-0130-4483-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d58d66f0-c6c3-0130-a146-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d5b684b0-c6c1-0130-a7ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d5d1c1b0-c6c2-0130-0604-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d5d990b0-c6c3-0130-354a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d632b2b0-c6c3-0130-fd6a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d6503650-c6c1-0130-431f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d67fdbb0-c6c3-0130-572c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d6a14440-c6c2-0130-0bb4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d6abb7e0-c6c1-0130-71c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d6d82db0-c6c3-0130-0baf-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d7014650-c6c1-0130-42cb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d725a0e0-c6c3-0130-d0bc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d756dd40-c6c1-0130-8b21-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d77ccae0-c6c3-0130-889c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d7a84680-c6c1-0130-217a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d7cf2b50-c6c3-0130-68f7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d7fa2f50-c6c2-0130-e2ad-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d8031c50-c6c1-0130-28b8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d83faa40-c6c3-0130-58ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d85753d0-c6c1-0130-d08c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d8947ed0-c6c3-0130-983a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d8b153f0-c6c1-0130-c443-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d8ca28c0-c6c2-0130-a0ce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d8f48c90-c6c3-0130-b7bd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d9021610-c6c1-0130-387e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d9473df0-c6c3-0130-02a6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d95485d0-c6c1-0130-cd38-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d98fb490-c6c1-0130-4e09-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d9ae5790-c6c3-0130-f3e9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/d9bd8d20-c6c1-0130-7ecd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da023300-c6c1-0130-6089-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da0623c0-c6c3-0130-108d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da26cc00-c6c2-0130-1177-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da37bc60-c6c1-0130-770a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da6e9100-c6c3-0130-45ae-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/da865810-c6c1-0130-dd0d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dac6bf10-c6c3-0130-b8dd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dad293d0-c6c1-0130-52ad-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/db15c0b0-c6c1-0130-ca2b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/db26d180-c6c3-0130-7067-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/db56aae0-c6c1-0130-4359-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/db849550-c6c3-0130-1ce7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dba3fff0-c6c1-0130-057d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dbc6d660-c6c2-0130-10af-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dbe65700-c6c3-0130-c099-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dbec67f0-c6c1-0130-0c62-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dc15d7d0-c6c2-0130-6148-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dc378d40-c6c1-0130-ade4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dc3f49d0-c6c3-0130-e126-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dc682ba0-c6c1-0130-7149-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dca36380-c6c3-0130-9a20-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dca9fca0-c6c1-0130-f02c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dcd94180-c6c1-0130-5c69-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dcfbd1b0-c6c3-0130-dfe4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dcff34d0-c6c1-0130-ad98-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dd2f7450-c6c1-0130-6870-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dd578220-c6c1-0130-fe32-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dd5f88d0-c6c3-0130-4f54-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dd88b990-c6c1-0130-1c71-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ddbb8d40-c6c1-0130-a28f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ddbd0e90-c6c3-0130-1aa4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dde596b0-c6c1-0130-4f55-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ddf7f8a0-c6c2-0130-fe96-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de19d6d0-c6c1-0130-3d30-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de25bb40-c6c3-0130-9760-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de454f30-c6c1-0130-d4e1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de473280-c6c2-0130-9e1f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de6ef940-c6c1-0130-3f02-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de82eeb0-c6c3-0130-2aca-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/de9c6480-c6c1-0130-9537-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dec71290-c6c1-0130-afb6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/deecc460-c6c3-0130-5635-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/def5bdb0-c6c1-0130-af18-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/df2fd180-c6c1-0130-7e3f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/df49fec0-c6c3-0130-c33e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/df6975c0-c6c1-0130-1d29-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/df9b5db0-c6c1-0130-ab37-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dfb3c590-c6c3-0130-603c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dfc7f330-c6c1-0130-02b1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/dff9db30-c6c1-0130-e96a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0123f20-c6c3-0130-0721-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0375850-c6c1-0130-2a37-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e038cb70-c6c2-0130-9374-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0769ac0-c6c1-0130-f6d9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e07d13c0-c6c3-0130-e21b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0c51df0-c6c1-0130-f264-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0db8de0-c6c3-0130-942f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e0fb6390-c6c1-0130-e808-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e102fa40-c6c2-0130-53a9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e1339850-c6c1-0130-79be-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e163cbf0-c6c3-0130-ca72-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e1697c80-c6c1-0130-d035-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e19b9050-c6c1-0130-eb5e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e1d32700-c6c1-0130-027f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e1d347d0-c6c3-0130-fae2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e20c15d0-c6c1-0130-2323-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e222b550-c6c2-0130-0582-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e234f430-c6c3-0130-d9ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e24b3c30-c6c1-0130-4cf7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e294f480-c6c1-0130-674a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e2a21f00-c6c3-0130-9a28-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e2dd2d60-c6c1-0130-7ae3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e2f7fc00-c6c2-0130-3712-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e3044ab0-c6c3-0130-4563-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e32423e0-c6c1-0130-a426-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e35ef770-c6c1-0130-09ab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e375e190-c6c3-0130-e03d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e3964870-c6c1-0130-aca1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e3cf5700-c6c1-0130-036d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e3da80c0-c6c3-0130-d26d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e404ab60-c6c1-0130-a6af-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e43c8df0-c6c1-0130-892d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e44ab620-c6c3-0130-1c31-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e45e8ea0-c6c2-0130-4b4c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e475fde0-c6c1-0130-6776-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e4afd600-c6c3-0130-29a3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e4c9c5d0-c6c1-0130-3d03-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e4fc6b70-c6c1-0130-e3ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e5224890-c6c3-0130-9f1d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e5359a70-c6c1-0130-9379-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e57250b0-c6c1-0130-9d85-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e58b9880-c6c3-0130-d5b6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e5b25f50-c6c1-0130-7643-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e5eb0290-c6c1-0130-9a1b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e5fdfc20-c6c3-0130-bd99-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e61138b0-c6c2-0130-83e6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e63093a0-c6c1-0130-1294-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e6576ff0-c6c2-0130-38b4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e6682e30-c6c3-0130-42d4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e679de00-c6c1-0130-3634-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e6c725c0-c6c1-0130-cd6e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e6dd5fb0-c6c3-0130-f8d1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e70c9440-c6c1-0130-c53a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e7489d00-c6c1-0130-a2c3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e751c840-c6c3-0130-9aa7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e78c2e60-c6c1-0130-9c6e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e7bde440-c6c3-0130-0459-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e7c79930-c6c1-0130-5a76-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e80c9710-c6c1-0130-19ef-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e8333420-c6c3-0130-69f9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e85049c0-c6c1-0130-5118-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e8547420-c6c2-0130-b63a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e88d93f0-c6c1-0130-b677-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e89a9850-c6c2-0130-4f84-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e89fb560-c6c3-0130-3406-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e8d92440-c6c1-0130-a68a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e91735c0-c6c3-0130-6b84-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e923e240-c6c1-0130-25c7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e9697140-c6c1-0130-63e9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e98511b0-c6c3-0130-bd1a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e9b603c0-c6c1-0130-c4d3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/e9c1f870-c6c2-0130-4168-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ea005f90-c6c3-0130-a923-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ea09d590-c6c1-0130-eab1-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ea6bacf0-c6c1-0130-fefa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ea701ce0-c6c3-0130-562d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ea9c3c50-c6c2-0130-1ff9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eabf3780-c6c1-0130-e325-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eae9ed40-c6c3-0130-745c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eb0e06d0-c6c1-0130-e728-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eb6404c0-c6c1-0130-9b2f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eb64cae0-c6c3-0130-79a0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ebb66840-c6c1-0130-4f57-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ebd6e450-c6c3-0130-8853-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ebfbd670-c6c1-0130-c9e7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ec0c8f10-c6c2-0130-76fd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ec4b2ef0-c6c1-0130-6976-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ec5518d0-c6c3-0130-cde5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ec5ed830-c6c2-0130-2e51-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ec9de580-c6c1-0130-4bf2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ecc8fd20-c6c3-0130-6776-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eced5f00-c6c1-0130-e800-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ed423180-c6c1-0130-6ea0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ed477010-c6c3-0130-49dc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eda82d50-c6c1-0130-466e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/edbc4f10-c6c3-0130-8946-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/edffcd00-c6c1-0130-6b64-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ee3d8830-c6c3-0130-0545-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ee5820d0-c6c1-0130-6b33-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ee68a4c0-c6c2-0130-14c5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eead1e40-c6c1-0130-c698-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/eeb3b640-c6c3-0130-8556-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ef063ec0-c6c1-0130-1e0c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ef07ec30-c6c2-0130-afbf-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ef34fa90-c6c3-0130-f4a3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ef60a9b0-c6c1-0130-4cb5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ef9e1350-c6c2-0130-2b39-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/efb7f960-c6c3-0130-accc-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/efbbc6b0-c6c1-0130-c58e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f017fd20-c6c1-0130-9385-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f0300f40-c6c3-0130-d40e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f04050b0-c6c2-0130-a69c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f078b9c0-c6c1-0130-a3c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f0b32830-c6c3-0130-5511-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f0d8aee0-c6c1-0130-c488-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f0e29900-c6c2-0130-a8ee-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f12d28d0-c6c3-0130-8e5c-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f139e930-c6c1-0130-404d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f186a530-c6c2-0130-efa6-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f1b09620-c6c1-0130-a3a7-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f1b2b6e0-c6c3-0130-fc1a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f21165a0-c6c1-0130-3028-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f22b7770-c6c2-0130-0d6d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f22f8970-c6c3-0130-1477-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f26a4960-c6c1-0130-e2cb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f2b6abb0-c6c3-0130-47fa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f2d1a8d0-c6c2-0130-3e67-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f2dc8e90-c6c1-0130-a7de-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f3406c90-c6c3-0130-c6ad-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f34646c0-c6c1-0130-e65b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f36edfe0-c6c2-0130-5d60-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f3b28110-c6c1-0130-7520-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f3bffaf0-c6c3-0130-ac66-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f418bbb0-c6c1-0130-3f21-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f42637a0-c6c2-0130-cbb5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f44de340-c6c3-0130-271b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f4925d80-c6c1-0130-ad05-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f4bef390-c6c1-0130-3878-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f4cf0c10-c6c3-0130-697d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f4d49e20-c6c2-0130-86a9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f4f8b2b0-c6c1-0130-9b61-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f5238350-c6c1-0130-20a4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f55f6c50-c6c3-0130-cce4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f55f8870-c6c1-0130-5181-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f5808230-c6c2-0130-409a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f58ab740-c6c1-0130-0702-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f5c714a0-c6c1-0130-aecd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f5ebd830-c6c3-0130-6c76-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f5f27a00-c6c1-0130-35ef-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f62ce170-c6c2-0130-3eb3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f63333f0-c6c1-0130-010e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f65fcda0-c6c1-0130-547d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f67009f0-c6c3-0130-61ef-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f69d8b50-c6c1-0130-5a1e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f6ca5d50-c6c1-0130-d417-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f6dbb7f0-c6c2-0130-90eb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f6fd1370-c6c3-0130-05fe-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f6fe0d60-c6c1-0130-6ed5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f734cc80-c6c1-0130-1654-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f769ae80-c6c1-0130-0ccb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f78b4470-c6c2-0130-b744-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f78c93c0-c6c3-0130-decd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f7a1a660-c6c1-0130-fc53-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f7d7e440-c6c1-0130-4344-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f811da60-c6c1-0130-1b3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f814c3e0-c6c3-0130-a8f0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f832f7b0-c6c2-0130-f2c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8483a00-c6c1-0130-3ec8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8819120-c6c1-0130-2233-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8a6c860-c6c3-0130-dfa0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8b8d720-c6c1-0130-02f3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8e43b30-c6c2-0130-a738-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f8f2c010-c6c1-0130-db7a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f929cb30-c6c1-0130-400a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f93b7ea0-c6c3-0130-d4fa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f9632180-c6c1-0130-5c2b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f99bca30-c6c1-0130-f26e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f99debc0-c6c1-0130-96fb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f99e1510-c6c2-0130-b372-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/f9c692d0-c6c3-0130-c6ce-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fa10a9e0-c6c1-0130-a634-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fa4c0160-c6c1-0130-5d66-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fa536150-c6c2-0130-e4c4-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fa621490-c6c3-0130-4a68-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fa865aa0-c6c1-0130-4a81-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fac2b550-c6c1-0130-d155-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/faf83fe0-c6c3-0130-3a3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fafbbcd0-c6c1-0130-22ba-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fb0acbe0-c6c2-0130-5f3a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fb36fa50-c6c1-0130-c1eb-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fb73c080-c6c1-0130-74ed-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fb8ff120-c6c3-0130-7427-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fbaff8e0-c6c1-0130-fe2d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fbc1dfd0-c6c2-0130-f40e-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fbed3c50-c6c1-0130-096f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fc293070-c6c1-0130-a42b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fc2b0fb0-c6c3-0130-505b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fc654e70-c6c1-0130-a1f5-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fc7aeea0-c6c2-0130-4ff8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fca33f00-c6c1-0130-eb9d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fcd01f90-c6c3-0130-5234-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fce2f060-c6c1-0130-a0fd-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fd211a70-c6c1-0130-eaf0-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fd375210-c6c2-0130-969a-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fd5f2b70-c6c1-0130-9aef-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fd63a120-c6c3-0130-c676-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fd9cfcd0-c6c1-0130-6af2-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fdd91f50-c6c1-0130-b6e8-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fdea40c0-c6c2-0130-6526-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fdfc5c40-c6c3-0130-3475-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fe185720-c6c1-0130-5531-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fe579700-c6c1-0130-a2aa-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fe9b1ac0-c6c1-0130-3b8d-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fe9d4d20-c6c3-0130-9307-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/fea86910-c6c2-0130-297f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/feda0d50-c6c1-0130-f22b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ff19c7f0-c6c1-0130-6dab-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ff3f64c0-c6c3-0130-95ea-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ff59efa0-c6c1-0130-47a9-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ff66f410-c6c2-0130-885f-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ff9bca20-c6c1-0130-e2e3-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ffdcda10-c6c3-0130-b84b-00262d69162d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/477/ffde5b40-c6c1-0130-3b7a-00262d69162d.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/house.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_show.json.rabl" afterPath="$PROJECT_DIR$/app/views/home/_show.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/config.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_index.json.rabl" afterPath="$PROJECT_DIR$/app/views/home/_index.json.rabl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search_medium.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373974944030" ignored="false" />
-    <file path="/database.yml" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373642530240" ignored="false" />
+    <file path="/Dummy.txt" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373981906147" ignored="false" />
+    <file path="/database.yml" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373981936440" ignored="false" />
     <file path="/config.js" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373980212324" ignored="false" />
     <file path="/default.html.haml" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373979851377" ignored="false" />
     <file path="/index.html.haml" changelist="03817e17-d141-4dc4-94f1-db221e376399" time="1373644897596" ignored="false" />
@@ -59,8 +1196,15 @@
       <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-13.25">
-              <folding />
+            <state line="25" column="39" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1373981817286" expanded="true" signature="107:720" placeholder=".row" />
+                <marker date="1373981817286" expanded="true" signature="156:720" placeholder=".large-12.columns" />
+                <marker date="1373981817286" expanded="true" signature="167:720" placeholder="%p" />
+                <marker date="1373981817286" expanded="true" signature="193:720" placeholder="%ul.large-block-grid-4.small-block-grid-2(id=&quot;mycontainer&quot; style=&quot;overflow:hidden;&quot;  scrollable parameters=&quot;{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}&quot; curr-page-x=&quot;currPageX&quot; curr-page-y=&quot;currPageY&quot; curr-x=&quot;currX&quot;" />
+                <marker date="1373981817286" expanded="true" signature="445:720" placeholder="%li.listitem(ng-repeat=&quot;image in advert.advert_images | filter:query&quot; )" />
+                <marker date="1373981817286" expanded="true" signature="635:720" placeholder="%img.th.radius(ng-src=&quot;{{image.image.small.url}}&quot; ng-click=&quot;setCurrentImage(image)&quot; )" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +1212,7 @@
       <file leaf-file-name="_show.json.rabl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/_show.json.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="82" selection-start="98" selection-end="98" vertical-scroll-proportion="-1.25">
+            <state line="2" column="82" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,16 +1221,7 @@
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="105" selection-start="814" selection-end="814" vertical-scroll-proportion="-10.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/search.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="17" column="105" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +1239,7 @@
       <file leaf-file-name="adverts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/adverts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="69" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0">
+            <state line="47" column="69" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,10 +1254,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_search.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="639" selection-end="645" vertical-scroll-proportion="-0.61290324">
+            <state line="44" column="75" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="18" selection-start="496" selection-end="496" vertical-scroll-proportion="0.7058824">
               <folding />
             </state>
           </provider>
@@ -131,7 +1275,7 @@
       <file leaf-file-name="default.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.25">
+            <state line="2" column="18" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,10 +1299,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/api/adverts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/search.js.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
@@ -167,6 +1309,8 @@
         <option value="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/config.js" />
+        <option value="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -202,7 +1346,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -489,18 +1632,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="coverage" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="coverage" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ksymax/ksymax" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: house">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -681,11 +1825,12 @@
     <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22948328" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2363222" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -696,7 +1841,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -763,18 +1907,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="69" selection-start="60" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
@@ -810,43 +1945,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="105" selection-start="814" selection-end="814" vertical-scroll-proportion="-10.625">
+        <state line="17" column="105" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p392-railsexpress/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/core_ext/object/to_query.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="307" selection-end="307" vertical-scroll-proportion="0.1764706">
-          <folding />
-        </state>
+        <state line="7" column="6" selection-start="307" selection-end="307" vertical-scroll-proportion="0.1764706" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/adverts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="69" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0">
+        <state line="47" column="69" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.25">
+        <state line="2" column="18" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_show.json.rabl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="82" selection-start="98" selection-end="98" vertical-scroll-proportion="-1.25">
+        <state line="2" column="82" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-13.25">
-          <folding />
+        <state line="25" column="39" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373981817286" expanded="true" signature="107:720" placeholder=".row" />
+            <marker date="1373981817286" expanded="true" signature="156:720" placeholder=".large-12.columns" />
+            <marker date="1373981817286" expanded="true" signature="167:720" placeholder="%p" />
+            <marker date="1373981817286" expanded="true" signature="193:720" placeholder="%ul.large-block-grid-4.small-block-grid-2(id=&quot;mycontainer&quot; style=&quot;overflow:hidden;&quot;  scrollable parameters=&quot;{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}&quot; curr-page-x=&quot;currPageX&quot; curr-page-y=&quot;currPageY&quot; curr-x=&quot;currX&quot;" />
+            <marker date="1373981817286" expanded="true" signature="445:720" placeholder="%li.listitem(ng-repeat=&quot;image in advert.advert_images | filter:query&quot; )" />
+            <marker date="1373981817286" expanded="true" signature="635:720" placeholder="%img.th.radius(ng-src=&quot;{{image.image.small.url}}&quot; ng-click=&quot;setCurrentImage(image)&quot; )" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +2006,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adverts/_search.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="639" selection-end="645" vertical-scroll-proportion="-0.61290324">
+        <state line="44" column="75" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="496" selection-end="496" vertical-scroll-proportion="0.7058824">
           <folding />
         </state>
       </provider>

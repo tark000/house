@@ -22,7 +22,7 @@ class Api::AdvertsController < Api::BaseController
   end
 
   def index
-    @adverts = Advert.search(params[:search]).order(:title)
+    @adverts = Advert.search(params[:search]).order("id desc")
 
     @adverts = @adverts.operation_type_search(params[:operation_type]) if params[:operation_type].present?
     @adverts = @adverts.category_search(params[:category]) if params[:category].present?

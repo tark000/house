@@ -15,44 +15,40 @@
       %button(ng-disabled="currentPage >= data.length/pageSize - 1" ng-click="currentPage=currentPage+1" ng-href="&page={{currentPage}}")
         Next
       %p
-
-
-
-
-
-
   .large-12.columns
     %ul.large-block-grid-3
       %li(ng-repeat="advert in adverts | orderBy:predicate:reverse " ng-cloak )
-        %a{href: '/adverts/{{advert.slug}}'}
-          %span(ng-bind="advert.id")
-        %table{:style=>"width: 100%;margin-top:5px;"}
-          %tbody
-            %tr
-              %td
-                %span(ng-bind="advert.operation" )
-                \ :
-              %td
-                %span(ng-bind="advert.category" )
-            %tr
-              %td
-                Цена:
-              %td
-                %span(ng-bind="advert.price"  )
-            %tr
-              %td
-                Площадь:
-              %td
-                %span(ng-bind="advert.area" )
-                m2
-            %tr
-              %td
-                latitude:
-              %td
-                %span(ng-bind="advert.latitude" )
-            %tr
-              %td
-                longitude:
-              %td
-                %span(ng-bind="advert.longitude" )
+        .index_block
+          %a{href: '/adverts/{{advert.slug}}'}
+            %img.th.index_img(ng-src="{{advert.image}}" )
+
+
+
+          %table.index_table
+            %tbody
+              %tr{:style=>"height: 10px"}
+                %td
+                %td
+              %tr
+                %td
+                  %a{"ng-href" => "/adverts?category=&city_id=&gender=all&max_area=&max_price=&min_area=&min_price=&operation_type={{advert.operation_type_id}}&region_id="}
+                    %span(ng-bind="advert.operation")
+                %td
+                  %a{"ng-href" => "/adverts?category={{advert.category_id}}&city_id=&gender=all&max_area=&max_price=&min_area=&min_price=&operation_type=&region_id="}
+                    %span(ng-bind="advert.category" )
+              %tr
+                %td
+                  Цена:
+                %td
+                  %span(ng-bind="advert.price"  )
+              %tr
+                %td
+                  Площадь:
+                %td
+                  %span(ng-bind="advert.area" )
+                    м
+                    %sup
+                      2
+
+
 

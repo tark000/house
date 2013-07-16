@@ -222,6 +222,37 @@ and (orientation : landscape) {
 
 }
 
+#wrapper div {
+  display:none;
+}
+#wrapper a.active {
+  color: black;
+  cursor: default;
+  font-weight: bold;
+  text-decoration: none;
+}
+#wrapper div.active {
+  display:block;
+  width:100%;
+}
+
+.index_table {
+  font-size: 18px;
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+
+.index_img {width: 100%;
+  border: solid 0.5px #dddddd;
+}
+
+.index_block {
+border: solid 1px #dddddd;
+  background: #ffffff;
+  padding: 0px;
+  margin: 10px 0;
+}
 
 
 

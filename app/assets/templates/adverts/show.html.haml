@@ -7,8 +7,7 @@
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
             %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
-
-              %img.th.radius(ng-src="{{image.image.small.url}}" ng-click="setCurrentImage(image)" )
+              %img.th.radius(ng-src="{{image.advert_image.image.image.small.url}}" ng-click="setCurrentImage(image)" )
   %div.large-12.columns
     .section-container.auto{"data-section" => ""}
       %section
