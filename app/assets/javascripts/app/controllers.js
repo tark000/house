@@ -73,14 +73,24 @@ angular.module('realty').controller('AdvertDetailController', function($scope, $
 
    $scope.advert = {};
 
-    //if ($state.current.name === 'show' || $state.current.name === 'panel2' ) {
+    if ($state.current.name === 'show' || $state.current.name === 'panel2' ) {
         Task.get({
             id: $stateParams['id']
         }, function(response) {
-            return $scope.advert = response;
-        }, function(response) {});
-    //}
+            $scope.advert = response;
+            $scope.currentImage  = $scope.advert.image;
 
-    $scope.currentImage = $scope.advert.image;
+        }, function(response) {});
+    }
+
+
+
+    $scope.setCurrentImage = function (image) {
+
+        $scope.currentImage = image.advert_image.image.image.small.url;
+    };
+
+    //alert($scope.currentImage);
+    //$scope.fetch();
 
 });
