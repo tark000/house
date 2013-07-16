@@ -18,6 +18,7 @@ gem 'russian', '~> 0.6.0'
 
 
 
+
 gem 'prawn'
 
 gem 'will_paginate'
