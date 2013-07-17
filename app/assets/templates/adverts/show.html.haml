@@ -1,76 +1,45 @@
-.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;")
+.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"  )
   .large-12.columns
-    %img.th.radius(ng-src="{{advert.image}}" )
+    %img.th.radius(ng-src="{{currentImage}}" )
     .row
       .large-12.columns
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
+            %li.listitem
+
+              %img.th.radius(ng-src="{{advert.image}}"
+              ng-click="setCurrentImageMain(advert)" )
             %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
-              %img.th.radius(ng-src="{{image.advert_image.image.image.small.url}}" ng-click="setCurrentImage(image)" )
+
+              %img.th.radius(ng-src="{{image.advert_image.image.image.small.url}}"
+              ng-click="setCurrentImage(image)" )
   %div.large-12.columns
     .section-container.auto{"data-section" => ""}
       %section
         %p.title{"data-section-title" => ""}
-          %a{:href => "#panel1"} Описание
+          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel1" } Описание
         .content{"data-section-content" => ""}
           .row
-            .large-12.columns.show_info
-              %ul.small-block-grid-2.large-block-grid-4
-                %li Цена
-                %li
-                  {{advert.all_price}}
-                %li Площадь
-                %li
-                  {{advert.area}}
-                %li Регион
-                %li
-                  {{advert.region}}
-                %li Город
-                %li
-                  {{advert.city}}
-                %li Район
-                %li
-                  {{advert.district}}
-                %li Улица
-                %li
-                  {{advert.street}}
-                %li Дом
-                %li
-                  {{advert.house}}
-                %li Этаж
-                %li
-                  {{advert.floor}}
-                %li Количество комнат
-                %li
-                  {{advert.rooms}}
-                %li Категория
-                %li
-                  {{advert.category}}
-          %p
-            {{advert.description}}
+            .large-12.columns(ui-view="panel1")
+
+
       %section
         %p.title{"data-section-title" => ""}
-          %a{:href => "#panel3"} Планировка
+          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel2"} Планировка
         .content{"data-section-content" => ""}
-          %ul.large-block-grid-4.small-block-grid-2
-            %li
-              %img{:src => "http://placehold.it/190x130&text=plan1"}/
-            %li
-              %img{:src => "http://placehold.it/190x130&text=plan2"}/
-            %li
-              %img{:src => "http://placehold.it/190x130&text=plan3"}/
-            %li
-              %img{:src => "http://placehold.it/190x130&text=plan4"}/
+          .row
+            .large-12.columns(ui-view="panel2")
+            22
       %section
         %p.title{"data-section-title" => ""}
-          %a{:href => "#panel4"} Видео
+          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel3"} Видео
         .content{"data-section-content" => ""}
           video
 
       %section
         %p.title{"data-section-title" => ""}
-          %a{:href => "#panel5"} Карта
+          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel4"} Карта
         .content{"data-section-content" => ""}
           %p
 

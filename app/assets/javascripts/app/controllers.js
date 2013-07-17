@@ -21,35 +21,6 @@ angular.module('realty').controller('IndexController', function($scope, $http, $
         alert('new url=='+newUrl);
     });
 
-    //$scope.pageSize = 10;
-
-   /* if(angular.equals($stateParams.page, null)){
-        $scope.currentPage = 0;
-        $stateParams.page = 0;
-    }else{
-        $scope.currentPage = $stateParams.page ;
-    }*/
-
-
-
-    //alert('$stateParams.page=='+$stateParams.page+ "$stateParams.pageSize==" +$stateParams.pageSize);
-
-    //alert($stateParams.page * $stateParams.pageSize);
-
-   /* if(angular.equals($stateParams.page * $stateParams.pageSize, NaN) || angular.equals($stateParams.page * $stateParams.pageSize, 0)){
-        $stateParams.from = 0;
-        $scope.currentPage = 0;
-        $stateParams.pageSize = 10;
-        $stateParams.page = 0;
-    }else{
-        $stateParams.from = $stateParams.page * $stateParams.pageSize;
-        $scope.page = $stateParams.page;
-    }
-*/
-
-
-
-
 
     if ($state.current.name === 'adverts' || $state.current.name === 'index' ) {
         console.log("page size=="+$stateParams.pageSize);
@@ -99,20 +70,37 @@ angular.module('realty').controller('MapController', function($scope, $http, $lo
 
 angular.module('realty').controller('AdvertDetailController', function($scope, $location,  $state, $stateParams, Task){
 
-    $scope.$on('$viewContentLoaded', function(event) {
-        alert('new url AtDetail=='+event);
-    });
 
    $scope.advert = {};
 
-    if ($state.current.name === 'show') {
+    if ($state.current.name === 'show' || $state.current.name === 'panel2' ) {
         Task.get({
             id: $stateParams['id']
         }, function(response) {
-            return $scope.advert = response;
+            $scope.advert = response;
+            $scope.currentImage  = $scope.advert.image;
+
         }, function(response) {});
     }
 
-    $scope.currentImage = $scope.advert.image;
 
+
+    $scope.setCurrentImage = function (image) {
+
+
+
+        $scope.currentImage = image.advert_image.image.image.big.url;
+    };
+
+    $scope.setCurrentImageMain = function (img) {
+
+        $scope.currentImage = img.image;
+    };
+
+    //alert($scope.currentImage);
+    //$scope.fetch();
+    $scope.currentPath = function() {
+
+      alert($location.path());
+    };
 });

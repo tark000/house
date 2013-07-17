@@ -10,9 +10,8 @@ angular.module('realty').config(function($httpProvider) {
 
 angular.module('realty').config(function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise("/");
-    //console.log("$stateProvider==", $stateProvider);
-    console.log("routeprovider==", $urlRouterProvider);
-    console.log("state==", $stateProvider);
+
+
     $stateProvider
         .state('default', {
             abstract: true, // root route
@@ -25,20 +24,6 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 }
             }
         }).
-        /*state("index", {
-         parent: "default",
-         url: "^/",
-         views: {
-         "index": {
-         controller: "IndexController",
-         templateUrl: "/assets/adverts/index.html.haml"
-
-
-         }
-
-         }
-         }).*/
-
         state("adverts", {
             parent: "default",
             url: "/adverts?utf8&living&operation_type&category&state&min_price&max_price&maps&gender&min_area&max_area&region_id&city_id&page&pageSize",
@@ -47,16 +32,9 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                     controller: "IndexController",
                     templateUrl: "/assets/adverts/index.html.haml"
                 }
-            }/*,
-             onEnter: function($stateParams,$state){
 
-             if(angular.equals($stateParams.maps,'1')){
-             alert("maps");
-             $state.transitionTo('maps');
-             }
+            }
 
-
-             }*/
         }).
         state("maps", {
             parent: "default",
@@ -84,5 +62,68 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             }
 
 
+        }).
+        state("panel1", {
+
+            parent: "show",
+            url: "/panel1",
+            views: {
+                "panel1": {
+                    templateUrl: "/assets/adverts/panel1.html.haml"
+
+                }
+
+            }
+
+
+        }).
+        state("panel2", {
+
+            parent: "show",
+            url: "/panel2",
+            views: {
+                "panel2": {
+                    templateUrl: "/assets/adverts/panel2.html.haml"
+
+                }
+
+            }
+
+
+        }).
+        state("panel3", {
+
+            parent: "show",
+            url: "/panel3",
+            views: {
+                "panel3": {
+                    templateUrl: "/assets/adverts/panel3.html.haml"
+
+                }
+
+            }
+
+
+        }).
+        state("panel4", {
+
+            parent: "show",
+            url: "/panel4",
+            views: {
+                "panel4": {
+                    templateUrl: "/assets/adverts/panel4.html.haml"
+
+                }
+
+            }
+
+
         })
+
+
+});
+angular.module('realty').run(function($rootScope) {
+    $rootScope.$on('$viewContentLoaded', function () {
+        $(document).foundation();
+    });
 });
