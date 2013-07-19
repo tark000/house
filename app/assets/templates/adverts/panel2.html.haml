@@ -1,1 +1,15 @@
-2
+%ul(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
+                                                    curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
+
+  %li.listitem(ng-repeat="image in advert.layouts | filter:query" )
+
+    %img.th.radius(ng-src="{{image.layout.image.image.small.url}}"
+    ng-click="setCurrentImage(image)" )
+  %li.listitem(ng-repeat="image in advert.layouts | filter:query" )
+
+    %img.th.radius(ng-src="{{image.layout.image.image.small.url}}"
+    ng-click="setCurrentImage(image)" )
+  %li.listitem(ng-repeat="image in advert.layouts | filter:query" )
+
+    %img.th.radius(ng-src="{{image.layout.image.image.small.url}}"
+    ng-click="setCurrentImage(image)" )

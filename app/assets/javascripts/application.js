@@ -13,9 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require adv
-//= require angular/angular-1-1-4
+//= require angular/angular.1.1.5.min
 //= require angular/angular-google-maps
-//= require angular/angular-resource-1-1-4.js
+//= require angular/angular-resource.min
 //= require angular/angular-ui-router.min
 //= require angular/scrollable
 //= require ./app/main

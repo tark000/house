@@ -69,6 +69,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             url: "/panel1",
             views: {
                 "panel1": {
+
                     templateUrl: "/assets/adverts/panel1.html.haml"
 
                 }
@@ -83,6 +84,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             url: "/panel2",
             views: {
                 "panel2": {
+
                     templateUrl: "/assets/adverts/panel2.html.haml"
 
                 }
@@ -97,6 +99,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             url: "/panel3",
             views: {
                 "panel3": {
+
                     templateUrl: "/assets/adverts/panel3.html.haml"
 
                 }

@@ -6,19 +6,20 @@ angular.module('realty').controller('ApplicationController', function($scope,$ro
 
 angular.module('realty').controller('IndexController', function($scope, $http, $location, $state, $stateParams, Task){
 
-
+    $scope.show =false;
     $scope.adverts = {};
-    $scope.advert = {};
+    //$scope.advert = {};
 
-    alert("current state="+$state.current.name);
+    //alert("current state="+$state.current.name);
 
     if(angular.equals($stateParams.maps,'1')){
-        alert("maps");
+        //alert("maps");
         $state.transitionTo('maps');
+        $state.preventDefault();
     }
 
     $scope.$on('$locationChangeStart', function(event, newUrl) {
-        alert('new url=='+newUrl);
+        //alert('new url=='+newUrl);
     });
 
 
@@ -71,6 +72,11 @@ angular.module('realty').controller('MapController', function($scope, $http, $lo
 angular.module('realty').controller('AdvertDetailController', function($scope, $location,  $state, $stateParams, Task){
 
 
+
+
+
+
+
    $scope.advert = {};
 
     if ($state.current.name === 'show' || $state.current.name === 'panel2' ) {
@@ -99,8 +105,8 @@ angular.module('realty').controller('AdvertDetailController', function($scope, $
 
     //alert($scope.currentImage);
     //$scope.fetch();
-    $scope.currentPath = function() {
 
-      alert($location.path());
-    };
+
 });
+
+

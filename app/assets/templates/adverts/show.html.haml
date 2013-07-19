@@ -18,7 +18,7 @@
     .section-container.auto{"data-section" => ""}
       %section
         %p.title{"data-section-title" => ""}
-          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel1" } Описание
+          %a{:href => "/adverts/{{advert.slug}}/panel1" } Описание
         .content{"data-section-content" => ""}
           .row
             .large-12.columns(ui-view="panel1")
@@ -26,22 +26,23 @@
 
       %section
         %p.title{"data-section-title" => ""}
-          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel2"} Планировка
+          %a{:href => "/adverts/{{advert.slug}}/panel2"} Планировка
         .content{"data-section-content" => ""}
           .row
             .large-12.columns(ui-view="panel2")
-            22
       %section
         %p.title{"data-section-title" => ""}
-          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel3"} Видео
+          %a{:href => "/adverts/{{advert.slug}}/panel3"} Видео
         .content{"data-section-content" => ""}
-          video
+          .row
+            .large-12.columns(ui-view="panel3")
+
+
 
       %section
         %p.title{"data-section-title" => ""}
-          %a(ng-click="currentPath()"){:href => "/adverts/{{advert.slug}}#panel4"} Карта
+          %a{:href => "/adverts/{{advert.slug}}/panel4"} Карта
         .content{"data-section-content" => ""}
-          %p
-
-
+          .row
+            .large-12.columns(ui-view="panel4")
 
