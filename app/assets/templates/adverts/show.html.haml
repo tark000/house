@@ -1,12 +1,12 @@
-.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"  )
+.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"   )
   .large-12.columns
-    %img.th.radius(ng-src="{{currentImage}}" )
+    %img.th.radius(ng-src="{{currentImage}}"  )
     .row
       .large-12.columns
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
-            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
+            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" ng-animate="{enter:'animated flipOutY', leave:'animated bounceInDown'}" )
 
               %img.th.radius(ng-src="{{image.advert_image.image.image.small.url}}"
               ng-click="setCurrentImage(image)" )
@@ -38,5 +38,5 @@
         .content{"data-section-content" => ""}
           %p
 
-
+        =user_me
 

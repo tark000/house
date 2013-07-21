@@ -1,4 +1,4 @@
-angular.module('advert.services', ['ngResource']);
+angular.module('advert.services', ['ngResource','AppAnimations']);
 angular.module('map', ["google-maps"]);
 
 //angular.module('advert.services').config

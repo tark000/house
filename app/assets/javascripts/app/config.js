@@ -31,7 +31,10 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             views: {
                 "index": {
                     controller: "IndexController",
-                    templateUrl: "/assets/adverts/index.html.haml"
+                    templateUrl: "/assets/adverts/index.html.haml",
+                    resolve: {
+                        LoadData: IndexController.loadData
+                    }
                 }
             }
         }).

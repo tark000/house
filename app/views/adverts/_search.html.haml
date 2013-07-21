@@ -16,13 +16,14 @@
             .large-4.columns
               %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Тип сделки:
             .large-8.columns
+
               = select_tag("search[operation_type]", options_for_select(operation,
               :selected=>params[:search].blank? ? "-- Select One --" :params[:search][:operation_type]), {:include_blank => '-- Select One --'} )
           .row
             .large-4.columns
               %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Категория:
             .large-8.columns
-              = select_tag("search[category]", options_for_select(category, :selected=>params[:category].blank? ? "" :params[:category]), include_blank: true)
+              = select_tag("search[category]", options_for_select(category, :selected=>params[:search].blank? ? "" :params[:search][:category]), include_blank: true)
           .row
             .large-4.columns
               %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Свободно:
@@ -32,9 +33,9 @@
             .large-4.columns
               %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Стоимость:
             .large-4.columns
-              = text_field_tag "search[min_price]", params[:min_price], :placeholder=>"min"
+              = text_field_tag "search[min_price]",params[:search].blank? ? "" :params[:search][:min_price], :placeholder=>"min"
             .small-4.columns
-              = text_field_tag "search[max_price]", params[:max_price], :placeholder=>"max"
+              = text_field_tag "search[max_price]",params[:search].blank? ? "" : params[:search][:max_price], :placeholder=>"max"
           .row
             .large-4.columns
 
@@ -49,9 +50,9 @@
             .large-4.columns
               %label.right.inline{:for => "right-label", :style => "margin: 0 0 0 0; padding: 0;"} Площадь:
             .large-4.columns
-              = text_field_tag "search[min_area]", params[:min_area], :placeholder=>"min"
+              = text_field_tag "search[min_area]",params[:search].blank? ? "" : params[:search][:min_area], :placeholder=>"min"
             .large-4.columns
-              = text_field_tag "search[max_area]", params[:max_area], :placeholder=>"man"
+              = text_field_tag "search[max_area]",params[:search].blank? ? "" : params[:search][:max_area], :placeholder=>"man"
 
           .row
             .large-4.columns

@@ -23,6 +23,8 @@
 //= require ./app/services
 //= require ./app/controllers
 //= require ./app/filters
+//= require ./app/directive
+//= require ./app/animations
 //= require jquery.cycle2
 //= require jquery.offcanvas
 //= require foundation

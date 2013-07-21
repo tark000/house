@@ -6,3 +6,9 @@ node(:category, :if => lambda{|advert| advert.category.present? }) do |advert|
     advert.category.name
 end
 node(:operation) {|advert| advert.operation_type.name}
+node(:style) do
+ ""
+end
+node(:message) do
+""
+end

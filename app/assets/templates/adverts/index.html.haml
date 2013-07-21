@@ -1,3 +1,7 @@
+%style
+  .completed
+    background: #88dd88;
+
 .row
   .large-12.columns
     %fieldset
@@ -16,16 +20,17 @@
         Next
       %p
   .large-12.columns
+    {{message}}
     %ul.large-block-grid-3
-      %li(ng-repeat="advert in adverts | orderBy:predicate:reverse " ng-cloak )
+      %li( class="result" ng-class="{{advert.style}}" ng-repeat="advert in adverts | orderBy:predicate:reverse " ng-animate="{enter:'animated fadeInLeftBig', leave:'animated bounceInDown'}" ng-cloak  )
         .index_block
+          %span(class="alert label")
+            {{advert.message}}
           %a{href: '/adverts/{{advert.slug}}'}
-            %img.th.index_img(ng-src="{{advert.image}}" )
-
-
-
+            {{advert.id}}
+            %img.th.index_img(ng-src="{{advert.image}}" class="{{advert.style}}")
           %table.index_table
-            %tbody
+            %tbody.completed
               %tr{:style=>"height: 10px"}
                 %td
                 %td

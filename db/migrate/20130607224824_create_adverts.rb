@@ -47,7 +47,7 @@ class CreateAdverts < ActiveRecord::Migration
       t.string :cabinetcount
       t.integer :busines_period_id
       t.integer :user_id
-      t.string :slug
+      t.text :slug
       t.boolean :torg
       t.string :free_from
       t.string :free_to

@@ -100,8 +100,8 @@
         .content{"data-section-content" => ""}
           = render 'contact_us/form'
 
-  %p#pdf_link= link_to "Download Invoice (PDF)", advert_path(@advert, :format => "pdf", :method => 'post', :url => "#{request.protocol}#{request.host_with_port}#{request.fullpath}")
-= link_to 'Edit', edit_advert_path(@advert)
+  %p#pdf_link= link_to "Download Invoice (PDF)", user_advert_path(current_user,@advert, :format => "pdf", :method => 'post', :url => "#{request.protocol}#{request.host_with_port}#{request.fullpath}")
+
 |
 \#{link_to 'Back', adverts_path}
 
