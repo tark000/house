@@ -1,8 +1,10 @@
+%div{"fundoo" => ""}
+%row{"table"=>""}
 .row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"  )
-  .large-12.columns
+  .large-12.columns.show_image
     %img.th.radius(ng-src="{{currentImage}}" )
     .row
-      .large-12.columns
+      .large-12.columns{"ng-if" => "show(advert.advert_images)" }
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
@@ -25,13 +27,15 @@
 
 
       %section
-        %p.title{"data-section-title" => ""}
+        %p.title{"data-section-title" => "", "ng-if" => "show(advert.layouts)" }
           %a{:href => "/adverts/{{advert.slug}}/panel2"} Планировка
         .content{"data-section-content" => ""}
           .row
             .large-12.columns(ui-view="panel2")
+
+
       %section
-        %p.title{"data-section-title" => ""}
+        %p.title{"data-section-title" => "", "ng-if" => "show(advert.video)"}
           %a{:href => "/adverts/{{advert.slug}}/panel3"} Видео
         .content{"data-section-content" => ""}
           .row

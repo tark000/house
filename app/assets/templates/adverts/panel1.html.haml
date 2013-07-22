@@ -1,35 +1,40 @@
 .row
   .large-12.columns.show_info
     %ul.small-block-grid-2.large-block-grid-4
-      %li Цена
-      %li
+      %li{"ng-if" => "show(advert.all_price)"} Цена
+      %li{"ng-if" => "show(advert.all_price)"}
         {{advert.all_price}}
-      %li Площадь
-      %li
+      %li{"ng-if" => "show(advert.area)"} Площадь
+      %li{"ng-if" => "show(advert.area)"}
         {{advert.area}}
-      %li Регион
-      %li
+      %li{"ng-if" => "show(advert.region)"} Регион
+      %li{"ng-if" => "show(advert.region)"}
         {{advert.region}}
-      %li Город
-      %li
+      %li{"ng-if" => "show(advert.city)"} Город
+      %li{"ng-if" => "show(advert.city)"}
         {{advert.city}}
-      %li Район
-      %li
+      %li{"ng-if" => "show(advert.district)"} Район
+      %li{"ng-if" => "show(advert.district)"}
         {{advert.district}}
-      %li Улица
-      %li
+      %li{"ng-if" => "show(advert.district)"} Улица
+      %li{"ng-if" => "show(advert.district)"}
         {{advert.street}}
-      %li Дом
-      %li
+      %li{"ng-if" => "show(advert.house)"} Дом
+      %li{"ng-if" => "show(advert.house)"}
         {{advert.house}}
-      %li Этаж
-      %li
+      %li{"ng-if" => "show(advert.floor)"} Этаж
+      %li{"ng-if" => "show(advert.floor)"}
         {{advert.floor}}
-      %li Количество комнат
-      %li
+      %li{"ng-if" => "show(advert.rooms)"} Количество комнат
+      %li{"ng-if" => "show(advert.rooms)"}
         {{advert.rooms}}
-      %li Категория
-      %li
+      %li{"ng-if" => "show(advert.category)"} Категория
+      %li{"ng-if" => "show(advert.category)"}
         {{advert.category}}
-%p
-  {{advert.description}}
+.row
+  .large-12.columns.show_description
+    %p
+      {{advert.description}}
+
+
+  //%p{"ng-show" => "show"} I could be shown, or I could be hidden

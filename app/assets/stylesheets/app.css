@@ -6510,3 +6510,13 @@ $large-screen: 1440px;
   padding: 0px;
   margin: 10px 0;
 }
+
+/* line 257, ../sass/app.scss */
+.show_description {
+  margin-top: 15px;
+}
+
+/* line 261, ../sass/app.scss */
+.show_image {
+  margin-bottom: 20px;
+}

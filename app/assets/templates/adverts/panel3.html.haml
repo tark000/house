@@ -1,3 +1,6 @@
 .row
   .large-12.columns{"ng-bind-html-unsafe" => "advert.video"}
+  .large-12.columns(ng-repeat="video in advert.movies | filter:query"){"ng-bind-html-unsafe" => "video.movie.video"}
+
+
 

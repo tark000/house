@@ -27,4 +27,6 @@ end
       attributes :id, :image
     end
 
-
+ child :movies do
+       attributes :id, :video
+     end
