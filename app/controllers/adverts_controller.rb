@@ -121,7 +121,7 @@ class AdvertsController < ApplicationController
     expire_action :action => :index2
     respond_to do |format|
       if @advert.update_attributes(params[:advert])
-        format.html { redirect_to @advert, notice: 'Advert was successfully updated.' }
+        format.html { redirect_to user_advert_path(@advert), notice: 'Advert was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

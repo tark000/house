@@ -4,44 +4,81 @@ angular.module('realty').controller('ApplicationController', function($scope,$ro
 
 });
 
-angular.module('realty').controller('IndexController', function($scope, $http, $location, $state, $stateParams, Task){
+var IndexController = angular.module('realty').controller('IndexController', function($scope, $http, $location, $state, $stateParams, Task, $q){
 
 
-    $scope.adverts = {};
-    //$scope.advert = {};
 
-    //alert("current state="+$state.current.name);
+    var promises = [];
+    var vips = [];
 
-    if(angular.equals($stateParams.maps,'1')){
-        //alert("maps");
-        $state.transitionTo('maps');
-        $state.preventDefault();
+     function Load(){
+         var deferred = $q.defer();
+         setTimeout(function() {
+             $scope.$apply(function() {
+                 Task.query({},
+                     function (resp) {
+                         deferred.resolve(resp);
+                     }
+                 );
+             })
+         }, 100);
+         return deferred.promise;
+     }
+
+
+
+
+    var promise = Load();
+    promise.then(function(resp) {
+            $scope.adverts = resp;
+
+
+            angular.forEach($scope.adverts, function(item,key){
+                if(item.price>'200'){
+                    var vip_promise = waitTask(key);
+                    vip_promise.then(function(index){
+
+                        $scope.adverts[index].style ="animated bounceIn";
+                        $scope.adverts[index].message ="Горячая цена!!!";
+
+                    })
+                    promises.push(vip_promise);
+                }
+
+            })
+        });
+
+
+
+   /* $q.all(promises).then(function(messages) {
+        $scope.message = "All " + messages.length + " tasks completed.";
+    });*/
+
+    //promise.resolve();
+
+    function waitTask(index) {
+        var defer = $q.defer();
+
+        setTimeout(function() {
+            $scope.$apply(function() {
+                defer.resolve(index);
+            });
+        }, 2000);
+
+        return defer.promise;
     }
 
-    $scope.$on('$locationChangeStart', function(event, newUrl) {
-        //alert('new url=='+newUrl);
-    });
-
-
-    if ($state.current.name === 'adverts' || $state.current.name === 'index' ) {
-        console.log("page size=="+$stateParams.pageSize);
-        Task.query(
-            {
-            'operation_type':$stateParams.operation_type,
-            'living':$stateParams.living,
-            'category':$stateParams.category,
-            'min_price':$stateParams.min_price,
-            'max_price':$stateParams.max_price,
-            'gender':$stateParams.gender
-            //'page':$stateParams.page,
-            //'pageSize':$stateParams.pageSize,
-            //'from':$stateParams.from
-            }, function(response) {
-            return $scope.adverts = response;
-        }, function(response) {});
-    }
 
 });
+
+IndexController.loadData = function($q, $timeout){
+    var defer = $q.defer();
+    $timeout(function(){
+        defer.resolve();
+        console.log("working");
+    }, 10);
+    return defer.promise;
+}
 
 
 

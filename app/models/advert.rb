@@ -30,7 +30,7 @@ class Advert < ActiveRecord::Base
   def address
     if self.street.present? & self.city.present?
       [self.house, self.street.name, self.city.name, "UA"].compact.join(', ')
-      map_download
+      #map_download
     else
       puts self.id
     end

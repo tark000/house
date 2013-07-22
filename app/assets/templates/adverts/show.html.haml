@@ -1,18 +1,20 @@
-%div{"fundoo" => ""}
-%row{"table"=>""}
-.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"  )
+.row(ng-init="params = {hScrollbar : true, snap: 'li' }" style="overflow:hidden;"   )
   .large-12.columns.show_image
-    %img.th.radius(ng-src="{{currentImage}}" )
+    %img.th.radius(ng-src="{{currentImage}}"  )
+
     .row
       .large-12.columns{"ng-if" => "show(advert.advert_images)" }
         %p
           %ul.large-block-grid-4.small-block-grid-2(id="mycontainer" style="overflow:hidden;"  scrollable parameters="{{ {hScroll: 'true',  hScrollbar: 'true', snap: 'li'} }}" curr-page-x="currPageX" curr-page-y="currPageY" curr-x="currX"
                                                     curr-y="currY" is-min-y="isMinY" is-max-y="isMaxY")
+
             %li.listitem
 
               %img.th.radius(ng-src="{{advert.image}}"
               ng-click="setCurrentImageMain(advert)" )
-            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" )
+
+            %li.listitem(ng-repeat="image in advert.advert_images | filter:query" ng-animate="{enter:'animated flipOutY', leave:'animated bounceInDown'}" )
+
 
               %img.th.radius(ng-src="{{image.advert_image.image.image.small.url}}"
               ng-click="setCurrentImage(image)" )
@@ -27,7 +29,7 @@
 
 
       %section
-        %p.title{"data-section-title" => "", "ng-if" => "show(advert.layouts)" }
+        %p.title{"data-section-title" => "" }
           %a{:href => "/adverts/{{advert.slug}}/panel2"} Планировка
         .content{"data-section-content" => ""}
           .row
@@ -35,7 +37,7 @@
 
 
       %section
-        %p.title{"data-section-title" => "", "ng-if" => "show(advert.video)"}
+        %p.title{"data-section-title" => ""}
           %a{:href => "/adverts/{{advert.slug}}/panel3"} Видео
         .content{"data-section-content" => ""}
           .row
@@ -49,4 +51,5 @@
         .content{"data-section-content" => ""}
           .row
             .large-12.columns(ui-view="panel4")
+
 
