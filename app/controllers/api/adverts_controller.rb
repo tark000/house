@@ -43,6 +43,7 @@ class Api::AdvertsController < Api::BaseController
 
     #@adverts = @adverts.limit(params[:pageSize]).offset(params[:from])
     #binding.pry
+    #@adverts = @adverts.where("`latitude` is not null").limit(15)
     @adverts = @adverts.limit(15)
     #@query = request.query_string
     @query = params[:search].present? ? params[:search].to_query : ""

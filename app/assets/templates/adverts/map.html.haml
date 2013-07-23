@@ -1,2 +1,12 @@
 .row
-  map
+  .large-12.columns
+
+    %div.google-map{:center => "center", :draggable => "true",
+    :events => "events",:zoom => "zoom"}
+      %marker(ng-repeat="m in markers" coords="m" icon="m.icon" click="m.set()" )
+        //%window(show="m.templatedInfoWindow.show" click="m.set()" coords="m.templatedInfoWindow.coords" templateUrl="m.templatedInfoWindow.templateUrl" templateParameter="m.templatedInfoWindow.templateParameter")
+        %window{:closeclick => "m.closeClick()", :show => "m.showWindow"}
+          %p
+            This is an info window at {{ m.latitude | number:4 }}, {{ m.longitude | number:4 }}
+          %p
+            %img.th.index_img(ng-src="{{m.image}}")

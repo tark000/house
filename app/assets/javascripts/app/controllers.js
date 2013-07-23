@@ -4,12 +4,20 @@ angular.module('realty').controller('ApplicationController', function($scope,$ro
 
 });
 
-var IndexController = angular.module('realty').controller('IndexController', function($scope, $http, $location, $state, $stateParams, Task, $q){
+var IndexController = angular.module('realty').controller('IndexController', function($scope, Advert, $http, $location, $state, $stateParams, Task, $q){
 
-
+    //TODO - if maps true, disable pagination parameters!
 
     var promises = [];
-    var vips = [];
+    $scope.markers = [];
+    $scope.center ={
+        latitude: 50.4501,
+        longitude: 30.5234
+    }
+
+    $scope.zoom = 10;
+    google.maps.visualRefresh = true;
+
 
      function Load(){
          var deferred = $q.defer();
@@ -25,57 +33,57 @@ var IndexController = angular.module('realty').controller('IndexController', fun
          return deferred.promise;
      }
 
-
-
-
     var promise = Load();
     promise.then(function(resp) {
             $scope.adverts = resp;
 
+            if($stateParams['maps']==='1'){
+                var map = true;
+            }
 
             angular.forEach($scope.adverts, function(item,key){
                 if(item.price>'200'){
                     var vip_promise = waitTask(key);
                     vip_promise.then(function(index){
-
                         $scope.adverts[index].style ="animated bounceIn";
-                        $scope.adverts[index].message ="Горячая цена!!!";
-
+                        $scope.adverts[index].message ="Горячая цена!";
                     })
                     promises.push(vip_promise);
                 }
-
+                if(angular.equals(map, true)){
+                    //console.log("scope markers",JSON.stringify(item));
+                    if(item.latitude){
+                        $scope.markers.push({
+                            latitude: item.latitude,
+                            longitude: item.longitude,
+                            showWindow:false,
+                            click:true
+                        });
+                    }
+                }
             })
         });
 
-
-
-   /* $q.all(promises).then(function(messages) {
-        $scope.message = "All " + messages.length + " tasks completed.";
-    });*/
-
-    //promise.resolve();
-
     function waitTask(index) {
         var defer = $q.defer();
-
         setTimeout(function() {
             $scope.$apply(function() {
                 defer.resolve(index);
             });
         }, 2000);
-
         return defer.promise;
     }
 
 
 });
 
-IndexController.loadData = function($q, $timeout){
+IndexController.loadData = function($q, $timeout, $stateParams){
     var defer = $q.defer();
     $timeout(function(){
         defer.resolve();
         console.log("working");
+        console.log("state params",JSON.stringify($stateParams));
+
     }, 10);
     return defer.promise;
 }
@@ -110,7 +118,6 @@ angular.module('realty').controller('AdvertDetailController', function($scope, $
 
    $scope.advert = {};
 
-    if ($state.current.name === 'show' || $state.current.name === 'panel2' ) {
         Task.get({
             id: $stateParams['id']
         }, function(response) {
@@ -118,11 +125,9 @@ angular.module('realty').controller('AdvertDetailController', function($scope, $
             $scope.currentImage  = $scope.advert.image;
 
         }, function(response) {});
-    }
+
 
     $scope.setCurrentImage = function (image) {
-
-
 
         $scope.currentImage = image.advert_image.image.image.big.url;
     };
@@ -131,9 +136,6 @@ angular.module('realty').controller('AdvertDetailController', function($scope, $
 
         $scope.currentImage = img.image;
     };
-
-    //alert($scope.currentImage);
-    //$scope.fetch();
 
 
     $scope.show = function(value){

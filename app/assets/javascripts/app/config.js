@@ -9,7 +9,7 @@ angular.module('realty').config(function($httpProvider) {
 
 
 angular.module('realty').config(function($stateProvider, $urlRouterProvider){
-    $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise("/adverts");
 
 
     $stateProvider
@@ -19,8 +19,6 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 "": {
                     controller: "ApplicationController",
                     templateUrl: "/assets/layouts/default.html.haml"
-
-
                 }
             }
         }).
@@ -30,14 +28,22 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
             views: {
                 "index": {
                     controller: "IndexController",
-                    templateUrl: "/assets/adverts/index.html.haml",
+                   /* templateUrl: "/assets/adverts/index.html.haml",*/
+
+                    templateUrl: function ($stateParams){
+                        if($stateParams["maps"]==='1'){
+                            return "/assets/adverts/map.html.haml"
+                        }else{
+                            return "/assets/adverts/index.html.haml"
+                        }
+                    },
                     resolve: {
-                        LoadData: IndexController.loadData
+                        loadData: IndexController.loadData
                     }
                 }
-
             }
-
+        }, function(){
+            console.log("state==", $state);
         }).
         state("maps", {
             parent: "default",
@@ -46,9 +52,7 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 "maps": {
                     controller: "MapController",
                     templateUrl: "/assets/adverts/map.html.haml"
-
                 }
-
             }
         }).
         state("show", {
@@ -59,71 +63,20 @@ angular.module('realty').config(function($stateProvider, $urlRouterProvider){
                 "show": {
                     controller: "AdvertDetailController",
                     templateUrl: "/assets/adverts/show.html.haml"
-
+                },
+                "desc@show":{
+                    templateUrl: "/assets/adverts/desc.html.haml"
+                },
+                "plan@show":{
+                    templateUrl: "/assets/adverts/plan.html.haml"
+                },
+                "video@show":{
+                    templateUrl: "/assets/adverts/video.html.haml"
+                },
+                "map@show":{
+                    templateUrl: "/assets/adverts/one_map.html.haml"
                 }
-
             }
-
-
-        }).
-        state("panel1", {
-
-            parent: "show",
-            url: "/panel1",
-            views: {
-                "panel1": {
-
-                    templateUrl: "/assets/adverts/panel1.html.haml"
-
-                }
-
-            }
-
-
-        }).
-        state("panel2", {
-
-            parent: "show",
-            url: "/panel2",
-            views: {
-                "panel2": {
-
-                    templateUrl: "/assets/adverts/panel2.html.haml"
-
-                }
-
-            }
-
-
-        }).
-        state("panel3", {
-
-            parent: "show",
-            url: "/panel3",
-            views: {
-                "panel3": {
-
-                    templateUrl: "/assets/adverts/panel3.html.haml"
-
-                }
-
-            }
-
-
-        }).
-        state("panel4", {
-
-            parent: "show",
-            url: "/panel4",
-            views: {
-                "panel4": {
-                    templateUrl: "/assets/adverts/panel4.html.haml"
-
-                }
-
-            }
-
-
         })
 
 

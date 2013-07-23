@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1330076734">
-    <data-source source="LOCAL" name="Rails house: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="ff1373d5-6b06-4318-b187-ecc8d6914fd2">
+  <component name="DataSourceManagerImpl" format="xml" hash="555058288">
+    <data-source source="LOCAL" name="Rails house: production" product="MySQL" version="5.5.32-31.0-log" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )" uuid="2a9c249e-0e8d-49c3-9fee-65d7f91d6347">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/test_house</jdbc-url>
       <user-name>root</user-name>
-      <user-password>df9bdf98df99</user-password>
+      <user-password>dfdddfcbdfd9dfdbdf9bdf98</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
