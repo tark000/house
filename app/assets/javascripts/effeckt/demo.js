@@ -21,7 +21,7 @@ var EffecktDemos = {
     'OTransition' : 'oTransitionEnd',
     'msTransition' : 'MSTransitionEnd',
     'transition' : 'transitionend'
-  },
+  }
 
 }
 
