@@ -30,7 +30,10 @@ class Advert < ActiveRecord::Base
   def address
     if self.street.present? & self.city.present?
       [self.house, self.street.name, self.city.name, "UA"].compact.join(', ')
+
+     # if self.house_changed? || self.street_id_changed? || self.city_id_changed?
       #map_download
+      #end
     else
       puts self.id
     end
@@ -103,7 +106,7 @@ class Advert < ActiveRecord::Base
     open(@path, 'wb') do |file|
       file << open(static_map).read
     end
-    self.mapaddress = map
+    self.mapaddress = "test.png"
     self.save
   end
 

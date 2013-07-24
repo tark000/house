@@ -23,8 +23,15 @@
           %span(class="alert label")
             {{advert.message}}
           %a{href: '/adverts/{{advert.slug}}'}
-            {{advert.id}}
-            %img.th.index_img(ng-src="{{advert.image}}" class="{{advert.style}}")
+            %p(class="alert id")
+              {{advert.id}}
+            %figure.effeckt-caption.effeckt-caption-9
+              %img.th.index_img(ng-src="{{advert.image}}" class="{{advert.style}}")
+                %figcaption
+                  .effeckt-figcaption-wrap
+                    %h3 Scale
+                    %p Lorem ipsum dolar.
+
           %table.index_table
             %tbody.completed
               %tr{:style=>"height: 10px"}

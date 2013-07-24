@@ -2,6 +2,11 @@
 @import "app.css";
 @import "angular-carousel.css";
 @import "animate-custom.css";
+@import "effeckt/effeckt.autoprefixed.css";
+@import "effeckt/captions.css";
+@import "effeckt/demo.autoprefixed.css";
+@import "effeckt/buttons.css";
+@import "effeckt/modals.autoprefixed.css";
 
 
 body {
@@ -239,9 +244,9 @@ body {
   height:190px;
 }
 
-.result img {
+/*.result img {
   width:200px;
   max-width:200px;
-}
+}*/
 
 

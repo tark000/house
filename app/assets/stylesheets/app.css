@@ -6520,3 +6520,30 @@ $large-screen: 1440px;
 .show_image {
   margin-bottom: 20px;
 }
+
+/* line 266, ../sass/app.scss */
+.alert.label {
+  position: absolute;
+}
+
+/* line 270, ../sass/app.scss */
+.alert.id {
+  position: absolute;
+}
+
+/* line 275, ../sass/app.scss */
+.alert.image {
+  position: inherit;
+}
+
+/* line 281, ../sass/app.scss */
+.effeckt_caption_5 figcaption {
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+}
+/* line 288, ../sass/app.scss */
+.effeckt_caption_5:hover figcaption, .effeckt_caption_5:active figcaption {
+  opacity: 1;
+}

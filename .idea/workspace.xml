@@ -2,319 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc3b997-f1a3-4547-a583-532ec2462dc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/837efd30-d3c4-0130-744b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/83a57b90-d3c4-0130-d380-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/83b88f70-d3c4-0130-6920-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/83cc53f0-d3c4-0130-5c42-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/83e3df20-d3c4-0130-6cd0-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/83f83210-d3c4-0130-0038-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/840c5520-d3c4-0130-c5e5-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/842080d0-d3c4-0130-4d7f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8434b6a0-d3c4-0130-5e7c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/844908a0-d3c4-0130-424a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/845dad40-d3c4-0130-addb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8471b3c0-d3c4-0130-7bc4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8485b610-d3c4-0130-f963-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8499afa0-d3c4-0130-79af-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/84adeed0-d3c4-0130-6d02-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/84c19430-d3c4-0130-546c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/84d64d20-d3c4-0130-11cd-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/84ec1380-d3c4-0130-30b9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85002190-d3c4-0130-92a0-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8514c6d0-d3c4-0130-e50c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/852a6480-d3c4-0130-29d8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/853e2fe0-d3c4-0130-e517-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85533880-d3c4-0130-4ebf-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85672860-d3c4-0130-1410-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/857b4710-d3c4-0130-5457-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/858fbac0-d3c4-0130-a2bf-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85a3fbf0-d3c4-0130-2502-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85b9ffe0-d3c4-0130-c645-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85cf0590-d3c4-0130-e125-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85e460a0-d3c4-0130-4c89-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/85fa35e0-d3c4-0130-97c3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/860ea330-d3c4-0130-8e1d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86232c70-d3c4-0130-e700-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8637e670-d3c4-0130-35de-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/864c26e0-d3c4-0130-2ef9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8662be40-d3c4-0130-752a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86756940-d3c4-0130-fb73-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86881810-d3c4-0130-1583-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/869d0490-d3c4-0130-5fc3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86b353c0-d3c4-0130-df65-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86c6ef50-d3c4-0130-75e3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86dbf7b0-d3c4-0130-4e77-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/86f08f50-d3c4-0130-7f27-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87067f00-d3c4-0130-0a65-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/871a6be0-d3c4-0130-fb90-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/872e9830-d3c4-0130-e315-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8744ae50-d3c4-0130-e14b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8759a870-d3c4-0130-a84a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/876c2590-d3c4-0130-402f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87817d00-d3c4-0130-f186-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87969cb0-d3c4-0130-b063-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87ac5160-d3c4-0130-15a5-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87c24cc0-d3c4-0130-2889-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87d88920-d3c4-0130-0262-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/87ef14b0-d3c4-0130-994f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8805df50-d3c4-0130-559e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/881d85a0-d3c4-0130-9380-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8830eae0-d3c4-0130-3cb2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88441100-d3c4-0130-8d28-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88574270-d3c4-0130-560e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8869fe70-d3c4-0130-c85b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/887cb9a0-d3c4-0130-6935-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/888fffa0-d3c4-0130-e1cb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88a2b0f0-d3c4-0130-e89e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88b600b0-d3c4-0130-beae-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88c97710-d3c4-0130-7e6b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88dd3c40-d3c4-0130-de9e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/88f1bc90-d3c4-0130-9319-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89053a80-d3c4-0130-2052-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/891912e0-d3c4-0130-4ca8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/892da600-d3c4-0130-3189-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89424ab0-d3c4-0130-5ba4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/895bd420-d3c4-0130-e8cd-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8970ada0-d3c4-0130-27a0-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8986b860-d3c4-0130-c621-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/899d0690-d3c4-0130-3030-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89b360e0-d3c4-0130-a2e5-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89c9c3b0-d3c4-0130-fc10-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89e06c60-d3c4-0130-8c2e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/89f8b960-d3c4-0130-39e4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a1092b0-d3c4-0130-c4e2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a2890f0-d3c4-0130-d7d3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a407c70-d3c4-0130-5c59-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a594290-d3c4-0130-48ae-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a729a70-d3c4-0130-7587-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8a8d5fd0-d3c4-0130-0a04-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8aa8a140-d3c4-0130-c346-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ac46840-d3c4-0130-9ae8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ae04120-d3c4-0130-7dc6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8afbe2e0-d3c4-0130-fb1d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8b188100-d3c4-0130-278e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8b349d30-d3c4-0130-63e6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8b51bc70-d3c4-0130-26a0-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8b643ed0-d3c4-0130-9478-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8b81f3c0-d3c4-0130-a727-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ba02c60-d3c4-0130-c7d8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8bb32ae0-d3c4-0130-9548-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8bc70cd0-d3c4-0130-552c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8bdb2950-d3c4-0130-90d9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8bef6420-d3c4-0130-c59c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c03c630-d3c4-0130-91d2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c183650-d3c4-0130-8822-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c2c9650-d3c4-0130-e169-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c413ec0-d3c4-0130-b37d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c560fc0-d3c4-0130-c039-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c6b72b0-d3c4-0130-d5e9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c8029b0-d3c4-0130-dd78-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8c962070-d3c4-0130-ec9c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8cac4fe0-d3c4-0130-6920-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8cc29b10-d3c4-0130-8988-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8cd92f50-d3c4-0130-d0ee-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8cefc750-d3c4-0130-f23e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d0730e0-d3c4-0130-6165-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d1f2e30-d3c4-0130-ad1e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d3725d0-d3c4-0130-0b4e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d4efa50-d3c4-0130-3da4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d676f20-d3c4-0130-fb53-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d800f50-d3c4-0130-7c3c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8d9955f0-d3c4-0130-093a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8db190f0-d3c4-0130-6f8a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8dc9fe40-d3c4-0130-43b7-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8de39160-d3c4-0130-aac3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8dfd8f90-d3c4-0130-bb54-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8e183a50-d3c4-0130-566d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8e32dbc0-d3c4-0130-ce09-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8e4d4740-d3c4-0130-ed8d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8e699ec0-d3c4-0130-0ff1-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8e850940-d3c4-0130-dc5c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ea07180-d3c4-0130-1c12-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ebca970-d3c4-0130-63b5-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ed7eeb0-d3c4-0130-f0d6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8ef43cd0-d3c4-0130-07ed-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8f121c30-d3c4-0130-642c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8f2f2450-d3c4-0130-0dac-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8f4d1d40-d3c4-0130-297d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8f6a1f30-d3c4-0130-7217-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8f8bd6a0-d3c4-0130-f773-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8faa30a0-d3c4-0130-eecd-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8fca7cd0-d3c4-0130-1e0c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/8fea45a0-d3c4-0130-3c61-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/90094bb0-d3c4-0130-5269-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9028b700-d3c4-0130-6093-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9047e890-d3c4-0130-5460-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9067a200-d3c4-0130-e0f9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/90895500-d3c4-0130-ffb0-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/90aa5ed0-d3c4-0130-50f1-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/90cdc880-d3c4-0130-355d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/90ef1000-d3c4-0130-9a50-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/91122d50-d3c4-0130-baad-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9134d610-d3c4-0130-f725-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/91581320-d3c4-0130-b9fd-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/917b02f0-d3c4-0130-e6d1-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/919e5bc0-d3c4-0130-e9a2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/91c20b80-d3c4-0130-f3d9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/91e65a70-d3c4-0130-68a9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/920cb4b0-d3c4-0130-ec8e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9233c370-d3c4-0130-2641-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9259a110-d3c4-0130-6e50-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/927f7f60-d3c4-0130-9e4d-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/92a749f0-d3c4-0130-2456-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/92cdb650-d3c4-0130-04f8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/92f5c3a0-d3c4-0130-3bf8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/931d0ee0-d3c4-0130-0648-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/934667d0-d3c4-0130-7789-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/936e7680-d3c4-0130-4dc3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9395f250-d3c4-0130-3430-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/93be85b0-d3c4-0130-37d2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/93e8e3d0-d3c4-0130-834e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/941357d0-d3c4-0130-ac3b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/943e6c60-d3c4-0130-4cc4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9468b430-d3c4-0130-4543-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9494a360-d3c4-0130-5d38-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/94c3d620-d3c4-0130-556b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/94f08fe0-d3c4-0130-24fb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/951d3650-d3c4-0130-7da3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/954a06b0-d3c4-0130-3a01-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9575fef0-d3c4-0130-5d7b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/95a2a3e0-d3c4-0130-3212-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/95d01e30-d3c4-0130-53d6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9600aea0-d3c4-0130-65ce-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/96303600-d3c4-0130-e61f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/965f0430-d3c4-0130-65e4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/968ef650-d3c4-0130-198c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/96bea920-d3c4-0130-05fa-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/96eeb360-d3c4-0130-6ea4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/971f9d50-d3c4-0130-9b29-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/97504530-d3c4-0130-c8dc-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/97823840-d3c4-0130-74fb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/97b56100-d3c4-0130-b2ed-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/97e8e160-d3c4-0130-9eb6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/981cde60-d3c4-0130-64ce-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/985289d0-d3c4-0130-a142-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/988bab90-d3c4-0130-7323-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/98bff890-d3c4-0130-86c1-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/98f5cff0-d3c4-0130-0c06-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/992af980-d3c4-0130-c79c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9960ae00-d3c4-0130-8891-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/99980cd0-d3c4-0130-bf95-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/99cde6f0-d3c4-0130-f74f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9a083480-d3c4-0130-a2cf-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9a413870-d3c4-0130-e5c8-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9a7de440-d3c4-0130-c4a3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ab96af0-d3c4-0130-37fc-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9af4ac00-d3c4-0130-4888-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9b2f9fa0-d3c4-0130-be26-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9b6c87f0-d3c4-0130-8bac-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ba6d510-d3c4-0130-ad3b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9be2eb50-d3c4-0130-a5f2-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9c1eea90-d3c4-0130-64eb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9c5dac00-d3c4-0130-9f13-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9c9d3490-d3c4-0130-6c6c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9cdac5e0-d3c4-0130-c20e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9d18a7a0-d3c4-0130-8205-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9d5a8f80-d3c4-0130-d319-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9d9c0e20-d3c4-0130-c7b5-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ddef690-d3c4-0130-2011-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9e20c540-d3c4-0130-f5bc-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9e634b80-d3c4-0130-1bc4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ea51960-d3c4-0130-ed07-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ee87550-d3c4-0130-649c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9f2c87d0-d3c4-0130-06bc-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9f710d70-d3c4-0130-5610-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9fb45480-d3c4-0130-0188-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/9ffb4900-d3c4-0130-b147-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a0417a70-d3c4-0130-9fea-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a0884350-d3c4-0130-ef36-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a0ce4190-d3c4-0130-2b21-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a114af20-d3c4-0130-5939-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a15b9290-d3c4-0130-ab95-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a1a48b10-d3c4-0130-9429-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a1ed2520-d3c4-0130-dc66-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a236cf50-d3c4-0130-ce79-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a2815050-d3c4-0130-c061-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a2cbed40-d3c4-0130-3f34-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a3188fc0-d3c4-0130-3f92-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a3634490-d3c4-0130-7eef-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a3af3950-d3c4-0130-d8d6-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a3faa0a0-d3c4-0130-9a8e-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a454c300-d3c4-0130-4ec4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a4b3dd00-d3c4-0130-ca3c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a5064660-d3c4-0130-0c6f-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a5542850-d3c4-0130-8b9b-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a5a51360-d3c4-0130-907c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a5f5a650-d3c4-0130-867a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a647a980-d3c4-0130-b546-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a69870e0-d3c4-0130-97a9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a6e97540-d3c4-0130-14ce-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a739c080-d3c4-0130-93f7-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a78a92b0-d3c4-0130-1547-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a7dee0e0-d3c4-0130-fb19-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a83377c0-d3c4-0130-3a42-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a88a5940-d3c4-0130-b971-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a8dff130-d3c4-0130-dffb-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a9350460-d3c4-0130-2522-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a98c5f90-d3c4-0130-efe4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/a9e62840-d3c4-0130-5728-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/aa5abdd0-d3c4-0130-863a-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/aab07e10-d3c4-0130-80aa-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ab06af10-d3c4-0130-30c3-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ab603320-d3c4-0130-84a4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/abb7aa50-d3c4-0130-ac18-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ac1156c0-d3c4-0130-0eb7-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ac6ae150-d3c4-0130-fad4-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/acc8bed0-d3c4-0130-20b9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ad257120-d3c4-0130-4568-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ad8192b0-d3c4-0130-ddd9-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/adde6ac0-d3c4-0130-0a59-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ae3a0c90-d3c4-0130-9356-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/ae98ab70-d3c4-0130-8864-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/aef95e50-d3c4-0130-38be-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/af5676f0-d3c4-0130-6080-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/afb48750-d3c4-0130-14e7-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b0138e90-d3c4-0130-d9dd-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b074bf30-d3c4-0130-bb74-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b0d5cc50-d3c4-0130-b7ae-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b136a4c0-d3c4-0130-dd0c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b198d210-d3c4-0130-609c-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b2004070-d3c4-0130-1079-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/advert/map/476/b262f8c0-d3c4-0130-5773-5404a61a95c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130720231443_add_devise_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/animate-custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/animations.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/_panel1.json.rabl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/_panel2.json.rabl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/_panel3.json.rabl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/_panel4.json.rabl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130607224824_create_adverts.rb" afterPath="$PROJECT_DIR$/db/migrate/20130607224824_create_adverts.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_index.json.rabl" afterPath="$PROJECT_DIR$/app/views/home/_index.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/_search.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/_template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/buttons.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/captions.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/captions.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/demo.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/effeckt.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/list-items.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/list-items.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/list-items.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/list-scroll.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/list-scroll.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/list-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/modals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/off-screen-nav.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/off-screen-nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/off-screen-nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/page-transitions.autoprefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/effeckt/page-transitions.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/effeckt/page-transitions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_top_bar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_top_bar.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advert.rb" afterPath="$PROJECT_DIR$/app/models/advert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/adverts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/animate-custom.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/animate-custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/app.scss" afterPath="$PROJECT_DIR$/app/assets/sass/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/config.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml" afterPath="$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/directive.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/edit.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml" afterPath="$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adverts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/adverts/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="house.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374478156039" ignored="false" />
+    <file path="/Dummy.txt" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374667497817" ignored="false" />
     <file path="/default.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1373985764821" ignored="false" />
     <file path="/show.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374502865875" ignored="false" />
     <file path="/config.js" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374067572480" ignored="false" />
@@ -323,11 +48,17 @@
     <file path="/_show.json.rabl" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374495899102" ignored="false" />
     <file path="/panel2.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374069721087" ignored="false" />
     <file path="/_panel3.json.rabl" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374070003730" ignored="false" />
-    <file path="/index.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374503476559" ignored="false" />
+    <file path="/index.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374657194624" ignored="false" />
     <file path="/panel3.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374223509275" ignored="false" />
     <file path="/directive.js" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374243616628" ignored="false" />
     <file path="/panel1.html.haml" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374501041754" ignored="false" />
-    <file path="/app.scss" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374503502676" ignored="false" />
+    <file path="/app.scss" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374585311039" ignored="false" />
+    <file path="$PROJECT_DIR$/../ksymax/app/controllers/products_controller.rb" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374507977034" ignored="false" />
+    <file path="/products_controller.rb" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374507933277" ignored="false" />
+    <file path="/advert.rb" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374573625662" ignored="false" />
+    <file path="/application.scss" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374658543646" ignored="false" />
+    <file path="/demo.autoprefixed.css" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374656343846" ignored="false" />
+    <file path="$PROJECT_DIR$/../ksymax/Gemfile" changelist="0dc3b997-f1a3-4547-a583-532ec2462dc5" time="1374667564847" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,19 +78,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
+      <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="264" column="0" selection-start="4311" selection-end="4311" vertical-scroll-proportion="-20.967741">
+            <state line="19" column="17" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <file leaf-file-name="_top_bar.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_top_bar.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="40" selection-start="3516" selection-end="3516" vertical-scroll-proportion="-23.387096">
+            <state line="42" column="45" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-20.333334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-17.75">
               <folding />
             </state>
           </provider>
@@ -368,43 +108,61 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="15" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.29542646">
+            <state line="33" column="11" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.6626506">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="65" selection-end="65" vertical-scroll-proportion="-2.5">
+            <state line="27" column="16" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directive.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/directive.js">
+      <file leaf-file-name="modals.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml">
+      <file leaf-file-name="modals.autoprefixed.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.autoprefixed.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-19.375">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
+      <file leaf-file-name="buttons.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/effeckt/buttons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/effeckt/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -428,21 +186,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/config.js" />
-        <option value="$PROJECT_DIR$/app/assets/templates/adverts/panel2.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/templates/adverts/panel3.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers.js" />
-        <option value="$PROJECT_DIR$/app/assets/templates/adverts/panel1.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/home/_show.json.rabl" />
         <option value="$PROJECT_DIR$/app/views/home/_panel3.json.rabl" />
         <option value="$PROJECT_DIR$/app/views/home/_panel4.json.rabl" />
         <option value="$PROJECT_DIR$/app/views/home/_panel2.json.rabl" />
         <option value="$PROJECT_DIR$/app/views/home/_panel1.json.rabl" />
         <option value="$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/directive.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/advert.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/animate-custom.css" />
         <option value="$PROJECT_DIR$/app/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/demo.autoprefixed.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_top_bar.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml" />
       </list>
     </option>
@@ -479,6 +237,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -507,86 +266,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -613,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,24 +307,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -741,7 +402,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effeckt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -764,67 +447,33 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="house" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ksymax" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app/effeckt" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/effeckt" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/effeckt" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/app" />
-      <recent name="$PROJECT_DIR$/app/views/home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/effeckt" />
     </key>
   </component>
   <component name="RunManager">
@@ -856,6 +505,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -904,13 +573,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1430" y="-4" width="1217" height="1029" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846087" sideWeight="0.67074525" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31814274" sideWeight="0.67074525" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -986,86 +655,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/panel3.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/panel1.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="621" selection-end="657" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="24" selection-start="2706" selection-end="2706" vertical-scroll-proportion="-17.64516">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/advert.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_show.json.rabl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="83" selection-start="0" selection-end="966" vertical-scroll-proportion="-0.9677419">
+        <state line="279" column="17" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="51" column="17" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/layouts/default.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/captions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="65" selection-end="65" vertical-scroll-proportion="-2.5">
+        <state line="11" column="16" selection-start="269" selection-end="281" vertical-scroll-proportion="11.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/directive.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/effeckt.autoprefixed.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
+        <state line="340" column="43" selection-start="10368" selection-end="10391" vertical-scroll-proportion="22.866667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/demo.autoprefixed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="580" column="16" selection-start="10768" selection-end="10768" vertical-scroll-proportion="-3.6333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/buttons.autoprefixed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-17.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_top_bar.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="45" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-20.333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/effeckt/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/effeckt/buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.autoprefixed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/effeckt/modals.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="40" selection-start="3516" selection-end="3516" vertical-scroll-proportion="-23.387096">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="0" selection-start="4311" selection-end="4311" vertical-scroll-proportion="-20.967741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-19.375">
+        <state line="19" column="17" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/adverts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="15" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.29542646">
+        <state line="33" column="11" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.6626506">
           <folding />
         </state>
       </provider>

@@ -8,3 +8,37 @@
     %span назад
   = Time.now.strftime("%y.%m.%d %H:%M ")
 
+
+  .button-group
+    %button.modal2-button{"data-modal-type" => "modal-1"} From Below
+    %button.modal2-button{"data-modal-type" => "modal-5"} From Above
+    %button.modal2-button{"data-modal-type" => "modal-2"} Slide In (right)
+    %button.modal2-button{"data-modal-type" => "modal-3"} Slide In (bottom)
+    %button.modal2-button{"data-modal-type" => "modal-4"} Newspaper
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-6"} Side Fall
+    %button.modal2-button{"data-modal-type" => "modal-7"} Sticky Up
+    %button.modal2-button{"data-modal-type" => "modal-8"} 3D Flip (horizontal)
+    %button.modal2-button{"data-modal-type" => "modal-9"} 3D Flip (vertical)
+    %button.modal2-button{"data-modal-type" => "modal-10"} 3D Sign
+    %button.modal2-button{"data-modal-type" => "modal-12"} Just Me
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-13"} 3D Slit
+    %button.modal2-button{"data-modal-type" => "modal-14"} 3D Rotate Bottom
+    %button.modal2-button{"data-modal-type" => "modal-15"} 3D Rotate In Left
+    %button.modal2-button{"data-modal-type" => "modal-16"} Blur
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-17", "data-needs-perspective" => "true"} Let Me In
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-18", "data-needs-perspective" => "true"} Make Way!
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-19", "data-needs-perspective" => "true"} Slip From Top
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-20"} From Top, Tilt Fall
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-22"} From Top to Bottom
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-23"} From Bottom to Bottom
+    %button.modal2-button{"data-hide-class" => "true", "data-modal-type" => "modal-24"} From Top to Top
+
+
+  #effeckt-modal-wrap.effeckt-modal-wrap
+    / for centering transform
+    #effeckt-modal.effeckt-modal
+      %h3 Modal Dialog
+      .effeckt-modal-content
+        %p This is a modal window.
+        %button.effeckt-modal-close Close me!
+

@@ -25,6 +25,7 @@
 //= require ./app/filters
 //= require ./app/directive
 //= require ./app/animations
+//= require_tree ./effeckt
 //= require jquery.cycle2
 //= require jquery.offcanvas
 //= require foundation

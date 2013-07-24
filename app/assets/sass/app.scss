@@ -263,7 +263,31 @@ border: solid 1px #dddddd;
 }
 
 
+.alert.label{
+  position: absolute;
+}
+
+.alert.id {
+  position: absolute;
+}
 
 
+.alert.image {
+  position: inherit;
+}
 
+
+.effeckt_caption_5 {
+  figcaption {
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+  }
+  &:hover, &:active {
+    figcaption {
+      opacity: 1;
+    }
+  }
+}
 
